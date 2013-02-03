@@ -1,0 +1,200 @@
+#base global.txt
+
+"crossfire"
+{
+	"Entities"
+	{		
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"880.00 592.03 -1855.97"
+			"angles"		"0.00 87.84 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"608.03 144.23 -1855.97"
+			"angles"		"0.00 81.64 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"176.03 1519.97 -1855.97"
+			"angles"		"0.00 -71.81 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1007.97 1360.03 -1695.97"
+			"angles"		"0.00 22.11 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-415.97 1120.02 -1695.97"
+			"angles"		"0.00 15.44 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-415.97 1503.97 -1535.97"
+			"angles"		"0.00 -19.08 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-991.97 592.03 -1535.97"
+			"angles"		"0.00 25.67 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-672.03 928.03 -1695.97"
+			"angles"		"0.00 163.58 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-672.03 548.79 -1695.97"
+			"angles"		"0.00 -170.45 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"480.03 800.03 -1535.97"
+			"angles"		"0.00 10.65 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"464.03 272.03 -1535.97"
+			"angles"		"0.00 5.11 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-314.00 -207.98 -1535.97"
+			"angles"		"0.00 -75.35 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-528.03 111.97 -1535.97"
+			"angles"		"0.00 -166.89 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-672.03 272.03 -1535.97"
+			"angles"		"0.00 112.85 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-367.97 159.97 -1695.97"
+			"angles"		"0.00 -19.81 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"415.97 -80.03 -1695.97"
+			"angles"		"0.00 -150.62 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-159.97 -2087.97 -1759.97"
+			"angles"		"0.00 46.72 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-415.66 -1520.03 -1751.97"
+			"angles"		"0.00 -92.43 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"414.77 -1520.03 -1751.97"
+			"angles"		"0.00 -93.60 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"464.03 -2400.03 -1791.97"
+			"angles"		"0.00 -44.32 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"30.90 -2543.97 -1855.97"
+			"angles"		"0.00 73.16 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-464.03 -2400.03 -1791.97"
+			"angles"		"0.00 -104.42 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-78.25 -336.03 -1855.97"
+			"angles"		"0.00 -169.03 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-512.03 -80.03 -1855.97"
+			"angles"		"0.00 -129.45 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-303.97 1247.97 -1535.97"
+			"angles"		"0.00 -29.38 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"687.97 1503.68 -1535.97"
+			"angles"		"0.00 -100.09 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"288.03 1311.99 -1679.97"
+			"angles"		"0.00 -1.53 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"431.97 943.97 -1679.97"
+			"angles"		"0.00 -146.40 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"879.97 -80.03 -1855.97"
+			"angles"		"0.00 -117.98 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-879.97 303.97 -1767.97"
+			"angles"		"0.00 -26.96 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"327.76 -1661.64 -1311.97"
+			"angles"		"0.00 85.93 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-329.05 -1652.32 -1311.97"
+			"angles"		"0.00 89.69 0.00"
+		}
+	}
+}

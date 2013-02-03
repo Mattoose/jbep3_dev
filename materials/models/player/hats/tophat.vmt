@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/hats/tophat"
+	
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "20"
+	"$BasemapAlphaPhongMask" "1"
+	$phongfresnelranges		"[0 0.5 1]"
+}

@@ -1,0 +1,77 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"					"35"		// damage per bullet
+	"Bullets"					"1"		// bullets per shoot
+	"CycleTime"					"0.15"		// time between shoots
+
+	"BuiltRightHanded"			"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"					"#jb_weapon_ruger"
+	"viewmodel"					"models/weapons/v_ruger.mdl"
+	"playermodel"				"models/weapons/w_ruger.mdl"
+	"PlayerAnimationExtension"	"mp5"
+	
+	"bucket"				"1"
+	"bucket_position"		"1"
+
+	"clip_size"				"10"
+	"clip_size2"			"-1"
+	
+	"NumClips"				"4"
+	
+	"fov"					"52"
+	
+	"primary_ammo"			"ruger"
+	"secondary_ammo"		"decoy"
+
+	"weight"				"0"
+	"item_flags"			"0"
+
+	// Magazine settings	
+	"magazine_model"			"models/magazines/mag_ruger.mdl"
+	// Forces, down, little to left
+	"magazine_force_forward"	"5"
+	"magazine_force_right"		"-35" 
+	"magazine_force_up"			"-35"
+	
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		//"reload"			"Default.Reload"
+		//"empty"			"Default.ClipEmpty_Rifle"
+		"single_shot"		"Weapon_Ruger.Single"
+		"special1"			"Weapon_Ruger.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"26"
+			"y"			"5"
+			"width"		"19"
+			"height"	"12"
+		}		
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_ruger"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_ruger"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}	
+	}
+	
+}

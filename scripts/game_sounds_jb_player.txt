@@ -1,0 +1,242 @@
+"JB.PickupAmmo"
+{
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_85dB"
+
+	"wave"	"mgs/ammo_pickup.mp3"
+}
+
+"JB.PickupHealth"
+{
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_85dB"
+
+	"wave"	"mgs/ration_pickup.mp3"
+}
+
+"JB.StartDive"
+{
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_40dB"
+
+	"wave"	"player/airwheel.wav"
+}
+
+"JB.DiveLand"
+{
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_30dB"
+
+	"wave"	"player/land.wav"
+}
+
+"JB.Death"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"			"90,110"
+
+	rndwave
+	{
+		"wave"		"player/die1.wav"
+		"wave"		"player/die2.wav"
+		"wave"		"player/die3.wav"
+		"wave"		"player/die4.wav"
+	}
+}
+
+"JB.Decap"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"			"90,110"
+
+	rndwave
+	{
+		"wave"		"player/decap1.wav"
+		"wave"		"player/decap2.wav"
+		"wave"		"player/decap3.wav"
+		"wave"		"player/decap4.wav"
+	}
+}
+
+"JB.DeathMelon"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"			"80,120"
+
+	"wave"	")hitinthemelon.wav"
+}
+
+"JB.DeathGib"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"			"80,120"
+
+	"wave"	"player/bodysplat.wav"
+}
+
+"JB.KillVoice" //This kills any sound playing on CHAN_VOICE, fired on start of death and spawn.
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"			"100"
+
+	"wave" "common/null.wav"	
+}
+
+"JB.Taunt"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_105dB"
+	
+	rndwave
+	{
+		"wave"	")player/taunts/1.mp3" //Anyone else want some?
+		"wave"	")player/taunts/2.mp3" //That was messy
+		"wave"	")player/taunts/3.mp3" //Welcome to murder city
+		"wave"	")player/taunts/4.mp3" //Big money, big prizes
+		"wave"	")player/taunts/5.mp3" //I'd like mine well done
+		"wave"	")player/taunts/6.mp3" //you're dead and I like it
+		"wave"	")player/taunts/7.mp3" //those bullets were free
+		"wave"	")player/taunts/8.mp3" //game over, insert 4 coins
+		"wave"	")player/taunts/9.mp3" //whoops, did I do that
+		"wave"	")player/taunts/10.mp3" //I pee'd in your butthole
+		"wave"	")player/taunts/11.mp3" //Thank you so much for playing my game
+		"wave"	")player/taunts/12.mp3" //I win
+		"wave"	")player/taunts/13.mp3" //best stay down
+		"wave"	")player/taunts/14.mp3" //you got served
+		"wave"	")player/taunts/15.mp3" //i'mma cut your face
+		"wave"	")player/taunts/16.mp3" //hail to the king
+		"wave"	")player/taunts/17.mp3" //stop, hammertime
+		"wave"	")player/taunts/18.mp3" //keep the change you filthy animal
+		"wave"	")player/taunts/19.mp3" //this party's getting crazy
+		"wave"	")player/taunts/20.mp3" //i've got a knuckle sandwich
+		"wave"	")player/taunts/21.mp3" //sleep tight sucker
+		"wave"	")player/taunts/22.mp3" //you're stupid, now you're
+		"wave"	")player/taunts/23.mp3" //aah, i see you've met mr machine gun
+		"wave"	")player/taunts/24.mp3" //hasta la vista
+		"wave"	")player/taunts/25.mp3" //so how does it feel to be dead
+		"wave"	")player/taunts/26.mp3" //this is your waterloo
+		"wave"	")player/taunts/27.mp3" //nu-uh vanilla coke is the best
+		"wave"	")player/taunts/28.mp3" //this report shows grade A death
+		"wave"	")player/taunts/29.mp3" //holy morticians, this man is dead
+		"wave"	")player/taunts/30.mp3" //buttsauce
+		"wave"	")player/taunts/31.mp3" //i'm gonna make you bleed your own blood
+		"wave"	")player/taunts/32.mp3" //fantastic!
+	}
+}
+
+"JB.BoxTaunt"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_75dB"
+	
+	rndwave
+	{
+		"wave"	"player/boxphilosophy/box1.wav" //I'm not a hobo
+		"wave"	"player/boxphilosophy/box2.wav" //stealth box huh?
+		"wave"	"player/boxphilosophy/box3.wav" //i'm a professional boxer
+		"wave"	"player/boxphilosophy/box4.wav" // what am I doing inside of a box anyways?
+		"wave"	"player/boxphilosophy/box5.wav" //look at me, i'm a walking talking box
+		"wave"	"player/boxphilosophy/box6.wav" //I wonder what would happen if I lit a match
+	}
+}
+
+"JB.FleshShot"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_95dB"
+	
+	rndwave
+	{
+		"wave"	"physics/flesh/flesh_impact_bullet1.wav"
+		"wave"	"physics/flesh/flesh_impact_bullet2.wav"
+		"wave"	"physics/flesh/flesh_impact_bullet3.wav"
+		"wave"	"physics/flesh/flesh_impact_bullet4.wav"
+		"wave"	"physics/flesh/flesh_impact_bullet5.wav"
+	}
+}
+
+"JB.Startled"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_85dB"	
+	"wave"	"guards/surprised.wav"
+}
+
+"JB.Guard_WhatWasThat"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_85dB"	
+	"wave"			"guards/whatwasthat.wav"
+}
+
+"JB.Guard_JustMyImagination"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_85dB"	
+	"wave"			"guards/imagination.wav"
+}
+
+"JB.Guard_EnemySighted"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_85dB"	
+	"wave"			"guards/enemysighted.wav"
+}
+
+"JB.Guard_RequestingBackup" // GLOBAL
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_85dB"	
+	"wave"			"guards/backup.wav"
+}
+
+"JB.Guard_Clear"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_85dB"	
+	"wave"			"guards/clear.wav"
+}
+
+"JB.Guard_Respond" // GLOBAL
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_85dB"	
+	"wave"			"guards/respond.wav"
+}
+
+
+"JB.BloodImpact"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_85dB"
+	"pitch"			"80,120"
+	
+	rndwave
+	{
+		"wave"	"physics/flesh/flesh_squishy_impact_hard1.wav"
+		"wave"	"physics/flesh/flesh_squishy_impact_hard2.wav"
+		"wave"	"physics/flesh/flesh_squishy_impact_hard3.wav"
+		"wave"	"physics/flesh/flesh_squishy_impact_hard4.wav"
+	}
+}

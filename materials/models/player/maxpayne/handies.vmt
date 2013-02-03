@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\maxpayne/handies"
+	"$halflambert" 1
+	"$nocull" 1
+}

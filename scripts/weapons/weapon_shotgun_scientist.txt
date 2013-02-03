@@ -1,0 +1,66 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"22"
+	"Bullets"			"9"
+	"CycleTime"			"0.85"
+
+	"BuiltRightHanded"		"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"					"#jb_weapon_scientist_shotgun"
+	"viewmodel"					"models/weapons/v_shotgun.mdl"
+	"playermodel"				"models/weapons/w_shotgun.mdl"
+	"PlayerAnimationExtension"	"m3s90"
+	
+	"bucket"				"2"
+	"bucket_position"		"1"
+
+	"clip_size"				"8"
+	"NumClips"				"3"
+
+	
+	"primary_ammo"			"scientists"
+	"secondary_ammo"		"None"
+
+	"weight"				"20"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"reload"			"Weapon_ScientistShotgun.Reload"
+		"empty"				"Weapon_ScientistShotgun.Empty"
+		"single_shot"		"Weapon_ScientistShotgun.Single"
+		"special1"			"Weapon_ScientistShotgun.Special1"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"48"
+			"y"			"24"
+			"width"		"23"
+			"height"	"23"
+		}	
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_shotgun_scientist"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_shotgun_scientist"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}		
+	}
+}

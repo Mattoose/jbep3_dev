@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\maxpayne/max"
+	"$halflambert" 1
+	"$nocull" 1
+}

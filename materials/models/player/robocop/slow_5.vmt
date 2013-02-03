@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/robocop/slow_5"
+	"$bumpmap"	"models/player/robocop/slow_5_bump"
+
+
+ 	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost"	"2.4"
+	"$phongfresnelranges"	"[1 1 1]"
+}

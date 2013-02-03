@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"vr/metalpanel02"
+	"$surfaceprop" "default_silent"
+	"%keywords" "vr"
+}

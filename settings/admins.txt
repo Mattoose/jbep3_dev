@@ -1,0 +1,15 @@
+"admins"
+{
+	// NOTE:
+	// Admins who are listed on this list will have full control of the server,
+	// they will be able to kick/ban, have full rcon control etc. Don't give 
+	// this out lightly.
+	
+	// Format:
+	// "*64bit STEAM ID*	"*USERNAME*"
+	
+	// TODO: Remove/comment the below IDs before release...
+	
+	"76561197967520820" 	"postal"
+	"76561197987799766" 	"jimbomcb"
+}

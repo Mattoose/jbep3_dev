@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+
+	"$basetexture" "models/player/lokimech/slow_visor"
+
+	"$translucent" 1
+	"$nodecal" 1
+
+	"$envmap" 				"env_cubemap"
+	"$envmapmask"			"models/player/lokimech/slow_visor"
+	"$envmaptint" 			"[1 1 1]"
+	"$envmapcontrast" 		".3"
+	"$envmapsaturation" 		"1"
+}
+

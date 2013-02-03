@@ -1,0 +1,7 @@
+vertexlitgeneric
+
+{
+$baseTexture "models\player\hunter\hunter_01"
+$halflambert 1
+$bumpmap "models\player\hunter\hunter_01_normal"
+}

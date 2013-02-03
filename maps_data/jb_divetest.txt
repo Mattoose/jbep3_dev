@@ -1,0 +1,45 @@
+"jb_divetest"
+{
+	"Entities"
+	{
+		"replace"
+		{
+			"weapon_snark"		"jb_pickup_weapon_3"
+			"weapon_357"		"jb_pickup_weapon_3"
+			"weapon_crossbow"		"jb_pickup_weapon_2"
+			"weapon_egon"		"jb_pickup_weapon_2"
+			"weapon_gauss"		"jb_pickup_weapon_2"
+			"weapon_egon"		"jb_pickup_weapon_3"
+			"weapon_handgrenade"		"jb_pickup_weapon_1"
+			"weapon_hornetgun"		"jb_pickup_weapon_3"
+			"weapon_mp5"		"jb_pickup_weapon_1"
+			"weapon_rpg"		"jb_pickup_weapon_3"
+			"weapon_satchel"		"jb_pickup_weapon_1"
+			"weapon_shotgun"		"jb_pickup_weapon_2"
+			"weapon_crossbow"		"jb_pickup_weapon_2"
+			"weapon_ar2"		"jb_pickup_weapon_2"
+			"weapon_slam"		"jb_pickup_weapon_1"
+			"weapon_frag"		"jb_pickup_weapon_1"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-313.21 -322.75 -127.97"
+			"angles"		"0.00 23.85 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-524.02 -244.19 -127.97"
+			"angles"		"0.00 21.04 -0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"66.80 -35.00 -127.97"
+			"angles"		"0.00 45.05 0.00"
+			"tier"		"1"
+		}
+	}
+}

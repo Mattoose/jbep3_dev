@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/player/tommyv/tommy_head"
+	"$bumpmap"     "models/player/tommyv/tommy_head_normal"
+	"$halflambert" 0
+}

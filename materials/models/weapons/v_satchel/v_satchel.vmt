@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/v_satchel/v_satchel"
+	"$bumpmap" 		"models/player/bigboss/flat_normal"
+	"$phong" "1"
+	"$phongboost" "0.05"
+	//	"$phongexponent" 15							
+	"$phongfresnelranges"	"[ .05 5 1 ]"
+	"$phongexponenttexture"	"models/weapons/v_satchel/v_satchel_expon"
+}

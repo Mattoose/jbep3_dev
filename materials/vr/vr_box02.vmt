@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "vr/vr_box02"
+	"$bumpmap" "vr/vr_box01_normal"
+	"$surfaceprop" "vr"
+	"%keywords" "vr"
+	"$nocull" 1
+	"$translucent" 1
+}

@@ -1,0 +1,68 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"0"		// this is handled via cvars
+	"Bullets"			"1"		// bullets per shoot
+	"CycleTime"			"0.225"	// time between shoots
+
+	"BuiltRightHanded"		"0"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#jb_weapon_bofors"
+	"viewmodel"					"models/weapons/v_smg_mp5.mdl"
+	"playermodel"				"models/weapons/w_smg_mp5.mdl"
+	"PlayerAnimationExtension"	"mp5"
+	
+	"bucket"			"3"
+	"bucket_position"		"3"
+
+	"clip_size"				"-1" //How big is the clip? -1 = doesn't use clips.
+	"default_clip"			"1"
+	"NumClips"				"1"
+
+	
+	"primary_ammo"			"bofors"
+	"secondary_ammo"		"None"
+
+	"weight"				"0"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"JB.Weapon_Bofors_Shoot"
+	}
+
+	ModelBounds //do we even need this
+	{
+		Viewmodel
+		{
+			Mins	"-10 -4 -13"
+			Maxs	"21 9 -1"
+		}
+		World
+		{
+			Mins	"-10 -7 -6"
+			Maxs	"22 8 9"
+		}
+	}
+	TextureData
+	{
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_bofors"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_bofors"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}			
+	}
+}

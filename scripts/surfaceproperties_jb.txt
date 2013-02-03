@@ -1,0 +1,5 @@
+"vr"
+{
+	"base"			"default"
+	"gamematerial"	"J"
+}

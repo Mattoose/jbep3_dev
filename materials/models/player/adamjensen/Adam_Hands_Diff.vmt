@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/adamjensen/Adam_Hands_Diff"
+	"$bumpmap" "models/player/adamjensen/Adam_Hands_Norm"
+
+	
+	"$phong" 1
+	"$phongboost" "0.75"
+	"$phongexponent" "50"
+	"$phongtint" "[1 .85 .85]"
+	"$phongfresnelranges" "[.5 .85 30]"
+	"$model" 1
+	"$phongalbedotint" "1"
+	"$nocull" "1"
+
+	$ambientocclusion 1
+}

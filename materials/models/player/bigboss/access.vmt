@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/bigboss/access"
+	"$bumpmap" 		"models/player/bigboss/flat_normal"
+	
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "2"
+	"$BasemapAlphaPhongMask" "1"
+	$phongfresnelranges		"[0 0.5 1]"
+}

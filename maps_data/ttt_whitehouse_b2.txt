@@ -1,0 +1,822 @@
+"ttt_whitehouse_b2"
+{
+	"Entities"
+	{
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"843.68 -1668.65 -447.97"
+			"angles"		"0.00 -92.44 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"856.33 -2185.47 -448.03"
+			"angles"		"0.00 -20.50 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"379.97 -2391.99 -447.97"
+			"angles"		"0.00 90.38 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"38.41 -1896.04 -447.97"
+			"angles"		"0.00 -69.83 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"19.98 -1772.38 -447.97"
+			"angles"		"0.00 164.24 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"494.75 -1488.91 -447.97"
+			"angles"		"0.00 -144.12 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"551.84 -808.62 -447.97"
+			"angles"		"0.00 -47.76 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"495.45 -428.11 -446.97"
+			"angles"		"0.00 134.50 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"158.11 -367.99 64.03"
+			"angles"		"0.00 44.35 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"864.19 -367.97 64.03"
+			"angles"		"0.00 126.45 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"1391.97 -16.00 64.03"
+			"angles"		"0.00 -124.81 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"1191.93 -848.35 64.03"
+			"angles"		"0.00 89.46 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"656.03 -502.29 64.03"
+			"angles"		"0.00 -55.85 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"845.26 -943.09 64.03"
+			"angles"		"0.00 87.08 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"237.20 -541.24 64.03"
+			"angles"		"0.00 -96.17 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-67.11 -533.98 196.03"
+			"angles"		"0.00 20.09 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"691.16 -299.37 196.03"
+			"angles"		"0.00 114.38 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-559.97 -879.97 64.03"
+			"angles"		"0.00 57.12 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-559.97 -16.03 64.03"
+			"angles"		"0.00 -61.59 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"88.41 -16.03 64.03"
+			"angles"		"0.00 -125.44 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"34.01 -867.61 64.03"
+			"angles"		"0.00 101.61 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"1571.72 -815.97 64.03"
+			"angles"		"0.00 97.31 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"1824.03 -672.12 64.03"
+			"angles"		"0.00 -38.32 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"2088.62 -147.64 64.38"
+			"angles"		"0.00 -85.61 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"2428.70 -208.03 64.03"
+			"angles"		"0.00 -114.49 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"2640.02 -484.43 64.03"
+			"angles"		"0.00 26.85 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"2398.52 -392.95 64.03"
+			"angles"		"0.00 -46.84 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"2422.81 -803.28 64.03"
+			"angles"		"0.00 -37.73 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"2717.29 -592.03 64.03"
+			"angles"		"0.00 -87.89 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"3025.52 -854.98 86.10"
+			"angles"		"0.00 92.22 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-18.51 -266.14 196.03"
+			"angles"		"0.00 1.64 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"1573.20 -291.10 64.03"
+			"angles"		"0.00 -88.32 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2642.34 -480.85 64.03"
+			"angles"		"0.00 7.38 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2788.70 -483.53 64.03"
+			"angles"		"0.00 92.92 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2841.42 -334.21 64.03"
+			"angles"		"0.00 170.01 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2761.26 -229.34 64.03"
+			"angles"		"0.00 -171.45 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2694.31 -347.81 64.03"
+			"angles"		"0.00 -178.31 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2605.04 -266.20 64.03"
+			"angles"		"0.00 -178.05 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2520.53 -347.79 64.03"
+			"angles"		"0.00 -135.29 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2400.27 -400.38 64.03"
+			"angles"		"0.00 -86.64 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2501.15 -533.48 64.03"
+			"angles"		"0.00 -132.66 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2376.20 -520.89 64.03"
+			"angles"		"0.00 -142.76 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2353.01 -613.62 64.03"
+			"angles"		"0.00 159.51 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2486.91 -678.61 64.03"
+			"angles"		"0.00 155.03 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2429.53 -846.97 64.03"
+			"angles"		"0.00 -29.74 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2621.61 -827.07 64.03"
+			"angles"		"0.00 -79.74 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2772.12 -851.97 64.03"
+			"angles"		"0.00 -117.20 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2799.97 -996.36 64.03"
+			"angles"		"0.00 176.87 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2612.92 -998.60 64.03"
+			"angles"		"0.00 120.12 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2430.31 -1149.19 64.03"
+			"angles"		"0.00 35.74 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2649.00 -1191.15 64.03"
+			"angles"		"0.00 91.24 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2783.43 -1192.13 64.03"
+			"angles"		"0.00 106.22 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2668.83 -605.09 64.03"
+			"angles"		"0.00 -50.03 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2791.17 -596.27 64.03"
+			"angles"		"0.00 -100.03 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"3051.35 -855.62 86.10"
+			"angles"		"0.00 97.14 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"3146.40 -810.09 64.03"
+			"angles"		"0.00 109.45 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2885.03 -743.30 64.03"
+			"angles"		"0.00 75.79 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"3134.33 -432.00 64.03"
+			"angles"		"0.00 -125.85 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2935.96 -439.09 64.03"
+			"angles"		"0.00 -72.55 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2215.09 -391.64 64.38"
+			"angles"		"0.00 -173.07 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2193.31 -193.39 64.38"
+			"angles"		"0.00 -163.53 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"1913.19 -179.33 64.38"
+			"angles"		"0.00 -93.60 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2059.88 -316.98 64.38"
+			"angles"		"0.00 -93.37 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"1868.58 -313.86 64.38"
+			"angles"		"0.00 -73.19 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"2160.87 -795.96 64.03"
+			"angles"		"0.00 -173.57 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"1871.24 -718.54 64.03"
+			"angles"		"0.00 -11.62 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-544.87 -17.17 64.03"
+			"angles"		"0.00 -12.05 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-440.79 -145.23 64.03"
+			"angles"		"0.00 8.74 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-430.20 -236.48 64.03"
+			"angles"		"0.00 6.23 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-420.13 -348.52 64.03"
+			"angles"		"0.00 2.17 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-416.34 -469.94 64.03"
+			"angles"		"0.00 -1.30 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-418.82 -582.41 64.03"
+			"angles"		"0.00 -2.68 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-423.03 -690.32 64.03"
+			"angles"		"0.00 -1.49 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-426.00 -793.78 64.03"
+			"angles"		"0.00 -0.19 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-304.29 -755.57 64.03"
+			"angles"		"0.00 4.86 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-299.74 -629.65 64.03"
+			"angles"		"0.00 -0.50 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-298.42 -512.66 64.03"
+			"angles"		"0.00 1.93 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-302.40 -395.74 64.03"
+			"angles"		"0.00 3.32 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-308.38 -278.89 64.03"
+			"angles"		"0.00 2.60 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-314.30 -153.03 64.03"
+			"angles"		"0.00 2.33 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-210.42 -121.73 64.03"
+			"angles"		"0.00 0.16 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-209.46 -235.10 64.03"
+			"angles"		"0.00 0.49 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-208.67 -328.58 64.03"
+			"angles"		"0.00 0.49 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-212.16 -613.10 64.03"
+			"angles"		"0.00 4.11 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-205.70 -715.45 64.03"
+			"angles"		"0.00 3.06 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-200.74 -807.07 64.03"
+			"angles"		"0.00 -0.46 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-110.69 -710.24 64.03"
+			"angles"		"0.00 3.26 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-19.20 -705.04 64.03"
+			"angles"		"0.00 2.93 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"62.87 -700.84 64.03"
+			"angles"		"0.00 2.93 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-121.14 -194.17 64.03"
+			"angles"		"0.00 2.60 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-50.32 -191.77 64.03"
+			"angles"		"0.00 1.94 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"26.01 -189.19 64.03"
+			"angles"		"0.00 1.94 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"166.18 -768.73 64.03"
+			"angles"		"0.00 -1.34 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"186.09 -321.34 64.03"
+			"angles"		"0.00 10.81 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-101.40 -370.43 64.03"
+			"angles"		"0.00 -179.19 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-110.04 -574.81 64.03"
+			"angles"		"0.00 -175.60 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"15.73 -705.34 64.03"
+			"angles"		"0.00 1.74 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"849.19 -306.55 64.03"
+			"angles"		"0.00 102.89 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"67.02 -292.05 196.03"
+			"angles"		"0.00 -90.53 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"669.73 -260.99 196.03"
+			"angles"		"0.00 -96.69 -0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"394.10 -524.17 196.03"
+			"angles"		"0.00 -92.91 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"380.38 -629.22 64.03"
+			"angles"		"0.00 5.30 0.00"
+			"tier"		"3"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"404.40 -867.46 -446.97"
+			"angles"		"0.00 -92.28 0.00"
+			"tier"		"3"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"390.68 -1933.73 -447.93"
+			"angles"		"0.00 86.58 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"382.16 -2381.69 -447.97"
+			"angles"		"0.00 93.34 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-249.29 -1952.42 -447.97"
+			"angles"		"0.00 7.47 -0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-108.87 -1747.02 -447.97"
+			"angles"		"0.00 94.13 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"848.80 -1785.80 -447.97"
+			"angles"		"0.00 -87.01 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"1122.43 -2211.30 -448.03"
+			"angles"		"0.00 117.53 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"1093.13 -189.77 64.03"
+			"angles"		"0.00 -12.36 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"1224.03 -817.72 64.03"
+			"angles"		"0.00 87.40 -0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"1583.08 -792.14 64.03"
+			"angles"		"0.00 88.04 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"1488.00 -298.65 64.03"
+			"angles"		"0.00 -8.56 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"2049.13 -246.64 95.16"
+			"angles"		"0.00 -133.53 0.00"
+			"tier"		"3"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"2007.74 -755.02 104.03"
+			"angles"		"0.00 -96.47 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"2461.65 -547.59 64.03"
+			"angles"		"0.00 81.65 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"2423.95 -271.54 64.03"
+			"angles"		"0.00 -91.88 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"2751.59 -475.48 64.03"
+			"angles"		"0.00 89.19 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"2684.62 -1111.94 96.62"
+			"angles"		"0.00 -164.60 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"2549.21 -1112.44 96.62"
+			"angles"		"0.00 129.58 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"2439.75 -1002.87 96.62"
+			"angles"		"0.00 54.15 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"2739.21 -681.63 64.03"
+			"angles"		"0.00 -64.56 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"3180.37 -664.81 106.03"
+			"angles"		"0.00 -176.30 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"599.17 -867.11 124.03"
+			"angles"		"0.00 138.52 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"37.43 -854.37 64.03"
+			"angles"		"0.00 90.97 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-379.25 -488.51 64.03"
+			"angles"		"0.00 6.72 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"2052.37 -410.26 94.55"
+			"angles"		"0.00 81.31 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"382.59 42.92 64.03"
+			"angles"		"0.00 -88.58 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"1609.90 -562.04 64.03"
+			"angles"		"0.00 -171.23 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"1670.29 -372.83 64.03"
+			"angles"		"0.00 156.10 0.00"
+			"tier"		"2"
+		}
+	}
+}

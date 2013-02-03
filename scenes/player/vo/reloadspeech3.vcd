@@ -1,0 +1,25 @@
+// Choreo version 1
+actor "player"
+{
+  channel "player"
+  {
+    event speak "JB.RR_Reloading3"
+    {
+      time 0.000000 3.244989
+      param "JB.RR_Reloading3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

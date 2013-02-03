@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/ocelot/cabe2"
+	"$surfaceprop" "flesh"
+	"$nocull" 1
+	"$alphatest" 1
+}

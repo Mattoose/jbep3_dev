@@ -1,0 +1,71 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"13"	// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
+	"CycleTime"			"0.072"		// time between shoots - 850 per min
+
+	"BuiltRightHanded"		"1"
+	"fov"					"55"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#jb_weapon_tmp"
+	"viewmodel"				"models/weapons/v_tmp.mdl"
+	"playermodel"			"models/weapons/w_tmp.mdl"
+	"PlayerAnimationExtension"	"mp5"
+	
+	"bucket"			"2"
+	"bucket_position"		"4"
+
+	"clip_size"			"30"
+	"NumClips"			"4"
+	"default_clip"		"60"
+	
+	"primary_ammo"			"tmp"
+	"secondary_ammo"		"None"
+
+	"weight"				"25"
+	"item_flags"			"0"
+
+	// Magazine settings	
+	"magazine_model"			"models/magazines/mag_tmp.mdl"
+	// Forces, down, little to left
+	"magazine_force_forward"	"15"
+	"magazine_force_right"		"0" 
+	"magazine_force_up"			"-30"
+	
+	SoundData
+	{
+		"single_shot"		"JB.Weapon_TMP_Shoot"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair" 
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"23"
+			"height"	"23"
+		}
+	
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_tmp"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_tmp"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}	
+	}
+}

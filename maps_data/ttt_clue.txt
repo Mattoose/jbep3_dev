@@ -1,0 +1,480 @@
+"ttt_clue"
+{
+	"Entities"
+	{
+		"replace"
+		{
+			"info_player_counterterrorist"		"jb_spawn_deathmatch_red"
+			"info_player_terrorist"		"jb_spawn_deathmatch_blue"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"1006.05 627.10 24.03"
+			"angles"		"0.00 -178.90 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"463.97 1402.01 24.03"
+			"angles"		"0.00 -106.39 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"552.15 1016.34 28.03"
+			"angles"		"0.00 -91.35 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"112.03 816.59 24.03"
+			"angles"		"0.00 -1.00 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-48.03 911.97 0.03"
+			"angles"		"0.00 -172.69 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"432.03 431.97 0.03"
+			"angles"		"0.00 -91.41 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"418.03 106.67 0.03"
+			"angles"		"0.00 -39.32 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"416.01 -642.62 0.03"
+			"angles"		"0.00 7.72 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"344.29 -566.28 24.03"
+			"angles"		"0.00 -178.43 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-49.15 -401.20 0.03"
+			"angles"		"0.00 157.93 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-248.30 114.03 0.03"
+			"angles"		"0.00 56.31 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"51.15 624.03 24.03"
+			"angles"		"0.00 152.94 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"27.46 -590.97 200.03"
+			"angles"		"0.00 57.02 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"17.75 -459.86 0.03"
+			"angles"		"0.00 52.66 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"759.99 927.97 -159.97"
+			"angles"		"0.00 -149.56 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"842.82 -151.97 -159.97"
+			"angles"		"0.00 132.31 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"887.17 -239.97 228.03"
+			"angles"		"0.00 161.10 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"803.97 -367.97 200.03"
+			"angles"		"0.00 136.54 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"615.37 95.33 200.03"
+			"angles"		"0.00 64.97 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-307.32 39.33 360.03"
+			"angles"		"0.00 -4.25 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"352.31 -143.97 490.03"
+			"angles"		"0.00 87.77 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"39.63 476.45 360.03"
+			"angles"		"0.00 -6.38 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"599.51 350.82 360.03"
+			"angles"		"0.00 109.01 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"614.02 658.86 292.03"
+			"angles"		"0.00 176.67 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"676.54 1125.57 360.03"
+			"angles"		"0.00 -89.44 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"609.48 26.70 -187.96"
+			"angles"		"0.00 2.23 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-286.60 423.97 -115.97"
+			"angles"		"0.00 -39.61 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-85.87 96.03 -115.97"
+			"angles"		"0.00 117.31 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-151.93 29.26 24.03"
+			"angles"		"0.00 -177.22 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-416.33 -316.46 4.03"
+			"angles"		"0.00 68.52 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-384.35 942.93 240.03"
+			"angles"		"0.00 -94.84 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-381.26 557.51 200.03"
+			"angles"		"0.00 16.93 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-281.61 440.42 200.03"
+			"angles"		"0.00 -157.40 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-92.79 157.27 201.03"
+			"angles"		"0.00 92.95 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"911.97 224.44 228.03"
+			"angles"		"0.00 -120.55 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"188.41 -55.03 0.03"
+			"angles"		"0.00 86.28 0.00"
+			"tier"		"3"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"403.84 10.26 360.03"
+			"angles"		"0.00 129.11 0.00"
+			"tier"		"3"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-302.47 855.97 4.03"
+			"angles"		"0.00 -7.27 0.00"
+			"tier"		"3"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-387.29 39.19 4.03"
+			"angles"		"0.00 96.09 -0.00"
+			"tier"		"3"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-104.30 869.61 0.03"
+			"angles"		"0.00 -120.01 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"314.68 1121.53 24.03"
+			"angles"		"0.00 -88.68 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"585.49 293.51 32.03"
+			"angles"		"0.00 162.25 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"688.75 -138.38 0.03"
+			"angles"		"0.00 132.92 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"31.89 -563.32 24.03"
+			"angles"		"0.00 0.91 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-405.05 -311.27 4.03"
+			"angles"		"0.00 -6.22 0.00"
+			"tier"		"3"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-59.92 -372.25 0.03"
+			"angles"		"0.00 115.34 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"733.97 616.53 24.03"
+			"angles"		"0.00 178.15 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"763.76 782.42 360.03"
+			"angles"		"0.00 -173.99 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"483.29 538.79 201.03"
+			"angles"		"0.00 -128.08 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"473.73 -557.63 201.03"
+			"angles"		"0.00 125.19 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-298.06 32.05 360.03"
+			"angles"		"0.00 -155.89 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-58.91 39.88 360.03"
+			"angles"		"0.00 3.36 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"86.66 467.13 360.03"
+			"angles"		"0.00 4.04 -0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"480.72 665.93 200.03"
+			"angles"		"0.00 -88.78 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-231.08 484.84 0.03"
+			"angles"		"0.00 -55.08 -0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"194.25 -550.26 24.03"
+			"angles"		"0.00 54.29 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"347.09 -480.78 0.03"
+			"angles"		"0.00 135.08 -0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-67.39 -174.08 0.03"
+			"angles"		"0.00 -155.52 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"103.63 37.67 360.03"
+			"angles"		"0.00 -3.26 -0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-262.13 128.15 0.03"
+			"angles"		"0.00 4.79 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"152.11 516.97 0.03"
+			"angles"		"0.00 -170.26 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-157.33 263.34 -115.97"
+			"angles"		"0.00 -91.53 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"352.27 27.55 -187.97"
+			"angles"		"0.00 2.39 0.00"
+			"tier"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"759.97 -122.09 -159.97"
+			"angles"		"0.00 -2.62 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"678.63 -65.44 200.03"
+			"angles"		"0.00 -100.71 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"66.60 -567.11 200.03"
+			"angles"		"0.00 88.46 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"150.44 -570.04 200.03"
+			"angles"		"0.00 88.00 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"123.92 815.29 24.03"
+			"angles"		"0.00 -9.72 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"124.16 854.37 24.03"
+			"angles"		"0.00 -0.34 -0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-285.54 659.80 -115.97"
+			"angles"		"0.00 13.68 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"112.87 702.65 -115.97"
+			"angles"		"0.00 -172.64 0.00"
+			"tier"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_pickup_weapon"
+			"origin"		"-166.45 33.17 24.03"
+			"angles"		"0.00 145.36 0.00"
+			"tier"		"3"
+		}
+	}
+}

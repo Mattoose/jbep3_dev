@@ -1,0 +1,66 @@
+WeaponData
+{
+	//The default radius of the explosion is damage * 3.5
+	"Damage"			"150"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#jb_weapon_smokegrenade"
+	"viewmodel"			"models/weapons/v_smoke_grenade.mdl"
+	"playermodel"			"models/weapons/w_smoke_grenade.mdl"
+	"PlayerAnimationExtension"	"gren"
+
+	"BuiltRightHanded"		"1"
+	
+	"fov"				"60"
+
+	"bucket"			"4"
+	"bucket_position"		"2"
+
+	"clip_size"			"-1"
+	"default_clip"			"0"
+	"NumClips"			"1"
+
+	"primary_ammo"			"smokegrenades"
+	"secondary_ammo"		"None"
+
+	"weight"			"1"
+	"item_flags"			"18"	// ITEM_FLAG_NOAUTORELOAD | ITEM_FLAG_EXHAUSTIBLE
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		//"special1"		"WeaponFrag.Roll"
+		"double_shot"	"common/null.wav"
+		"single_shot"	"common/null.wav"
+	}
+
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"26"
+			"y"			"5"
+			"width"		"19"
+			"height"	"12"
+		}
+	"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_smokegrenade"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_smokegrenade"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}		
+	}
+}

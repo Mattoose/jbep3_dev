@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{	
+	"$baseTexture" "models/player/tommyv/watch"
+	"$alphatest" 1
+}

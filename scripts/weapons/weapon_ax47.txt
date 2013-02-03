@@ -1,0 +1,72 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"16"	// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
+	"CycleTime"			"0.1"		// time between shoots ( 600 per min )
+
+	"BuiltRightHanded"		"1"
+	"fov"					"65"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"				"#jb_weapon_ax47"
+	"viewmodel"				"models/weapons/v_ax47.mdl"
+	"playermodel"			"models/weapons/w_ax47.mdl"
+	
+	"PlayerAnimationExtension"	"mp5"
+	
+	"bucket"				"2"
+	"bucket_position"		"6"
+
+	"clip_size"			"30"
+	
+	"primary_ammo"			"ax47"
+	"secondary_ammo"		"None"
+
+	"weight"			"25"
+	"item_flags"			"0"
+	
+	// Magazine settings	
+	"magazine_model"			"models/magazines/mag_ax47.mdl"
+	"magazine_force_forward"	"130" // Throw it forward a little
+	"magazine_force_right"		"0" 
+	"magazine_force_up"			"-10" // And down.
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"JB.Weapon_AX47_Shoot"
+		"special1"			"JB.Weapon_AX47_Swing"
+		"melee_hit"			"Weapon_Crowbar.Melee_Hit"
+		"melee_hit_world"	"Weapon_Crowbar.Melee_HitWorld"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair" 
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"23"
+			"height"	"23"
+		}	
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_ax47"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_ax47"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}	
+	}
+}

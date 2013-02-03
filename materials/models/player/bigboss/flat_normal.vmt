@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/player/bigboss/flat_normal"
+	"$translucent" 1
+}

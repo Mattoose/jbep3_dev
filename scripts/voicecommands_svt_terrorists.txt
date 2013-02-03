@@ -1,0 +1,30 @@
+"voicemenus"
+{
+	"menu_1"
+	{
+		"item_1"
+		{
+			"menu_label"					"#Voice_Menu_WhatWasThat"
+		}
+		"item_2"
+		{
+			"menu_label"					"#Voice_Menu_JustMyImagination"
+		}
+		"item_3"
+		{
+			"menu_label"					"#Voice_Menu_EnemySighted"
+		}
+		"item_4"
+		{
+			"menu_label"					"#Voice_Menu_SendBackup"
+		}
+		"item_5"
+		{
+			"menu_label"					"#Voice_Menu_Clear"
+		}
+		"item_6"
+		{
+			"menu_label"					"#Voice_Menu_WhatsGoingOnRespond"
+		}
+	}
+}

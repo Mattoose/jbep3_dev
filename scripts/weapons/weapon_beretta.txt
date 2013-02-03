@@ -1,0 +1,64 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"				"12"		// damage per bullet
+	"Bullets"				"1"		// bullets per shoot
+	"CycleTime"				"0.1"		// time between shoots
+
+	"BuiltRightHanded"		"1"
+	"fov"					"60"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"				"#jb_weapon_beretta"
+	"viewmodel"				"models/weapons/v_beretta.mdl"
+	"playermodel"			"models/weapons/w_beretta.mdl"
+	
+	"bucket"				"1"
+	"bucket_position"		"10"
+
+	"clip_size"				"30"
+	
+	"primary_ammo"			"beretta"
+	"secondary_ammo"		"None"
+
+	"weight"				"0"
+	"item_flags"			"0"
+
+	"tracer_interval"		"3" // Show tracers every burst
+	
+	SoundData
+	{
+		"single_shot"		"JB.Weapon_Beretta_Shoot"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"26"
+			"y"			"5"
+			"width"		"19"
+			"height"	"12"
+		}
+		
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_beretta"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_beretta"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}		
+	}
+	
+}

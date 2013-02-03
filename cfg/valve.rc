@@ -1,0 +1,4 @@
+r_decal_cullsize 1
+exec autoexec.cfg
+startupmenu
+stuffcmds

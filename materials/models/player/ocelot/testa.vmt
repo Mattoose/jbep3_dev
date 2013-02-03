@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/ocelot/testa"
+	"$surfaceprop" "Flesh"
+
+}

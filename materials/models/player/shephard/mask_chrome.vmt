@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/shephard/mask_chrome"
+
+	"$normalmapalphaenvmapmask" "models/player/shephard/mask_chrome_normal"
+
+	"$detail" "detail/detail_noise1"
+
+	"$detailscale" 2.5
+
+	"$halflambert" 1
+
+	"$surfaceprop" "metal"
+
+	"$envmapsphere"	"1"
+
+	"$envmapmode" "1"
+
+
+	"$nodecal" "1"
+
+        "$envmapsaturation" "0"
+
+	"$selfillum" 1
+
+        "$additive" "1"
+}

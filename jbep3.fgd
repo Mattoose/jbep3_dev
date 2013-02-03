@@ -1,0 +1,163 @@
+@include "base.fgd"
+@include "halflife2.fgd"
+
+//
+// 
+//  JBEP3_FGD
+//
+//
+
+@BaseClass = worldbase
+[
+	message(string) : "Map Description / Title"
+	skyname(string) : "SkyBox Texture Name" : "sky_day01_01"
+	chaptertitle(string) : "Chapter Title Message" : "" : "Chapter Title that appears onscreen when this level starts."
+	startdark(choices) : "Level Fade In" : 0 =
+	[	
+		0 : "No"
+		1 : "Yes"
+	]
+	gametitle(choices) : "Display Game Title" : 0 : "Game Title that appears onscreen when this level starts." = 
+	[	
+		0 : "No"
+		1 : "Yes"
+	]
+	newunit(choices) : "New Level Unit" : 0 : "Used to clear out savegame data of previous levels to keep the savegame size as small as possible. Only set it to Yes if the player cannot return to any previous levels." = 
+	[
+		0 : "No, keep current"
+		1 : "Yes, clear previous levels"
+	]
+	maxoccludeearea(float) : "Max occludee area" : "0" : "[Used on PC] Prevents occlusion testing for entities that take up more than X% of the screen." 
+	minoccluderarea(float) : "Min occluder area" : "0" : "[Used on PC] Prevents occluders from being used if they take up less than X% of the screen." 
+	maxoccludeearea_x360(float) : "Max occludee area (Xbox)" : "0" : "[Used on 360] Prevents occlusion testing for entities that take up more than X% of the screen." 
+	minoccluderarea_x360(float) : "Min occluder area (Xbox)" : "0" : "[Used on 360] Prevents occluders from being used if they take up less than X% of the screen." 
+	maxpropscreenwidth(float) : "Start Fade Pixels" : -1 : "Number of pixels wide at which all props in the level start to fade (<0 = use fademaxdist). This number is ignored if the prop has a specific fade distance specified."
+	minpropscreenwidth(float) : "End Fade Pixels" : 0 : "Minimum number of pixels wide at which the prop is visible (0 = don't fade out). This number is ignored if the prop has a specific fade distance specified."
+	
+	detailvbsp(string) : "Detail.vbsp file" : "detail.vbsp" : "Detail.vbsp file to use for emitting detail props (found in directory <root>/modname)"
+	detailmaterial(string) : "Detail material file" : "detail/detailsprites" : "Material for detail sprites to use for drawing detail props"
+
+	vrworld(choices) : "Virtual Reality, uses special skybox" : 0 =
+	[	
+		0 : "No"
+		1 : "Yes"
+	]
+]
+
+@PointClass base(Angles) studio("models/player/arctic_warfare.mdl") =  jb_spawn_svt_terrorist :
+	"Terrorist spawn for SvT (32 Required)"
+[
+]
+
+@PointClass base(Angles) studio("models/player/solid_snake.mdl") =  jb_spawn_svt_snake :
+	"Snake spawn for SvT (6 Required)"
+[
+]
+
+@PointClass base(Angles) studio("models/player/alliedsoldier.mdl") =  jb_spawn_all :
+	"Generic spawn"
+[
+]
+
+@PointClass base(Angles) studio("models/player/alliedsoldier.mdl") =  jb_spawn_deathmatch :
+	"Generic spawn"
+[
+]
+
+@PointClass base(Angles) studio("models/player/alliedsoldier.mdl") =  jb_spawn_deathmatch_red :
+	"Generic spawn"
+[
+]
+
+@PointClass base(Angles) studio("models/player/alliedsoldier.mdl") =  jb_spawn_deathmatch_blue :
+	"Generic spawn"
+[
+]
+
+@PointClass base(Angles) studio("models/jb/kerotan.mdl") =  jb_obj_frog :
+	"SvT objective, snake wins the round when touching this."
+[
+]
+
+@PointClass base(Targetname) iconsprite("editor/jb_gamerules.vmt") =  jb_gamerules :
+	"ONLY ONE PER MAP - Contains various settings for mutations, outputs on events etc."
+[
+	spawnflags(flags) =
+	[
+		1:	"Disable SvT music" : 0
+		2:	"Disable SvT Snake win music" : 0
+		4:	"Disable SvT Terrorist win music" : 0
+		//4:	"" : 0
+	]
+	
+	svt_terrorist_skin(choices) : "SVT: Terrorist Skin" : "0" : "The skin that terrorists in SvT should have on this map." =
+	[
+		0 : "Random"
+		1 : "Regular"
+		2 : "Arctic"
+		3 : "Jungle"
+	]
+		
+	// Outputs
+	output OnRoundStart(void) : "Fired when the round starts (and players can move)"
+	output OnRoundEnd(void) : "Fired when the round ends (IE we have a winner, frog is captured etc)."
+	output OnRoundReset(void) : "When the map is reset, waiting for round start."
+	output OnRoundSVTStart(void) : "Fired when a SVT round start"
+	output OnRoundSVTSnakeWin(void) : "Fired when Snake wins in SVT"
+	output OnRoundSVTTerroristWin(void) : "Fired when Terrorists wins in SVT"
+]
+
+@PointClass base(Targetname, EnableDisable) iconsprite("editor/logic_relay.vmt") = logic_relay :
+	"A message forwarder. Fires an OnTrigger output when triggered, and " +
+	"can be disabled to prevent forwarding outputs.\n\n" +
+	"Useful as an intermediary between one entity and another for turning " +
+	"on or off an I/O connection, or as a container for holding a set of " +
+	"outputs that can be triggered from multiple places."
+[
+	spawnflags(flags) =
+	[
+		1: "Only trigger once" : 0
+		2: "Allow fast retrigger" : 0
+	]
+
+	// Inputs
+	input Trigger(void) : "Trigger the relay, causing its OnTrigger output to fire if it is enabled."
+	input Toggle(void) : "Toggle the relay between enabled and disabled."
+	input CancelPending(void) : "Cancel any events fired by this relay that are currently pending in the I/O event queue."
+	
+	// Outputs
+	output OnSpawn(void) : "Fired when the relay is spawned. If the relay is set to only trigger once, it will "+
+		"delete itself after firing this output."
+	output OnTrigger(void) : "Fired when the relay is triggered. If the relay is set to only trigger once, it will "+
+		"delete itself after firing this output."
+]
+
+//
+// FILTERS
+//
+
+@FilterClass base(BaseFilter) iconsprite("editor/filter_name.vmt") = filter_activator_jb_team :
+	"A filter that filters by the team of the activator."
+[
+	filterteam(integer) : "Team ID" : : "If the team triggering this matches this ID, the filter will pass."+
+		"If the filter mode is Disallow, all players EXCEPT those on the specified team will pass."
+]
+
+// Button
+@SolidClass base(func_button) = func_button_filtered :
+	"A func_button with the ability to add a filter."
+[
+	filtername(filterclass) : "Filter Name" : : "Filter to use to see if activator triggers me. See filter_activator_name for more explanation."
+]
+
+@SolidClass base(func_rot_button) = func_rot_button_filtered :
+	"A func_rot_button with the ability to add a filter."
+[
+	filtername(filterclass) : "Filter Name" : : "Filter to use to see if activator triggers me. See filter_activator_name for more explanation."
+]
+
+@SolidClass base(momentary_rot_button) = momentary_rot_button_filtered :
+	"A momentary_rot_button with the ability to add a filter."
+[
+	filtername(filterclass) : "Filter Name" : : "Filter to use to see if activator triggers me. See filter_activator_name for more explanation."
+]

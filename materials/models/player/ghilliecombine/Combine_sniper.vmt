@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/ghilliecombine/Combine_sniper"
+	"$bumpmap" "models/player/ghilliecombine/Combine_sniper_normal"
+
+	"$halflambert" 1
+	"$model" "1"
+}

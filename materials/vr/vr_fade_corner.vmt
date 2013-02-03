@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "vr/vr_fade_corner"
+	"%keywords" "vr"
+	"$translucent" 1
+	"$decal" 1
+}

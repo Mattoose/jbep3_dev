@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/solid_snake/hair_teams"
+	"$bumpmap" "models/player/solid_snake/slow_hair_teams_bump"
+	"$halflambert" 1
+	"$nocull" 1
+	"$alphatest" 1
+
+}

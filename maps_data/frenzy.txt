@@ -1,0 +1,200 @@
+#base global.txt
+
+"frenzy"
+{
+	"Entities"
+	{
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-413.37 -1007.79 256.03"
+			"angles"		"0.00 89.58 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-943.97 -815.97 256.03"
+			"angles"		"0.00 13.19 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"175.97 -815.97 256.03"
+			"angles"		"0.00 145.88 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-194.27 -313.17 256.03"
+			"angles"		"0.00 -44.69 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"16.03 -1.94 256.03"
+			"angles"		"0.00 -0.21 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-239.99 559.97 256.03"
+			"angles"		"0.00 -52.88 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-351.43 720.03 256.03"
+			"angles"		"0.00 47.20 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-784.03 137.24 256.03"
+			"angles"		"0.00 167.15 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-734.07 160.93 256.03"
+			"angles"		"0.00 -21.59 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-32.03 105.59 256.03"
+			"angles"		"0.00 172.82 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-380.99 -428.61 416.03"
+			"angles"		"0.00 87.38 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-164.35 -226.14 576.03"
+			"angles"		"0.00 148.36 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-288.03 1007.97 576.03"
+			"angles"		"0.00 -94.95 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-479.97 -1007.97 576.03"
+			"angles"		"0.00 53.55 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1083.64 484.40 416.03"
+			"angles"		"0.00 125.53 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1120.95 -447.90 416.03"
+			"angles"		"0.00 -138.23 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-528.03 -662.77 416.03"
+			"angles"		"0.00 129.60 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-143.52 -608.03 416.03"
+			"angles"		"0.00 -99.75 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"247.44 -424.60 416.03"
+			"angles"		"0.00 -81.92 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"624.03 183.37 416.03"
+			"angles"		"0.00 12.41 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"927.97 271.85 256.03"
+			"angles"		"0.00 150.14 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"687.97 -47.97 256.03"
+			"angles"		"0.00 78.76 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-288.03 -863.97 256.03"
+			"angles"		"0.00 95.31 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-400.03 -431.97 256.03"
+			"angles"		"0.00 145.68 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-928.03 -3.14 256.03"
+			"angles"		"0.00 147.05 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-400.03 336.03 256.03"
+			"angles"		"0.00 121.74 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-656.03 199.21 576.03"
+			"angles"		"0.00 -144.47 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-592.01 -575.98 576.03"
+			"angles"		"0.00 100.66 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-111.97 145.07 576.01"
+			"angles"		"0.00 -3.80 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-239.98 -687.97 576.03"
+			"angles"		"0.00 50.65 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-244.97 608.03 416.03"
+			"angles"		"0.00 74.23 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"211.44 460.60 416.03"
+			"angles"		"0.00 38.23 0.00"
+		}
+	}
+}

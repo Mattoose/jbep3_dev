@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/v_friction/v_friction"
+	"$bumpmap" "models/weapons/v_friction/v_friction_normal"
+}

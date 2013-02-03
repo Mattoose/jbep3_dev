@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/hats/strawhat"
+	"$bumpmap" 		"models/player/hats/strawhat_normals"
+	
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "10"
+	"$BasemapAlphaPhongMask" "1"
+	$phongfresnelranges		"[0 0.5 1]"
+}

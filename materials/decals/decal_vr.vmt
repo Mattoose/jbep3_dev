@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$decal" 1
+	"$basetexture" "decals/decal_vr_single"
+	"$decalscale" 0.13
+	"$decalfadeduration" 6.00
+	"$decalfadetime" 2.00
+	"$alpha" 0.8
+}

@@ -1,0 +1,55 @@
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"				"#jb_weapon_satchel"
+	"viewmodel"				"models/weapons/v_satchel.mdl"
+	"playermodel"			"models/weapons/w_satchel.mdl"
+	"anim_prefix"			"slam"
+	
+	"bucket"				"5"
+	"bucket_position"		"10"
+
+	"clip_size"				"3"
+	"primary_ammo"			"satchel"
+	"secondary_ammo"		"None"
+	"default_clip"			"-1"
+	"default_clip2"			"-1"
+
+	"weight"				"1"
+	"item_flags"			"2"
+	
+	SoundData
+	{
+		"single"			"JB.Weapon_Satchel_Detonate"
+		"special1"			"JB.Weapon_Satchel_Throw"
+	}
+	
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"26"
+			"y"			"5"
+			"width"		"19"
+			"height"	"12"
+		}		
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_satchel"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_satchel"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}	
+	}
+}

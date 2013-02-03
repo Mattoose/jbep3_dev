@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\clot/clot_diffuse"
+	"$nocull" "1"
+	
+	"$halflambert" 1
+	"$model" 1
+}

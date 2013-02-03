@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/knight/Hands"
+	"$halflambert" 1
+	"$bumpmap" "models/player/knight/Hands_Normals"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "3"
+	$phongfresnelranges		"[ .1 5 1]"
+}

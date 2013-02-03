@@ -1,0 +1,6 @@
+"Sprite"
+{
+	"$basetexture" "pickup/speed"
+	"$spriterendermode" 0
+	"$vertexcolor"  1
+}

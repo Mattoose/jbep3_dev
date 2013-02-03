@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/alien/slow_alien"
+	"$bumpmap" "models/player/alien/slow_alien_bump"
+
+ 	"$phong" "1"
+	"$phongexponent" "4"
+	"$phongboost"	"3.5"
+	"$phongfresnelranges"	"[.15 .45 1]"
+}

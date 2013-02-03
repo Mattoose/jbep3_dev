@@ -1,0 +1,69 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"30"		// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
+	"CycleTime"			"0.18"		// time between shoots
+
+	"BuiltRightHanded"		"0"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#jb_weapon_speakers"
+	"viewmodel"			"models/weapons/v_357.mdl"
+	"playermodel"			"models/weapons/w_357.mdl"
+	"PlayerAnimationExtension"	"mp5"
+	
+	"bucket"				"3"
+	"bucket_position"		"5"
+
+	"clip_size"				"-1"
+	"NumClips"				"0"
+	
+	"primary_ammo"			"None"
+	"secondary_ammo"		"None"
+
+	"weight"				"0"
+	"item_flags"			"0"
+	
+	"MeleeWeapon"			"1" // As we don't use ammo, just do this
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		//"reload"			"Default.Reload"
+		//"empty"			"Default.ClipEmpty_Rifle"
+		"single_shot"			"Weapon_USP.Single"
+		"special1"			"weapon_pistol.Fart"
+		"special2"			"weapon_pistol.Underwater"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"26"
+			"y"			"5"
+			"width"		"19"
+			"height"	"12"
+		}		
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_speakers"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_speakers"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}	
+	}
+	
+}

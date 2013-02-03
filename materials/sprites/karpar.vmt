@@ -1,0 +1,7 @@
+"Sprite"
+{
+	"$basetexture" "sprites/karpar"
+	"$spriterendermode" 1
+	"$vertexcolor"  1
+	"$overbrightfactor" 15
+}

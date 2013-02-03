@@ -1,0 +1,6 @@
+"Sky"
+{
+	// Original shader: BaseTexture
+	"$basetexture" "null"
+	"$hdrbasetexture" "null"
+}

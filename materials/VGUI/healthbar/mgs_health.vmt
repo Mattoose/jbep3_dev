@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$translucent" 1	
+	"$basetexture" "VGUI\healthbar\mgs_health"
+}

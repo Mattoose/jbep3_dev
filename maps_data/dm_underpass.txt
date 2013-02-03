@@ -1,0 +1,200 @@
+#base global.txt
+
+"dm_underpass"
+{
+	"Entities"
+	{
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1323.97 -2136.03 -47.97"
+			"angles"		"0.00 -4.02 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-876.03 -2415.97 -47.97"
+			"angles"		"0.00 106.47 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-711.79 -1756.28 0.03"
+			"angles"		"0.00 -92.69 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-935.97 -2175.97 0.03"
+			"angles"		"0.00 32.94 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"272.03 -1227.97 -309.54"
+			"angles"		"0.00 46.34 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-63.97 -1063.97 -179.97"
+			"angles"		"0.00 0.57 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"373.22 -1549.70 -360.00"
+			"angles"		"0.00 178.90 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-361.72 -1722.89 -431.97"
+			"angles"		"0.00 -65.17 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-183.97 -2502.76 -431.97"
+			"angles"		"0.00 85.90 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-464.00 -2183.93 -303.97"
+			"angles"		"0.00 -2.21 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-927.97 -2264.00 -431.97"
+			"angles"		"0.00 2.55 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1119.97 -2415.97 -311.97"
+			"angles"		"0.00 64.62 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1183.97 -1959.97 -47.97"
+			"angles"		"0.00 54.95 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"229.05 -1101.27 0.03"
+			"angles"		"0.00 -24.49 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"219.04 -803.21 320.03"
+			"angles"		"0.00 84.78 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-79.97 -16.03 160.03"
+			"angles"		"0.00 -42.60 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-175.97 -164.03 -107.16"
+			"angles"		"0.00 -82.78 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-436.55 -860.49 -139.97"
+			"angles"		"0.00 -178.50 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-855.97 -288.03 8.03"
+			"angles"		"0.00 -45.90 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-991.97 -904.03 0.03"
+			"angles"		"0.00 -54.12 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1191.97 -1167.97 -223.97"
+			"angles"		"0.00 76.67 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1055.97 -887.97 -399.97"
+			"angles"		"0.00 68.85 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-959.97 -1135.97 -455.97"
+			"angles"		"0.00 63.34 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1224.97 -1422.10 -535.97"
+			"angles"		"0.00 2.52 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-735.97 -2014.74 -515.97"
+			"angles"		"0.00 -23.32 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-634.24 -1044.73 -502.40"
+			"angles"		"0.00 87.23 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"59.98 -1040.03 209.63"
+			"angles"		"0.00 -111.31 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-568.00 26.74 167.97"
+			"angles"		"0.00 -70.08 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"881.77 -1120.03 180.89"
+			"angles"		"0.00 -150.60 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-87.97 -1488.03 0.03"
+			"angles"		"0.00 -30.48 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-343.75 -2315.49 4.03"
+			"angles"		"0.00 100.72 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-234.66 -1228.03 -332.07"
+			"angles"		"0.00 -90.84 0.00"
+		}
+	}
+}

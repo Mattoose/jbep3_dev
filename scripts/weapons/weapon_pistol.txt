@@ -1,0 +1,72 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"				"16"		// damage per bullet
+	"Bullets"				"1"		// bullets per shoot
+	"CycleTime"				"0.15"		// time between shoots
+
+	"BuiltRightHanded"		"1"
+	"fov"					"60"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"				"#jb_weapon_glock"
+	"viewmodel"				"models/weapons/v_glock.mdl"
+	"playermodel"			"models/weapons/w_glock.mdl"
+	
+	"bucket"				"1"
+	"bucket_position"		"0"
+
+	"clip_size"				"15"
+	
+	"primary_ammo"			"glock"
+	"secondary_ammo"		"None"
+
+	"weight"				"0"
+	"item_flags"			"0"
+	
+	// Magazine settings	
+	"magazine_model"			"models/magazines/mag_glock.mdl"
+	// Forces, down, little to left
+	"magazine_force_forward"	"0"
+	"magazine_force_right"		"-50" 
+	"magazine_force_up"			"-20"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_Glock.Single"
+		"special1"			"weapon_pistol.Fart"
+		"special2"			"weapon_pistol.Underwater"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"26"
+			"y"			"5"
+			"width"		"19"
+			"height"	"12"
+		}
+		
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_pistol"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_pistol"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}		
+	}
+	
+}

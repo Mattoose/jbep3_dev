@@ -1,0 +1,26 @@
+
+
+    credits:
+ 
+        almost all meshes, textures, and sounds created by raven software (http://www.ravensoft.com/)
+        for "Jedi Knight 3: Jedi Academy".
+
+        many models originated here (basemodels.zip):
+        http://jediknight2.filefront.com/file/Raven_Animation_and_Model_Source_Files_Part_2;26625
+
+        vader came from here (vadervm2.2.zip):
+        http://jediknight2.filefront.com/file/Darth_Vader;41054
+        credits for vader: Mars Marshall "NeoMarz1"
+
+        animations came from Counter-Strike Source
+        
+        skeletons were heavily modified versions of the CS:S rig provided in the HL2 SDK
+        all modifications to this rig were made by b4p
+        
+        all character models were manually converted to CS:S by b4p
+        
+        all code below was written by b4p
+        
+        special thanks to:
+            SoftImage for making SoftImage|XSI (www.softimage.com)
+            mattie and awuh0 over at forums.mattie.info/cs/forums

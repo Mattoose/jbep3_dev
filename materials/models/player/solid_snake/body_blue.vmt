@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/solid_snake/body_blue"
+	"$bumpmap" 		"models/player/solid_snake/flat_normal"
+	"$phong" "0"
+	"$phongexponent" "10"
+	"$phongboost" "5"
+	"$BasemapAlphaPhongMask" "1"
+	$phongfresnelranges		"[0 0.5 1]"
+}

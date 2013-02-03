@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/v_ricochet/ricochet_metal"
+	$envmap "env_cubemap"
+	"$envmaptint" "[.04 .04 .04]"
+	
+	$bumpmap "models/weapons/v_ricochet/ricochet_normal"
+	
+	$selfillum 1
+	$selfillummask "models/weapons/v_ricochet/ricochet_selfillum"
+	
+	$phong 1
+	$phongexponent 40
+	$phongboost 0.5
+	$phongfresnelranges "[1.0 2.0 5.0]"
+	
+}

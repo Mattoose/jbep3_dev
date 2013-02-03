@@ -1,0 +1,95 @@
+<!DOCTYPE html>  
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />	
+	<style>
+	
+		#health, #health div, #health img, #armour, #armour div, #armour img
+		{			
+			float: left;
+		}
+		
+		#health
+		{
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 260px;
+			height: 100px;
+			
+			margin: 0 0 20px 20px;
+		}
+				
+		#health img
+		{
+			float: left;
+		}
+		
+		#health .number
+		{
+			padding-left: 2px;
+			height: 100px;
+			background-image: url(img/hud/numbers.png);
+		}
+		
+		#armour
+		{
+			position: absolute;
+			left: 285px;
+			bottom: 0;
+			width: 260px;
+			height: 100px;
+			display: none;
+			
+			margin: 0 0 20px 20px;
+		}
+				
+		#armour img
+		{
+			float: left;
+		}
+		
+		#armour .number
+		{
+			padding-left: 2px;
+			height: 100px;
+			background-image: url(img/hud/numbers.png);
+		}
+	</style>
+	<script>
+	</script>
+
+	<script type="text/javascript" src="js/ext/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/ext/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/global.js"></script>
+	<script type="text/javascript" src="js/hud.js?15"></script>
+</head>
+<body>
+	<!--<img src="png.png">-->
+	<div id="test"></div>
+	
+	<div id="mgshealth">
+		<div id="bg">&nbsp;</div>
+		<div id="bar_red">&nbsp;</div>
+		<div id="bar">&nbsp;</div>
+		<div id="health_bg">&nbsp;</div>
+		<div id="health_text">&nbsp;</div>
+	</div>
+	
+	<div id="health">
+		<img src="img/hud/health.png">
+		<div class="number" id="digit_1">&nbsp;</div>
+		<div class="number" id="digit_2">&nbsp;</div>
+		<div class="number" id="digit_3">&nbsp;</div>
+	</div>
+	
+	<div id="armour">
+		<img src="img/hud/armour.png">
+		<div class="number" id="digit_1">&nbsp;</div>
+		<div class="number" id="digit_2">&nbsp;</div>
+		<div class="number" id="digit_3">&nbsp;</div>
+	</div>
+	
+</body>
+</html>

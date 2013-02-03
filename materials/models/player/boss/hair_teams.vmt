@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/boss/hair_teams"
+	"$alphatest" 1
+}

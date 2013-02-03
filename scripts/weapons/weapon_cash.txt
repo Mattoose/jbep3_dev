@@ -1,0 +1,43 @@
+WeaponData
+{
+	"Damage"				"0"
+	"Bullets"				"0"
+	"CycleTime"				"1.0"
+	"BuiltRightHanded"		"1"
+	"fov"					"60"
+	"printname"				"#jb_weapon_cash"
+	"viewmodel"				"models/weapons/v_cash.mdl"
+	"playermodel"			"models/weapons/w_cash.mdl"
+	"bucket"				"6"
+	"bucket_position"		"0"
+	"clip_size"				"15"
+	"default_clip"			"15"
+	"primary_ammo"			"cash"
+	"secondary_ammo"		"None"
+	"weight"				"0"
+	"item_flags"			"0"
+	SoundData
+	{
+		"single_shot"		"Weapon_Cash.Throw"
+	}
+	TextureData
+	{
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_cash"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_cash"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}		
+	}
+	
+}

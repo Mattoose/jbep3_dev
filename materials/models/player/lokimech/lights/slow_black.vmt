@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/lokimech/lights/slow_black"
+
+
+	"$envmap" 				"env_cubemap"
+	"$envmaptint" 			"[.5 .5 .5]"
+	"$envmapcontrast" 		.6
+	"$envmapsaturation" 	 	1
+}

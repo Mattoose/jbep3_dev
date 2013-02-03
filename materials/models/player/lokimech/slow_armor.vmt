@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models/player/lokimech/slow_loki"
+	"$bumpmap" 		"models/player/lokimech/slow_loki_bump"
+
+
+
+	"$phong" 				"1"
+//	"$phongexponent"			"5"
+	"$phongexponenttexture"		"models/player/lokimech/slow_loki_exp"
+	"$phongboost"			"20"
+	"$phongfresnelranges"		"[.05 .1 .2]"
+
+}

@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/hats/bomb_light"
+	$selfillum 1
+	
+	$tintval 0
+	$offset 0
+	
+	"$selfillumtint" "[ $tintval $tintval $tintval ]"
+	
+	Proxies
+	{
+		EntityRandom
+		{
+			resultVar $offset // write to custom var
+		}
+		Sine
+		{
+			resultVar	$tintval
+			timeoffset	$offset // read from custom var
+			sineperiod	2
+			sinemin		0
+			sinemax		1
+		}
+	}
+	
+}

@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "texture_samples/rocks_color"
+	"$surfaceprop" "vr"
+}

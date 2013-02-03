@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "vr/wood_baseboard01"
+	"$bumpmap" "vr/wood_baseboard01_ssbump"
+        "$ssbump" "1"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+}

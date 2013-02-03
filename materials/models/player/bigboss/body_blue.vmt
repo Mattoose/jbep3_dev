@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/bigboss/body_blue"
+	
+	"$bumpmap" 		"models/player/bigboss/flat_normal"
+	
+	"$phong" "1"
+	"$phongexponent" "33"
+	"$phongboost" "6"
+	"$halflambert" "1"
+	"$BasemapAlphaPhongMask" "1"
+	$phongfresnelranges		"[0.05 0.5 1]"
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/player/skeleton/skeleton_decomp"
+	"$bumpmap" "models/player/skeleton/skeleton_bloody_nrm"
+	"$surfaceprop" "BloodyFlesh"
+	"$model" 1
+}

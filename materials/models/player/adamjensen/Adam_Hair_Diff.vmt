@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/adamjensen/Adam_Hair_Diff"
+	"$alphatest" 1
+	"$nocull" 1
+}

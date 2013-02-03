@@ -1,0 +1,1 @@
+We initially had plans for pretty decent lua support early on but we're having to sideline it until we get some more core features done engine wise. We do plan to have support so it's easy to write custom mutations etc in the future, just not yet. Sorry!

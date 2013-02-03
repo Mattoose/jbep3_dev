@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/rorschach/slow_body"
+	"$bumpmap" "models/player/rorschach/slow_body_bump"
+
+	"$nocull" 1
+
+ 	"$phong" "1"
+	"$phongexponenttexture" "models/player/rorschach/slow_body_exp"
+	"$phongboost"	".65"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+}

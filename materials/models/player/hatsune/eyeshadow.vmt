@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/hatsune/eyeshadow"
+	"$halflambert" 1
+	"$nocull" 1
+	"$nodecal" 1
+}

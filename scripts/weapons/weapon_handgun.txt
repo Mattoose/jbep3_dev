@@ -1,0 +1,66 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"0"		// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
+	"CycleTime"			"0.6"		// time between shoots
+
+	"BuiltRightHanded"		"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"					"#jb_weapon_handgun"
+	"viewmodel"					"models/weapons/v_handgun.mdl"
+	"playermodel"				"models/weapons/w_pist_deagle.mdl"
+	"PlayerAnimationExtension"	"mp5"
+	
+	"bucket"				"1"
+	"bucket_position"		"3"
+
+	"clip_size"				"8"
+	"NumClips"				"3"
+
+	"primary_ammo"			"handgun"
+	"secondary_ammo"		"None"
+
+	"weight"				"0"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"reload"			"Weapon_Handgun.Reload"
+		"empty"				"Weapon_Handgun.Empty"
+		"single_shot"		"Weapon_Handgun.Single"
+		"special1"			"Weapon_Handgun.Single_Machinegun"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair" // Red dot
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"9"
+			"y"			"9"
+			"width"		"5"
+			"height"	"5"
+		}
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_handgun"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_handgun"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}			
+	}
+	
+}

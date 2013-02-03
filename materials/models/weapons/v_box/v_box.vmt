@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/v_box/v_box"
+	"$alphatest" 1
+}

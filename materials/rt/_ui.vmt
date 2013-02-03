@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	"$basetexture" "rt\_ui"
+	"$translucent" 1
+	
+	"Proxies"
+	{
+		"UI"
+		{
+		}
+	}
+}

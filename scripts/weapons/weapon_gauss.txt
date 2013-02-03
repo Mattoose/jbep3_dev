@@ -1,0 +1,38 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"0"		// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
+	"CycleTime"			"0.225"		// time between shoots
+
+	"BuiltRightHanded"		"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"						"#JB_Weapon_Gauss"
+	"viewmodel"						"models/v_gauss.mdl"
+	"playermodel"					"models/w_gauss.mdl"
+	"PlayerAnimationExtension"		"mp5"
+	
+	"bucket"				"3"
+	"bucket_position"		"2"
+
+	"clip_size"				"-1"
+	"default_clip"			"30"
+	"NumClips"				"1"
+
+	"fov"					"90"
+	
+	"primary_ammo"			"GaussEnergy"
+	"secondary_ammo"		"None"
+
+	"weight"				"25"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"			"weapon_gauss.Shoot1"
+	}
+
+	
+}

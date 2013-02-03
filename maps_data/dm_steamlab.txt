@@ -1,0 +1,200 @@
+#base global.txt
+
+"dm_steamlab"
+{
+	"Entities"
+	{
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-3555.97 1832.03 772.03"
+			"angles"		"0.00 21.55 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-3711.97 1658.97 831.04"
+			"angles"		"0.00 -13.96 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-2305.90 1078.88 584.03"
+			"angles"		"0.00 -1.13 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-2635.97 1276.03 720.03"
+			"angles"		"0.00 24.72 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1746.48 1305.59 800.03"
+			"angles"		"0.00 171.93 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-2059.49 1817.74 848.03"
+			"angles"		"0.00 91.41 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1544.03 2044.32 848.03"
+			"angles"		"0.00 -110.35 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1391.21 1420.03 911.14"
+			"angles"		"0.00 90.16 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1358.35 2068.03 888.03"
+			"angles"		"0.00 42.31 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1383.97 2776.03 888.03"
+			"angles"		"0.00 80.59 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1404.03 2039.49 1016.03"
+			"angles"		"0.00 97.35 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1645.88 1451.03 1032.03"
+			"angles"		"0.00 92.40 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1622.48 2156.39 1223.61"
+			"angles"		"0.00 -137.34 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-2488.61 2167.97 1032.03"
+			"angles"		"0.00 -43.28 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1839.46 2246.56 1032.03"
+			"angles"		"0.00 150.52 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1912.03 2272.56 824.03"
+			"angles"		"0.00 111.99 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1807.96 3269.93 1100.52"
+			"angles"		"0.00 -68.43 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-2435.97 3131.97 888.03"
+			"angles"		"0.00 -68.59 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-2300.03 3279.97 888.03"
+			"angles"		"0.00 -129.52 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-2616.47 2960.03 888.03"
+			"angles"		"0.00 129.33 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-2770.88 2627.97 888.03"
+			"angles"		"0.00 -111.76 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-2711.04 1684.55 888.03"
+			"angles"		"0.00 87.82 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-2556.03 1903.97 1032.03"
+			"angles"		"0.00 -106.15 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-2703.97 2693.55 918.97"
+			"angles"		"0.00 -85.75 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1681.99 3377.63 956.65"
+			"angles"		"0.00 -9.52 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-2813.36 2068.03 888.03"
+			"angles"		"0.00 136.63 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1732.03 2682.97 911.01"
+			"angles"		"0.00 161.94 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1309.01 2616.17 888.03"
+			"angles"		"0.00 -54.07 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1692.78 3131.97 888.03"
+			"angles"		"0.00 -168.99 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-3132.02 1627.58 780.03"
+			"angles"		"0.00 -148.34 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-3425.00 1955.23 888.03"
+			"angles"		"0.00 -83.11 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-2460.03 1966.04 886.69"
+			"angles"		"0.00 -178.90 0.00"
+		}
+	}
+}

@@ -1,0 +1,52 @@
+WeaponData
+{
+	"CycleTime"			"0.16"
+	"Damage"			"20"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#jb_weapon_drilldo"
+	"viewmodel"				"models/jaanus/v_drilldo.mdl"
+	"playermodel"			"models/jaanus/w_drilldo.mdl"
+	"PlayerAnimationExtension"	"mp5"
+
+	"fov"				"54"	//Tony; HL2 weapons use 54 fov.
+
+	"bucket"					"0"
+	"bucket_position"			"3"
+
+	"clip_size"			"-1"
+	"primary_ammo"			"None"
+	"secondary_ammo"		"None"
+
+	"weight"			"0"
+	"item_flags"			"0"
+
+	"MeleeWeapon"			"1"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"				"Weapon_Drilldo.Attack"
+		"melee_hit"					"Weapon_Drilldo.Melee_Hit"
+	}
+
+	TextureData
+	{
+			"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_drilldo"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_drilldo"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}		
+	}
+}

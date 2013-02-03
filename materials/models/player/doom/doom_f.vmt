@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\player\doom\doom_f"
+	"$envmap" 	"env_cubemap"
+
+}

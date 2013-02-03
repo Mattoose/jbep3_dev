@@ -1,0 +1,65 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"				"150"		// damage per bullet while scoped, scaled down for non-scope shots
+	"Bullets"				"1"		// bullets per shoot
+	"CycleTime"				"1.8"		// time between shoots
+
+	"BuiltRightHanded"		"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"					"#jb_weapon_mosin"
+	"viewmodel"					"models/weapons/v_mosin.mdl"
+	"playermodel"				"models/weapons/w_mosin.mdl"
+	
+	"bucket"				"3"
+	"bucket_position"		"0"
+
+	"clip_size"				"5"
+	"NumClips"				"3"
+
+	"primary_ammo"			"mosin"
+	"secondary_ammo"		"None"
+
+	"weight"				"25"
+	"item_flags"			"0"
+	
+	"fov"					"55"
+	
+	"tracer_interval"	"1" // Show tracers every single shot.
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"			"Weapon_MosinNagant.Fire"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair" 
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"97"
+			"y"			"0"
+			"width"		"21"
+			"height"	"24"
+		}	
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_mosin"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_mosin"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}	
+	}
+}

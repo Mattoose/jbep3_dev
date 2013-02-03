@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/assassin/Fassassin_sheet2"
+	"$bumpmap" "models/player/assassin/Fassassin_normal"
+	"$model" 1
+	"$halflambert" "1"
+	"$phong" 1
+	"$phongboost" "3"
+	"$phongexponenttexture" "models/player/assassin/Fassassin_phong"
+	"$phongfresnelranges"	"[.1 .5 1.0]"
+	"$selfillum" 1
+}

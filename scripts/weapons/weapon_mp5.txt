@@ -1,0 +1,65 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"17"	// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
+	"CycleTime"			"0.1"		// time between shoots
+
+	"BuiltRightHanded"		"0"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#SDK_Weapon_MP5"
+	"viewmodel"			"models/weapons/v_smg_mp5.mdl"
+	"playermodel"			"models/weapons/w_smg_mp5.mdl"
+	"PlayerAnimationExtension"	"mp5"
+	
+	"bucket"			"2"
+	"bucket_position"		"2"
+
+	"clip_size"			"30"
+	"NumClips"			"3"
+
+	
+	"primary_ammo"			"mp5"
+	"secondary_ammo"		"None"
+
+	"weight"			"25"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		//"reload"			"Default.Reload"
+		//"empty"			"Default.ClipEmpty_Rifle"
+		"single_shot"			"Weapon_MP5Navy.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair" 
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"23"
+			"height"	"23"
+		}	
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_mp5"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_mp5"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}	
+	}
+}

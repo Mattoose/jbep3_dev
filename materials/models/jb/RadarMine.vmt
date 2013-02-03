@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jb/radar_diffuse"
+	"$bumpmap" "models/jb/radar_normal"
+	 "$envmap" "env_cubemap"
+	 "$envmaptint" "[.04 .04 .04]"
+   	 "$envmapsaturation" .5
+  	  "$model" 1
+
+   	 "$phong" "1"
+   	 "$phongexponent" "20"
+   	 "$phongboost"    "1"
+   	 "$phongfresnelranges"    "[2 4 1]"
+
+}
+

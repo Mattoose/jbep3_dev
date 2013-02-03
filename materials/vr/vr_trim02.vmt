@@ -1,0 +1,21 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "vr/vr_trim02"
+	"$surfaceprop" "vr"
+	"$selfillum" 1
+	"%keywords" "VR"
+
+"Proxies"
+   {
+   
+      "TextureScroll"
+      {
+         "texturescrollvar" "$basetexturetransform"       
+         "texturescrollrate" 2 
+         "texturescrollangle" 0  
+      }
+   
+
+   }
+
+}

@@ -1,0 +1,57 @@
+WeaponData
+{
+	"Damage"			"0"
+	"CycleTime"			"1"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"					"#jb_weapon_box"
+	"viewmodel"					"models/weapons/v_box.mdl"
+	"playermodel"				"models/weapons/w_box.mdl"
+	"PlayerAnimationExtension"	"gren"
+
+	"BuiltRightHanded"		"1"
+
+	"bucket"				"0"
+	"bucket_position"		"5"
+
+	"clip_size"				"-1"
+	"default_clip"			"1"
+	"NumClips"				"1"
+	
+	"fov"					"66"
+
+	"primary_ammo"			"None"
+	"secondary_ammo"		"None"
+
+	"weight"				"-20"
+	"item_flags"			"0"	
+	
+	
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"JB.BoxTaunt"
+	}
+	
+	TextureData
+	{
+			"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_box"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_box"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}	
+		
+	}	
+}

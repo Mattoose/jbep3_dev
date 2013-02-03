@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/ghilliecombine/camouflage"
+	"$bumpmap" "models/player/ghilliecombine/camouflage_normal"
+
+	"$halflambert" 1
+	"$translucent" 1
+	"$alpha" 1
+	"$model" 1
+	"$nocull" 1
+
+}

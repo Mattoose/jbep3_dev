@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "vr/vr_floor01"
+	"$surfaceprop" "vr"
+	"$selfillum" 1
+	"%keywords" "vr"
+}

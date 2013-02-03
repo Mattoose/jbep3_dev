@@ -1,0 +1,63 @@
+WeaponData
+{
+	//handled by code
+	"Damage"			"0"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#jb_weapon_catmine"
+	"viewmodel"			"models/weapons/v_catmine.mdl"
+	"playermodel"			"models/weapons/w_eq_fraggrenade.mdl"
+	"PlayerAnimationExtension"	"gren"
+
+	"BuiltRightHanded"		"1"
+	"fov"					"65"
+
+	"bucket"			"5"
+	"bucket_position"		"3"
+
+	"clip_size"			"-1"
+	"default_clip"			"1"
+	"NumClips"			"1"
+
+	"primary_ammo"			"catmine"
+	"secondary_ammo"		"None"
+
+	"weight"			"1"
+	"item_flags"			"18"	// ITEM_FLAG_NOAUTORELOAD | ITEM_FLAG_EXHAUSTIBLE
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"	"npc_cat.Meow"
+		"special1"		"npc_cat.Meow"
+	}
+	
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"26"
+			"y"			"5"
+			"width"		"19"
+			"height"	"12"
+		}	
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_catmine"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_catmine"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}			
+	}
+}

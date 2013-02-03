@@ -1,0 +1,170 @@
+"NPC.StepLeftRun"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.600000"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"player/footsteps/concrete1.wav"
+		"wave"	"player/footsteps/concrete2.wav"
+	}
+}
+
+"NPC.StepRightRun"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.600000"
+	"pitch"			"95, 105"
+	"soundlevel"	"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"	"player/footsteps/concrete3.wav"
+		"wave"	"player/footsteps/concrete4.wav"
+	}
+}
+"NPC.StepLeftWalk"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.600000"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"player/footsteps/concrete1.wav"
+		"wave"	"player/footsteps/concrete2.wav"
+	}
+}
+
+"NPC.StepRightWalk"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.600000"
+	"pitch"			"95, 105"
+	"soundlevel"	"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"	"player/footsteps/concrete3.wav"
+		"wave"	"player/footsteps/concrete4.wav"
+	}
+}
+
+
+
+"NPC_SCI_CHASE.Leap"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"70,110"
+	"soundlevel"	"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"	"scientist/scream05.wav"
+		"wave"	"scientist/scream08.wav"
+		"wave"	"scientist/scream24.wav"
+		"wave"	"scientist/scream23.wav"
+		"wave"	"scientist/scream1.wav"
+		"wave"	"scientist/scream04.wav"
+	}
+}
+
+"NPC_SCI_CHASE.Alert"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"60,140"
+	"soundlevel"	"SNDLVL_150dB"
+	"rndwave"
+	{
+		//"wave"	"scientist/hellothere.wav"
+		//"wave"	"scientist/hello.wav"
+		//"wave"	"scientist/hello2.wav"
+		"wave"		"^kleiner_peelyouapart.wav"
+	}
+}
+
+"NPC_SCI_CHASE.Pain"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"	"scientist/sci_pain1.wav"
+		"wave"	"scientist/sci_pain2.wav"
+		"wave"	"scientist/sci_pain3.wav"
+		"wave"	"scientist/sci_pain4.wav"
+		"wave"	"scientist/sci_pain5.wav"
+		"wave"	"scientist/sci_pain6.wav"
+		"wave"	"scientist/sci_pain7.wav"
+		"wave"	"scientist/sci_pain8.wav"
+		"wave"	"scientist/sci_pain9.wav"
+		"wave"	"scientist/sci_pain10.wav"
+	}
+}
+
+"NPC_SCI_CHASE.Death"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"	"scientist/stop1.wav"
+		"wave"	"scientist/stop2.wav"
+		"wave"	"scientist/stop3.wav"
+		"wave"	"scientist/stop1.wav"
+	}
+}
+
+"NPC_SCI_CHASE.Attack"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"	"scientist/youlookbad.wav"
+		"wave"	"scientist/youlookbad2.wav"
+	}
+}
+
+"NPC_SCI_CHASE.Launched"
+{
+	"channel"       "CHAN_STATIC"
+	"volume"        "1.0"
+	"soundlevel"    "SNDLVL_GUNFIRE"
+	"pitch"         "PITCH_NORM"
+	
+	"wave"	"scientist/canister.wav"
+}
+
+"npc_cat.Meow"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"			"85,115"
+	"soundlevel"	"SNDLVL_90dB"
+	"rndwave"
+	{
+		"wave"		")npc/cat/meow1.wav"
+		"wave"		")npc/cat/meow2.wav"
+		"wave"		")npc/cat/meow3.wav"
+	}
+}
+"npc_cat.MeowLoop"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_90dB"
+	
+	"wave"			")npc/cat/meow_loop.wav"
+}

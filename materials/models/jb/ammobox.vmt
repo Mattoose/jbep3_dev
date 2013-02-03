@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jb/ammobox"
+	
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "4"
+	"$basemapalphaphongmask" "1"
+	$phongfresnelranges		"[1 3 5]"
+}

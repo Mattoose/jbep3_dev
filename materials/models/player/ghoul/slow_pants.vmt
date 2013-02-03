@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/ghoul/slow_pants"
+	"$bumpmap" "models/player/ghoul/slow_body_bump"
+
+	"$translucent" 1
+}

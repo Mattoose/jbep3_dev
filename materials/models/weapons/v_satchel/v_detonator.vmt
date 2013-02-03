@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/v_satchel/v_detonator"
+	"$bumpmap" "models/weapons/v_satchel/v_satchel_det_nrml"
+	"$phong" "1"
+	"$phongboost" ".5"
+	"$phongexponent" 10							
+	"$phongfresnelranges"	"[.05 5 1]"
+}

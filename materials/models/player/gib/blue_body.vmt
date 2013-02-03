@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\player\gib\blue_body"	
+	"$bumpmap" "models\player\blue\blue_body_normal"	
+}

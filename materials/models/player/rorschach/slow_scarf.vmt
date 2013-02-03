@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/rorschach/slow_scarf"
+	"$bumpmap" "models/player/rorschach/slow_scarf_bump"
+
+ 	"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[.15 .5 1]"
+
+}

@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\chunli\chun-li02"
+	"$halflambert" 1
+	"$surfaceprop" "flesh"
+	"$nocull" 1 
+}

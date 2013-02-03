@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+    "$baseTexture" "models/player/chewbacca/chewbacca_2sided"
+    "$model" 1
+    "$nocull" 1 
+    "$translucent" "1" 
+    "$alphatest" 1 
+    "$normal" "1" 
+    "$normalmapalphaenvmapmask" 1 
+}

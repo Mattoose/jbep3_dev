@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/player/solid_snake/flat_normal"
+	"$translucent" 1
+}

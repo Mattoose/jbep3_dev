@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\chunli\chun-li04"
+	"$translucent" 1
+	"$halflambert" 1
+	"$nocull" 1 
+}

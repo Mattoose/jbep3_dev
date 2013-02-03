@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/v_cash/cash_diffuse"
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint"	"[.7 .7 .7]"
+	"$basealphaenvmapmask" "1"
+	
+}

@@ -1,0 +1,60 @@
+// Crossbow
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"		"#jb_meloncrossbow"
+	"viewmodel"		"models/weapons/v_blunderbuss.mdl"
+	"playermodel"	"models/weapons/w_blunderbuss.mdl"
+	"anim_prefix"	"bow"
+	"bucket"			"3"
+	"bucket_position"	"1"
+
+	"clip_size"		"1"
+	"default_clip"		"5"
+	"primary_ammo"		"MelonXBowBolt"
+	"secondary_ammo"	"None"
+
+	"weight"		"3"
+	"item_flags"		"0"
+
+	"fov"					"55"
+	
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"	"weapon_meloncrossbow.Single"
+		"reload"		"weapon_meloncrossbow.Reload"
+		"special1"		"weapon_meloncrossbow.BoltElectrify"
+		"special2"		"weapon_meloncrossbow.BoltFly"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"26"
+			"y"			"5"
+			"width"		"19"
+			"height"	"12"
+		}	
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_meloncrossbow"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_meloncrossbow"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}		
+	}
+}

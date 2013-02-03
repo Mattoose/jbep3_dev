@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/v_rocket_crowbar/rocketdiffuse"
+	"$bumpmap" "models/weapons/v_rocket_crowbar/rocketnormal"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[.1 0.4 2]"
+}

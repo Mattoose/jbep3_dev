@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/hats/monkeymask"
+	
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "2"
+	"$BasemapAlphaPhongMask" "1"
+	
+	$selfillum 1
+	$selfillummask "models/player/hats/monkeymask_selfillum"
+}

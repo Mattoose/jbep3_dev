@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/v_p90/v_p90"
+	"$bumpmap" 		"models/player/bigboss/flat_normal"
+	"$phong" "1"
+	"$phongboost" ".05"
+	"$phongexponent" 10
+	"$phongexponenttexture"	"models/weapons/v_p90/v_p90_spec"
+	"$phongalbedotint" "1"								
+	"$phongfresnelranges"	"[.1 .5 1]"
+}

@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "hud\voice_icons"
+	"$vertexcolor" 1
+	"$vertexalpha"	1
+	"$no_fullbright" 1
+	
+	"$translucent" 1
+}
+

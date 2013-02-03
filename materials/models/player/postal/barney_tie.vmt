@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/postal/barney_tie"
+	"$halflambert" 1
+}

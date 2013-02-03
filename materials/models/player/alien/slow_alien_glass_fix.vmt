@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/alien/slow_alien"
+	"$bumpmap" "models/player/alien/slow_alien_bump"
+
+	"$translucent" 1
+
+
+}

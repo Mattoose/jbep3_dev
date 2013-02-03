@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/ash/faa9461b"
+                "$bumpmap" "models/player/ash/body_normal"
+ //  	 "$envmap" "env_cubemap"
+   	 "$envmapsaturation" .5
+	 "$envmaptint" "[1 1 1]"
+  	  "$model" 0
+
+   	 "$phong" "1"
+   	 "$phongexponent" "10"
+   	 "$phongboost"    "0.5"
+   	 "$phongfresnelranges"    "[.2 1 1]"
+
+}

@@ -1,0 +1,26 @@
+
+"global"
+{
+	"Entities"
+	{
+		"replace"
+		{
+			"weapon_snark"		"jb_pickup_weapon_3"
+			"weapon_357"		"jb_pickup_weapon_3"
+			"weapon_crossbow"	"jb_pickup_weapon_2"
+			"weapon_egon"	"jb_pickup_weapon_2"
+			"weapon_gauss"	"jb_pickup_weapon_2"
+			"weapon_egon"	"jb_pickup_weapon_3"
+			"weapon_handgrenade"	"jb_pickup_weapon_1"
+			"weapon_hornetgun"	"jb_pickup_weapon_3"
+			"weapon_mp5"	"jb_pickup_weapon_1"
+			"weapon_rpg"	"jb_pickup_weapon_3"
+			"weapon_satchel"	"jb_pickup_weapon_1"
+			"weapon_shotgun"	"jb_pickup_weapon_2"
+			"weapon_crossbow"	"jb_pickup_weapon_2"
+			"weapon_ar2"	"jb_pickup_weapon_2"
+			"weapon_slam"	"jb_pickup_weapon_1"
+			"weapon_frag"	"jb_pickup_weapon_1"
+		}
+	}
+}

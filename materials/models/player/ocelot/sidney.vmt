@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/ocelot/sidney"
+	"$surfaceprop" "Flesh"
+	$alphatest 1
+}

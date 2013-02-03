@@ -1,0 +1,66 @@
+--------------------------------------
+Jaykin' Bacon - Episode 3 was created by
+--------------------------------------
+Concept
+- Mr. Podunkian
+
+Project Lead
+- jimbomcb
+- postal
+
+Programming
+- damn chimera
+- jimbomcb
+
+Mapping
+- Megafan
+- Phanterm
+- Rilez
+
+Modeling
+- Dav0r
+- Dr. Derek
+- Hideous
+- Mr. Sunabouzu
+
+Texturing
+- Dr. Derek
+- Hideous
+- Pie_Tony
+
+Animation
+- Mr. Sunabouzu
+
+Sound
+- Absinthe
+- Ventilated
+
+Art
+- Rusty100
+
+Includes code from Half-Life 2 Wars, used with a CC BY-NC 3.0 license.
+
+--------------------------------------
+Asset Credits:
+--------------------------------------
+
+Combine Assassin Playermodel
+- Model: thespectator
+- Skin: deviantpictures
+
+Clot Playermodel
+- Model: Tripwire Interactive
+
+Ghillie Combine Playermodel
+- Model: AlexVestin
+
+--------------------------------------
+Thanks to:
+--------------------------------------
+
+.nicolas & Sandern for saving me a hell of a lot of time!
+MaxOfS2D
+Barley 
+Amplified
+postal's moth that hatched but he missed it because he was busy sorting out jaykin bacon
+craptasket

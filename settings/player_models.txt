@@ -1,0 +1,361 @@
+//Editing the restrictions here will allow you to use private models locally
+//This is enforced server-side too so you can't get around these limitations on random server.
+"player_models"
+{
+
+	// Player Specific Models
+	assassin
+	{
+		"model" 	"models/player/assassin.mdl"
+		"name"		"Combine Assassin"
+		"restrict" 	
+		{
+			"76561197974142768" 	"onion"
+		}
+		"deathsound"	"JB.Death_Custom_Assassin"
+	}
+	
+	adamjensen
+	{
+		"model" 	"models/player/adamjensen.mdl"
+		"name"		"Adam Jensen"
+		"restrict" 	
+		{
+			"76561197987039559" 	"derek"
+			"76561197970736688" 	"rusty"
+		}
+	}
+	
+	alien
+	{
+		"model" 	"models/player/alien.mdl"
+		"name"		"Alien"
+		"restrict" 	
+		{
+			"76561197972139156" 	"kingmonsters"
+		}
+		
+		"deathsound"	"JB.Death_Custom_Alien"
+	}
+	
+	postal
+	{
+		"model" 	"models/player/postal.mdl"
+		"name"		"Barney"
+		"restrict" 	
+		{
+			"76561197967520820" 	"postal"
+		}
+		
+		"deathsound"	"JB.Death_Custom_Barney"
+	}
+	
+	cj
+	{
+		"model" 	"models/player/cj/cj.mdl"
+		"name"		"CJ"
+		"restrict" 	
+		{
+			"76561197985524420" 	"birdmarde"
+		}
+	}
+	
+	batman
+	{
+		"model" 	"models/player/combat_batman.mdl"
+		"name"		"Batman"
+		"restrict" 	
+		{
+			"76561197970736688" 	"rusty"
+		}
+		"deathsound"	"JB.Death_Custom_Batman"
+	}
+	
+	clot_craptasket
+	{
+		"model" 	"models/player/clot.mdl"
+		"name"		"Clot"
+		"restrict" 	
+		{
+			"76561197979130428" 	"Craptasket"
+		}
+		"deathsound"	"JB.Death_Custom_Craptasket"
+	}
+		
+	chewbacca
+	{
+		"model" 	"models/player/chewbacca.mdl"
+		"name"		"Chewbacca"
+		"restrict" 	
+		{
+			"76561197995397964" 	"threepwood"
+		}
+		"deathsound"	"JB.Death_Custom_Chewbacca"
+	}
+	
+	chunli
+	{
+		"model" 	"models/player/chunli.mdl"
+		"name"		"ChunLi"
+		"restrict" 	
+		{
+			"76561197997913268" 	"AlienFanatic"
+		}
+		"deathsound"	"JB.Death_Custom_Chunli"
+	}
+	
+	doomguy
+	{
+		"model" 	"models/player/doom.mdl"
+		"name"		"Doom Guy"
+		"restrict" 	
+		{
+			"76561197999488846" 	"WillieBurkeSherwood"
+		}
+		
+		"deathsound"	"JB.Death_Custom_Doom"
+	}
+	
+	ghillicombine
+	{
+		"model" 	"models/player/ghilliecombine/ghilliecombine.mdl"
+		"name"		"Ghillie Combine"
+		"restrict" 	
+		{
+			"76561198004812841" 	"RanchPudding"
+		}
+		"deathsound"	"JB.Death_Custom_GCombine"
+	}
+	
+	ghoul
+	{
+		"model" 	"models/player/ghoul/ghoul.mdl"
+		"name"		"Ghoul"
+		"restrict" 	
+		{
+			"76561197989976412" 	"ninja-gnome"
+		}
+		
+		"deathsound"	"JB.Death_Custom_Ghoul"
+	}
+	
+	hatsune
+	{
+		"model" 	"models/player/hatsune/hatsune.mdl"
+		"name"		"Hatsune Miku"
+		"restrict" 	
+		{
+			"76561197960273489" 	"nomadicninja"
+		}
+		
+		"deathsound"	"JB.Death_Custom_Hatsune"
+	}
+	
+	hobo
+	{
+		"model" 	"models/player/hobo.mdl"
+		"name"		"Hobo"
+		"restrict" 	
+		{
+			"76561197996599994" 	"hideous"
+		}
+		
+		"deathsound"	"JB.Death_Custom_Hobo"
+	}
+	
+	hunter
+	{
+		"model" 	"models/player/hunter.mdl"
+		"name"		"Hunter"
+		"restrict" 	
+		{
+			"76561198000587129" 	"pyth110"
+		}
+		"deathsound"	"JB.Death_Custom_Hunter"
+	}
+	
+	knight
+	{
+		"model" 	"models/player/knight.mdl"
+		"name"		"Knight"
+		"restrict"
+		{
+			"76561197970525198"		"sunabouzu"
+		}
+		"deathsound"	"JB.Death_Custom_Knight"
+	}
+	
+	lokimech
+	{
+		"model" 	"models/player/loki_mech.mdl"
+		"name"		"LOKI Mech"
+		"restrict"
+		{
+			"76561197987157993"		"conro"
+		}
+		"deathsound"				"JB.Death_Custom_Mech"
+	}
+	
+	marisa
+	{
+		"model" 	"models/player/marisa.mdl"
+		"name"		"Marisa"
+		"restrict" 	
+		{
+			"76561197968427083" 	"dav0r"
+		}
+		"deathsound"				"JB.Death_Custom_Marisa"
+	}
+	
+	maxpayne
+	{
+		"model" 	"models/player/maxpayne.mdl"
+		"name"		"MaxPayne"
+		"restrict" 	
+		{
+			"76561197998849105" 	"natrox"
+			"76561197970736688" 	"rusty"
+		}
+		"deathsound"				"JB.Death_Custom_MaxPayne"
+	}
+	
+	postaldude
+	{
+		"model" 	"models/player/postaldude.mdl"
+		"name"		"Postal Dude"
+		"restrict"
+		{
+			"76561197972070735"		"redback3"
+		}
+		
+		"deathsound"	"JB.Death_Custom_Postaldude"
+	}
+	
+	rorschach
+	{
+		"model" 	"models/player/rorschach.mdl"
+		"name"		"Rorschach"
+		"restrict"
+		{
+			"76561198008559373"		"Ehmmett"
+		}
+		
+		"deathsound"	"JB.Death_Custom_Rorschach"
+	}
+	
+	skeleton
+	{
+		"model" 	"models/player/skeleton/skeleton.mdl"
+		"name"		"Skeleton"
+		"restrict"
+		{
+			"76561197999238716"		"dragon"
+		}
+		
+		"deathsound"	"JB.Death_Custom_Skeleton"
+	}
+	
+	tommy
+	{
+		"model" 	"models/player/tommyv.mdl"
+		"name"		"Tommy Vercetti"
+		"restrict"
+		{
+			"76561197981737869"		"TippZ"
+		}
+		"deathsound"	"JB.Death_Custom_TommyV"
+	}
+	
+	allied
+	{
+		"model" 	"models/player/alliedsoldier.mdl"
+		"name"		"Allied Soldier"
+	}
+	
+	arctic_warfare
+	{
+		"model" 	"models/player/arctic_warfare.mdl"
+		"name"		"Arctic Warfare T"
+	}
+	
+	ash
+	{
+		"model" 	"models/player/ash.mdl"
+		"name"			"Ash"
+		"deathsound"	"JB.Death_Custom_Ash"
+	}
+	
+	bigboss
+	{
+		"model" 	"models/player/bigboss.mdl"
+		"name"		"Big Boss"
+	}
+		
+	clot
+	{
+		"model" 	"models/player/clot.mdl"
+		"name"		"Clot"
+	}
+		
+	gman
+	{
+		"model" 	"models/player/hl1_gman.mdl"
+		"name"		"G-Man"
+	}
+	
+	hl1helmet
+	{
+		"model" 	"models/player/hl1_helmet.mdl"
+		"name"		"Helmet"
+	}
+	
+	jungle_warfare
+	{
+		"model" 	"models/player/jungle_warfare.mdl"
+		"name"		"Jungle Warfare"
+	}
+	
+	ocelot
+	{
+		"model" 	"models/player/ocelot.mdl"
+		"name"		"Ocelot"
+	}
+	
+	sniper
+	{
+		"model" 	"models/player/sniper_red.mdl"
+		"name"		"Sniper"
+	}
+	
+	robocop
+	{
+		"model" 	"models/player/robocop.mdl"
+		"name"		"Robocop"
+	}
+	
+	shephard
+	{
+		"model" 	"models/player/shephard.mdl"
+		"name"		"Shephard"
+	}
+	
+	sunabouzu
+	{
+		"model" 	"models/player/sunabouzu.mdl"
+		"name"		"Simon"
+	}
+	
+	solidsnake
+	{
+		"model" 	"models/player/solid_snake.mdl"
+		"name"		"Solid Snake"		
+		"deathsound"	"JB.Death_Custom_Solid_Snake"
+	}
+	
+	31
+	{
+		"model" 	"models/player/spetsnaz.mdl"
+		"name"		"Spetsnaz"
+	}
+	
+}
