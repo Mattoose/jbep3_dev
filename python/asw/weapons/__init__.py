@@ -1,0 +1,1 @@
+from assaultrifle import WeaponAssaultRifle
