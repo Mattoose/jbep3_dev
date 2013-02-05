@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game						"Jaykin' Bacon: Episode 3 - Developer SVN"
+	game						"Jaykin' Bacon: Episode 3 - Dev SVN"
 	title						""
 	title2						""
 	type 						multiplayer_only
