@@ -55,7 +55,7 @@ function setState( state )
 $(document).click( cycleState );
 
 $( function(){
-	setState( IS_ENGINE ? STATE_VIDEO : STATE_VIDEO ); // If engine, show the video otherwise just skip to menu
+	setState( IS_ENGINE ? STATE_VIDEO : STATE_MENU ); // If engine, show the video otherwise just skip to menu
 });
 
 /*
@@ -76,7 +76,7 @@ function switchToIntroVideo()
 			
 function switchFromIntroVideo()
 {
-	if ( IS_ENGINE )
+	if ( IS_ENGINE && !IN_GAME )
 		MENU.playMenuMusic();
 	
 	var introVideo = $('#video video').get(0);			
@@ -144,6 +144,7 @@ function switchFromMenu()
 var CURRENT_PAGE = false;
 var PAGE_FRONT = false;
 var PAGE_CUSTOMISATION = "player_customization";
+var PAGE_FINDSERVER = "findserver";
 
 function changePage( desired_page )
 {
@@ -172,11 +173,12 @@ function changePage( desired_page )
 }
 
 var menu_options = {
-	// Button ID, Button Text, Button Desc, Display in menu, Display in game, Handled in webpage
+	// Button ID, Button Text, Button Desc, Display in menu, Display in game, Handled in webpage, func on open
 	"resume" : [ "RESUME GAME", "Return to the current game.", false, true, false ], // Button text, button desc, display in game.
 	"disconnect":[ "DISCONNECT", "Disconnect from the current game.", false, true, false ],
 	"playerlist":[ "PLAYER LIST", "Other players in the current game.", false, true, false ],
 	"findservers":[ "FIND SERVERS", "Find servers.", true, false, false ],
+	//"findserver":[ "FIND SERVERS", "Find a server.", true, true, PAGE_FINDSERVER, findServerTabOpen ],
 	"createserver":[ "CREATE SERVER", "Create a local or internet server.", true, false, false ],
 	"customizeplayer":[ "CUSTOMIZE PLAYER", "Change your player model.", true, true, PAGE_CUSTOMISATION ],
 	"options":[ "OPTIONS", "Change game options.", true, true, false ],
@@ -199,7 +201,7 @@ function updateMenu()
 	// Update desc on mouseover
 	var link_desc = $("#menu #link_description");
 	
-	$("#menu .link").hover(function(){ 
+	$("#menu #links li").hover(function(){ 
 		link_desc.text(menu_options[$(this).attr("id")][1]); 
 	},
 	function(){ 
@@ -236,6 +238,9 @@ function menuClick( button_div )
 		if ( IS_ENGINE )
 			MENU.buttonPress(pressed);
 	}
+	
+	if ( button_data[5] != undefined && button_data[5] != false )
+		button_data[5]();
 }
 
 // PLAYER CUSTOMIZATION
@@ -392,7 +397,7 @@ $( function() {
 		selectPlayerModel($(this).attr('id'));
 	});
 	
-	$("#player_customization #buttons #back").click(function(){changePage(false)});
+	$("#buttons #back").click(function(){changePage(false)});
 		
 });
 
@@ -409,4 +414,58 @@ function updateGameState(state) // Called when we change from menu to ingame or 
 	if ( IN_GAME )
 		setState(STATE_MENU); // Switch to menu straight away, skip any videos playing.
 }
+
+/* 
+
+FIND SERVER 
+
+*/
+var findServerTabOpened = false;
+//var findServerServers = [];
+function findServerTabOpen()
+{
+	if (findServerTabOpened)
+		return;
+		
+	findServerTabOpened = true;
+	
+	/*var master_ips = ["127.0.0.1:1234"];
+	
+	if ( IS_ENGINE )
+		master_ips = MENU.getServerList();
+		
+	var elem = $("#findserver #selection")
+	
+	$.each( data.ips, function( id, val ) {
+		var serv_str = "<li class='server_row' id='server_"+val+"'>"+val+"</li>";
+		elem.append(serv_str);
+		//findServerServers.push(val);
+	});*/
+		
+	
+	/*$.getJSON("http://127.0.0.1/game/serverList/jbep3_dev?callback=?", function( data ) {
+		var elem = $("#findserver #selection")
+		
+		$.each( data.ips, function( id, val ) {
+			var serv_str = "<li class='server_row' id='server_"+val+"'>"+val+"</li>";
+			elem.append(serv_str);
+			//findServerServers.push(val);
+		});
+		
+		elem.mCustomScrollbar({
+			scrollInertia:0,
+			scrollEasing:"easeOutCirc",
+			advanced:{ updateOnContentResize: true }
+		});
+		
+		$.each( data.ips, function( id, val ) {
+			$.getJSON("http://127.0.0.1/game/serverInfo/"+val+"?callback=?", function( data ) {
+				console.log(
+			});
+		});
+	})
+	.error(function(data) { console.log("error",data) })*/
+}
+
+
 	

@@ -174,7 +174,7 @@ body {
 	z-index: 5;
 }
 
-#player_customization
+.page_slidein
 {
 	position: absolute;
 	width: 90%;
@@ -247,18 +247,18 @@ body {
 	padding-bottom: 15px;
 }
 
-#player_customization #buttons
+#buttons
 { 
 	padding-top: 15px;
 }
 
-#player_customization #buttons li 
+#buttons li 
 { 
 	padding: 0 10px 0 45px; 
 	float: left;
 }
 
-#player_customization #buttons li:hover {
+#buttons li:hover {
 	background-color: rgba(200, 200, 200, 0.35);
 	
 	background-image: url(../img/mainmenu/selection.png);
@@ -266,8 +266,18 @@ body {
 	background-position: 10px 10px;
 }
 
-#player_customization #buttons li:active {
+#buttons li:active {
 	background-color: rgba(200, 200, 200, 0.5);
+}
+
+#findserver #selection
+{
+	position: relative;
+	width: 1100px;
+	height: 80%;
+	background-color: rgba(0,0,0,0.35);
+	
+	overflow: hidden;
 }
 
 /* hovers */
