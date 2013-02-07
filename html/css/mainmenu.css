@@ -278,6 +278,7 @@ body {
 	background-color: rgba(0,0,0,0.35);
 	
 	overflow: hidden;
+	overflow-y: scroll;
 }
 
 /* hovers */

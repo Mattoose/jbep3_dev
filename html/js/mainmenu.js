@@ -177,8 +177,8 @@ var menu_options = {
 	"resume" : [ "RESUME GAME", "Return to the current game.", false, true, false ], // Button text, button desc, display in game.
 	"disconnect":[ "DISCONNECT", "Disconnect from the current game.", false, true, false ],
 	"playerlist":[ "PLAYER LIST", "Other players in the current game.", false, true, false ],
-	"findservers":[ "FIND SERVERS", "Find servers.", true, false, false ],
-	//"findserver":[ "FIND SERVERS", "Find a server.", true, true, PAGE_FINDSERVER, findServerTabOpen ],
+	"findserver_new":[ "FIND SERVERS (SVEN COOP SERVERS FOR TESTING)", "Find a server.", true, true, PAGE_FINDSERVER, findServerTabOpen ],
+	"findservers":[ "FIND SERVERS (CLASSIC)", "Find servers.", true, false, false ],
 	"createserver":[ "CREATE SERVER", "Create a local or internet server.", true, false, false ],
 	"customizeplayer":[ "CUSTOMIZE PLAYER", "Change your player model.", true, true, PAGE_CUSTOMISATION ],
 	"options":[ "OPTIONS", "Change game options.", true, true, false ],
@@ -421,7 +421,8 @@ FIND SERVER
 
 */
 var findServerTabOpened = false;
-//var findServerServers = [];
+var findServerHasScrollbar = false;
+var findServers = [];
 function findServerTabOpen()
 {
 	if (findServerTabOpened)
@@ -429,43 +430,42 @@ function findServerTabOpen()
 		
 	findServerTabOpened = true;
 	
-	/*var master_ips = ["127.0.0.1:1234"];
-	
 	if ( IS_ENGINE )
-		master_ips = MENU.getServerList();
-		
-	var elem = $("#findserver #selection")
-	
-	$.each( data.ips, function( id, val ) {
-		var serv_str = "<li class='server_row' id='server_"+val+"'>"+val+"</li>";
-		elem.append(serv_str);
-		//findServerServers.push(val);
-	});*/
-		
-	
-	/*$.getJSON("http://127.0.0.1/game/serverList/jbep3_dev?callback=?", function( data ) {
-		var elem = $("#findserver #selection")
-		
-		$.each( data.ips, function( id, val ) {
-			var serv_str = "<li class='server_row' id='server_"+val+"'>"+val+"</li>";
-			elem.append(serv_str);
-			//findServerServers.push(val);
-		});
-		
-		elem.mCustomScrollbar({
-			scrollInertia:0,
-			scrollEasing:"easeOutCirc",
-			advanced:{ updateOnContentResize: true }
-		});
-		
-		$.each( data.ips, function( id, val ) {
-			$.getJSON("http://127.0.0.1/game/serverInfo/"+val+"?callback=?", function( data ) {
-				console.log(
-			});
-		});
-	})
-	.error(function(data) { console.log("error",data) })*/
+		MENU.serverMasterRequest();
 }
 
+function serversServerResponded( server )
+{
+	/*
+	args.Push( Awesomium::JSValue( Awesomium::WSLit( pServerItem->m_NetAdr.GetQueryAddressString() ) ) ); // IP
+	args.Push( Awesomium::JSValue( Awesomium::WSLit( pServerItem->GetName() ) ) ); // NAME
+	args.Push( Awesomium::JSValue( pServerItem->m_nPing ) ); // PING
+	args.Push( Awesomium::JSValue( pServerItem->m_nPlayers ) ); // PLAYERS
+	args.Push( Awesomium::JSValue( pServerItem->m_nMaxPlayers ) ); // PLAYERS
+	args.Push( Awesomium::JSValue( Awesomium::WSLit( pServerItem->m_szMap ) ) ); // MAP
+	args.Push( Awesomium::JSValue( Awesomium::WSLit( pServerItem->m_szGameDescription ) ) ); // GAME DESC
+	*/
+	
+	//findServers.push( server );
+	
+	var truncated_name = server.name;
+	if ( truncated_name.length > 32 )
+		truncated_name = truncated_name.substring(0,29)+"...";
+	
+	//var serv_str = "<li class='server_row' id='server_"+server.id+"'>"+truncated_name+" ("+server.players+"/"+server.maxplayers+") - "+server.desc+"</li>";
+	var serv_str = "<li class='server_row' id='server_"+server.id+"'>"+server.players+"/"+server.maxplayers+" - "+truncated_name+" - "+server.desc+"</li>";
+	
+	
+	$("#findserver #selection").append(serv_str);
+}
+
+function serversRefreshComplete()
+{
+	/*$("#findserver #selection").mCustomScrollbar({
+		scrollInertia:111,
+		scrollEasing:"easeOutCirc",
+		advanced:{ updateOnContentResize: true }
+	});*/
+}
 
 	
