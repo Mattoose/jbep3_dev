@@ -145,6 +145,7 @@ var CURRENT_PAGE = false;
 var PAGE_FRONT = false;
 var PAGE_CUSTOMISATION = "player_customization";
 var PAGE_FINDSERVER = "findserver";
+var PAGE_DONATE = "donate";
 
 function changePage( desired_page )
 {
@@ -182,6 +183,7 @@ var menu_options = {
 	"createserver":[ "CREATE SERVER", "Create a local or internet server.", true, false, false ],
 	"customizeplayer":[ "CUSTOMIZE PLAYER", "Change your player model.", true, true, PAGE_CUSTOMISATION ],
 	"options":[ "OPTIONS", "Change game options.", true, true, false ],
+	"donate":[ "DONATE", "Support our mod.", true, true, PAGE_DONATE ],
 	"quit":[ "QUIT", "Quit the game.", true, true, false ]
 };
 
