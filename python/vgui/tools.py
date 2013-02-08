@@ -1,5 +1,5 @@
 from srcbase import KeyValues
-from vgui import GetClientMode, scheme, DataType_t, ipanel
+from vgui import GetClientMode, scheme, DataType_t
 from vgui.controls import Frame, Button, Label, TextEntry, ListPanel, ComboBox, PropertySheet, TreeView
 from gameinterface import engine, concommand
 from input import ButtonCode_t

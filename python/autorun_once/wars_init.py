@@ -1,5 +1,5 @@
 # Some default inits
-# import attributemgr
+#import attributemgr
 
 #if isclient:
 #    import hotkeymgr

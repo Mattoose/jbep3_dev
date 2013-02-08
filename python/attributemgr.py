@@ -1,5 +1,4 @@
 from srcbase import Color
-from core.units import GetUnitInfo
 import playermgr
 from gamerules import GameRules
 from fields import BaseField, GetField
@@ -13,7 +12,6 @@ if isserver:
     from utils import UTIL_GetCommandClient
     from gameinterface import ConCommand, FCVAR_CHEAT
     from entities import GetClassByClassname
-    from core.units import UnitBase
 else:
     from vgui.tools import attributemodifiertool, playermodifiertool
     

@@ -6,7 +6,7 @@ __all__ = ['controls']
 from _vgui import *
 from utils import ScreenWidth, ScreenHeight
 
-gHUD = GetHud()
+#gHUD = GetHud()
 
 def XRES(x): return int( x  * ( ScreenWidth() / 640.0 ) )
 def YRES(y): return int( y  * ( ScreenHeight() / 480.0 ) )
@@ -17,9 +17,3 @@ try:
     HudIcons
 except NameError:
     def HudIcons(): return gHUD
-
-# Alias
-try:
-    Vertex_t
-except NameError:
-    Vertex_t = FontVertex_t

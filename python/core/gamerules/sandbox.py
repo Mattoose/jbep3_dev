@@ -1,7 +1,7 @@
-from base import WarsBaseGameRules
+from base import BaseGamerules
 from info import GamerulesInfo
 
-class Sandbox(WarsBaseGameRules):
+class Sandbox(BaseGamerules):
     def SetupGame(self, gamelobby_players, gamelobby_customfields):
         super(Sandbox, self).SetupGame(gamelobby_players, gamelobby_customfields)
  

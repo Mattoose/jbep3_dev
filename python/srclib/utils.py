@@ -41,7 +41,7 @@ def UTIL_GetPlayers():
     players = []
     for i in range(1, gpGlobals.maxClients+1):
         player = UTIL_PlayerByIndex(i)
-        if player is None or not player.IsConnected():
+        if player is None:
             continue   
         players.append(player)
     return players
