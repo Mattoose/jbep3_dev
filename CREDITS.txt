@@ -58,7 +58,7 @@ Ghillie Combine Playermodel
 Thanks to:
 --------------------------------------
 
-.nicolas & Sandern for saving me a hell of a lot of time!
+.nicolas & Sandern for saving me a hell of a lot of time! (Python & Awesomium)
 MaxOfS2D
 Barley 
 Amplified
