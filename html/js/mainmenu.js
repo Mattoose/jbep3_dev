@@ -178,7 +178,7 @@ var menu_options = {
 	"resume" : [ "RESUME GAME", "Return to the current game.", false, true, false ], // Button text, button desc, display in game.
 	"disconnect":[ "DISCONNECT", "Disconnect from the current game.", false, true, false ],
 	"playerlist":[ "PLAYER LIST", "Other players in the current game.", false, true, false ],
-	"findserver_new":[ "FIND SERVERS (SVEN COOP SERVERS FOR TESTING)", "Find a server.", true, true, PAGE_FINDSERVER, findServerTabOpen ],
+	"findserver_new":[ "FIND SERVERS", "Find a server.", true, true, PAGE_FINDSERVER, findServerTabOpen ],
 	"findservers":[ "FIND SERVERS (CLASSIC)", "Find servers.", true, false, false ],
 	"createserver":[ "CREATE SERVER", "Create a local or internet server.", true, false, false ],
 	"customizeplayer":[ "CUSTOMIZE PLAYER", "Change your player model.", true, true, PAGE_CUSTOMISATION ],

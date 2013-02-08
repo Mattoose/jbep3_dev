@@ -96,7 +96,6 @@ class WarsBaseGameRules(CJBGameRules):
         
     def InitTeams(self):
         super(WarsBaseGameRules, self).InitTeams()
-        print("TEST TEAM")
         TeamRegister( LAST_SHARED_TEAM + 1, "TEST TEAM" )
 
 
@@ -206,6 +205,7 @@ class WarsBaseGameRules(CJBGameRules):
     def SetupPlayer(self, player):
         # First try to apply gamelobby data
         # Otherwise use the first free owner numer
+        print("SETUP PLAYER")
         player.ChangeTeam(LAST_SHARED_TEAM + 1, "Team Test")
                 
 #        if player.GetOwnerNumber() == 0:
