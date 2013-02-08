@@ -1,7 +1,4 @@
-"VertexLitGeneric"
+"VertexlitGeneric"
 {
-	// Original shader: VertexLitTexture
 	"$basetexture" "models/player/hobo/hoboface"
-	//"$envmapsphere" 1
-	"$halflambert" 1
 }
