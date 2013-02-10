@@ -45,7 +45,7 @@ class GamerulesInfoMetaClass(gamemgr.BaseInfoMetaclass):
                 newcls.displayname = displayname.encode('ascii') if displayname else newcls.name
                 
             if newcls.description and newcls.description[0] == '#':
-#                description = localize.Find(newcls.description)
+#                description = localize.`Find(newcls.description)
                 description = newcls.description
                 displayname = newcls.displayname
                 if description:
@@ -103,13 +103,15 @@ def GetGamerulesInfo(gamerules_name):
     except KeyError: 
         return None          
 
-def _LevelInitInstallGamerules():
-    global next_gamerules_name
-    if next_gamerules_name != None:
-        SetGamerules(next_gamerules_name)
+def _LevelInitInstallGamerules( gamemode ):
+    print "!!!!!!!!!!!!!!! INITIALIZING {0} !!!!!!!!!!!!!!!".format(gamemode)
+    SetGamerules(gamemode)
     
 def SetGamerules(gamerules_name, setnext = True):
     global prev_gamerules_name, cur_gamerules_name, next_gamerules_name
+    
+    print "!!!!!!!!!!!!!!! INITIALIZING {0} !!!!!!!!!!!!!!!".format(gamerules_name)
+    
     if gamerules_name is None:
         ClearGamerules()
         return
@@ -122,9 +124,11 @@ def SetGamerules(gamerules_name, setnext = True):
     
     prev_gamerules_name = cur_gamerules_name
     cur_gamerules_name = gamerules_name
+    PrintWarning("Installing\n" )
     InstallGameRules(info.cls)
     
     if GameRules() == None:
+        PrintWarning("Clearing\n" )
         ClearGamerules()
         return
 
@@ -138,7 +142,7 @@ def _PreInitGamerules():
         GameRules().info = info
         
     # Set proxy
-    gamerules.gamerules = GameRules()
+    #gamerules.gamerules = GameRules()
     
     if isserver:
         # Inform clients about the change

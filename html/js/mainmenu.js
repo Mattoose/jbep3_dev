@@ -55,7 +55,7 @@ function setState( state )
 $(document).click( cycleState );
 
 $( function(){
-	setState( IS_ENGINE ? STATE_VIDEO : STATE_MENU ); // If engine, show the video otherwise just skip to menu
+	setState( IS_ENGINE ? STATE_MENU : STATE_MENU ); // If engine, show the video otherwise just skip to menu
 });
 
 /*

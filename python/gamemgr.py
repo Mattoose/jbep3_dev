@@ -351,12 +351,8 @@ def ReLoadGamePackage(package_name):
         
     # Figure out if the player class entity got reloaded. In that case we should respawn the player.
     if isserver:
-        classes = GetClassesForGamepackage(package_name)
-        for d in deps: classes |= GetClassesForGamepackage(d)
-        
         for player in UTIL_GetPlayers():
-            if player.GetClassname() in classes:
-                RespawnPlayer(player, player.GetClassname())
+            RespawnPlayer(player, player.GetClassname())
                 
     '''
     # TODO: Restore all tech
@@ -372,9 +368,9 @@ def ReLoadGamePackage(package_name):
     '''
     
     # Restore hud
-    if isclient:
-        from core.factions import CreateHud
-        CreateHud(CBasePlayer.GetLocalPlayer().GetFaction())
+    #if isclient:
+        #from core.factions import CreateHud
+        #CreateHud(CBasePlayer.GetLocalPlayer().GetFaction())
         
 class GamePackageInfo(object):
     """ Stores info about a game package """

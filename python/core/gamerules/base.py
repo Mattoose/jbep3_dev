@@ -26,7 +26,11 @@ class BaseGamerules(CJBGameRules):
 
     def Think(self):
         """ Updates the gamerules . """
-        
+        if isserver:
+            print "SERVER"
+        else:
+            print "CLIENT"
+            
         self.UpdateVoiceManager()
     
         timelimit = mp_timelimit.GetFloat() * 60

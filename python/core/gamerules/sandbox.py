@@ -11,8 +11,5 @@ class SandBoxInfo(GamerulesInfo):
     description = '#Sandbox_Description'
     cls = Sandbox
     huds = [
-        'core.hud.HudSandbox', 
-        'core.hud.HudDirectControl',
-        'core.hud.HudPlayerNames',
     ]
     allowplayerjoiningame = True

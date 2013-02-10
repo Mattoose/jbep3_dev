@@ -207,28 +207,11 @@ FL_EDICT_ALWAYS = (1<<3)    # always transmit this entity
 FL_EDICT_DONTSEND = (1<<4)  # don't transmit this entity
 FL_EDICT_PVSCHECK = (1<<5)  # always transmit entity, but cull against PVS
 
-# FOW Flags
-FOWFLAG_HIDDEN = ( 1 << 0 ) # Do not draw when in the fog of war
-FOWFLAG_NOTRANSMIT = ( 1 << 1 ) # Do not send data to the clients when in the fog of war (buildings are drawn but not updated for clients when in the fog of war) 
-FOWFLAG_UPDATER = ( 1 << 2 )
-FOWFLAG_INITTRANSMIT = ( 1 << 3 ) # Sends the initial location of the entity to each player (for neutral buildings)
-FOWFLAG_KEEPCOLINFOW = ( 1 << 4 ) # Keep collision on client side even when in the fog of war (specified for neutral buildings)
-
-FOWFLAG_UNITS_MASK = (FOWFLAG_HIDDEN|FOWFLAG_NOTRANSMIT|FOWFLAG_UPDATER)
-FOWFLAG_BUILDINGS_MASK = (FOWFLAG_NOTRANSMIT|FOWFLAG_UPDATER)
-FOWFLAG_BUILDINGS_NEUTRAL_MASK = (FOWFLAG_NOTRANSMIT|FOWFLAG_UPDATER|FOWFLAG_INITTRANSMIT|FOWFLAG_KEEPCOLINFOW)
-FOWFLAG_ALL_MASK = (FOWFLAG_HIDDEN|FOWFLAG_NOTRANSMIT|FOWFLAG_UPDATER)
-
 # Entity disolve types
 ENTITY_DISSOLVE_NORMAL = 0
 ENTITY_DISSOLVE_ELECTRICAL = 1
 ENTITY_DISSOLVE_ELECTRICAL_LIGHT = 2
 ENTITY_DISSOLVE_CORE = 3
-
-# Density map constants (Use with SetDensityType)
-DENSITY_GAUSSIAN = 0 # Use a 2d gaussian function. Sigma based on BoundingRadius. Use for simply objects.
-DENSITY_GAUSSIANECLIPSE = 1 # Uses mins/maxs, for rectangle shaped objects (buildings, rectangle shaped crap).
-DENSITY_NONE = 2
 
 # BaseAnimating flags
 BCF_NO_ANIMATION_SKIP = ( 1 << 0 ) # Do not allow PVS animation skipping (mostly for attachments being critical to an entity)
@@ -260,11 +243,7 @@ TRACER_LINE = 1
 TRACER_RAIL = 2
 TRACER_BEAM = 3
 TRACER_LINE_AND_WHIZ = 4
-
-# Density
-DENSITY_GAUSSIAN = 0 # Use a 2d gaussian function. Sigma based on BoundingRadius.
-DENSITY_GAUSSIANECLIPSE = 1 # Uses mins/maxs, for rectangle shaped objects (buildings).
-DENSITY_NONE = 2 # Disables density map (default)
+TRACER_WHIZ_ONLY = 5
 
 if isclient:
     # Transmit flags
@@ -279,60 +258,4 @@ def FClassnameIs(entity, classname):
     if not entity:
         return False
     return entity.GetClassname() == classname
-                              
-# Some default entities 
-# TODO: Move them to somewhere else
-if isserver:
-    # Entity similar to CBaseTrigger
-    class CTriggerArea(CBaseEntity):
-        def __init__(self):
-            super(CTriggerArea, self).__init__()
-            
-            self.touchingents = []
-            
-        def Spawn(self):
-            self.SetSolid(SOLID_BBOX)
-            self.AddSolidFlags(FSOLID_NOT_SOLID)
-
-            super(CTriggerArea, self).Spawn()
-            
-            if self.startdisabled:
-                self.Disable()
-            else:
-                self.Enable()
-            
-        def Enable(self):
-            self._disabled = False
-            
-            if self.VPhysicsGetObject():
-                self.VPhysicsGetObject().EnableCollisions( True )
-
-            if not self.IsSolidFlagSet(FSOLID_TRIGGER):
-                self.AddSolidFlags(FSOLID_TRIGGER)
-                self.PhysicsTouchTriggers()
-        
-        def Disable(self):
-            self._disabled = True
-            self.touchingents = []
-            
-            if self.VPhysicsGetObject():
-                self.VPhysicsGetObject().EnableCollisions(False)
-
-            if self.IsSolidFlagSet(FSOLID_TRIGGER):
-                self.RemoveSolidFlags(FSOLID_TRIGGER)
-                self.PhysicsTouchTriggers()
-        
-        def StartTouch(self, ent):
-            if not self._disabled:
-                self.touchingents.append(ent.GetHandle())
-        
-        def EndTouch(self, ent):
-            try:
-                self.touchingents.remove(ent.GetHandle())
-            except ValueError:
-                pass
-                
-        _disabled = False
-        startdisabled = BooleanField(value=False, keyname='StartDisabled')
-
         
