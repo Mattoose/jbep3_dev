@@ -1,11 +1,14 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "models/weapons/v_p90/v_p90"
-	"$bumpmap" 		"models/player/bigboss/flat_normal"
-	"$phong" "1"
-	"$phongboost" ".05"
-	"$phongexponent" 10
-	"$phongexponenttexture"	"models/weapons/v_p90/v_p90_spec"
-	"$phongalbedotint" "1"								
-	"$phongfresnelranges"	"[.1 .5 1]"
+	"$bumpmap" 		"models/weapons/v_p90/v_p90_normal"
+ 	 "$envmap" "env_cubemap"
+	 "$envmaptint" "[.02 .02 .02]"
+   	 "$envmapsaturation" .5
+  	  "$model" 1
+
+   	 "$phong" "1"
+   	 "$phongexponent" "10"
+   	 "$phongboost"    ".7"
+   	 "$phongfresnelranges"    "[2 4 1]"
 }
