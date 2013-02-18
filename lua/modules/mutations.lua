@@ -9,6 +9,7 @@ local con = con
 local table = table
 local type = type
 local pairs = pairs
+local Warning = Warning
 
 module("mutations")
 
@@ -27,7 +28,7 @@ function call( func, mut, ... )
 	local status, results = pcall( mut[func], mut, ... )
 	
 	if ( not status ) then 	
-		con.Warning( "[Lua] Failed to load \""..tostring(func).."\" (".. results ..")" )
+		Warning( "[Lua] Failed to load \""..tostring(func).."\" (".. results ..")" )
 		return nil		
 	end
 	

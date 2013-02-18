@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"		"_rt_test1"
-	"$translucent"		"1"
-	"$no_fullbright"		"1"
-	"$ignorez"		"1"
-}

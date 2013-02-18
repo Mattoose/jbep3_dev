@@ -9,9 +9,9 @@ include("shared.lua")
 -- Called on gamemode load.
 --
 function BASE:Initialize()
-	con.Msg("------------------------------")
-	con.Msg("Loaded mutation: "..MUTATION.Title)
-	con.Msg("------------------------------")
+	Msg("------------------------------")
+	Msg("Loaded mutation: "..MUTATION.Title)
+	Msg("------------------------------")
 end
 
 --
@@ -122,7 +122,7 @@ function BASE:SelectSpawnPoint( pPlayer )
 			for iSpawnKey,sSpawnName in pairs( tSpawnList ) do
 				local tResults = ent.FindByClassname( sSpawnName )
 				if ( #tResults > 0 ) then					
-					con.Warning(" DEBUG: Spawn Setup - Found "..#tResults.." "..sSpawnName.." spawns.");
+					Warning(" DEBUG: Spawn Setup - Found "..#tResults.." "..sSpawnName.." spawns.");
 					for _,spawnEnt in pairs( tResults ) do
 						table.insert( possibleSpawns[ iTeamIndex ], spawnEnt );
 					end					
@@ -130,19 +130,17 @@ function BASE:SelectSpawnPoint( pPlayer )
 			end	
 		end		
 		
-	
 		checkedSpawns = true
 		
 	end
 
 	if ( not pPlayer or not pPlayer:IsPlayer() ) then return nil end
 	
-	local iTeam = pPlayer:GetTeam();
-	
+	local iTeam = pPlayer:GetTeam()	
 	local tTeamSpawns = possibleSpawns[ iTeam ]
 	
 	if ( #tTeamSpawns == 0 ) then
-		con.Warning("Unable to find a valid spawn...");
+		Warning("Unable to find a valid spawn...");
 		tTeamSpawns = ent.FindByClassname( "info_player_start" )
 	
 		if ( #tTeamSpawns == 0 ) then 		
@@ -150,12 +148,8 @@ function BASE:SelectSpawnPoint( pPlayer )
 		end 
 	end
 	
-	local lastSpawnIndex = spawnHistory[ iTeam ] or 1
-	
-	local selectedSpawnEntity = tTeamSpawns[ lastSpawnIndex ]
-	
-	--con.Warning("Selecting spawn ".. lastSpawnIndex .." from ".. #tTeamSpawns .." possible spawns.");
-	
+	local lastSpawnIndex = spawnHistory[ iTeam ] or 1	
+	local selectedSpawnEntity = tTeamSpawns[ lastSpawnIndex ]	
 	lastSpawnIndex = lastSpawnIndex + 1
 	
 	if ( lastSpawnIndex > #tTeamSpawns ) then lastSpawnIndex = 1 end -- Reached the end, loop back.

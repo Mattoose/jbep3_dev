@@ -1,11 +1,6 @@
--- Title of the mutation, used in game description unless overridden
 BASE.Title = "Base Mutation"
-BASE.GameRules = "CJBGameRules"
 
-BASE.Help = [[BASE MESSAGE]]
-
--- Custom teams start from TEAM_CUSTOM... or else.
-TEAM_PLAYERS 	= 	TEAM_CUSTOM
+TEAM_PLAYERS 	= 	FIRST_GAME_TEAM
 
 -- Set up spawns for the teams.
 BASE.SpawnPoints = {}
@@ -16,8 +11,4 @@ function BASE:SetupTeams()
 	-- We don't need to set up spectator teams.
 	teams.Register( TEAM_PLAYERS, "Players", Colour( 255, 50, 50 ) )
 	
-end
-
-function BASE:PlayerRelationship( pPlayer)
-
 end
