@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\bigboss/sna_mgs3_belt"
+	$halflambert 1
+}

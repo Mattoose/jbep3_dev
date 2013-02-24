@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\bigboss/sna_snif_def"
+	$halflambert 1
+}

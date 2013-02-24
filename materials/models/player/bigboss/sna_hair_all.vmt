@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\bigboss/sna_hair_all"
+	$halflambert 1
+	$translucent 1
+	$nocull 1
+}

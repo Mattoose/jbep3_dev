@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\bigboss/eyeball"
+	"$bumpmap" "models/player/bigboss/eyeball_n"
+	$halflambert 1
+
+                "$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.1 0.2 1]"
+	$envmap "models/player/bigboss/eye-reflection-cubemap-"
+	"$nocull" 1 		
+	"$blendtintbybasealpha" 1
+}
