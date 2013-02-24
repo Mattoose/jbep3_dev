@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+$basetexture "models\ocelot\black"
+$bumpmap "models\ocelot\blank_n"
+$nocull "1"
+
+$phong 1
+$phongboost ".007"
+$phongexponent .5
+$phongtint "[.85 .85 1]"
+$phongfresnelranges "[1 1 1]"
+$nodecal 1
+}

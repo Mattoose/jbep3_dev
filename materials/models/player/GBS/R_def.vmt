@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\GBS\R_def"
+
+
+ 	"$halflambert"		"1"
+
+	"$phong"			"1"
+	"$phongboost"		"1"
+	"$phongfresnelranges"	"[0.01]"
+	"$phongexponent"		"20"
+	"$phongalbedotint"		"1"
+}

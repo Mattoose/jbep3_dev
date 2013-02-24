@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\player\gbs\hands_glove"
+                "$bumpmap" "models\player\gbs\hands_glove_n"
+	"$halflambert" 1
+	"$nocull" 1
+}

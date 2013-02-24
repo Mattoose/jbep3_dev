@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\ocelot\UBCS_Gloves_Black"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phong" "1"
+	"$phongexponent" "12"
+	"$phongboost"	".6"
+	"$phongfresnelranges"	"[0.25 0.5 1]"
+}

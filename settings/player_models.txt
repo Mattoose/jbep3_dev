@@ -289,6 +289,7 @@
 	{
 		"model" 	"models/player/bigboss.mdl"
 		"name"		"Big Boss"
+		"deathsound"	"JB.Death_Custom_Solid_Snake"
 	}
 		
 	clot
@@ -319,6 +320,12 @@
 	{
 		"model" 	"models/player/ocelot.mdl"
 		"name"		"Ocelot"
+	}
+	
+		ocelotunit
+	{
+		"model" 	"models/player/ocelot_unit.mdl"
+		"name"		"Ocelot Unit"
 	}
 	
 	sniper

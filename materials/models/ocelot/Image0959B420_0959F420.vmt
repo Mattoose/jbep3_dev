@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\ocelot\Image0959B420_0959F420"
+	"$halflambert" "1"	
+
+	"$phong" "0"
+//	"$phongexponent" 5
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[ .3 1.2 8]"
+//	"$PhongAlbedoTint" "1"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "8"				
+	"$rimlightboost" ".3"
+	"$rimmask" "1"
+}
+
+
+
