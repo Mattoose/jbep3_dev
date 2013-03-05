@@ -16,5 +16,6 @@ $envmaptint "[.08 .08 .08]"
 $envmapFresnelMinMaxExp "[.1 .1 .1]"
 $halflambert 1
 $phongalbedotint 1
+$nocull 1
 }
 
