@@ -11,6 +11,7 @@ Project Lead
 Programming
 - damn chimera
 - jimbomcb
+- SteveUK
 
 Mapping
 - Megafan
