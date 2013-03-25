@@ -6,7 +6,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"					"#jb_weapon_fists"
 	"viewmodel"					"models/weapons/v_punch.mdl"
-	"playermodel"				"models/weapons/w_knife.mdl"
+	"playermodel"				""
 	"PlayerAnimationExtension"	"crowbar"
 
 	"fov"					"60"
