@@ -3,7 +3,7 @@ WeaponData
 	// Weapon characteristics:
 	"Damage"			"22"
 	"Bullets"			"9"
-	"CycleTime"			"0.85"
+	"CycleTime"			"0.2"
 
 	"BuiltRightHanded"		"1"
 	
@@ -34,6 +34,7 @@ WeaponData
 		//"reload"			"Default.Reload"
 		//"empty"			"Default.ClipEmpty_Rifle"
 		"single_shot"			"Weapon_M3.Single"
+		"special1"				"Weapon_M3.Pump"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
