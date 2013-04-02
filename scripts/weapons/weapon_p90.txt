@@ -34,6 +34,25 @@ WeaponData
 	"magazine_force_right"		"-80" 
 	"magazine_force_up"			"-10"
 
+	Recoil
+	{
+		"ViewPunch"
+		{
+			"MinX"	"-0.2"
+			"MaxX"	"0.2"
+			"MinY"	"-0.1"
+			"MaxY"	"0.1"
+		}
+		
+		"Kick"
+		{
+			"MinY"	"-2.0"
+			"MaxY"	"2.0"
+			"MinX"	"2.0"
+			"MaxX"	"4.0"
+		}
+	}
+	
 	SoundData
 	{
 		"single_shot"		"Weapon_P90.Single"
