@@ -1,119 +1,22 @@
 "Resource/HudLayout.res"
 {
-
-	VotingMenu
-	{
-		"fieldName"		"VotingMenu"
-		//"xpos"	"350"
-		//"ypos"	"0"
-		//"wide"	"250"
-		//"tall"  	"350"
-		"xpox"		"0"
-		"ypos"		"0"
-		"wide"		"210"
-		"tall"		"480"
-		"visible" "1"
-		"enabled" "1"	
-
-		BackgroundWidth		200
-	}
-	
-	Radar
-	{
-		"fieldName"		"Radar"
-		"xpos"	"r260"
-		"ypos"	"10"
-		"wide"	"250"
-		"tall"  	"150"
-		//"xpos"	"0"
-		//"ypos"	"0"
-		//"wide"	"f0"
-		//"tall"  	"480"
-		"visible" "1"
-		"enabled" "1"
-		
-		"PlayerViewconeDistanceStart"	"80"
-		"PlayerViewconeDistance"		"380"
-		"PlayerViewconeDuration"		"1.9"
-		"PlayerIconSize"				"4"
-		"PlayerViewconeDrawSelf"		"0"
-		"PlayerViewconeColor"			"0 255 0"
-		"PlayerViewconeAngle"			"90"
-		
-		"VisibleOutlineAlpha"		"255"
-		"VisibleOutlineAlphaFaded"	"150"
-		"VisibleOutlineColor"		"245 200 71"
-		
-		"VisibleBackgroundColor"	"81 46 6 80"
-		
-		"BackgroundColor"			"124 92 49 200"
-		
-		"AutoZoomBorder"			"250"
-		
-	}
-	
-	RoundIntro	
-	{
-		"fieldName"				"RoundIntro"
-		
-		"MainStart"				"0.35"
-		"MainHeight"				"45"
-		
-		"BorderHeight"			"2"
-		
-		"TitleFont"				"HudRoundIntroTitle"
-		
-		"SubTitleFont"			"HudRoundIntroSubTitle"
-		
-		"ImageHeight"			"180"
-	}
-	
-	JBHudScope	
-	{
-		"fieldName"				"JBHudScope"
-	}
-	
-	JBHudHitsounds	
-	{
-		"fieldName"				"JBHudHitsounds"
-	}
-	
-	JBHudTimeLeft
-	{
-		"fieldName"		"JBHudTimeLeft"
-		
-		"wide"	 "f0"
-		"tall"	 "480"
-		
-		"visible" "1"
-		"enabled" "1"
-		
-		"TextFont"		"Trebuchet24"
-		"YPadding"	"0"
-		
-	}
-	
 	HudHealth
 	{
 		"fieldName"		"HudHealth"
-		"xpos"	"10"
-		"ypos"	"r50"
-		"wide"	"250"
-		"tall"  	"40"
+		"xpos"	"16"
+		"ypos"	"432"
+		"wide"	"102"
+		"tall"  "36"
 		"visible" "1"
 		"enabled" "1"
 
-		HealthIconX	5
-		HealthIconW	90
-		HealthIconH	90
+		"PaintBackgroundType"	"2"
 		
-		PaddingIconToText 		10
-		PaddingText 			0
-		
-		HealthNumbersX		100
-		HealthNumbersHeight 	80
+		"text_xpos" "8"
+		"text_ypos" "20"
+		"digit_xpos" "50"
+		"digit_ypos" "2"
 	}
-	
 	overview
 	{
 		"fieldname"				"overview"
@@ -137,31 +40,28 @@
 	HudSuit
 	{
 		"fieldName"		"HudSuit"
-		"xpos"	"130"
-		"ypos"	"r50"
-		"wide"	"250"
-		"tall"  	"40"
+		"xpos"	"140"
+		"ypos"	"432"
+		"wide"	"108"
+		"tall"  "36"
 		"visible" "1"
 		"enabled" "1"
 
-		HealthIconX	5
-		HealthIconW	90
-		HealthIconH	90
-		
-		PaddingIconToText 		10
-		PaddingText 			0
-		
-		HealthNumbersX		100
-		HealthNumbersHeight 	80
+		"PaintBackgroundType"	"2"
+
+		"text_xpos" "8"
+		"text_ypos" "20"
+		"digit_xpos" "50"
+		"digit_ypos" "2"
 	}
 
 	HudAmmo
 	{
 		"fieldName" "HudAmmo"
-		"xpos"	"r120"
-		"ypos"	"r50"
-		"wide"	"120"
-		"tall"  "40"
+		"xpos"	"r150"
+		"ypos"	"432"
+		"wide"	"136"
+		"tall"  "36"
 		"visible" "1"
 		"enabled" "1"
 
@@ -173,20 +73,24 @@
 		"digit_ypos" "2"
 		"digit2_xpos" "98"
 		"digit2_ypos" "16"
-		
-		"PaddingBetweenAmmos"	"20"
-		"Ammo2Scale"	"1.35"
 	}
 
 	HudAmmoSecondary
 	{
 		"fieldName" "HudAmmoSecondary"
-		"xpos"	"r60"
-		"ypos"	"r90"
+		"xpos"	"r76"
+		"ypos"	"432"
 		"wide"	"60"
-		"tall"  "40"
+		"tall"  "36"
 		"visible" "1"
 		"enabled" "1"
+
+		"PaintBackgroundType"	"2"
+
+		"text_xpos" "8"
+		"text_ypos" "22"
+		"digit_xpos" "36"
+		"digit_ypos" "2"
 	}
 	
 	HudSuitPower
@@ -273,24 +177,24 @@
 		"fieldName" "HudVoiceStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r150"
+		"xpos" "r200"
 		"ypos" "0"
 		"wide" "100"
 		"tall" "400"
 
-		"item_tall"	"18"
+		"item_tall"	"24"
 		"item_wide"	"100"
 
-		"item_spacing" "1"
+		"item_spacing" "2"
 
 		"icon_ypos"	"0"
 		"icon_xpos"	"0"
-		"icon_tall"	"18"
-		"icon_wide"	"18"
+		"icon_tall"	"24"
+		"icon_wide"	"24"
 
-		"text_xpos"	"5"
+		"text_xpos"	"26"
 
-		"PaintBackgroundType" "3"
+		"PaintBackgroundType" "0"
 	}
 	
 	HudDamageIndicator
@@ -323,67 +227,24 @@
 	HudWeaponSelection
 	{
 		"fieldName" "HudWeaponSelection"
-		"ypos" 	"8"	[$WIN32]
+		"ypos" 	"16"	[$WIN32]
+		"ypos" 	"32"	[$X360]
 		"visible" "1"
 		"enabled" "1"
-		
-		"CategoryFont"	"Trebuchet24"
-		"CategoryColor"	"255 170 0 220"
-		"CategoryOffsetX"	"0"
-		"CategoryOffsetY"	"0"
-		
-		"CategorySelectionColor"	"255 170 0 255"
-		"CategorySelectionColor2"	"81 46 6 255"
-		"CategorySelectionBorder"	"2"
-		"CategoryFadeBias"	"0.7"
-		"CategoryFadeMinimum"	"0"
-		"CategoryInactiveRowTotalBoxes"	"5" // How many boxes should we display MAX in inactive rows
-		"CategoryInactiveRowFadeMinimum"	"0.25"
-		
-		"BoxOffsetX"			"25"
-		"BoxOffsetY"			"15"
-		
-		"BoxWidth"			"85"
-		"BoxHeight"			"30"
-		"BoxAlpha"			"185"
-		"BoxAlphaNoAmmo"			"50"
-		"BoxColor"			"124 92 49 255"
-		"BoxColorNoAmmo"		"124 92 49 255"
-		//"BoxColorNoAmmo"		"255 0 0 255"
-		
-		"BoxWidthPadding"			"4"
-		"BoxHeightPadding"		"4"
-		
-		"BoxBottomHeight"		"15"
-		"BoxBottomPadding"	"2"
-		"BoxBottomColor"		"81 46 6 255"
-		"BoxBottomAlphaBias"	"0.75"
-		
-		"BoxRightWidth"		"10"
-		"BoxRightPadding"		"2"
-		"BoxRightColor"		"245 200 71 255"
-		"BoxRightColorNoAmmo"		"245 200 71 255"
-		//"BoxRightColorNoAmmo"		"224 54 54 255"
-		
-		"WeaponNameOffsetY"	"0"
-		
-		"BoxTextAlphaBias"	"0.8"
-		
-		"BoxNotInSelectionScale"	"1.35" // Scale of the box when we're not selecting
-		"BoxInSelectionScale"	"1.0" // And the scale of the boxes when we're selecting
-		
-		"BoxIconAlphaBias"	"0.8"
-		"BoxIconScale"		"0.95"
-		"BoxIconScaleSelection"	"1.0"
-		"BoxIconAlpha"		"240"
-		"BoxIconAlphaNoAmmo"	"50"
-				
-		"AmmoFont"				"HudWepSelectAmmoBig"
-		"AmmoFontSelection"		"HudWepSelectAmmoSmall"
-		"AmmoColor"				"245 200 71 255"
-		"AmmoOffsetX"				"-2"
-		
-		"TextFont"				"HudWepSelectName"
+		"SmallBoxSize" "32"
+		"MediumBoxWide"	"95"
+		"MediumBoxWide_hidef"	"78"
+		"MediumBoxTall"	"50"
+		"MediumBoxTall_hidef"	"50"
+		"MediumBoxWide_lodef"	"74"
+		"MediumBoxTall_lodef"	"50"
+		"LargeBoxWide" "112"
+		"LargeBoxTall" "80"
+		"BoxGap" "8"
+		"SelectionNumberXPos" "4"
+		"SelectionNumberYPos" "4"
+		"SelectionGrowTime"	"0.4"
+		"TextYPos" "64"
 	}
 
 	HudCrosshair
@@ -401,13 +262,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"wide"	 "f0"
-		"tall"	 "800"
-		"LineHeight" "15"
-		"HeightPadding" "2"
-		"LineSpacing"	"1"
-		"MaxDeathNotices"	"6"
-		"CornerRadius"		"2"
-		"IconWidthPadding"	"5"
+		"tall"	 "400"
 	}
 
 	HudVehicle
@@ -419,20 +274,13 @@
 		"tall"	 "480"
 	}
 
-	Scores
+	ScorePanel
 	{
-		"fieldName" "Scores"
+		"fieldName" "ScorePanel"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "400"
+		"wide"	 "f0"
 		"tall"	 "480"
-		
-		//"avatar_width"	"80"
-		//"name_width"		"136"
-		//"class_width"		"35"
-		//"score_width"		"35"
-		//"death_width"		"35"
-		//"ping_width"		"23"
 	}
 
 	HudTrain
@@ -735,49 +583,4 @@
 		"wide"					"f60"	[$X360]
 		"tall"					"100"
 	}
-	
-	JBHudAnnouncer	
-	{
-		"fieldName"				"JBHudAnnouncer"
-	}
-		
-	HudObjectives
-	{
-		"fieldName" "HudObjectives"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "f0"
-		"tall"	 "480"
-	}
-	
-	HudPings
-	{
-		"fieldName" "HudPings"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "f0"
-		"tall"	 "480"
-	}	
-	
-	HudHealthMGS
-	{
-		//"fieldName"		"HudHealthMGS"
-		"xpos"	"10"
-		"ypos"	"20"
-		"wide"	"640"
-		"tall"  	"480"
-		"visible" "1"
-		"enabled" "1"
-		"BarScale"	"1.0"
-
-	}
-	
-	HudAwesomium
-	{
-		"fieldName" "HudAwesomium"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "f0"
-		"tall"	 "480"
-	}	
 }

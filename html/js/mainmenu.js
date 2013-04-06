@@ -76,12 +76,12 @@ function switchToIntroVideo()
 			
 function switchFromIntroVideo()
 {
-	if ( IS_ENGINE && !IN_GAME )
-		MENU.playMenuMusic();
-	
 	var introVideo = $('#video video').get(0);			
 	introVideo.pause();
 	$("#video").hide();
+	
+	if ( IS_ENGINE && !IN_GAME )
+		MENU.playMenuMusic();
 }
 
 /*
@@ -158,13 +158,13 @@ function changePage( desired_page )
 		
 	if ( desired_page != PAGE_FRONT ) 
 	{
-		$("#menu #links").animate({"width":"0px"},500);
-		$("#menu #"+desired_page).animate({"left":"6%"},500);		
+		$("#menu #links").animate({"width":"0px"},250);
+		$("#menu #"+desired_page).animate({"left":"6%"},250);		
 	}
 	else
 	{
-		$("#menu #"+CURRENT_PAGE).animate({"left":"106%"},500);	
-		$("#menu #links").animate({"width":"90%"},500);	
+		$("#menu #"+CURRENT_PAGE).animate({"left":"106%"},250);	
+		$("#menu #links").animate({"width":"90%"},250);	
 	}
 	
 	//$("#menu #links").animate({"width":"0px"},500);
@@ -415,6 +415,15 @@ function updateGameState(state) // Called when we change from menu to ingame or 
 	
 	if ( IN_GAME )
 		setState(STATE_MENU); // Switch to menu straight away, skip any videos playing.
+		
+	// If we're not in game, play our music. If we are, stop music.
+	if ( IS_ENGINE )
+	{
+		if ( IN_GAME )		
+			MENU.stopMenuMusic();
+		else
+			MENU.playMenuMusic();
+	}
 }
 
 /* 
