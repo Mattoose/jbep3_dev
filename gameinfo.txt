@@ -27,21 +27,22 @@
 	{
 		SteamAppId				630		// GCF for ASW
 		ToolsAppId				211		// Tools will load this (ie: source SDK caches) to get things like materials\debug, materials\editor, etc.
-		//AdditionalContentId		240
-		//AdditionalContentId		320
 
 		SearchPaths
 		{
 			Game				|gameinfo_path|.
+			
 			
 			Game				"swarm"
 			Game				"swarm_tempcontent"
 			Game				"swarm_base"
 			Game				platform
 			
-			//Game				|all_source_engine_paths|hl2mp
-			//Game				|all_source_engine_paths|hl2
-			//Game				|all_source_engine_paths|cstrike
+			game				"../../common/Half-Life 2 Deathmatch/hl2mp"
+			game				"../../common/Half-Life 2 Deathmatch/hl2"
+			
+			game				|all_source_engine_paths|hl2
+			platform			|all_source_engine_paths|platform
 		}
 	}
 }
