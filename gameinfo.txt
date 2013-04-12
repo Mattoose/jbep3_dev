@@ -38,6 +38,10 @@
 			Game				"swarm_base"
 			Game				platform
 			
+			game				"../../sourcemods/jbep3_content/cstrike"
+			game				"../../sourcemods/jbep3_content/hl2mp"
+			game				"../../sourcemods/jbep3_content/hl2"
+			
 			game				"../../common/Half-Life 2 Deathmatch/hl2mp"
 			game				"../../common/Half-Life 2 Deathmatch/hl2"
 			
