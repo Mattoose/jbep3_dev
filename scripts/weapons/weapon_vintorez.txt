@@ -3,7 +3,7 @@ WeaponData
 	// Weapon characteristics:
 	"Damage"				"100"		// damage per bullet while scoped, scaled down for non-scope shots
 	"Bullets"				"1"			// bullets per shoot
-	"CycleTime"				"0.15"		// time between shoots
+	"CycleTime"				"0.2"		// time between shoots
 
 	"BuiltRightHanded"		"1"
 	
@@ -31,7 +31,7 @@ WeaponData
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"single_shot"			"Weapon_MosinNagant.Fire"
+		"single_shot"		"Weapon_Ruger.Single"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
