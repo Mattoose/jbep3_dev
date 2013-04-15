@@ -827,8 +827,8 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"18"
+				"name"		"Verdana"
+				"tall"		"14"
 				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
@@ -888,6 +888,19 @@ Scheme
 				"weight"	"700"
 				"yres"	"1200 10000"
 				"dropshadow"	"1"
+			}
+		}
+		
+		"TargetID"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
 			}
 		}
 	}
