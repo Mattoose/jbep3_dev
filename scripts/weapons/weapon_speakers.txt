@@ -13,8 +13,8 @@ WeaponData
 	"playermodel"			"models/weapons/w_357.mdl"
 	"PlayerAnimationExtension"	"mp5"
 	
-	"bucket"				"3"
-	"bucket_position"		"5"
+	"bucket"				"7"
+	"bucket_position"		"2"
 
 	"clip_size"				"-1"
 	"NumClips"				"0"

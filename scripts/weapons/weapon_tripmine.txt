@@ -14,8 +14,8 @@ WeaponData
 	"default_clip"			"-1"
 	"default_clip2"			"-1"
 
-	"weight"				"1"
-	"item_flags"			"2"
+	"weight"				"5"
+	"item_flags"			"1"
 	
 	// Weapon Sprite data is loaded by the Client DLL.
 	TextureData

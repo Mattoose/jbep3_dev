@@ -14,7 +14,7 @@ WeaponData
 	"fov"				"60"
 
 	"bucket"			"4"
-	"bucket_position"		"4"
+	"bucket_position"		"12"
 
 	"clip_size"			"-1"
 	"default_clip"			"0"

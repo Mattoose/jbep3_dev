@@ -12,7 +12,7 @@ WeaponData
 	"viewmodel"					"models/weapons/v_vintorez.mdl"
 	"playermodel"				"models/weapons/w_vintorez.mdl"
 	
-	"bucket"				"3"
+	"bucket"				"6"
 	"bucket_position"		"1"
 
 	"clip_size"				"10"

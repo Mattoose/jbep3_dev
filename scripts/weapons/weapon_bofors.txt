@@ -13,8 +13,8 @@ WeaponData
 	"playermodel"				"models/weapons/w_smg_mp5.mdl"
 	"PlayerAnimationExtension"	"mp5"
 	
-	"bucket"			"3"
-	"bucket_position"		"3"
+	"bucket"			"7"
+	"bucket_position"		"1"
 
 	"clip_size"				"-1" //How big is the clip? -1 = doesn't use clips.
 	"default_clip"			"1"

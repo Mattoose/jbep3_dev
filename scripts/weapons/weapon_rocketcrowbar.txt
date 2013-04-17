@@ -14,7 +14,7 @@ WeaponData
 	"fov"					"66"
 
 	"bucket"				"0"
-	"bucket_position"		"1"
+	"bucket_position"		"2"
 
 	"clip_size"				"-1"
 	"primary_ammo"			"None"

@@ -12,7 +12,7 @@ WeaponData
 	"BuiltRightHanded"		"1"
 	"fov"					"65"
 
-	"bucket"			"5"
+	"bucket"			"4"
 	"bucket_position"		"3"
 
 	"clip_size"			"-1"

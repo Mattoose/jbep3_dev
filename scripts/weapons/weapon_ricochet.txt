@@ -11,8 +11,8 @@ WeaponData
 
 	"BuiltRightHanded"		"1"
 
-	"bucket"				"5"
-	"bucket_position"		"15"
+	"bucket"				"4"
+	"bucket_position"		"5"
 
 	"clip_size"				"-1"
 	"default_clip"			"999"

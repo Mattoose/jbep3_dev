@@ -12,7 +12,7 @@ WeaponData
 	"viewmodel"					"models/weapons/v_mosin.mdl"
 	"playermodel"				"models/weapons/w_mosin.mdl"
 	
-	"bucket"				"3"
+	"bucket"				"6"
 	"bucket_position"		"0"
 
 	"clip_size"				"5"
