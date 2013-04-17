@@ -1,5 +1,17 @@
 particles_manifest
 {
+	// From HL2
+	"file"		"particles/error.pcf"
+	"file"		"particles/antlion_blood.pcf"
+	"file"		"particles/blood_impact.pcf"
+	"file"		"particles/water_impact.pcf"
+	"file"		"particles/vortigaunt_fx.pcf"
+	"file"		"particles/rocket_fx.pcf"
+	"file"		"particles/weapon_fx_hl2.pcf"
+	"file"		"particles/burning_fx.pcf"
+	"file"		"particles/fire_01.pcf"
+	//"file"		"particles/combineball.pcf"
+		
 	"file"		"!particles/jb_death_explode.pcf"
 	"file"		"!particles/jb_proj_sci.pcf"
 	"file"		"!particles/impact_fx.pcf"
