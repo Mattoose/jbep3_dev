@@ -39,7 +39,7 @@ Sound
 Art
 - Rusty100
 
-Includes code from Half-Life 2 Wars, used with a CC BY-NC 3.0 license.
+Includes code from Half-Life 2 Wars by Sandern, used with a CC BY-NC 3.0 license.
 
 --------------------------------------
 Asset Credits:
@@ -59,7 +59,8 @@ Ghillie Combine Playermodel
 Thanks to:
 --------------------------------------
 
-.nicolas & Sandern for saving me a hell of a lot of time! (Python & Awesomium)
+.nicolas
+Sandern
 MaxOfS2D
 Barley 
 Amplified

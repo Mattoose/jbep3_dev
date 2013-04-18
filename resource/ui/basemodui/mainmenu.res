@@ -156,34 +156,7 @@
 		"command"				"FlmExtrasFlyoutCheck"
 		"EnableCondition"		"Never" [$DEMO]
 	}
-
-	"BtnQuit"
-	{
-		"ControlName"			"BaseModHybridButton"
-		"fieldName"				"BtnQuit"
-		"xpos"					"100"
-		"ypos"					"310"   [$X360]
-		"ypos"					"310"	[$WIN32]
-		"wide"					"180"
-		"tall"					"13"
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"0"		[$X360]
-		"visible"				"1"		[$WIN32]
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"navUp"					"BtnExtras"
-		"navDown"				"PnlQuickJoin" [$WIN32]
-		"navDown"				"BtnGameModes" [$X360]
-		"style"					"AlienSwarmMenuButtonSmall"
-		"ActivationType"		"1"
-		"labelText"				"#L4D360UI_MainMenu_Quit"			[$WIN32]
-		"tooltiptext"			"#L4D360UI_MainMenu_Quit_Tip"		[$WIN32]
-		"labelText"				"#L4D360UI_MainMenu_QuitDemo"		[$X360]
-		"tooltiptext"			"L4D360UI_MainMenu_QuitDemo_Tip"	[$X360]
-		"command"				"QuitGame"
-	}
-
+	
 	"FlmCampaignFlyout"
 	{
 		"ControlName"			"FlyoutMenu"
