@@ -76,4 +76,42 @@
 		"navUp"					""
 		"navDown"				""
 	}
+	
+	
+	"BtnOptions"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnOptions"
+		"xpos"					"100"
+		"ypos"					"265"
+		"wide"					"180"
+		"tall"					"13"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"navUp"					"BtnStatsAndAchievements"
+		"navDown"				"BtnExtras"
+		"labelText"				"#L4D360UI_MainMenu_Options"
+		"tooltiptext"			"#L4D360UI_MainMenu_Options_Tip"
+		"style"					"AlienSwarmMenuButtonSmall"
+		"command"				"FlmOptionsFlyout"			[!$X360GUEST]
+		"command"				"FlmOptionsGuestFlyout"		[$X360GUEST]	
+		"ActivationType"		"1"
+	}
+	
+	
+	"FlmOptionsFlyout"
+	{
+		"ControlName"			"FlyoutMenu"
+		"fieldName"				"FlmOptionsFlyout"
+		"visible"				"0"
+		"wide"					"0"
+		"tall"					"0"
+		"zpos"					"3"
+		"InitialFocus"			"BtnAudioVideo"	[$X360]
+		"InitialFocus"			"BtnVideo"	[$WIN32]
+		"ResourceFile"			"resource/UI/basemodui/OptionsFlyout.res"
+	}
 }
