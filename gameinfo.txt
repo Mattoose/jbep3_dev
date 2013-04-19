@@ -42,6 +42,10 @@
 			game				"|all_source_engine_paths|hl2mp"
 			game				"|all_source_engine_paths|hl2"
 			
+			// Dedicated server:
+			game 				"hl2"
+			game 				"orangebox/hl2mp"
+			
 			//game				"../../common/Half-Life 2 Deathmatch/hl2mp"
 			//game				"../../common/Half-Life 2 Deathmatch/hl2"
 			
