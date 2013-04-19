@@ -1,3 +1,8 @@
+@font-face {
+  font-family: MGRay;
+  src: url("../fonts/MGRay.ttf");
+}
+
 body
 {
 	-webkit-user-select: none; /* Disable selection, stops any highlighting appearing when we don't want it (ever) */
@@ -5,13 +10,6 @@ body
 	background-color: transparent;
 	overflow:hidden;
 }
-
-#test
-{
-font-size: 40px;
-}
-
-
 
 #mgshealth
 {
