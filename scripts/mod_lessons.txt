@@ -6,39 +6,8 @@
 //
 // PRIORITY LEVELS
 //
-// MARINE
-// 150	dead... switch your dude
-// 145  disturbance triggered
-// 140	infested (self)
-// 135	infested (other)
-// 130	extinguish
-// 125	scanner
-// 123	dive
-// 120	boss battle
-// 115	friendly fire
-// 110	button usage
-// 105	door welding
-// 100	heal self
-// 95	heal other
-// 90	presumed combat
-// 85	clip usage
-// 80	offhand
-// 75	switch weapon
-// 70-73build sentry
-// 65	pick up item
-// 60	get weapon/ammo
-// 55	ammo bag
-// 50	melee attack
-// 45	shoot
-// 35	map/general
-// 30	movement
-// 20	reload
-//
-// NOTE: Zero (0) priority lessons are NOT affected by, but NEVER affect priority
-// 00	notice panic button, notice finale radio, explain disturbance, open/close door, failed to take pills, get money/health/power
 //
 // INSTANCE TYPES
-//
 // 0 = multiple lessons of same type can be open at once
 // 1 = only one of each lesson type can be open at once
 // 2 = replace lesson of the same type and "replace_key" at a fixed amount "fixed_instances_max"
@@ -47,22 +16,134 @@
 //
 // FLAGS (use these to build an integer)
 //
-// 0x00000000 LOCATOR_ICON_FX_NONE
-// 0x00000001 LOCATOR_ICON_FX_PULSE_SLOW
-// 0x00000002 LOCATOR_ICON_FX_PULSE_FAST
-// 0x00000004 LOCATOR_ICON_FX_PULSE_URGENT
-// 0x00000008 LOCATOR_ICON_FX_ALPHA_SLOW
-// 0x00000010 LOCATOR_ICON_FX_ALPHA_FAST
-// 0x00000020 LOCATOR_ICON_FX_ALPHA_URGENT
-// 0x00000040 LOCATOR_ICON_FX_SHAKE_NARROW
-// 0x00000080 LOCATOR_ICON_FX_SHAKE_WIDE
-// 0x00000100 LOCATOR_ICON_FX_STATIC
-// 0x00000200 LOCATOR_ICON_FX_NO_OFFSCREEN
-// 0x00000400 LOCATOR_ICON_FX_FORCE_CAPTION
-// 0x00000800 LOCATOR_ICON_FX_FADE_OUT
-// 0x00001000 LOCATOR_ICON_FX_FADE_IN
+// 0		0x00000000 LOCATOR_ICON_FX_NONE
+// 1		0x00000001 LOCATOR_ICON_FX_PULSE_SLOW
+// 2		0x00000002 LOCATOR_ICON_FX_PULSE_FAST
+// 4		0x00000004 LOCATOR_ICON_FX_PULSE_URGENT
+// 8		0x00000008 LOCATOR_ICON_FX_ALPHA_SLOW
+// 16		0x00000010 LOCATOR_ICON_FX_ALPHA_FAST
+// 32		0x00000020 LOCATOR_ICON_FX_ALPHA_URGENT
+// 64 		0x00000040 LOCATOR_ICON_FX_SHAKE_NARROW
+// 128 		0x00000080 LOCATOR_ICON_FX_SHAKE_WIDE
+// 256		0x00000100 LOCATOR_ICON_FX_STATIC
+// 512		0x00000200 LOCATOR_ICON_FX_NO_OFFSCREEN
+// 1024		0x00000400 LOCATOR_ICON_FX_FORCE_CAPTION
+// 2048		0x00000800 LOCATOR_ICON_FX_FADE_OUT
+// 4096		0x00001000 LOCATOR_ICON_FX_FADE_IN
 //
 // 
 // CAPTION COLOR - supply a string in the format "rrr,ggg,bbb"  ex. "255,255,255" for white
 //
 //--------------------------------------------------------
+
+
+"instructor_lessons"
+{
+	"version number"
+	{
+		"priority"			"0"
+		"success_limit"		"1"	// increase this number to force a reset counts for everyone
+	}
+	
+	//--------------------------------------------------------
+	// Weapon Instructions
+	//--------------------------------------------------------
+	"weapon explain pistol"
+	{
+		"priority"				"10"
+		"instance_type"			"2"	
+		
+		"success_limit"			"3"	
+		
+		"binding"				"+attack2"
+		"onscreen_icon"			"use_binding"
+		"caption"				"#jb_lesson_wep_pistolfart"
+		"timeout"				"8.00"	
+		
+		"open"
+		{			
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 is"			"string weapon_pistol"	
+				"icon_target set"		"player local_player"
+			}
+		}
+		"close"
+		{			
+			"fart" {}
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 !is"			"string weapon_pistol"	
+			}
+		}
+		"success"
+		{			
+			"fart" {}
+		}
+	}
+	
+	//--------------------------------------------------------
+	// SvT Instructions
+	//--------------------------------------------------------
+	"svt get frog"
+	{
+		"team"					"2" // TEAM_SNAKE
+		"priority"				"100"
+		"instance_type"			"1"		
+		"display_limit"			"4"	
+		"onscreen_icon"			"icon_run"
+		"caption"				"#jb_lesson_svt_getfrog"
+		"timeout"				"10.00"		
+		"icon_offset"			"64"		
+		"show_when_occluded" 	"1"
+		"force_caption"			"1"	
+		"flags"					"4096"	
+		"open"
+		{			
+			"explain_frog"
+			{
+				"icon_target set"			"entity entid"
+			}
+		}
+		"close"
+		{
+			"jb_broadcast_music"
+			{
+				"string1 set"				"string sound"
+				"string1 !is"				"string JB.MusicStartRound"
+			}
+		}
+	}
+	
+	"svt defend frog"
+	{
+		"team"					"3" // TEAM_TERRORIST
+		"priority"				"100"
+		"instance_type"			"1"		
+		"display_limit"			"4"	
+		"onscreen_icon"			"icon_shield"
+		"caption"				"#jb_lesson_svt_defendfrog"
+		"timeout"				"10.00"		
+		"icon_offset"			"64"		
+		"show_when_occluded" 	"1"
+		"force_caption"			"1"		
+		"flags"					"4096"		
+		"open"
+		{			
+			"explain_frog"
+			{
+				"icon_target set"			"entity entid"
+			}
+		}
+		"close"
+		{
+			"jb_broadcast_music"
+			{
+				"string1 set"				"string sound"
+				"string1 !is"				"string JB.MusicStartRound"
+			}
+		}
+	}
+}

@@ -139,6 +139,28 @@
 	
 	"jb_new_objective"
 	{
+		"entid"			"short"
+		"type"			"string"
+	}
+	
+	//
+	// Instructor Events
+	//
+	
+	// SERVER
+	"explain_frog"
+	{
+		"entid"			"short"
+	}
+	
+	// CLIENT
+	"weapon_deploy"
+	{
+		"weapon"			"string"
+	}
+	
+	"fart"
+	{
 	}
 	
 }

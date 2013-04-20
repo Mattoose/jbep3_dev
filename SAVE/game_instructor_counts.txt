@@ -1,0 +1,11 @@
+"Game Instructor Counts"
+{
+	"version number"
+	{
+		"success"		"1"
+	}
+	"weapon explain pistol"
+	{
+		"success"		"1"
+	}
+}
