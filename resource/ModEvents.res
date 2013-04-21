@@ -68,6 +68,14 @@
 		"weapon_name"		"string"   	// weapon used to kill (if it was a player)
 	}
 	
+	"entity_visible"
+	{
+		"userid"		"short"		// The player who sees the entity
+		"subject"		"short"		// Entindex of the entity they see
+		"classname"		"string"	// Classname of the entity they see
+		"entityname"	"string"	// name of the entity they see
+	}
+	
 	//"killstreak"
 	//{
 	//	"userid"			"short"		// Who
@@ -153,14 +161,45 @@
 		"entid"			"short"
 	}
 	
+	"pickup_visible"
+	{
+		"userid"			"short"
+		"type"			"short"
+	}
+	
+	"pickup_visible"
+	{
+		"userid"			"short"
+		"subject"		"short"
+		"type"			"short"
+	}
+	
+	"pickup_pickedup"
+	{
+		"userid"			"short"
+		"pickup"			"short"
+	}
+	
 	// CLIENT
 	"weapon_deploy"
 	{
 		"weapon"			"string"
 	}
 	
-	"fart"
+	"weapon_box_invisible"
 	{
+		"is_invisible"	"bool"
+		"is_crouched"		"bool"
+	}
+	
+	"position_state_update" // Changed between standing, ducking and crouching.
+	{
+		"state"			"short" // 0 = standing, 1 = ducking, 2 = diving
+	}
+	
+	"weapon_fired" // We fired our weapon
+	{
+		"secondary"		"bool" // True if it was our secondary attack
 	}
 	
 }

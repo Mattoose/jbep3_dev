@@ -6,6 +6,9 @@
 //
 // PRIORITY LEVELS
 //
+// 50-100 Gamemode tips etc
+// 10-20 Weapon tips etc
+// 4-5 Pickup tips
 //
 // INSTANCE TYPES
 // 0 = multiple lessons of same type can be open at once
@@ -46,19 +49,178 @@
 	}
 	
 	//--------------------------------------------------------
+	// Misc Instructions
+	//--------------------------------------------------------
+	"health_pickup"
+	{
+		"priority"				"5"
+		"instance_type"			"2"			
+		"success_limit"			"5"			
+		"onscreen_icon"			"icon_equip_medkit"
+		"caption"				"#jb_lesson_misc_healthkit"		
+		"icon_offset"			"32"
+		"range"					"convar jb_sv_pickup_tiprange"
+		
+		"open"
+		{			
+			"pickup_visible"
+			{
+				"local_player is"	"player userid"
+				"integer1 set"		"int type"
+				"integer1 is"		"int 2"
+				"icon_target set"	"entity subject"
+			}
+		}
+		"close"
+		{			
+			"pickup_pickedup"
+			{
+				"local_player is"	"player userid"
+				"icon_target is"	"entity pickup"
+			}
+		}
+		"success"
+		{			
+			"pickup_pickedup"
+			{
+				"local_player is"	"player userid"
+				"icon_target is"	"entity pickup"
+			}
+		}
+	}
+	
+	"weapon_pickup"
+	{
+		"priority"				"4"
+		"instance_type"			"2"			
+		"success_limit"			"5"			
+		"onscreen_icon"			"icon_ammo"
+		"caption"				"#jb_lesson_misc_weapon"		
+		"icon_offset"			"32"
+		"range"					"convar jb_sv_pickup_tiprange"
+		
+		"open"
+		{			
+			"pickup_visible"
+			{
+				"local_player is"	"player userid"
+				"integer1 set"		"int type"
+				"integer1 is"		"int 1"
+				"icon_target set"	"entity subject"
+			}
+		}
+		"close"
+		{			
+			"pickup_pickedup"
+			{
+				"local_player is"	"player userid"
+				"icon_target is"	"entity pickup"
+			}
+		}
+		"success"
+		{			
+			"pickup_pickedup"
+			{
+				"local_player is"	"player userid"
+				"icon_target is"	"entity pickup"
+			}
+		}
+	}
+	
+	//--------------------------------------------------------
 	// Weapon Instructions
 	//--------------------------------------------------------
+	
+	// 20 - Weapon ability warning (moving while invisible in box)
+	// 15 - Primary unique attack (handgun)
+	// 10 - Alt fires, misc info (fart)
+	
+	// BOX
+	"weapon explain box"
+	{
+		"priority"				"10"
+		"instance_type"			"2"			
+		"success_limit"			"4"			
+		"binding"				"+duck"
+		"onscreen_icon"			"use_binding"
+		"caption"				"#jb_lesson_wep_boxduck"
+		
+		"open"
+		{			
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 is"			"string weapon_box"	
+				"icon_target set"		"player local_player"
+			}
+		}
+		"close"
+		{			
+			"weapon_box_invisible"
+			{
+				"integer1 set"			"int is_invisible"
+				"integer1 is"			"bool 1"	
+			}
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 !is"			"string weapon_box"	
+			}
+		}
+		"success"
+		{				
+			"weapon_box_invisible"
+			{
+				"integer1 set"		"int is_invisible"
+				"integer1 is"			"bool 1"	
+			}
+		}
+	}
+	
+	"weapon explain box moved"
+	{
+		"priority"				"20"
+		"instance_type"			"2"			
+		"display_limit"			"8"			
+		"onscreen_icon"			"icon_caution"
+		"caption"				"#jb_lesson_wep_boxduckmoved"
+		"timeout"				"2.75"	
+		
+		"open"
+		{			
+			"weapon_box_invisible"
+			{
+				"integer1 set"		"bool is_invisible"
+				"integer1 is"			"bool 0"	
+				"integer2 set"		"bool is_crouched"
+				"integer2 is"			"bool 1"
+				"icon_target set"		"player local_player"
+			}
+		}
+		"close"
+		{			
+			"position_state_update" // If we stand up
+			{
+				"integer1 set"			"int state"
+				"integer1 is"			"int 0"
+			}	
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 !is"			"string weapon_pistol"	
+			}
+		}
+	}
+		
+	// PISTOL
 	"weapon explain pistol"
 	{
 		"priority"				"10"
-		"instance_type"			"2"	
-		
-		"success_limit"			"3"	
-		
+		"instance_type"			"2"			
+		"success_limit"			"2"			
 		"binding"				"+attack2"
 		"onscreen_icon"			"use_binding"
 		"caption"				"#jb_lesson_wep_pistolfart"
-		"timeout"				"8.00"	
 		
 		"open"
 		{			
@@ -71,7 +233,11 @@
 		}
 		"close"
 		{			
-			"fart" {}
+			"weapon_fired" 
+			{
+				"integer1 set"			"bool secondary"
+				"integer1 is"			"bool 1"		
+			}
 			"weapon_deploy"
 			{
 				"string1 set"			"string weapon"
@@ -79,8 +245,179 @@
 			}
 		}
 		"success"
+		{				
+			"weapon_fired" 
+			{
+				"integer1 set"		"bool secondary"
+				"integer1 is"			"bool 1"		
+			}
+		}
+	}
+	
+	// HANDGUN
+	"Weapon Explain handgun"
+	{
+		"priority"				"15"
+		"instance_type"			"2"			
+		"success_limit"			"2"			
+		"binding"				"+attack"
+		"onscreen_icon"			"use_binding"
+		"caption"				"#jb_lesson_wep_handgun"
+		
+		"open"
 		{			
-			"fart" {}
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 is"			"string weapon_handgun"	
+				"icon_target set"		"player local_player"
+			}
+		}
+		"close"
+		{			
+			"weapon_fired" 
+			{
+				"integer1 set"		"bool secondary"
+				"integer1 is"			"bool 0"		
+			}
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 !is"			"string weapon_handgun"	
+			}
+		}
+		"success"
+		{				
+			"weapon_fired" 
+			{
+				"integer1 set"		"bool secondary"
+				"integer1 is"			"bool 0"		
+			}
+		}
+	}
+	
+	"Weapon Explain handgun altfire"
+	{
+		"priority"				"10"
+		"instance_type"			"2"			
+		"success_limit"			"2"			
+		"binding"				"+attack2"
+		"onscreen_icon"			"use_binding"
+		"caption"				"#jb_lesson_wep_handgunalt"
+		
+		"open"
+		{			
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 is"			"string weapon_handgun"	
+				"icon_target set"		"player local_player"
+			}
+		}
+		"close"
+		{			
+			"weapon_fired" 
+			{
+				"integer1 set"			"bool secondary"
+				"integer1 is"			"bool 1"		
+			}
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 !is"			"string weapon_handgun"	
+			}
+		}
+		"success"
+		{				
+			"weapon_fired" 
+			{
+				"integer1 set"		"bool secondary"
+				"integer1 is"			"bool 1"		
+			}
+		}
+	}
+	
+	// ROCKETCROWBAR
+	"Weapon explain rocketcrowbar rocket"
+	{
+		"priority"				"10"
+		"instance_type"			"2"			
+		"success_limit"			"2"			
+		"binding"				"+attack2"
+		"onscreen_icon"			"use_binding"
+		"caption"				"#jb_lesson_wep_rocketcrowbar"
+		
+		"open"
+		{			
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 is"			"string weapon_rocketcrowbar"	
+				"icon_target set"		"player local_player"
+			}
+		}
+		"close"
+		{			
+			"weapon_fired" 
+			{
+				"integer1 set"		"bool secondary"
+				"integer1 is"			"bool 1"		
+			}
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 !is"			"string weapon_rocketcrowbar"	
+			}
+		}
+		"success"
+		{				
+			"weapon_fired" 
+			{
+				"integer1 set"		"bool secondary"
+				"integer1 is"			"bool 1"		
+			}
+		}
+	}
+	
+	// KNIFE
+	"Weapon explain knifescope"
+	{
+		"priority"				"10"
+		"instance_type"			"2"			
+		"success_limit"			"2"			
+		"binding"				"+attack2"
+		"onscreen_icon"			"use_binding"
+		"caption"				"#jb_lesson_wep_knifescope"
+		
+		"open"
+		{			
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 is"			"string weapon_knife"	
+				"icon_target set"		"player local_player"
+			}
+		}
+		"close"
+		{			
+			"weapon_fired" 
+			{
+				"integer1 set"		"bool secondary"
+				"integer1 is"			"bool 1"		
+			}
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 !is"			"string weapon_knife"	
+			}
+		}
+		"success"
+		{				
+			"weapon_fired" 
+			{
+				"integer1 set"		"bool secondary"
+				"integer1 is"			"bool 1"		
+			}
 		}
 	}
 	

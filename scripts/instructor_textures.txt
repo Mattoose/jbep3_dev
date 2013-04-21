@@ -11,6 +11,25 @@
 				"height"	"64"
 		}
 		
+		"icon_ammo"
+		{
+				"file"		"vgui/hud/iconsheet"
+				"x"			"256"
+				"y"			"256"
+				"width"		"64"
+				"height"	"64"		
+		}
+		
+		
+		"icon_equip_medkit"
+		{
+				"file"		"vgui/hud/iconsheet"
+				"x"			"128"
+				"y"			"320"
+				"width"		"64"
+				"height"	"64"	
+		}
+		
 		//Sheet 1 - Row 1
 		"icon_bulb" //was icon_tip in l4d
 		{

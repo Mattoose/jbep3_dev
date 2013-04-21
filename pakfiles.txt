@@ -15,3 +15,4 @@ resource\ui\basemodui\campaignflyout.res
 resource\ui\basemodui\gamesettings.res
 resource\ui\basemodui\ingamemainmenu.res
 resource\ui\basemodui\mainmenu.res
+resource\modevents.res

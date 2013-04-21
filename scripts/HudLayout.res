@@ -771,4 +771,14 @@
 		"BarScale"	"1.0"
 
 	}
+	
+	
+	ASWHudMoney
+	{
+		"fieldName" "ASWHudMoney"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "f0"
+		"tall"	 "480"
+	}
 }
