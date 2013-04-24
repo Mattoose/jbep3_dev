@@ -772,10 +772,9 @@
 
 	}
 	
-	
-	ASWHudMoney
+	CefHud
 	{
-		"fieldName" "ASWHudMoney"
+		"fieldName" "CefHud"
 		"visible" "1"
 		"enabled" "1"
 		"wide"	 "f0"

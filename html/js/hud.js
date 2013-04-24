@@ -96,7 +96,7 @@ $( function(){
 $(window).resize(updateScale);
 
 if ( !IS_GAME )
-{	
+{
 	var hp = 0;
 	function loop(){
 		var randomnumber=Math.floor(Math.random()*101);

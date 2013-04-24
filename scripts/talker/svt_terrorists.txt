@@ -11,10 +11,7 @@ Criterion "NotRemarkedDeadTerrorist" "SaidDeadTerrorist" "!=1" "required"
 // Kill snake
 Response TerroristKillSnake
 {
-	scene "scenes/vo/terrorists/killed_snake/1.vcd" 
-	scene "scenes/vo/terrorists/killed_snake/2.vcd" 
-	scene "scenes/vo/terrorists/killed_snake/3.vcd" 
-	scene "scenes/vo/terrorists/killed_snake/4.vcd" 
+	speak "JB.VO2_SVT_T_KillSnake"	
 }
 
 Rule TerroristKillSnake
@@ -27,10 +24,7 @@ Rule TerroristKillSnake
 // Start Round
 Response TerroristRoundStart
 {
-	scene "scenes/vo/terrorists/round_start/1.vcd"
-	scene "scenes/vo/terrorists/round_start/2.vcd"
-	scene "scenes/vo/terrorists/round_start/3.vcd"
-	scene "scenes/vo/terrorists/round_start/4.vcd"
+	speak "JB.VO2_SVT_T_RoundStart"
 }
 
 Rule TerroristRoundStart
@@ -43,10 +37,7 @@ Rule TerroristRoundStart
 // Frog captured
 Response TerroristFrogCaptured
 {
-	scene "scenes/vo/terrorists/snake_capture_frog/1.vcd"
-	scene "scenes/vo/terrorists/snake_capture_frog/2.vcd"
-	scene "scenes/vo/terrorists/snake_capture_frog/3.vcd"
-	scene "scenes/vo/terrorists/snake_capture_frog/4.vcd"
+	speak "JB.VO2_SVT_T_FrogCaptured"
 }
 
 Rule TerroristFrogCaptured
@@ -59,10 +50,7 @@ Rule TerroristFrogCaptured
 // Terrorist Win
 Response TerroristWin
 {
-	scene "scenes/vo/terrorists/win/1.vcd"
-	scene "scenes/vo/terrorists/win/2.vcd"
-	scene "scenes/vo/terrorists/win/3.vcd"
-	scene "scenes/vo/terrorists/win/4.vcd"
+	speak "JB.VO2_SVT_T_Win"
 }
 
 Rule TerroristWin
@@ -74,10 +62,7 @@ Rule TerroristWin
 // Tripmine Kill
 Response TerroristKillSnakeTripmine
 {
-	scene "scenes/vo/terrorists/tripmine_kill/1.vcd"
-	scene "scenes/vo/terrorists/tripmine_kill/2.vcd"
-	scene "scenes/vo/terrorists/tripmine_kill/3.vcd"
-	scene "scenes/vo/terrorists/tripmine_kill/4.vcd"
+	speak "JB.VO2_SVT_T_TripmineKill"
 }
 
 Rule TerroristKillSnakeTripmine
@@ -90,8 +75,7 @@ Rule TerroristKillSnakeTripmine
 // Terrorist Reloading In Combat
 Response TerroristReloadInCombat
 {
-	scene "scenes/vo/terrorists/reloading_in_combat/T_Reloading_3.vcd"
-	scene "scenes/vo/terrorists/reloading_in_combat/T_Reloading_4.vcd"
+	speak "JB.VO2_SVT_T_ReloadInCombat"
 }
 
 Rule TerroristReloadInCombat
@@ -104,8 +88,7 @@ Rule TerroristReloadInCombat
 // Terrorist Reloading NOT In Combat
 Response TerroristNonCombatReload
 {
-	scene "scenes/vo/terrorists/reloading_in_combat/T_Reloading_1.vcd"
-	scene "scenes/vo/terrorists/reloading_in_combat/T_Reloading_2.vcd"
+	speak "JB.VO2_SVT_T_Reload"
 }
 
 Rule TerroristNonCombatReload
@@ -129,10 +112,7 @@ Rule SVTReloadingBlock
 
 Response TerroristOutOfAmmo
 {
-	scene "scenes/vo/terrorists/out_of_ammo/T_OutOfAmmo_1.vcd"
-	scene "scenes/vo/terrorists/out_of_ammo/T_OutOfAmmo_2.vcd"
-	scene "scenes/vo/terrorists/out_of_ammo/T_OutOfAmmo_3.vcd"
-	scene "scenes/vo/terrorists/out_of_ammo/T_OutOfAmmo_4.vcd"
+	speak "JB.VO2_SVT_T_OutOfAmmo"
 }
 
 Rule TerroristOutOfAmmo
@@ -147,10 +127,7 @@ Rule TerroristOutOfAmmo
 
 Response TerroristFindDeadTerrorist
 {
-	scene "scenes/vo/terrorists/dead_terrorist/T_DeadTerrorist_1.vcd"
-	scene "scenes/vo/terrorists/dead_terrorist/T_DeadTerrorist_2.vcd"
-	scene "scenes/vo/terrorists/dead_terrorist/T_DeadTerrorist_3.vcd"
-	scene "scenes/vo/terrorists/dead_terrorist/T_DeadTerrorist_4.vcd"
+	speak "JB.VO2_SVT_T_DeadTerrorist"
 }
 
 Rule TerroristOutOfAmmo

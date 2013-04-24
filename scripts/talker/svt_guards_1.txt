@@ -9,10 +9,7 @@ criterion "CritGuardsCooldownWhatWasThat" "GuardsCooldownWhatWasThat" "!=1" "req
 criterion "ConceptGuardsWhatWasThat" "Concept" "TLK_GUARDS_WHATWASTHAT" required
 Response GuardsWhatWasThat
 {
-	scene "scenes/vo/terrorists/radio_investigate/T_R_Investigate_1.vcd"
-	scene "scenes/vo/terrorists/radio_investigate/T_R_Investigate_2.vcd"
-	scene "scenes/vo/terrorists/radio_investigate/T_R_Investigate_3.vcd"
-	scene "scenes/vo/terrorists/radio_investigate/T_R_Investigate_4.vcd"
+	speak "JB.VO2_SVT_T_Investigate"
 }
 Rule GuardsWhatWasThat
 {
@@ -26,10 +23,7 @@ criterion "CritGuardsCooldownImagination" "GuardsCooldownImagination" "!=1" "req
 criterion "ConceptGuardsImagination" "Concept" "TLK_GUARDS_JUSTMYIMAGINATION" required
 Response GuardsImagination
 {
-	scene "scenes/vo/terrorists/radio_imagination/T_R_Nevermind_1.vcd"
-	scene "scenes/vo/terrorists/radio_imagination/T_R_Nevermind_2.vcd"
-	scene "scenes/vo/terrorists/radio_imagination/T_R_Nevermind_3.vcd"
-	scene "scenes/vo/terrorists/radio_imagination/T_R_Nevermind_4.vcd"
+	speak "JB.VO2_SVT_T_Imagination"
 }
 Rule GuardsImagination
 {
@@ -43,10 +37,7 @@ criterion "CritGuardsCooldownEnemy" "GuardsCooldownEnemy" "!=1" "required" weigh
 criterion "ConceptGuardsEnemy" "Concept" "TLK_GUARDS_ENEMYSIGHTED" required
 Response GuardsEnemy
 {
-	scene "scenes/vo/terrorists/radio_enemysighted/T_R_EnemySighted_1.vcd"
-	scene "scenes/vo/terrorists/radio_enemysighted/T_R_EnemySighted_2.vcd"
-	scene "scenes/vo/terrorists/radio_enemysighted/T_R_EnemySighted_3.vcd"
-	scene "scenes/vo/terrorists/radio_enemysighted/T_R_EnemySighted_4.vcd"
+	speak "JB.VO2_SVT_T_EnemySighted"
 }
 Rule GuardsEnemy
 {
@@ -60,10 +51,7 @@ criterion "CritGuardsCooldownBackup" "GuardsCooldownBackup" "!=1" "required" wei
 criterion "ConceptGuardsBackup" "Concept" "TLK_GUARDS_SENDBACKUP" required
 Response GuardsBackup
 {
-	scene "scenes/vo/terrorists/radio_backup/T_R_Backup_1.vcd"
-	scene "scenes/vo/terrorists/radio_backup/T_R_Backup_2.vcd"
-	scene "scenes/vo/terrorists/radio_backup/T_R_Backup_3.vcd"
-	scene "scenes/vo/terrorists/radio_backup/T_R_Backup_4.vcd"
+	speak "JB.VO2_SVT_T_Backup"
 }
 Rule GuardsBackup
 {
@@ -77,10 +65,7 @@ criterion "CritGuardsCooldownClear" "GuardsCooldownClear" "!=1" "required" weigh
 criterion "ConceptGuardsClear" "Concept" "TLK_GUARDS_CLEAR" required
 Response GuardsClear
 {
-	scene "scenes/vo/terrorists/radio_clear/T_R_Clear_1.vcd"
-	scene "scenes/vo/terrorists/radio_clear/T_R_Clear_2.vcd"
-	scene "scenes/vo/terrorists/radio_clear/T_R_Clear_3.vcd"
-	scene "scenes/vo/terrorists/radio_clear/T_R_Clear_4.vcd"
+	speak "JB.VO2_SVT_T_Clear"
 }
 Rule GuardsClear
 {
@@ -94,10 +79,7 @@ criterion "CritGuardsCooldownRespond" "GuardsCooldownRespond" "!=1" "required" w
 criterion "ConceptGuardsRespond" "Concept" "TLK_GUARDS_WHATSGOINGONRESPOND" required
 Response GuardsRespond
 {
-	scene "scenes/vo/terrorists/radio_respond/T_R_PleaseRespond_1.vcd"
-	scene "scenes/vo/terrorists/radio_respond/T_R_PleaseRespond_2.vcd"
-	scene "scenes/vo/terrorists/radio_respond/T_R_PleaseRespond_3.vcd"
-	scene "scenes/vo/terrorists/radio_respond/T_R_PleaseRespond_4.vcd"
+	speak "JB.VO2_SVT_T_PleaseRespond"
 }
 Rule GuardsRespond
 {

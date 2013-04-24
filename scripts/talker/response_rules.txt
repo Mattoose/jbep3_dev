@@ -169,9 +169,7 @@ criterion "PlayerNotSaidReloading" "SaidReloading" "!=1" "required" weight 5
 
 Response PlayerReloading
 {
-	scene "scenes/player/vo/reloadspeech1.vcd"
-	scene "scenes/player/vo/reloadspeech2.vcd"
-	scene "scenes/player/vo/reloadspeech3.vcd"
+	speak "JB.VO2_Reloading"
 }
 
 Rule PlayerReloading

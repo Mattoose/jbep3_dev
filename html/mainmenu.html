@@ -17,32 +17,6 @@
 	<script type="text/javascript" src="js/global.js"></script>
 	<script type="text/javascript" src="js/mainmenu.js"></script>
 
-	<script>
-
-		// So, here' the situation. Engine side, we create a global object
-		// with functions for interacting with the engine ETC. Unfortunately,
-		// trying to use this when the document ready event triggers will
-		// fail as the document ready is fired BEFORE we finish creating
-		// our interface object. We need to either work out some way to
-		// delay the ready event until we have our object or just
-		// use this dumb hacky method below.
-
-		function CEFReadyCheck()
-		{
-			if ( typeof window.CEFInitialized != 'undefined' && window.CEFInitialized )
-				$(document).trigger("CEFReady");
-			else
-			{
-				console.log("Delaying...");
-				setTimeout(CEFReadyCheck,2);
-			}
-
-		}
-
-		$(CEFReadyCheck);
-
-	</script>
-
 </head>
 
 <body>

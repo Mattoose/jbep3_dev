@@ -1,0 +1,14 @@
+"JB.VO2_Reloading"
+{
+	"channel" "CHAN_VOICE"
+	"volume" "1.0"
+	"pitch" "100"
+	"soundlevel" "SNDLVL_85dB"
+	
+	"rndwave"
+	{
+		"wave"	"player/vo/reloadspeech1.wav"
+		"wave"	"player/vo/reloadspeech2.wav"
+		"wave"	"player/vo/reloadspeech3.wav"
+	}
+}

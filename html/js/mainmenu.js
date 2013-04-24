@@ -126,77 +126,76 @@ var CURRENT_PLAYER = false;
 function setupPlayerModels()
 {
 	PLAYER_MODELS = {};
-    MENU.getPlayerModels( function( playerModels ) {
+    var playerModels = MENU.getPlayerModels();
+    var target_element = $('#player_customization #selection #options .mCSB_container');
+    var active_model = CURRENT_PLAYER;
 
-        var target_element = $('#player_customization #selection #options .mCSB_container');
-        var active_model = CURRENT_PLAYER;
+    /*var objs = [ ["postal", "Test Model"],
+        ["adamjensen", "Test Model 2"],
+        ["alien", "These"],
+        ["allied", "Are"],
+        ["ash", "Populated"],
+        ["6", "By"],
+        ["7", "The"],
+        ["8", "Engine"],
+        ["10", "Test Model"],
+        ["20", "Test Model 2"],
+        ["30", "These"],
+        ["40", "Are"],
+        ["50", "Populated"],
+        ["60", "By"],
+        ["70", "The"],
+        ["80", "Engine"],
+        ["100", "Test Model"],
+        ["200", "Test Model 2"],
+        ["300", "These"],
+        ["400", "Are"],
+        ["500", "Populated"],
+        ["600", "By"],
+        ["700", "The"],
+        ["800", "Engine"]
+        ];*/
 
-        /*var objs = [ ["postal", "Test Model"],
-            ["adamjensen", "Test Model 2"],
-            ["alien", "These"],
-            ["allied", "Are"],
-            ["ash", "Populated"],
-            ["6", "By"],
-            ["7", "The"],
-            ["8", "Engine"],
-            ["10", "Test Model"],
-            ["20", "Test Model 2"],
-            ["30", "These"],
-            ["40", "Are"],
-            ["50", "Populated"],
-            ["60", "By"],
-            ["70", "The"],
-            ["80", "Engine"],
-            ["100", "Test Model"],
-            ["200", "Test Model 2"],
-            ["300", "These"],
-            ["400", "Are"],
-            ["500", "Populated"],
-            ["600", "By"],
-            ["700", "The"],
-            ["800", "Engine"]
-            ];*/
+    for(var id in playerModels)
+    {
+        console.log(playerModels[id]);
+        var model_id = playerModels[id][0];
+        var model_name = playerModels[id][1];
+        var model_active = playerModels[id][2];
 
-        for(var id in playerModels)
-        {
-            var model_id = playerModels[id][0];
-            var model_name = playerModels[id][1];
-            var model_active = playerModels[id][2];
+        console.log("Model "+model_id+": "+model_name+" "+(model_active?"ACTIVE":"INACTIVE"));
 
-            console.log("Model "+model_id+": "+model_name+" "+(model_active?"ACTIVE":"INACTIVE"));
+        // Setup urls
+        PLAYER_MODELS[model_id] = {
+            "model": model_name,
+            "img": "img/mainmenu/players/"+model_id+".png",
+            "img_thumb": "img/mainmenu/players/preview/"+model_id+".png"
+        };
 
-            // Setup urls
-            PLAYER_MODELS[model_id] = {
-                "model": model_name,
-                "img": "img/mainmenu/players/"+model_id+".png",
-                "img_thumb": "img/mainmenu/players/preview/"+model_id+".png"
-            };
+        target_element.append("<div id='"+model_id+"' class='container'><li><img><div>"+model_name.toUpperCase()+"</div></li></div>");
+        setupPlayerCustomizeImages( model_id );
 
-            target_element.append("<div id='"+model_id+"' class='container'><li><img><div>"+model_name.toUpperCase()+"</div></li></div>");
-            setupPlayerCustomizeImages( model_id );
+        if ( model_active ) active_model = model_id;
+    }
 
-            if ( model_active ) active_model = model_id;
+    // Set up menu hover
+
+    $("#player_customization #selection #options .container").hover(
+        function () {
+            $(this).addClass("hover_1");
+            $(this).find("li").addClass("hover_2");
+        },
+        function () {
+            $(this).removeClass("hover_1");
+            $(this).find("li").removeClass("hover_2");
         }
+    );
 
-        // Set up menu hover
-
-        $("#player_customization #selection #options .container").hover(
-            function () {
-                $(this).addClass("hover_1");
-                $(this).find("li").addClass("hover_2");
-            },
-            function () {
-                $(this).removeClass("hover_1");
-                $(this).find("li").removeClass("hover_2");
-            }
-        );
-
-        $("#player_customization #selection #options .container").click(function() {
-            selectPlayerModel($(this).attr('id'));
-        });
-
-        selectPlayerModel( active_model );
+    $("#player_customization #selection #options .container").click(function() {
+        selectPlayerModel($(this).attr('id'));
     });
+
+    selectPlayerModel( active_model );
 }
 
 function setupPlayerCustomizeImages( model_id )

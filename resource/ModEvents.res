@@ -202,4 +202,9 @@
 		"secondary"		"bool" // True if it was our secondary attack
 	}
 	
+	"rcrowbar_impacted" // We hit something with our rocket crowbar
+	{
+		"wasplayer"		"bool"
+	}
+	
 }

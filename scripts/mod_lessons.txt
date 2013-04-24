@@ -258,7 +258,7 @@
 	"Weapon Explain handgun"
 	{
 		"priority"				"15"
-		"instance_type"			"2"			
+		"instance_type"			"1"			
 		"success_limit"			"2"			
 		"binding"				"+attack"
 		"onscreen_icon"			"use_binding"
@@ -299,7 +299,7 @@
 	"Weapon Explain handgun altfire"
 	{
 		"priority"				"10"
-		"instance_type"			"2"			
+		"instance_type"			"1"			
 		"success_limit"			"2"			
 		"binding"				"+attack2"
 		"onscreen_icon"			"use_binding"
@@ -345,7 +345,8 @@
 		"success_limit"			"2"			
 		"binding"				"+attack2"
 		"onscreen_icon"			"use_binding"
-		"caption"				"#jb_lesson_wep_rocketcrowbar"
+		"caption"				"#jb_lesson_wep_rocketcrowbar_sec"
+		"replace_key"				"test"
 		
 		"open"
 		{			
@@ -379,10 +380,94 @@
 		}
 	}
 	
+	"Weapon explain rocketcrowbar primary wall"
+	{
+		"priority"				"15"
+		"instance_type"			"2"			
+		"success_limit"			"2"			
+		"binding"				"+attack"
+		"onscreen_icon"			"use_binding"
+		"caption"				"#jb_lesson_wep_rocketcrowbar_wall"
+		
+		"open"
+		{			
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 is"			"string weapon_rocketcrowbar"	
+				"icon_target set"		"player local_player"
+			}
+		}
+		"close"
+		{			
+			"rcrowbar_impacted" 
+			{
+				"integer1 set"		"bool wasplayer"
+				"integer1 is"			"bool 0"		
+			}
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 !is"			"string weapon_rocketcrowbar"	
+			}
+		}
+		"success"
+		{				
+			"rcrowbar_impacted" 
+			{
+				"integer1 set"		"bool wasplayer"
+				"integer1 is"			"bool 0"		
+			}
+		}
+	}
+	
+	"Weapon explain rocketcrowbar primary player"
+	{
+		"priority"				"15"
+		"instance_type"			"2"			
+		"success_limit"			"2"			
+		"binding"				"+attack"
+		"onscreen_icon"			"use_binding"
+		"caption"				"#jb_lesson_wep_rocketcrowbar_player"
+		// Don't show until we have learnt wall attack
+		"prereq"					"Weapon explain rocketcrowbar primary wall"
+		
+		"open"
+		{			
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 is"			"string weapon_rocketcrowbar"	
+				"icon_target set"		"player local_player"
+			}
+		}
+		"close"
+		{		
+			"rcrowbar_impacted" 
+			{
+				"integer1 set"		"bool wasplayer"
+				"integer1 is"			"bool 1"		
+			}
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 !is"			"string weapon_rocketcrowbar"	
+			}
+		}
+		"success"
+		{				
+			"rcrowbar_impacted" 
+			{
+				"integer1 set"		"bool wasplayer"
+				"integer1 is"			"bool 1"		
+			}
+		}
+	}
+	
 	// KNIFE
 	"Weapon explain knifescope"
 	{
-		"priority"				"10"
+		"priority"				"11"
 		"instance_type"			"2"			
 		"success_limit"			"2"			
 		"binding"				"+attack2"
@@ -417,6 +502,137 @@
 			{
 				"integer1 set"		"bool secondary"
 				"integer1 is"			"bool 1"		
+			}
+		}
+	}
+	
+	"Weapon explain backstab"
+	{
+		"priority"				"11"
+		"instance_type"			"2"			
+		"display_limit"			"2"			
+		"onscreen_icon"			"icon_bulb"
+		"caption"				"#jb_lesson_wep_knifebackstab"
+		"timeout"				"6.00"		
+		"prereq"					"Weapon explain knifescope"
+		"open"
+		{			
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 is"			"string weapon_knife"	
+				"icon_target set"		"player local_player"
+			}
+		}
+		"close"
+		{
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 !is"			"string weapon_knife"	
+			}
+		}
+	}
+	
+	// 
+	// Cat
+	//
+	"Weapon explain cat"
+	{
+		"priority"				"10"
+		"instance_type"			"2"			
+		"success_limit"			"2"			
+		"binding"				"+attack"
+		"onscreen_icon"			"use_binding"
+		"caption"				"#jb_lesson_wep_cat"
+		
+		"open"
+		{			
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 is"			"string weapon_catmine"	
+				"icon_target set"		"player local_player"
+			}
+		}
+		"close"
+		{				
+			"weapon_fired" 
+			{
+				"integer1 set"		"bool secondary"
+				"integer1 is"			"bool 0"		
+			}
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 !is"			"string weapon_catmine"	
+			}
+		}
+		"success"
+		{					
+			"weapon_fired" 
+			{
+				"integer1 set"		"bool secondary"
+				"integer1 is"			"bool 0"		
+			}
+		}
+	}
+	
+	"Weapon explain catwander"
+	{
+		"priority"				"11"
+		"instance_type"			"2"			
+		"display_limit"			"2"			
+		"onscreen_icon"			"icon_bulb"
+		"caption"				"#jb_lesson_wep_catwander"
+		"timeout"				"6.00"		
+		"prereq"					"Weapon explain cat"
+		"open"
+		{			
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 is"			"string weapon_catmine"	
+				"icon_target set"		"player local_player"
+			}
+		}
+		"close"
+		{
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 !is"			"string weapon_catmine"	
+			}
+		}
+	}
+	
+	//
+	// Dubstep
+	//
+		
+	"Weapon explain dubstep"
+	{
+		"priority"				"15"
+		"instance_type"			"2"			
+		"display_limit"			"2"			
+		"onscreen_icon"			"icon_bulb"
+		"caption"				"#jb_lesson_wep_dubstep"
+		"timeout"				"5.00"		
+		"open"
+		{			
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 is"			"string weapon_speakers"	
+				"icon_target set"		"player local_player"
+			}
+		}
+		"close"
+		{
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 !is"			"string weapon_speakers"	
 			}
 		}
 	}

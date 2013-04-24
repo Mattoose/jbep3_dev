@@ -1,4 +1,4 @@
-//@include "base.fgd"
+@include "base.fgd"
 //@include "halflife2.fgd"
 
 //
