@@ -12,9 +12,18 @@ function updateScale()
 $( updateScale );
 $(window).resize(updateScale);
 
+function updateGameState( inGame )
+{
+	if ( inGame == IN_GAME )
+        return;
+
+    IN_GAME = inGame;
+    updateMenu();
+}
+
 $(document).on('CEFReady', function() {
     updateMenu();
-    $("#menu").fadeIn(1000);
+    $("#menu").fadeIn(IN_GAME ? 0 : 1000);
 });
 
 /*
@@ -56,14 +65,14 @@ var menu_options = {
 	// Button ID, Button Text, Button Desc, Display in menu, Display in game, Handled in webpage, func on open
 	"resume" : [ "RESUME GAME", "Return to the current game.", false, true, false ], // Button text, button desc, display in game.
 	"disconnect":[ "DISCONNECT", "Disconnect from the current game.", false, true, false ],
-	"playerlist":[ "PLAYER LIST", "Other players in the current game.", false, true, false ],
+	//"playerlist":[ "PLAYER LIST", "Other players in the current game.", false, true, false ],
 	//"findserver_new":[ "FIND SERVERS", "Find a server.", true, true, PAGE_FINDSERVER, findServerTabOpen ],
 	"findservers":[ "FIND SERVERS (TEMP)", "Find servers.", true, false, false ],
 	"createserver":[ "CREATE SERVER", "Create a local or internet server.", true, false, false ],
 	"customizeplayer":[ "CUSTOMIZE PLAYER", "Change your player model.", true, true, PAGE_CUSTOMISATION ],
 	"options":[ "OPTIONS", "Change game options.", true, true, false ],
 	"donate":[ "DONATE", "Support our mod.", true, true, false ],
-	"quit":[ "QUIT", "Quit the game.", true, true, false ]
+	"quit":[ "QUIT", "Quit the game.", true, false, false ]
 };
 
 function updateMenu()
@@ -88,16 +97,17 @@ function updateMenu()
 	function(){ 
 		link_desc.text(""); 
 	});
-	
+
 	// If we're in game, let user see through background
 	if ( IN_GAME )
 	{
 		$("body").css("background-color","rgba(0,0,0,0.4)");
-		$("#menu #background #bg_img").fadeOut(2000);
+		$("#menu #background #bg_img").hide();
 	}
 	else
 	{				
-		$("#menu #background #bg_img").fadeIn(2000, function(){$("body").css("background-color","black");});
+		$("#menu #background #bg_img").show();
+        $("body").css("background-color","black");
 	}
 }
 
@@ -260,58 +270,3 @@ $(document).on('CEFReady', function() {
 	$("#buttons #back").click(function(){changePage(false)});
 		
 });
-
-/* 
-
-FIND SERVER 
-
-*/
-var findServerTabOpened = false;
-var findServerHasScrollbar = false;
-var findServers = [];
-function findServerTabOpen()
-{
-	if (findServerTabOpened)
-		return;
-		
-	findServerTabOpened = true;
-	
-	if ( IS_ENGINE )
-		MENU.serverMasterRequest();
-}
-
-function serversServerResponded( server )
-{
-	/*
-	args.Push( Awesomium::JSValue( Awesomium::WSLit( pServerItem->m_NetAdr.GetQueryAddressString() ) ) ); // IP
-	args.Push( Awesomium::JSValue( Awesomium::WSLit( pServerItem->GetName() ) ) ); // NAME
-	args.Push( Awesomium::JSValue( pServerItem->m_nPing ) ); // PING
-	args.Push( Awesomium::JSValue( pServerItem->m_nPlayers ) ); // PLAYERS
-	args.Push( Awesomium::JSValue( pServerItem->m_nMaxPlayers ) ); // PLAYERS
-	args.Push( Awesomium::JSValue( Awesomium::WSLit( pServerItem->m_szMap ) ) ); // MAP
-	args.Push( Awesomium::JSValue( Awesomium::WSLit( pServerItem->m_szGameDescription ) ) ); // GAME DESC
-	*/
-	
-	//findServers.push( server );
-	
-	var truncated_name = server.name;
-	if ( truncated_name.length > 32 )
-		truncated_name = truncated_name.substring(0,29)+"...";
-	
-	//var serv_str = "<li class='server_row' id='server_"+server.id+"'>"+truncated_name+" ("+server.players+"/"+server.maxplayers+") - "+server.desc+"</li>";
-	var serv_str = "<li class='server_row' id='server_"+server.id+"'>"+server.players+"/"+server.maxplayers+" - "+truncated_name+" - "+server.desc+"</li>";
-	
-	
-	$("#findserver #selection").append(serv_str);
-}
-
-function serversRefreshComplete()
-{
-	/*$("#findserver #selection").mCustomScrollbar({
-		scrollInertia:111,
-		scrollEasing:"easeOutCirc",
-		advanced:{ updateOnContentResize: true }
-	});*/
-}
-
-	
