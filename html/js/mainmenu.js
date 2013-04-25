@@ -173,7 +173,7 @@ function setupPlayerModels()
         var model_name = playerModels[id][1];
         var model_active = playerModels[id][2];
 
-        console.log("Model "+model_id+": "+model_name+" "+(model_active?"ACTIVE":"INACTIVE"));
+        //console.log("Model "+model_id+": "+model_name+" "+(model_active?"ACTIVE":"INACTIVE"));
 
         // Setup urls
         PLAYER_MODELS[model_id] = {
