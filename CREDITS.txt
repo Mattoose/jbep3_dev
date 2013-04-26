@@ -39,7 +39,8 @@ Sound
 Art
 - Rusty100
 
-Includes code from Half-Life 2 Wars by Sandern, used with a CC BY-NC 3.0 license.
+Includes code from Half-Life 2 Wars by Sandern, licensed under CC BY-NC 3.0.
+Includes code from swarm-deferred by Biohazard, licensed under Apache License 2.0.
 
 --------------------------------------
 Asset Credits:
