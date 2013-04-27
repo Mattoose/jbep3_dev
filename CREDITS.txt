@@ -14,27 +14,44 @@ Programming
 - SteveUK
 
 Mapping
+- Icemaz
 - Megafan
 - Phanterm
+- Pyth
 - Rilez
 
 Modeling
 - Dav0r
 - Dr. Derek
+- Ducksink
 - Hideous
+- Jaanus
 - Mr. Sunabouzu
 
 Texturing
+- Dav0r
 - Dr. Derek
 - Hideous
 - Pie_Tony
+- Rusty100
+
+Player Modelers
+- Arby26
+- Uberslug
 
 Animation
 - Mr. Sunabouzu
+- Sinfect
 
 Sound
 - Absinthe
 - Ventilated
+
+Voice Actors
+- BigDumbAmerican
+- Harry S. Robins as killer kleiner
+- Jon St. John as Jon St. Johngun
+- Mr. Podunkian (Old lines from original mod)
 
 Art
 - Rusty100
@@ -67,3 +84,6 @@ Barley
 Amplified
 postal's moth that hatched but he missed it because he was busy sorting out jaykin bacon
 craptasket
+Laser - For making Rocket Crowbar which we stole ideas from
+Raxel - For making PS07 which we stole ideas from
+Rich Whitehouse and Brian McClelland - For making Scientist Hunt which we stole ideas from
