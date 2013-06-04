@@ -38,9 +38,9 @@
 			Game				"swarm_base"
 			Game				platform
 			
-			game				"|all_source_engine_paths|cstrike"
-			game				"|all_source_engine_paths|hl2mp"
-			game				"|all_source_engine_paths|hl2"
+			Game				"|gameinfo_path|content/hl2"
+			Game				"|gameinfo_path|content/hl2mp"
+			Game				"|gameinfo_path|content/css"
 			
 			// Dedicated server:
 			game 				"hl2"
