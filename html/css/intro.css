@@ -1,0 +1,89 @@
+
+body { 
+	background-color: black;
+	color: #FFFFFF;
+	
+	font-size: 50px;
+	font-family: 'MGRay';			
+}
+
+#splash, #menu, #video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#menu, #splash, #video { display: none; }
+
+/* video */
+#video #bbb {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+#video #skip 
+{
+	position: absolute;	
+	bottom: 20px;
+	right: 0;
+	
+	width: 100%;
+	text-align: center;
+	
+	opacity: 0;
+
+	-webkit-animation-delay: 2s;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-name: logo_pulse;
+	-webkit-animation-iteration-count: infinite;			
+}
+
+/* SPLASH */
+#splash #logo {
+	position: absolute;	
+	top: 35%;
+	left: 50%;
+	width: 1150px;
+	margin: -75px 0 0 -575px;			
+	display: none;
+}
+
+#splash #logo img {
+	width: 100%;
+}
+
+#splash #background div {
+	position: absolute;
+	top: 10%;
+	left: 4%;
+	width: 92%;
+	height: 75%;			
+	background-image: url(../img/mainmenu/background1.png);
+	z-index:-1;
+	opacity: 0.0;
+}
+
+#splash #start 
+{
+	position: absolute;	
+	top: 70%;
+	width: 100%;	
+	opacity: 0;
+	text-align: center;	
+
+	-webkit-animation-delay: 6s;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-name: logo_pulse;
+	-webkit-animation-iteration-count: infinite;			
+}
+
+@-webkit-keyframes logo_pulse {
+	from { opacity: 0.0; }
+	50% { opacity: 1.0; }			
+	to { opacity: 0.0; }
+}
