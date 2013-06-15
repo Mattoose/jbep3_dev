@@ -38,4 +38,5 @@ particles_manifest
 	"file"		"particles/jb_viewmodel.pcf"
 	"file"		"!particles/jb_pickup.pcf"
 	"file"		"particles/powerup_fx.pcf"
+	"file"		"particles/jb_weapon_zapper.pcf"
 }
