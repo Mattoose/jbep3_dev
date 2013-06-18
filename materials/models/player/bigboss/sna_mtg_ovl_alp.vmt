@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\player\bigboss/sna_mtg_ovl_alp"
-	$halflambert 1
-	$alphatest 1
-}

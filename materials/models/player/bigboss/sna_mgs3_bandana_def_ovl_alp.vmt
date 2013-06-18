@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\player\bigboss/sna_mgs3_bandana_def_ovl_alp"
-	$halflambert 1
-	$alphatest 1
-	$nocull 1
-}

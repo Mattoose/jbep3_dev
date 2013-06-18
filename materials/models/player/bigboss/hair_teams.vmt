@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/bigboss/hair_teams"
+	"$bumpmap" 		"models/player/bigboss/hair_phongmask"
+	
+	$alphatest 1
+
+	"$phong" "1"
+	"$phongexponent" "33"
+	"$phongboost" "6"
+	"$halflambert" "1"
+	//"$BasemapAlphaPhongMask" "1"
+	$phongfresnelranges		"[0.05 0.5 1]"
+}

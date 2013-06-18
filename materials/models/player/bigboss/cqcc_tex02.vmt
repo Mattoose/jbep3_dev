@@ -1,5 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\player\bigboss/cqcc_tex02"
-	$halflambert 1
-}
