@@ -251,3 +251,33 @@
 	"wave"		"weapons/fart/fart.wav"
 	
 }
+
+"JB.QuakeJumpLow"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"			"85,90"
+
+	"wave"		"player/quakejump.wav"	
+}
+
+"JB.QuakeJumpMed"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"			"95,100"
+
+	"wave"		"player/quakejump.wav"	
+}
+
+"JB.QuakeJumpHigh"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_75dB"
+	"pitch"			"105,110"
+
+	"wave"		"player/quakejump.wav"	
+}
