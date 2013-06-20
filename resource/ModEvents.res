@@ -86,10 +86,11 @@
 	{
 	}
 	
-	"jb_broadcast_music" // audio broadcast, plays locally on given team (OR EVERYONE IF TEAM = 0)
+	"jb_broadcast_sound" // audio broadcast, plays locally on given team (OR EVERYONE IF TEAM = 0)
 	{
 		"team"			"short"
 		"sound"			"string"
+		"music"			"bool"
 	}
 	
 	//"jb_stop_sounds" // temp fix to stop any remaining looping sound bugs on some round reloads, going to be properly fixed soon
