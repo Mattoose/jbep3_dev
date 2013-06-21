@@ -14,7 +14,7 @@ WeaponData
 	"PlayerAnimationExtension"	"mp5"
 	
 	"bucket"				"1"
-	"bucket_position"		"10"
+	"bucket_position"		"11"
 
 	"clip_size"				"1"
 	"NumClips"				"1"
