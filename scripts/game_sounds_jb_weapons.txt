@@ -880,3 +880,16 @@
 		"wave"		")ambient/explosions/explode_4.wav"	
 	}
 }
+
+"Weapon_Zapper.Shoot"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"90,110"
+	
+	"rndwave"
+	{
+		"wave"		")weapons/zapper/shoot1.wav"	
+	}
+}

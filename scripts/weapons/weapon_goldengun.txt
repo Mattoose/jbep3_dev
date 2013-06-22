@@ -1,10 +1,5 @@
 WeaponData
 {
-	// Weapon characteristics:
-	"Damage"					"200"		// damage per bullet
-	"Bullets"					"1"			// bullets per shoot
-	"CycleTime"					"0.0"		// time between shoots
-
 	"BuiltRightHanded"			"1"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
@@ -16,11 +11,9 @@ WeaponData
 	"bucket"				"2"
 	"bucket_position"		"10"
 
-	"clip_size"				"1"
+	"clip_size"				"-1"
 	"clip_size2"			"-1"
-	
-	"NumClips"				"10"
-	
+		
 	"fov"					"65"
 	
 	"primary_ammo"			"goldengun"
@@ -32,10 +25,7 @@ WeaponData
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		//"reload"			"Default.Reload"
-		//"empty"			"Default.ClipEmpty_Rifle"
-		"single_shot"		"Weapon_Ruger.Single"
-		"special1"			"Weapon_Ruger.Single"
+		"single_shot"		"Weapon_Zapper.Shoot"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
