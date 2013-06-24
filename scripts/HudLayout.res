@@ -424,7 +424,7 @@
 		"fieldName" "Scores"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "400"
+		//"wide"	 "400"
 		"tall"	 "480"
 		
 		//"avatar_width"	"80"
