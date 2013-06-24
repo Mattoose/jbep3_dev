@@ -1,0 +1,9 @@
+#base global.txt
+
+"ttt_bbb"
+{
+	"Entities"
+	{
+		
+	}
+}

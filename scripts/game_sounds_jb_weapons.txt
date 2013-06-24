@@ -893,3 +893,31 @@
 		"wave"		")weapons/zapper/shoot1.wav"	
 	}
 }
+
+"Weapon_Handgun_Inst.Shoot"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"			"95,105"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"rndwave"
+	{
+		"wave"		"weapons/handgun_insta/shoot_1.wav"	
+		"wave"		"weapons/handgun_insta/shoot_2.wav"	
+	}
+}
+
+"Weapon_Handgun_Inst.Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"			"95,105"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"rndwave"
+	{
+		"wave"		"weapons/handgun_insta/reload_1.wav"	
+		"wave"		"weapons/handgun_insta/reload_2.wav"	
+	}
+}

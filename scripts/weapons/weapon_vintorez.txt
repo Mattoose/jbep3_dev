@@ -1,7 +1,7 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"Damage"				"100"		// damage per bullet while scoped, scaled down for non-scope shots
+	"Damage"				"40"		// damage per bullet while scoped, scaled down for non-scope shots
 	"Bullets"				"1"			// bullets per shoot
 	"CycleTime"				"0.2"		// time between shoots
 
