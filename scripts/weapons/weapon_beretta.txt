@@ -24,7 +24,17 @@ WeaponData
 	"weight"				"0"
 	"item_flags"			"0"
 
-	"tracer_interval"		"3" // Show tracers every burst
+	"tracer_interval"		"3" // Show tracers 3rd shot
+	
+	Recoil
+	{
+		// Horizontal kickback. Positive = right, negative = left.
+		MinX	-0.35
+		MaxX	0.35
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	1.0
+		MaxY	2.0
+	}
 	
 	SoundData
 	{

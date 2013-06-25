@@ -27,6 +27,16 @@ WeaponData
 	"fov"					"55"
 	
 	"tracer_interval"	"1" // Show tracers every single shot.
+		
+	Recoil
+	{
+		// Horizontal kickback. Positive = right, negative = left.
+		MinX	-0.3
+		MaxX	0.3
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	15.0
+		MaxY	17.0
+	}
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData

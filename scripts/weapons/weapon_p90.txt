@@ -36,21 +36,12 @@ WeaponData
 
 	Recoil
 	{
-		"ViewPunch"
-		{
-			"MinX"	"-0.2"
-			"MaxX"	"0.2"
-			"MinY"	"-0.1"
-			"MaxY"	"0.1"
-		}
-		
-		"Kick"
-		{
-			"MinY"	"-2.0"
-			"MaxY"	"2.0"
-			"MinX"	"2.0"
-			"MaxX"	"4.0"
-		}
+		// Horizontal kickback. Positive = right, negative = left.
+		MinX	-2.5
+		MaxX	2.5
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	0.5
+		MaxY	1.5
 	}
 	
 	SoundData

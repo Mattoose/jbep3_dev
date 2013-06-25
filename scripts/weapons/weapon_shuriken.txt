@@ -25,7 +25,17 @@ WeaponData
 
 	"weight"				"1"
 	"item_flags"			"18"	// ITEM_FLAG_NOAUTORELOAD | ITEM_FLAG_EXHAUSTIBLE
-
+	
+	Recoil
+	{
+		// Horizontal kickback. Positive = right, negative = left.
+		MinX	0.0
+		MaxX	0.0
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	0.0
+		MaxY	0.0
+	}
+	
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{

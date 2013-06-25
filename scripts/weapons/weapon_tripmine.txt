@@ -16,6 +16,16 @@ WeaponData
 
 	"weight"				"5"
 	"item_flags"			"1"
+		
+	Recoil
+	{
+		// Horizontal kickback. Positive = right, negative = left.
+		MinX	0.0
+		MaxX	0.0
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	0.0
+		MaxY	0.0
+	}
 	
 	// Weapon Sprite data is loaded by the Client DLL.
 	TextureData

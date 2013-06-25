@@ -17,6 +17,16 @@ WeaponData
 
 	"weight"				"1"
 	"item_flags"			"2"
+			
+	Recoil
+	{
+		// Horizontal kickback. Positive = right, negative = left.
+		MinX	0.0
+		MaxX	0.0
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	0.0
+		MaxY	0.0
+	}
 	
 	SoundData
 	{

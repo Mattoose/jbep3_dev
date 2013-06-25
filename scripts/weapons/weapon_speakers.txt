@@ -26,7 +26,17 @@ WeaponData
 	"item_flags"			"0"
 	
 	"MeleeWeapon"			"1" // As we don't use ammo, just do this
-
+	
+	Recoil
+	{
+		// Horizontal kickback. Positive = right, negative = left.
+		MinX	-0.5
+		MaxX	0.5
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	-0.5
+		MaxY	0.5
+	}
+	
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{

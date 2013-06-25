@@ -35,6 +35,16 @@ WeaponData
 	"magazine_force_forward"	"5"
 	"magazine_force_right"		"-35" 
 	"magazine_force_up"			"-35"
+		
+	Recoil
+	{
+		// Horizontal kickback. Positive = right, negative = left.
+		MinX	-0.2
+		MaxX	0.2
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	1.75
+		MaxY	2.25
+	}
 	
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData

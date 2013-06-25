@@ -23,7 +23,26 @@ WeaponData
 	"item_flags"			"0"
 
 	"MeleeWeapon"			"1"
-
+	
+	Recoil
+	{
+		// Force when we swing our left fist
+		MinX	0.0
+		MaxX	0.0
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	0.0
+		MaxY	0.0
+		
+		// alternate force used when melee attack hits a player.
+		AlternateForce
+		{
+			MinX	0.0
+			MaxX	0.0
+			MinY	0.0
+			MaxY	0.0		
+		}
+	}
+	
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{

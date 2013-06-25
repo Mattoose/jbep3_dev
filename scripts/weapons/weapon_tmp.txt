@@ -33,6 +33,11 @@ WeaponData
 	"magazine_force_forward"	"15"
 	"magazine_force_right"		"0" 
 	"magazine_force_up"			"-30"
+		
+	// NOTE: TMP recoil handled in-engine for now, no recoil values here will work.
+	Recoil
+	{
+	}
 	
 	SoundData
 	{

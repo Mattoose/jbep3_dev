@@ -19,12 +19,21 @@ WeaponData
 	"clip_size"			"30"
 	"NumClips"			"3"
 
-	
 	"primary_ammo"			"mp5"
 	"secondary_ammo"		"None"
 
 	"weight"			"25"
 	"item_flags"			"0"
+	
+	Recoil
+	{
+		// Horizontal kickback. Positive = right, negative = left.
+		MinX	-0.7
+		MaxX	0.7
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	1.6
+		MaxY	2.0
+	}
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
