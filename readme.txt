@@ -8,3 +8,5 @@ Requires:
 
 Installation:
 - Drop the folder into sourcemods/ and restart steam.
+
+:)
