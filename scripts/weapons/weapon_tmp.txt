@@ -42,6 +42,15 @@ WeaponData
 		// Vertical kickback. Positive = up, negative = down.
 		MinY	1.6
 		MaxY	2.0
+		
+		// alternate force used TMP is held sideways
+		AlternateForce
+		{
+			MinX	-1.6
+			MaxX	-2.0
+			MinY	-1.5
+			MaxY	1.5		
+		}
 	}
 	
 	SoundData
