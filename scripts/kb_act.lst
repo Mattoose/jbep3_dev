@@ -4,7 +4,7 @@
 "changeteam" "#jaykin_changeteam"
 "+dive"		"#jaykin_dive"
 "+taunt"	"#jaykin_taunt"
-"togglethirdperson"	"#jaykin_togglethird"
+"thirdpersonshoulder"	"#jaykin_togglethird"
 "voice_menu_1"	"#jaykin_radio"
 "blank"		"=========================="
 "blank"		"#Valve_Movement_Title"
