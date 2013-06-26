@@ -1,9 +1,9 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"Damage"			"10"	// damage per bullet
+	"Damage"			"14.5"	// damage per bullet
 	"Bullets"			"1"		// bullets per shoot
-	"CycleTime"			"0.07"		// time between shoots
+	"CycleTime"			"0.056"		// time between shoots
 
 	"BuiltRightHanded"		"1"
 	"fov"					"55"
@@ -37,11 +37,11 @@ WeaponData
 	Recoil
 	{
 		// Horizontal kickback. Positive = right, negative = left.
-		MinX	-2.5
-		MaxX	2.5
+		MinX	-2.6
+		MaxX	2.6
 		// Vertical kickback. Positive = up, negative = down.
-		MinY	0.5
-		MaxY	1.5
+		MinY	2.0
+		MaxY	2.6
 	}
 	
 	SoundData

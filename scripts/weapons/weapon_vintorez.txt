@@ -31,11 +31,11 @@ WeaponData
 	Recoil
 	{
 		// Horizontal kickback. Positive = right, negative = left.
-		MinX	-0.3
-		MaxX	0.3
+		MinX	-7.5
+		MaxX	7.5
 		// Vertical kickback. Positive = up, negative = down.
-		MinY	10.0
-		MaxY	13.0
+		MinY	7.0
+		MaxY	10.0
 	}
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)

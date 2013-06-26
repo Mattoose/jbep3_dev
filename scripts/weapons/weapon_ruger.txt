@@ -39,8 +39,8 @@ WeaponData
 	Recoil
 	{
 		// Horizontal kickback. Positive = right, negative = left.
-		MinX	-0.2
-		MaxX	0.2
+		MinX	-1.5
+		MaxX	1.5
 		// Vertical kickback. Positive = up, negative = down.
 		MinY	1.75
 		MaxY	2.25

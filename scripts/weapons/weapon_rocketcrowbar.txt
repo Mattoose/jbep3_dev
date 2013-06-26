@@ -28,19 +28,19 @@ WeaponData
 	Recoil
 	{
 		// Horizontal kickback. Positive = right, negative = left.
-		MinX	0.0
-		MaxX	0.0
+		MinX	-20.0
+		MaxX	20.0
 		// Vertical kickback. Positive = up, negative = down.
-		MinY	0.0
-		MaxY	0.0
+		MinY	-29.0
+		MaxY	-14.0
 		
 		// alternate force used when melee attack hits a player.
 		AlternateForce
 		{
-			MinX	0.0
-			MaxX	0.0
-			MinY	0.0
-			MaxY	0.0	
+			MinX	-10.0
+			MaxX	10.0
+			MinY	-10.0
+			MaxY	-4.0	
 		}
 	}
 	

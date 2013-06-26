@@ -1,7 +1,7 @@
 WeaponData
 {
-	"CycleTime"			"0.1"
-	"Damage"			"15"
+	"CycleTime"			"0.15"
+	"Damage"			"14"
 
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"					"#jb_weapon_fists"
@@ -27,11 +27,11 @@ WeaponData
 	Recoil
 	{
 		// Force when we swing our left fist
-		MinX	0.0
-		MaxX	0.0
+		MinX	-5.0
+		MaxX	5.0
 		// Vertical kickback. Positive = up, negative = down.
-		MinY	0.0
-		MaxY	0.0
+		MinY	-5.0
+		MaxY	5.0
 		
 		// alternate force used when melee attack hits a player.
 		AlternateForce
