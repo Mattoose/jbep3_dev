@@ -36,10 +36,10 @@ WeaponData
 		// alternate force used when melee attack hits a player.
 		AlternateForce
 		{
-			MinX	0.0
-			MaxX	0.0
-			MinY	0.0
-			MaxY	0.0		
+			MinX	-2.0
+			MaxX	2.0
+			MinY	-2.0
+			MaxY	2.0		
 		}
 	}
 	
