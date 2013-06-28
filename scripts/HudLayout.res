@@ -572,7 +572,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"wide"	 "f0"
-		"tall"	 "480"
+		"tall"	 "f0"
 	}
 
 	HudHintDisplay
