@@ -52,6 +52,17 @@
 			game+mod			|gameinfo_path|jb_content.vpk
 			game+mod+mod_write+default_write_path		|gameinfo_path|.
 			gamebin				|gameinfo_path|bin
+			
+			// HL1 Textures
+			game				|gameinfo_path|hl_textures.vpk
+			
+			// Mount HL2MP
+			game				"|gameinfo_path|../../common/Half-Life 2 Deathmatch/hl2mp/hl2mp_pak.vpk"
+			game				"|gameinfo_path|../../common/Half-Life 2 Deathmatch/hl2mp/"
+			
+			// Mount CSS
+			game				"|gameinfo_path|../../common/Counter-Strike Source/cstrike/cstrike_pak.vpk"
+			game				"|gameinfo_path|../../common/Counter-Strike Source/cstrike/"
 
 			// HL2
 			//game_lv				hl2/hl2_lv.vpk
@@ -64,14 +75,6 @@
 			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
 			game				|all_source_engine_paths|hl2/hl2_misc.vpk
 			platform			|all_source_engine_paths|platform/platform_misc.vpk
-			
-			// Mount HL2MP
-			game				"|gameinfo_path|../../common/Half-Life 2 Deathmatch/hl2mp/hl2mp_pak.vpk"
-			game				"|gameinfo_path|../../common/Half-Life 2 Deathmatch/hl2mp/"
-			
-			// Mount CSS
-			game				"|gameinfo_path|../../common/Counter-Strike Source/cstrike/cstrike_pak.vpk"
-			game				"|gameinfo_path|../../common/Counter-Strike Source/cstrike/"
 
 			// Last, mount in shared HL2 loose files
 			game				|all_source_engine_paths|hl2mp
