@@ -81,6 +81,27 @@ function setArmour( armour )
 	}
 }
 
+function padZero(num, size) {
+    var s = "000" + num;
+    return s.substr(s.length-size);
+}
+
+function setTimer( timeRemaining/*, subText */)
+{			
+	if ( timeRemaining > 0 )
+		$("#timer #time").show();
+	else
+		$("#timer #time").fadeOut( { duration: 500, queue: false } );
+		
+	timeRemaining = Math.max( 0, timeRemaining );
+		
+	var timeMin = Math.floor( timeRemaining / 60 );
+	var timeSec = timeRemaining - (timeMin*60);
+	$("#timer #time").text(padZero(timeMin,2)+":"+padZero(timeSec,2));
+	//$("#timer #text").text(subText);
+}
+
+
 function updateScale()
 {
 	var w = Math.min(1, $(window).width()/1280);
@@ -99,6 +120,9 @@ if ( !IS_GAME )
 {
 	var hp = 0;
 	function loop(){
+		setTimer( Math.floor( Math.random() * 5000 )/*, "Blah blah"*/);
+		
+		
 		var randomnumber=Math.floor(Math.random()*101);
 		setHealth(randomnumber);
 		var randomnumber2 = Math.floor(Math.random()*20);
@@ -109,7 +133,7 @@ if ( !IS_GAME )
 		if ( hp > 100 )
 			hp = 0;
 		
-		setTimeout(loop,650);
+		setTimeout(loop,250);
 	}
 
 	loop();

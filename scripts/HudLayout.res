@@ -9,6 +9,42 @@
 		"wide"	 "f0"
 		"tall"	 "480"
 	}
+	
+	HudVoiceSelfStatus
+	{
+		"fieldName" "HudVoiceSelfStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "r43"
+		"ypos" "355"
+		"wide" "24"
+		"tall" "24"
+	}
+
+	HudVoiceStatus
+	{
+		"fieldName" "HudVoiceStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "r150"
+		"ypos" "0"
+		"wide" "100"
+		"tall" "400"
+
+		"item_tall"	"18"
+		"item_wide"	"100"
+
+		"item_spacing" "1"
+
+		"icon_ypos"	"0"
+		"icon_xpos"	"0"
+		"icon_tall"	"18"
+		"icon_wide"	"18"
+
+		"text_xpos"	"5"
+
+		"PaintBackgroundType" "3"
+	}
 		
 	JBHudAnnouncer	
 	{
@@ -301,41 +337,6 @@
 		"BarHeight" "2"
 		"BarChunkWidth" "2"
 		"BarChunkGap" "1"
-	}
-	HudVoiceSelfStatus
-	{
-		"fieldName" "HudVoiceSelfStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "r43"
-		"ypos" "355"
-		"wide" "24"
-		"tall" "24"
-	}
-
-	HudVoiceStatus
-	{
-		"fieldName" "HudVoiceStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "r150"
-		"ypos" "0"
-		"wide" "100"
-		"tall" "400"
-
-		"item_tall"	"18"
-		"item_wide"	"100"
-
-		"item_spacing" "1"
-
-		"icon_ypos"	"0"
-		"icon_xpos"	"0"
-		"icon_tall"	"18"
-		"icon_wide"	"18"
-
-		"text_xpos"	"5"
-
-		"PaintBackgroundType" "3"
 	}
 	
 	HudDamageIndicator
