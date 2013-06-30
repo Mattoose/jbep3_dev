@@ -1,6 +1,51 @@
 "Resource/HudLayout.res"
 {
+	
+	JBHud	
+	{
+		"fieldName"				"JBHud"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "f0"
+		"tall"	 "480"
+	}
+		
+	JBHudAnnouncer	
+	{
+		"fieldName"				"JBHudAnnouncer"
+	}
+		
+	HudObjectives
+	{
+		"fieldName" "HudObjectives"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "f0"
+		"tall"	 "480"
+	}
+	
+	HudPings
+	{
+		"fieldName" "HudPings"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "f0"
+		"tall"	 "480"
+	}	
+	
+	HudHealthMGS
+	{
+		//"fieldName"		"HudHealthMGS"
+		"xpos"	"10"
+		"ypos"	"20"
+		"wide"	"640"
+		"tall"  	"480"
+		"visible" "1"
+		"enabled" "1"
+		"BarScale"	"1.0"
 
+	}
+	
 	VotingMenu
 	{
 		"fieldName"		"VotingMenu"
@@ -735,49 +780,6 @@
 		"wide"					"f60"	[$X360]
 		"tall"					"100"
 	}
-	
-	JBHudAnnouncer	
-	{
-		"fieldName"				"JBHudAnnouncer"
-	}
-		
-	HudObjectives
-	{
-		"fieldName" "HudObjectives"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "f0"
-		"tall"	 "480"
-	}
-	
-	HudPings
-	{
-		"fieldName" "HudPings"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "f0"
-		"tall"	 "480"
-	}	
-	
-	HudHealthMGS
-	{
-		//"fieldName"		"HudHealthMGS"
-		"xpos"	"10"
-		"ypos"	"20"
-		"wide"	"640"
-		"tall"  	"480"
-		"visible" "1"
-		"enabled" "1"
-		"BarScale"	"1.0"
 
-	}
 	
-	CefHud
-	{
-		"fieldName" "CefHud"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "f0"
-		"tall"	 "480"
-	}
 }

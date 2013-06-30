@@ -50,7 +50,7 @@ body {
 	left: 50%;
 	width: 1150px;
 	margin: -75px 0 0 -575px;			
-	opacity: 0;
+	display: none;
 }
 
 #splash #logo img {
@@ -99,7 +99,7 @@ body {
 
 #menu #background #bg_img {
 	z-index: -10;
-	background-image: url(../img/mainmenu/menu_bg_1.png);		
+	background-image: url(../img/mainmenu/menu_bg_2.png);		
 }
 
 #menu #background #bg_border {

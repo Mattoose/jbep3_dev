@@ -1,6 +1,12 @@
 var IS_ENGINE = ( navigator.userAgent == "JaykinBacon" );
 var IN_GAME = false;
 
+if ( !IS_ENGINE ) $(function(){ $(document).trigger('CEFReady') });
+var bDisplayedSplash = false;
+
+var iState = -1;
+var iMaxState = 2;
+
 // Auto scaling...
 function updateScale()
 {			
@@ -16,15 +22,80 @@ function updateGameState( inGame )
 {
 	if ( inGame == IN_GAME )
         return;
+        
+    while (iState < iMaxState) cycleMenuState();
 
     IN_GAME = inGame;
     updateMenu();
 }
 
+function cycleMenuState()
+{
+	if ( iState >= iMaxState ) return;
+	
+	console.log("Cycling menu state from "+iState+" to "+(iState+1)+".");
+	iState++;
+	
+	if ( iState == 0 ) // start into sequence
+	{
+		$("#video").show();
+		$('#video video').bind("ended", cycleMenuState);
+		var introVideo = $('#video video').get(0);
+		introVideo.volume = 0.2;
+		introVideo.play();
+	}
+	else if ( iState == 1 ) // display splash, start menu musiq
+	{
+		console.log("TODO: We've endered iState 1, play our menu music.");
+		
+		// Hide video
+		var introVideo = $('#video video').get(0);			
+		introVideo.pause();
+		$("#video").hide();
+		
+		// Show splash
+		splashBackgroundScrollLoop();
+	
+		$("#splash").fadeIn();
+			
+		$("#splash #logo").delay(1500).fadeIn(3000);
+		$("#splash #background div").delay(500).animate( { "opacity":"0.35" }, 2500 );
+	}
+	else if ( iState == 2 ) // Main menu.
+	{
+		$("#splash").fadeOut();
+    	$("#menu").fadeIn(IN_GAME ? 0 : 1000);
+	}
+}
+
 $(document).on('CEFReady', function() {
-    updateMenu();
-    $("#menu").fadeIn(IN_GAME ? 0 : 1000);
+    updateMenu();	
+	$(document).click(cycleMenuState);
+	cycleMenuState();
 });
+	
+	
+/*
+ * Intro video & splash
+ */
+
+// Splash background scroll
+var dir_1 = [ (Math.random()*2)-1, (Math.random()*2)-1, (Math.random()*2)-1, (Math.random()*2)-1 ];		
+var pos_1 = [Math.random()*500,Math.random()*500,Math.random()*250,Math.random()*250];
+
+function splashBackgroundScrollLoop()
+{
+	if ( iState > 1 ) return;
+	$( "#splash #background #layer_1" ).css("background-position",pos_1[0]+"px "+pos_1[1]+"px");
+	$( "#splash #background #layer_2" ).css("background-position",pos_1[2]+"px "+pos_1[3]+"px");
+	
+	pos_1[0] += dir_1[0];
+	pos_1[1] += dir_1[1];
+	pos_1[2] += dir_1[2];
+	pos_1[3] += dir_1[3];
+	
+	setTimeout(splashBackgroundScrollLoop, 10);
+}
 
 /*
  MENU
@@ -37,7 +108,6 @@ var PAGE_FINDSERVER = "findserver";
 
 function changePage( desired_page )
 {
-	console.log("Trying to change page",desired_page);
 	if ( desired_page == CURRENT_PAGE ) 
 		return;
 		
@@ -54,9 +124,6 @@ function changePage( desired_page )
 		$("#menu #"+CURRENT_PAGE).animate({"left":"106%"},250);	
 		$("#menu #links").animate({"width":"90%"},250);	
 	}
-	
-	//$("#menu #links").animate({"width":"0px"},500);
-	//$("#menu #player_customization").animate({"left":"6%"},500);
 		
 	CURRENT_PAGE = desired_page;
 }
@@ -116,7 +183,6 @@ function menuClick( button_div )
 {
 	var pressed = $(button_div).attr('id');
 	var button_data = menu_options[pressed];
-	console.log("Button press: "+pressed,button_data);
 	
 	if ( button_data[4] != false ) // Handled by page
 		changePage( button_data[4] );
@@ -135,6 +201,8 @@ var CURRENT_PLAYER = false;
 
 function setupPlayerModels()
 {
+	if ( !IS_ENGINE ) return;
+	
 	PLAYER_MODELS = {};
     var playerModels = MENU.getPlayerModels();
     var target_element = $('#player_customization #selection #options .mCSB_container');
@@ -168,7 +236,6 @@ function setupPlayerModels()
 
     for(var id in playerModels)
     {
-        console.log(playerModels[id]);
         var model_id = playerModels[id][0];
         var model_name = playerModels[id][1];
         var model_active = playerModels[id][2];
@@ -223,6 +290,7 @@ function setupPlayerCustomizeImages( model_id )
 function selectPlayerModel( model_id )
 {
     console.log("Selecting "+model_id);
+    
 	if ( CURRENT_PLAYER == model_id )
 		return;
 		
