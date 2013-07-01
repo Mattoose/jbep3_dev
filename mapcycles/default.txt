@@ -36,10 +36,11 @@ de_train
 jb_fartvalley
 jb_outerheaven
 jb_vr_green
-jb_deck16_v5
+jb_deck16_final
 dm_richland
 ttt_rooftops_a2_f1
 zm_roy_the_ship
 dm_island17
 ttt_clue
 ttt_whitehouse_b2
+ge_runway_b1

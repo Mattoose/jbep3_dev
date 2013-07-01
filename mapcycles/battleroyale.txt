@@ -35,7 +35,7 @@ de_tides
 de_train
 jb_outerheaven
 jb_vr_green
-jb_deck16_v5
+jb_deck16_final
 dm_richland
 ttt_rooftops_a2_f1
 zm_roy_the_ship
