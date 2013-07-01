@@ -86,19 +86,24 @@ function padZero(num, size) {
     return s.substr(s.length-size);
 }
 
-function setTimer( timeRemaining/*, subText */)
+function setTimer( timeRemaining, subText )
 {			
 	if ( timeRemaining > 0 )
 		$("#timer #time").show();
 	else
 		$("#timer #time").fadeOut( { duration: 500, queue: false } );
 		
+	if ( subText.length > 0 )
+		$("#timer #text").show();
+	else
+		$("#timer #text").fadeOut( { duration: 500, queue: false } );
+		
 	timeRemaining = Math.max( 0, timeRemaining );
 		
 	var timeMin = Math.floor( timeRemaining / 60 );
 	var timeSec = timeRemaining - (timeMin*60);
 	$("#timer #time").text(padZero(timeMin,2)+":"+padZero(timeSec,2));
-	//$("#timer #text").text(subText);
+	$("#timer #text").text(subText);
 }
 
 
