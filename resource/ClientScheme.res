@@ -277,7 +277,99 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
-		// fonts are used in order that they are listed
+	
+		HudRoundIntroTitle
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"24"
+				"weight"		"700"
+				"antialias" 	"1"
+				"additive"	"0"
+			}
+		}
+		
+		HudRoundIntroSubTitle
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"16"
+				"weight"		"700"
+				"antialias" 	"1"
+				"additive"	"0"
+			}
+		}
+			
+		HudWepSelectName
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"700"
+				"antialias" "1"
+				"yres"	"1 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"700"
+				"antialias" "1"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"900"
+				"antialias" "1"
+				"yres"	"768 1023"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"16"
+				"weight"	"900"
+				"antialias" "1"
+				"yres"	"1024 1199"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"17"
+				"weight"	"1000"
+				"antialias" "1"
+				"yres"	"1200 10000"
+			}
+		}
+			
+		HudWepSelectAmmoBig
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"		"700"
+				"antialias" 	"1"
+				"additive"	"1"
+			}
+		}
+			
+		HudWepSelectAmmoSmall
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"		"700"
+				"antialias" 	"1"
+				"additive"	"1"
+			}
+		}
+		
 		// fonts are used in order that they are listed
 		"DebugFixed"
 		{
