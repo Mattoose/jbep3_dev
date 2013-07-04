@@ -1,5 +1,3 @@
-#base global.txt
-
 "de_dust2"
 {
 	"Entities"
@@ -405,6 +403,88 @@
 			"classname"		"jb_spawn_svt_snake"
 			"origin"		"1549.62 2908.04 135.01"
 			"angles"		"0.00 -92.80 0.00"
+		}
+		"replace"
+		{
+			"weapon_snark"		"jb_pickup_weapon_3"
+			"weapon_357"		"jb_pickup_weapon_3"
+			"weapon_crossbow"		"jb_pickup_weapon_2"
+			"weapon_egon"		"jb_pickup_weapon_2"
+			"weapon_gauss"		"jb_pickup_weapon_2"
+			"weapon_egon"		"jb_pickup_weapon_3"
+			"weapon_handgrenade"		"jb_pickup_weapon_1"
+			"weapon_hornetgun"		"jb_pickup_weapon_3"
+			"weapon_mp5"		"jb_pickup_weapon_1"
+			"weapon_rpg"		"jb_pickup_weapon_3"
+			"weapon_satchel"		"jb_pickup_weapon_1"
+			"weapon_shotgun"		"jb_pickup_weapon_2"
+			"weapon_crossbow"		"jb_pickup_weapon_2"
+			"weapon_ar2"		"jb_pickup_weapon_2"
+			"weapon_slam"		"jb_pickup_weapon_1"
+			"weapon_frag"		"jb_pickup_weapon_1"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"1316.64 645.27 12.59"
+			"angles"		"0 0 0"
+			"minposition"		"1791.747 81.839 -224.613"
+			"maxposition"		"841.539 1208.707 249.799"
+			"areaname"		"area1"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-63.71 -373.21 362.36"
+			"angles"		"0 0 0"
+			"minposition"		"770.181 -1023.842 746.079"
+			"maxposition"		"-897.607 277.423 -21.362"
+			"areaname"		"area2"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-1604.43 -155.85 162.73"
+			"angles"		"0 0 0"
+			"minposition"		"-967.723 -1010.110 372.357"
+			"maxposition"		"-2241.127 698.407 -46.890"
+			"areaname"		"area3"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-1524.33 1193.10 147.72"
+			"angles"		"0 0 0"
+			"minposition"		"-831.552 1542.677 -119.760"
+			"maxposition"		"-2217.115 843.519 415.193"
+			"areaname"		"area4"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-1722.37 2451.60 94.90"
+			"angles"		"0 0 0"
+			"minposition"		"-2101.817 3309.984 263.007"
+			"maxposition"		"-1342.932 1593.208 -73.208"
+			"areaname"		"area5"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-767.15 2227.49 176.91"
+			"angles"		"0 0 0"
+			"minposition"		"-1287.021 2768.944 484.989"
+			"maxposition"		"-247.285 1686.038 -131.170"
+			"areaname"		"area6"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"971.74 2567.52 297.62"
+			"angles"		"0 0 0"
+			"minposition"		"1787.583 2056.119 39.613"
+			"maxposition"		"155.899 3078.918 555.629"
+			"areaname"		"area7"
 		}
 	}
 }
