@@ -818,5 +818,59 @@
 			"angles"		"0.00 156.10 0.00"
 			"tier"		"2"
 		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"2601.42 -696.13 139.08"
+			"angles"		"0 0 0"
+			"minposition"		"2365.692 -1217.977 63.248"
+			"maxposition"		"2837.156 -174.277 214.919"
+			"areaname"		"area1"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-218.28 -2028.55 -350.28"
+			"angles"		"0 0 0"
+			"minposition"		"122.157 -1661.351 -94.165"
+			"maxposition"		"-558.725 -2395.747 -606.389"
+			"areaname"		"area2"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"1076.46 -1907.12 -324.28"
+			"angles"		"0 0 0"
+			"minposition"		"693.655 -1449.034 -202.966"
+			"maxposition"		"1459.271 -2365.200 -445.597"
+			"areaname"		"area3"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"365.75 -289.69 277.24"
+			"angles"		"0 0 0"
+			"minposition"		"-114.412 134.310 359.777"
+			"maxposition"		"845.906 -713.684 194.709"
+			"areaname"		"area4"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"1614.69 -507.57 157.11"
+			"angles"		"0 0 0"
+			"minposition"		"1437.108 -833.040 251.346"
+			"maxposition"		"1792.265 -182.100 62.870"
+			"areaname"		"area5"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"1022.09 -486.84 130.75"
+			"angles"		"0 0 0"
+			"minposition"		"1413.640 2.648 66.163"
+			"maxposition"		"630.531 -976.325 195.345"
+			"areaname"		"area6"
+		}
 	}
 }

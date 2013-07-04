@@ -1,0 +1,60 @@
+"ge_runway_b1"
+{
+	"Entities"
+	{
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-78.91 4808.78 -123.95"
+			"angles"		"0 0 0"
+			"minposition"		"147.285 4456.080 -62.081"
+			"maxposition"		"-305.109 5161.489 -185.814"
+			"areaname"		"area1"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"350.95 3775.75 -172.96"
+			"angles"		"0 0 0"
+			"minposition"		"-127.116 3162.792 -390.157"
+			"maxposition"		"829.011 4388.704 44.246"
+			"areaname"		"area2"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-599.28 3212.23 -227.40"
+			"angles"		"0 0 0"
+			"minposition"		"-137.689 3430.302 -379.676"
+			"maxposition"		"-1060.875 2994.166 -75.121"
+			"areaname"		"area3"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"931.16 5.20 -295.45"
+			"angles"		"0 0 0"
+			"minposition"		"1036.988 -260.319 -212.662"
+			"maxposition"		"825.335 270.721 -378.232"
+			"areaname"		"area4"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-1508.74 2940.96 -182.31"
+			"angles"		"0 0 0"
+			"minposition"		"-1933.764 3487.762 -354.382"
+			"maxposition"		"-1083.724 2394.151 -10.237"
+			"areaname"		"area5"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"1070.71 2610.50 -207.02"
+			"angles"		"0 0 0"
+			"minposition"		"850.931 3216.283 -376.953"
+			"maxposition"		"1290.490 2004.714 -37.095"
+			"areaname"		"area6"
+		}
+	}
+}
