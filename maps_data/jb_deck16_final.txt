@@ -1,0 +1,78 @@
+"jb_deck16_final"
+{
+	"Entities"
+	{
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"175.17 294.96 1395.63"
+			"angles"		"0 0 0"
+			"minposition"		"-489.644 1626.971 1146.751"
+			"maxposition"		"839.991 -1037.061 1644.519"
+			"areaname"		"area1"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-1690.83 1600.49 679.61"
+			"angles"		"0 0 0"
+			"minposition"		"-2200.544 1072.968 927.868"
+			"maxposition"		"-1181.106 2128.012 431.362"
+			"areaname"		"area2"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"1124.60 -234.18 882.89"
+			"angles"		"0 0 0"
+			"minposition"		"715.175 1188.398 1110.207"
+			"maxposition"		"1534.016 -1656.754 655.581"
+			"areaname"		"area3"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-843.26 1.25 839.93"
+			"angles"		"0 0 0"
+			"minposition"		"-1158.751 1027.749 625.330"
+			"maxposition"		"-527.764 -1025.250 1054.530"
+			"areaname"		"area4"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-1702.88 76.03 826.41"
+			"angles"		"0 0 0"
+			"minposition"		"-1275.485 -892.340 615.868"
+			"maxposition"		"-2130.272 1044.395 1036.951"
+			"areaname"		"area5"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-20.73 -1594.00 780.20"
+			"angles"		"0 0 0"
+			"minposition"		"-891.259 -2107.342 950.036"
+			"maxposition"		"849.809 -1080.657 610.374"
+			"areaname"		"area6"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-26.69 -1593.91 252.96"
+			"angles"		"0 0 0"
+			"minposition"		"521.088 -1122.151 43.698"
+			"maxposition"		"-574.476 -2065.677 462.222"
+			"areaname"		"area7"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-298.95 1390.39 808.34"
+			"angles"		"0 0 0"
+			"minposition"		"462.407 1049.879 1051.592"
+			"maxposition"		"-1060.307 1730.909 565.080"
+			"areaname"		"area8"
+		}
+	}
+}
