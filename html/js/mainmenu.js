@@ -1,11 +1,13 @@
 var IS_ENGINE = ( navigator.userAgent == "JaykinBacon" );
 var IN_GAME = false;
+var TOTAL_BACKGROUNDS = 2;
 
 if ( !IS_ENGINE ) $(function(){ $(document).trigger('CEFReady') });
 var bDisplayedSplash = false;
 
 var iState = -1;
 var iMaxState = 2;
+
 
 // Auto scaling...
 function updateScale()
@@ -72,6 +74,11 @@ $(document).on('CEFReady', function() {
     updateMenu();	
 	$(document).click(cycleMenuState);
 	cycleMenuState();
+});
+	
+// Setup brackground
+$( function() {
+	$("#menu #background #bg_img").css('background-image', 'url(img/mainmenu/menu_bg_' + (Math.floor(Math.random()*TOTAL_BACKGROUNDS)+1) + '.png)');
 });
 	
 	
