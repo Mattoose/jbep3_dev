@@ -1,5 +1,3 @@
-#base global.txt
-
 "cs_militia"
 {
 	"Entities"
@@ -472,6 +470,70 @@
 			"classname"		"jb_spawn_svt_terrorist"
 			"origin"		"588.20 1677.20 4.64"
 			"angles"		"0.00 -95.95 0.00"
+		}
+		"replace"
+		{
+			"weapon_snark"		"jb_pickup_weapon_3"
+			"weapon_357"		"jb_pickup_weapon_3"
+			"weapon_crossbow"		"jb_pickup_weapon_2"
+			"weapon_egon"		"jb_pickup_weapon_2"
+			"weapon_gauss"		"jb_pickup_weapon_2"
+			"weapon_egon"		"jb_pickup_weapon_3"
+			"weapon_handgrenade"		"jb_pickup_weapon_1"
+			"weapon_hornetgun"		"jb_pickup_weapon_3"
+			"weapon_mp5"		"jb_pickup_weapon_1"
+			"weapon_rpg"		"jb_pickup_weapon_3"
+			"weapon_satchel"		"jb_pickup_weapon_1"
+			"weapon_shotgun"		"jb_pickup_weapon_2"
+			"weapon_crossbow"		"jb_pickup_weapon_2"
+			"weapon_ar2"		"jb_pickup_weapon_2"
+			"weapon_slam"		"jb_pickup_weapon_1"
+			"weapon_frag"		"jb_pickup_weapon_1"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"2073.05 -1061.32 32.74"
+			"angles"		"0 0 0"
+			"minposition"		"3106.471 -383.277 284.973"
+			"maxposition"		"1039.621 -1739.366 -219.501"
+			"areaname"		"area1"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"365.14 763.06 -86.79"
+			"angles"		"0 0 0"
+			"minposition"		"13.013 383.702 -149.027"
+			"maxposition"		"717.261 1142.423 -24.552"
+			"areaname"		"area2"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"366.40 961.95 48.30"
+			"angles"		"0 0 0"
+			"minposition"		"11.418 778.604 -11.541"
+			"maxposition"		"721.379 1145.292 108.143"
+			"areaname"		"area3"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"1013.95 514.65 -38.20"
+			"angles"		"0 0 0"
+			"minposition"		"751.499 651.800 -143.688"
+			"maxposition"		"1276.404 377.508 67.291"
+			"areaname"		"area4"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"840.66 -2265.83 52.43"
+			"angles"		"0 0 0"
+			"minposition"		"125.999 -2744.774 -116.898"
+			"maxposition"		"1555.329 -1786.877 221.762"
+			"areaname"		"area5"
 		}
 	}
 }

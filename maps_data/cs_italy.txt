@@ -1,5 +1,3 @@
-#base global.txt
-
 "cs_italy"
 {
 	"Entities"
@@ -490,6 +488,70 @@
 			"origin"		"270.98 2101.31 0.03"
 			"angles"		"0.00 -92.81 0.00"
 			"mutation"		"svt"
+		}
+		"replace"
+		{
+			"weapon_snark"		"jb_pickup_weapon_3"
+			"weapon_357"		"jb_pickup_weapon_3"
+			"weapon_crossbow"		"jb_pickup_weapon_2"
+			"weapon_egon"		"jb_pickup_weapon_2"
+			"weapon_gauss"		"jb_pickup_weapon_2"
+			"weapon_egon"		"jb_pickup_weapon_3"
+			"weapon_handgrenade"		"jb_pickup_weapon_1"
+			"weapon_hornetgun"		"jb_pickup_weapon_3"
+			"weapon_mp5"		"jb_pickup_weapon_1"
+			"weapon_rpg"		"jb_pickup_weapon_3"
+			"weapon_satchel"		"jb_pickup_weapon_1"
+			"weapon_shotgun"		"jb_pickup_weapon_2"
+			"weapon_crossbow"		"jb_pickup_weapon_2"
+			"weapon_ar2"		"jb_pickup_weapon_2"
+			"weapon_slam"		"jb_pickup_weapon_1"
+			"weapon_frag"		"jb_pickup_weapon_1"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"779.62 2351.64 119.02"
+			"angles"		"0 0 0"
+			"minposition"		"533.046 2134.329 239.659"
+			"maxposition"		"1026.194 2568.948 -1.627"
+			"areaname"		"area1"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-494.73 452.16 69.07"
+			"angles"		"0 0 0"
+			"minposition"		"-255.179 129.914 5.835"
+			"maxposition"		"-734.278 774.406 132.304"
+			"areaname"		"area2"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-780.55 -1752.61 -95.31"
+			"angles"		"0 0 0"
+			"minposition"		"-431.830 -1474.631 -255.445"
+			"maxposition"		"-1129.273 -2030.593 64.831"
+			"areaname"		"area3"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"604.63 -432.59 -82.88"
+			"angles"		"0 0 0"
+			"minposition"		"124.657 -828.885 -142.679"
+			"maxposition"		"1084.596 -36.301 -23.075"
+			"areaname"		"area4"
+		}
+		"create"
+		{
+			"classname"		"jb_koth_area"
+			"origin"		"-809.52 1871.31 -72.64"
+			"angles"		"0 0 0"
+			"minposition"		"-1379.816 1503.985 -146.172"
+			"maxposition"		"-239.222 2238.626 0.890"
+			"areaname"		"area5"
 		}
 	}
 }
