@@ -460,41 +460,5 @@
 			"weapon_slam"		"jb_pickup_weapon_1"
 			"weapon_frag"		"jb_pickup_weapon_1"
 		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"1825.20 -1982.69 -249.23"
-			"angles"		"0 0 0"
-			"minposition"		"2141.840 -1603.193 -418.416"
-			"maxposition"		"1508.552 -2362.192 -80.045"
-			"areaname"		"area1"
-		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"643.92 -901.61 -280.90"
-			"angles"		"0 0 0"
-			"minposition"		"327.344 -326.789 -145.515"
-			"maxposition"		"960.492 -1476.424 -416.286"
-			"areaname"		"area2"
-		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"640.43 -815.20 -709.24"
-			"angles"		"0 0 0"
-			"minposition"		"958.679 -256.737 -766.771"
-			"maxposition"		"322.191 -1373.661 -651.709"
-			"areaname"		"area3"
-		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"-8.47 -698.32 -307.25"
-			"angles"		"0 0 0"
-			"minposition"		"253.333 -1156.952 -432.316"
-			"maxposition"		"-270.280 -239.679 -182.181"
-			"areaname"		"area4"
-		}
 	}
 }

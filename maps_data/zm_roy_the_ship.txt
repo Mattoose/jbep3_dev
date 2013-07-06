@@ -662,50 +662,5 @@
 			"angles"		"0.00 127.34 0.00"
 			"tier"		"1"
 		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"-2493.57 620.50 763.01"
-			"angles"		"0 0 0"
-			"minposition"		"-2265.353 44.219 529.217"
-			"maxposition"		"-2721.790 1196.779 996.808"
-			"areaname"		"area1"
-		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"-2500.32 2210.77 887.13"
-			"angles"		"0 0 0"
-			"minposition"		"-2241.055 2078.073 949.746"
-			"maxposition"		"-2759.577 2343.463 824.506"
-			"areaname"		"area2"
-		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"-2503.20 1509.49 368.40"
-			"angles"		"0 0 0"
-			"minposition"		"-2746.648 1855.976 514.440"
-			"maxposition"		"-2259.746 1162.998 222.366"
-			"areaname"		"area3"
-		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"-2499.21 824.54 372.63"
-			"angles"		"0 0 0"
-			"minposition"		"-2248.429 517.936 226.512"
-			"maxposition"		"-2749.987 1131.135 518.750"
-			"areaname"		"area4"
-		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"-2492.51 90.10 469.63"
-			"angles"		"0 0 0"
-			"minposition"		"-2217.626 -331.040 421.138"
-			"maxposition"		"-2767.392 511.239 518.114"
-			"areaname"		"area5"
-		}
 	}
 }

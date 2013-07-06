@@ -664,59 +664,5 @@
 			"origin"		"799.83 -204.55 -175.97"
 			"angles"		"0.00 148.40 0.00"
 		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"307.32 31.86 730.97"
-			"angles"		"0 0 0"
-			"minposition"		"595.280 -178.324 33.772"
-			"maxposition"		"19.350 242.035 1428.166"
-			"areaname"		"area1"
-		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"-1425.84 -573.11 -23.17"
-			"angles"		"0 0 0"
-			"minposition"		"-1647.391 -312.680 -327.182"
-			"maxposition"		"-1204.294 -833.532 280.839"
-			"areaname"		"area2"
-		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"-1918.87 886.97 -311.84"
-			"angles"		"0 0 0"
-			"minposition"		"-1769.934 1116.603 -507.961"
-			"maxposition"		"-2067.807 657.344 -115.727"
-			"areaname"		"area3"
-		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"-1245.60 965.73 206.04"
-			"angles"		"0 0 0"
-			"minposition"		"-1439.467 1154.689 492.966"
-			"maxposition"		"-1051.730 776.779 -80.896"
-			"areaname"		"area4"
-		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"-329.98 1792.80 252.77"
-			"angles"		"0 0 0"
-			"minposition"		"327.049 1249.921 554.197"
-			"maxposition"		"-987.013 2335.674 -48.649"
-			"areaname"		"area5"
-		}
-		"create"
-		{
-			"classname"		"jb_koth_area"
-			"origin"		"-564.36 608.11 -432.74"
-			"angles"		"0 0 0"
-			"minposition"		"213.061 -608.075 -357.444"
-			"maxposition"		"-1341.784 1824.304 -508.033"
-			"areaname"		"area6"
-		}
 	}
 }
