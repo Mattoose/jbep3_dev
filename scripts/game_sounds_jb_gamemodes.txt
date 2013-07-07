@@ -1,0 +1,10 @@
+"JB.BR_Alarm"
+{
+	channel		        CHAN_STATIC
+	volume		        1.0
+	soundlevel			SNDLVL_NONE
+	pitch				100
+
+	"wave"				"ambient\alarms\klaxon1.wav"
+}
+
