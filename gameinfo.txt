@@ -59,10 +59,14 @@
 			// Mount HL2MP
 			game				"|gameinfo_path|../../common/Half-Life 2 Deathmatch/hl2mp/hl2mp_pak.vpk"
 			game				"|gameinfo_path|../../common/Half-Life 2 Deathmatch/hl2mp/"
+			game				"|gameinfo_path|../hl2mp/hl2mp_pak.vpk"
+			game				"|gameinfo_path|../hl2mp/"
 			
 			// Mount CSS
 			game				"|gameinfo_path|../../common/Counter-Strike Source/cstrike/cstrike_pak.vpk"
 			game				"|gameinfo_path|../../common/Counter-Strike Source/cstrike/"
+			game				"|gameinfo_path|../cstrike/cstrike_pak.vpk"
+			game				"|gameinfo_path|../cstrike/"
 
 			// HL2
 			//game_lv				hl2/hl2_lv.vpk
