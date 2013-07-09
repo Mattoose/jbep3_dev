@@ -29,6 +29,7 @@ particles_manifest
 	"file"		"particles/rocket_fx.pcf"
 	"file"		"particles/Vortigaunt_FX.pcf"
 	"file"		"particles/grenade_fx.pcf"
+	"file"		"particles/explosion.pcf"
 	"file"		"!particles/karpar.pcf"
 	"file"		"particles/jb_gungame.pcf"
 	"file"		"particles/jb_weapon_smoke.pcf"
