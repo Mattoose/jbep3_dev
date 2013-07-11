@@ -53,12 +53,6 @@
 		"create"
 		{
 			"classname"		"jb_spawn_all"
-			"origin"		"-511.32 -1280.03 -104.03"
-			"angles"		"0.00 -10.88 0.00"
-		}
-		"create"
-		{
-			"classname"		"jb_spawn_all"
 			"origin"		"384.03 -83.00 144.03"
 			"angles"		"0.00 -22.65 0.00"
 		}
