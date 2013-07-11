@@ -10,6 +10,15 @@
 		"tall"	 "480"
 	}
 	
+	JBSpec	
+	{
+		"fieldName"				"JBSpec"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "f0"
+		"tall"	 "480"
+	}
+	
 	HudVoiceSelfStatus
 	{
 		"fieldName" "HudVoiceSelfStatus"

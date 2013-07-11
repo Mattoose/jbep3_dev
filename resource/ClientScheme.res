@@ -278,6 +278,35 @@ Scheme
 	Fonts
 	{
 	
+		"TargetID"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}		
+			//"1"
+			//{
+			//	"name"		"MGRay"
+			//	"tall"		"64"
+			//	"antialias" "1"
+			//	"yres"	"1 1024"
+			//	"dropshadow"	"1"
+			//}
+			//"1"
+			//{
+			//	"name"		"MGRay"
+			//	"tall"		"72"
+			//	"antialias" "1"
+			//	"yres"	"1025 10000"
+			//	"dropshadow"	"1"
+			//}
+		}
+	
 		HudRoundIntroTitle
 		{
 			"1"
@@ -955,18 +984,6 @@ Scheme
 				"weight"	"700"
 				"yres"	"1200 10000"
 				"dropshadow"	"1"
-			}
-		}
-		"TargetID"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"24"
-				"weight"	"900"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
 			}
 		}
 		"HL2MPTypeDeath"
@@ -1668,8 +1685,8 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"1"		"resource/HL2MP.ttf"
-		"2"		"resource/HL2crosshairs.ttf"
+		"2"		"resource/HL2MP.ttf"
+		"3"		"resource/MGRay.ttf"
 	}
 
 }

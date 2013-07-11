@@ -1,9 +1,18 @@
-#base global.txt
-
 "cs_havana"
 {
 	"Entities"
 	{
+		"remove"
+		{
+			"targetname"		"block_a"
+			"targetname"		"block_b"
+			"targetname"		"block_c"
+			"targetname"		"block_d"
+			"targetname"		"door_a"
+			"targetname"		"door_b"
+			"targetname"		"door_c"
+			"targetname"		"door_d"
+		}
 		"create"
 		{
 			"classname"		"jb_spawn_all"
