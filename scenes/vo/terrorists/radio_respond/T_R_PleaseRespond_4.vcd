@@ -1,0 +1,28 @@
+// Choreo version 1
+// auto generated...
+
+actor "player"
+{
+  channel "player"
+  {
+    event speak "JB.VO_Terrorist_Radio_PleaseRespond_4"
+    {
+      time 0.000000 2.74392290249
+      param "JB.VO_Terrorist_Radio_PleaseRespond_4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+
+fps 60
+snap off
+ignorePhonemes off

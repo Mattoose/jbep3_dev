@@ -80,14 +80,14 @@ game_sounds_manifest
 	
 	"precache_file"		"scripts/game_sounds_jb.txt"
 	"precache_file"		"scripts/game_sounds_jb_weapons.txt"
-	"precache_file"		"scripts/game_sounds_jb_weapons_2.txt"
 	"precache_file"		"scripts/game_sounds_jb_npc.txt"
 	"precache_file"		"scripts/game_sounds_jb_player.txt"
 	"precache_file"		"scripts/game_sounds_jb_ui.txt"
-	"precache_file"		"scripts/game_sounds_jb_vo.txt"
-	"precache_file"		"scripts/game_sounds_jb_vo_2.txt"
-	"precache_file"		"scripts/game_sounds_jb_vo_svt.txt"
 	"precache_file"		"scripts/game_sounds_jb_gamemodes.txt"
+	
+	"precache_file"		"scripts/game_sounds_jb_auto_vo_players.txt"
+	"precache_file"		"scripts/game_sounds_jb_auto_vo_svt.txt"
+	"precache_file"		"scripts/game_sounds_jb_auto_weapons.txt"
 }
 
 

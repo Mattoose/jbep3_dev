@@ -1,0 +1,208 @@
+settings:
+  output: game_sounds_jb_auto_vo_players
+  
+categories:
+  voiceover:
+    channel: CHAN_VOICE
+    soundlevel: SNDLVL_85dB
+    volume: 1.0
+    pitch: 100
+
+  voiceover_radio:
+    channel: CHAN_VOICE
+    soundlevel: SNDLVL_85dB
+    volume: 1.0
+    pitch: 100
+
+  voiceover_loud:
+    channel: CHAN_VOICE
+    soundlevel: SNDLVL_95dB
+    volume: 1.0
+    pitch: 100
+
+  deathcry:
+    channel: CHAN_VOICE
+    soundlevel: SNDLVL_85dB
+    volume: 1.0
+    pitch: 90,110
+
+  deathcry_100pitch:
+    channel: CHAN_VOICE
+    soundlevel: SNDLVL_85dB
+    volume: 1.0
+    pitch: 100
+
+
+sounds:
+
+  # Death screams
+  
+  JB.Death_Custom_Hobo:
+    wave: player/custom_vo/hobo/death.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_Solid_Snake:
+    wave: player/custom_vo/solid_snake/death.wav
+    category: deathcry
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Barney:
+    wave: player/custom_vo/barney/death.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_MaxPayne:
+    wave: player/custom_vo/maxpayne/max_death_01.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_Doom:
+    wave: player/custom_vo/doom/death3.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_Ash:
+    wave: player/custom_vo/ash/death.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_Hunter:
+    wave: player/custom_vo/hunter/death.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_Knight:
+    wave: player/custom_vo/knight/knight_death.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_Chunli:
+    wave: player/custom_vo/chunli/death.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_Postaldude:
+    wave: player/custom_vo/postaldude/death.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_Craptasket:
+    wave: player/custom_vo/craptasket/ugnautdie01.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_Alien:
+    wave: player/custom_vo/alien/death.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_TommyV:
+    wave: player/custom_vo/tommyv/death.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_Assassin:
+    wave: player/custom_vo/assassin/die1.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_Ghoul:
+    wave: player/custom_vo/ghoul/death.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_Marisa:
+    waves: [player/custom_vo/marisa/iku2.wav, 
+player/custom_vo/marisa/iku3.wav, 
+player/custom_vo/marisa/iku4.wav, 
+player/custom_vo/marisa/iku5.wav, 
+player/custom_vo/marisa/iku6.wav, 
+player/custom_vo/marisa/iku7.wav, 
+player/custom_vo/marisa/iku8.wav, 
+player/custom_vo/marisa/iku9.wav]
+    category: deathcry
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Rorschach:
+    wave: player/custom_vo/rorschach/die.wav
+    category: deathcry
+    wave_prefix: 
+    vcd: false
+
+  JB.Death_Custom_Chewbacca:
+    waves: [player/custom_vo/chewbacca/death1.mp3, 
+player/custom_vo/chewbacca/death2.mp3, 
+player/custom_vo/chewbacca/death3.mp3]
+    category: deathcry
+    wave_prefix: )
+    vcd: 
+
+  JB.Death_Custom_Mech:
+    wave: player/custom_vo/mech/die.mp3
+    category: deathcry
+    wave_prefix: ) 
+    vcd: false
+
+  JB.Death_Custom_Skeleton:
+    wave: player/custom_vo/skeleton/die.mp3
+    category: deathcry_100pitch
+    wave_prefix: ) 
+    vcd: false
+
+  JB.Death_Custom_Hatsune:
+    wave: player/custom_vo/hatsune/death.mp3
+    category: deathcry
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Batman:
+    waves: [player/custom_vo/batman/batman_death_1.wav, 
+player/custom_vo/batman/batman_death_2.wav]
+    category: deathcry_100pitch
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_GCombine:
+    waves: [player/custom_vo/gcombine/RanchPuddingDeathSound1.wav,
+player/custom_vo/gcombine/RanchPuddingDeathSound2.wav,
+player/custom_vo/gcombine/RanchPuddingDeathSound3.wav]
+    category: deathcry_100pitch
+    wave_prefix: )
+    vcd: false
+
+  # Reloading voice lines
+  
+  JB.RR_Reloading1:
+    wave: player/vo/reloadspeech1.wav
+    category: voiceover
+    wave_prefix:
+    vcd: true
+
+  JB.RR_Reloading2:
+    wave: player/vo/reloadspeech2.wav
+    category: voiceover
+    wave_prefix:
+    vcd: true
+
+  JB.RR_Reloading3:
+    wave: player/vo/reloadspeech3.wav
+    category: voiceover
+    wave_prefix:
+    vcd: true
