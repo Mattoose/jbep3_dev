@@ -161,3 +161,16 @@
 [
 	filtername(filterclass) : "Filter Name" : : "Filter to use to see if activator triggers me. See filter_activator_name for more explanation."
 ]
+
+//
+// Triggers
+// 
+
+@SolidClass base(Trigger) = jb_trigger_jump : "Bounces players to the target."
+[
+	target(target_destination) : "Target" : "" : "Name of entity we'll bounce players to."
+]
+
+@SolidClass base(Trigger) = jb_trigger_falldeath : "Ricochet style fall death."
+[
+]

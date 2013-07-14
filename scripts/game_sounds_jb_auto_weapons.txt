@@ -54,15 +54,39 @@
 			"wave"		"weapons/ax47/swing.wav"
 		
 		} 
-		"JB.Weapon_TMP_Shoot"
+		"Weapon_Ricochet.AltFire"
 		{
 			"channel"		"CHAN_WEAPON"
 			"volume"		"1.0"
 			"pitch"			"93,107"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		")weapons/tmp/shoot.wav"
+			"wave"		"weapons/ricochet/altfire.wav"
 		
+		} 
+		"JB.Weapon_Beretta_Shoot"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"93,107"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		")weapons/beretta/shoot.wav"
+		
+		} 
+		"JB.Weapon_Cat_Muffled1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"80,110"
+			"soundlevel"	"SNDLVL_85db"
+	
+			"rndwave"		
+			{
+				"wave"	"weapons/cat/angry_1.mp3" 
+				"wave"	"weapons/cat/angry_2.mp3" 
+				"wave"	"weapons/cat/angry_3.mp3" 
+			} 
 		} 
 		"JB.Weapon_Bofors_Shoot"
 		{
@@ -84,13 +108,17 @@
 			"wave"		"weapons/slam/throw.wav"
 		
 		} 
-		"JB.Weapon_Beretta_Shoot"
+		"JB.Weapon_Cat_Throw"
 		{
 			"channel"		"CHAN_WEAPON"
 			"volume"		"1.0"
 			"pitch"			"93,107"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		")weapons/beretta/shoot.wav"
-		
+			"rndwave"		
+			{
+				"wave"	"weapons/cat/angry_1.mp3" 
+				"wave"	"weapons/cat/angry_2.mp3" 
+				"wave"	"weapons/cat/angry_3.mp3" 
+			} 
 		} 

@@ -7,6 +7,11 @@ categories:
     soundlevel: SNDLVL_GUNFIRE
     volume: 1.0
     pitch: 93,107
+  cat:
+    channel: CHAN_VOICE
+    soundlevel: SNDLVL_85db
+    volume: 1.0
+    pitch: 80,110
 
 
 sounds:
@@ -61,8 +66,20 @@ sounds:
     wave_prefix: ^
     vcd: false  
 
-  JB.Weapon_TMP_Shoot:
-    wave: weapons/tmp/shoot.wav
+  Weapon_Ricochet.AltFire:
+    wave: weapons/ricochet/altfire.wav
     category: weapon
-    wave_prefix: )
+    wave_prefix: 
+    vcd: false  
+
+  JB.Weapon_Cat_Muffled1:
+    waves: [weapons/cat/angry_1.mp3,weapons/cat/angry_2.mp3,weapons/cat/angry_3.mp3]
+    category: cat
+    wave_prefix: 
+    vcd: false  
+
+  JB.Weapon_Cat_Throw:
+    waves: [weapons/cat/angry_1.mp3,weapons/cat/angry_2.mp3,weapons/cat/angry_3.mp3]
+    category: weapon
+    wave_prefix: 
     vcd: false  

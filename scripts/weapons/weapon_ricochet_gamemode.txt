@@ -1,0 +1,74 @@
+WeaponData
+{
+	"Damage"			"0"
+	"CycleTime"			"0"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"					"#jb_weapon_ricochet"
+	"viewmodel"					"models/weapons/v_ric.mdl"
+	"playermodel"				"models/weapons/w_ric.mdl"
+	"PlayerAnimationExtension"	"gren"
+
+	"BuiltRightHanded"		"1"
+
+	"bucket"				"4"
+	"bucket_position"		"5"
+
+	"clip_size"				"-1"
+	"default_clip"			"999"
+	"NumClips"				"1"
+	
+	"fov"					"60"
+
+	"primary_ammo"			"ricochet"
+	"secondary_ammo"		"None"
+
+	"weight"				"1"
+	"item_flags"			"18"	// ITEM_FLAG_NOAUTORELOAD | ITEM_FLAG_EXHAUSTIBLE
+	
+	Recoil
+	{
+		// Horizontal kickback. Positive = right, negative = left.
+		MinX	-6.5
+		MaxX	-2.5
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	-3.5
+		MaxY	3.5
+	}
+	
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"	"Weapon_Ricochet.Throw"
+		"special1"		"Weapon_Ricochet.AltFire"
+	}	
+	
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"10"
+			"y"			"10"
+			"width"		"3"
+			"height"	"3"
+		}	
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_ricochet"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_ricochet"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}		
+	}
+}
