@@ -13,23 +13,43 @@
 	}
 }
 
-"JB.BRMusic" // Battleroyale music
+"JB.BRMusic_1"
 {
 	"channel"		"CHAN_VOICE"
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
-
 	"soundlevel"	"SNDLVL_NONE"
-
-	rndwave
-	{
-		"wave"	"misc/BATTLE1.mp3"
-		"wave"	"misc/BATTLE2.mp3"
-		"wave"	"misc/br_theme_1.mp3"
-	}
+	"wave"			"misc/BATTLE1.mp3"
 }
 
-"JB.BRMusic_Special" // Battleroyale music special
+"JB.BRMusic_2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"misc/BATTLE2.mp3"
+}
+
+"JB.BRMusic_SpecialRoundType"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"misc/br_theme_1.mp3"
+}
+
+"JB.BRMusic_SpecialRoundType_HighPitch"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			130
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"misc/br_theme_1.mp3"
+}
+
+"JB.BRMusic_Bodies" // Battleroyale music special
 {
 	"channel"		"CHAN_VOICE"
 	"volume"		"VOL_NORM"

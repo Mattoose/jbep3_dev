@@ -83,3 +83,9 @@ sounds:
     category: weapon
     wave_prefix: 
     vcd: false  
+
+  JB.Weapon_TMP_Shoot:
+    wave: weapons/tmp/shoot.wav
+    category: weapon
+    wave_prefix: )
+    vcd: false  

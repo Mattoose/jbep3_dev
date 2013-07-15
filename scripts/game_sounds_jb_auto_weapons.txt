@@ -88,6 +88,16 @@
 				"wave"	"weapons/cat/angry_3.mp3" 
 			} 
 		} 
+		"JB.Weapon_TMP_Shoot"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"93,107"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		")weapons/tmp/shoot.wav"
+		
+		} 
 		"JB.Weapon_Bofors_Shoot"
 		{
 			"channel"		"CHAN_WEAPON"
