@@ -14,7 +14,7 @@ WeaponData
 	"playermodel"			"models/weapons/w_beretta.mdl"
 	
 	"bucket"				"1"
-	"bucket_position"		"4"
+	"bucket_position"		"1"
 
 	"clip_size"				"30"
 	
