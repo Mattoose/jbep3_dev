@@ -28,20 +28,12 @@ WeaponData
 	Recoil
 	{
 		// Horizontal kickback. Positive = right, negative = left.
-		MinX	-20.0
-		MaxX	20.0
+		MinX	-10.0
+		MaxX	-8.0
 		// Vertical kickback. Positive = up, negative = down.
-		MinY	-29.0
-		MaxY	-14.0
-		
-		// alternate force used when melee attack hits a player.
-		AlternateForce
-		{
-			MinX	-10.0
-			MaxX	10.0
-			MinY	-10.0
-			MaxY	-4.0	
-		}
+		MinY	-5.0
+		MaxY	-8.0
+		SmoothKick	1
 	}
 	
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)

@@ -27,19 +27,20 @@ WeaponData
 	Recoil
 	{
 		// Force when we swing our left fist
-		MinX	-5.0
+		MinX	5.0
 		MaxX	5.0
 		// Vertical kickback. Positive = up, negative = down.
-		MinY	-5.0
-		MaxY	5.0
+		MinY	-2.0
+		MaxY	2.0
+		SmoothKick	1
 		
-		// alternate force used when melee attack hits a player.
 		AlternateForce
 		{
-			MinX	-2.0
-			MaxX	2.0
+			MinX	-5.0
+			MaxX	-5.0
 			MinY	-2.0
-			MaxY	2.0		
+			MaxY	2.0
+			SmoothKick	1
 		}
 	}
 	

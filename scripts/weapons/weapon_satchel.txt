@@ -21,11 +21,12 @@ WeaponData
 	Recoil
 	{
 		// Horizontal kickback. Positive = right, negative = left.
-		MinX	-24.0
-		MaxX	-15.0
+		MinX	-2.0
+		MaxX	2.0
 		// Vertical kickback. Positive = up, negative = down.
-		MinY	-17.0
-		MaxY	-12.0
+		MinY	5.0
+		MaxY	5.0
+		SmoothKick	1
 	}
 	
 	SoundData

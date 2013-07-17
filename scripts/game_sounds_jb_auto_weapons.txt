@@ -14,6 +14,16 @@
 			"wave"		"^weapons/hegrenade/explode3.wav"
 		
 		} 
+		"JB.Weapon_Railgun_Shoot"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		")weapons/railgun/q2_railgun.wav"
+		
+		} 
 		"JB.Weapon_Flashbang_Detonate"
 		{
 			"channel"		"CHAN_WEAPON"

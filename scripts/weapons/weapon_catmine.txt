@@ -33,6 +33,7 @@ WeaponData
 		// Vertical kickback. Positive = up, negative = down.
 		MinY	-17.0
 		MaxY	-12.0
+		SmoothKick	1
 	}
 	
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
