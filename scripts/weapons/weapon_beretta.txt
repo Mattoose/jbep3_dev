@@ -32,8 +32,8 @@ WeaponData
 		MinX	-1.65
 		MaxX	1.65
 		// Vertical kickback. Positive = up, negative = down.
-		MinY	3.0
-		MaxY	4.0
+		MinY	2.0
+		MaxY	3.0
 	}
 	
 	SoundData

@@ -93,7 +93,7 @@ function setTimer( timeRemaining, subText )
 	else
 		$("#timer #time").fadeOut( { duration: 500, queue: false } );
 		
-	if ( subText.length > 0 )
+	if ( subText != null && subText.length > 0 )
 		$("#timer #text").show();
 	else
 		$("#timer #text").fadeOut( { duration: 500, queue: false } );
@@ -115,7 +115,7 @@ function updateScale()
 
 $( function(){ 
 	updateScale();
-	setHealth( 100 );
+	setHealth( 555 );
 	setArmour( 0 );
 } );
 
@@ -125,20 +125,15 @@ if ( !IS_GAME )
 {
 	var hp = 0;
 	function loop(){
-		setTimer( Math.floor( Math.random() * 5000 )/*, "Blah blah"*/);
-		
-		
-		var randomnumber=Math.floor(Math.random()*101);
-		setHealth(randomnumber);
-		var randomnumber2 = Math.floor(Math.random()*20);
-		setArmour(randomnumber2);
-		
-		//setHealth(hp);
+		setTimer( Math.floor( Math.random() * 5000 ), "Blah blah");
+				
+		setHealth(hp);
+		setArmour(hp);
 		hp++;
-		if ( hp > 100 )
+		if ( hp >= 1000 )
 			hp = 0;
 		
-		setTimeout(loop,250);
+		setTimeout(loop,25);
 	}
 
 	loop();
