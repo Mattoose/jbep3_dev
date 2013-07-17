@@ -98,5 +98,41 @@ sounds:
   JB.Weapon_Railgun_Shoot:
     wave: weapons/railgun/q2_railgun.wav
     category: weapon_100pitch
+    wave_prefix:
+    vcd: false  
+
+  JB.Weapon_Speakers_Music1:
+    wave: weapons/dubstep/dub1.wav
+    category: weapon_100pitch
+    wave_prefix: )
+    vcd: false  
+  JB.Weapon_Speakers_Music2:
+    wave: weapons/dubstep/dub2.wav
+    category: weapon_100pitch
+    wave_prefix: )
+    vcd: false  
+  JB.Weapon_Speakers_Music3:
+    wave: weapons/dubstep/dub3.wav
+    category: weapon_100pitch
+    wave_prefix: )
+    vcd: false  
+  JB.Weapon_Speakers_Music4:
+    wave: weapons/dubstep/dub4.wav
+    category: weapon_100pitch
+    wave_prefix: )
+    vcd: false  
+  JB.Weapon_Speakers_Music5:
+    wave: weapons/dubstep/dub5.wav
+    category: weapon_100pitch
+    wave_prefix: )
+    vcd: false  
+  JB.Weapon_Speakers_MusicR1:
+    wave: misc/wtf.mp3
+    category: weapon_100pitch
+    wave_prefix: )
+    vcd: false  
+  JB.Weapon_Speakers_MusicR2:
+    wave: ambience/industrial5.wav
+    category: weapon_100pitch
     wave_prefix: )
     vcd: false  

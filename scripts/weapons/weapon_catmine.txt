@@ -10,7 +10,7 @@ WeaponData
 	"PlayerAnimationExtension"	"gren"
 
 	"BuiltRightHanded"		"1"
-	"fov"					"65"
+	"fov"					"70"
 
 	"bucket"			"4"
 	"bucket_position"		"3"

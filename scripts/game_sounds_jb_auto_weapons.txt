@@ -4,16 +4,6 @@
 // - jimbomcb
 //
 
-		"JB.Projectile_Rocket_Detonate"
-		{
-			"channel"		"CHAN_WEAPON"
-			"volume"		"1.0"
-			"pitch"			"93,107"
-			"soundlevel"	"SNDLVL_GUNFIRE"
-	
-			"wave"		"^weapons/hegrenade/explode3.wav"
-		
-		} 
 		"JB.Weapon_Railgun_Shoot"
 		{
 			"channel"		"CHAN_WEAPON"
@@ -21,7 +11,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		")weapons/railgun/q2_railgun.wav"
+			"wave"		"weapons/railgun/q2_railgun.wav"
 		
 		} 
 		"JB.Weapon_Flashbang_Detonate"
@@ -34,14 +24,14 @@
 			"wave"		")weapons/fricnade/explode.wav"
 		
 		} 
-		"JB.Weapon_AX47_Shoot"
+		"JB.Weapon_Speakers_Music1"
 		{
 			"channel"		"CHAN_WEAPON"
 			"volume"		"1.0"
-			"pitch"			"93,107"
+			"pitch"			"100"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		")weapons/ax47/shoot.wav"
+			"wave"		")weapons/dubstep/dub1.wav"
 		
 		} 
 		"JB.Weapon_Satchel_Detonate"
@@ -54,24 +44,34 @@
 			"wave"		"weapons/satchel/detonate.wav"
 		
 		} 
-		"JB.Weapon_AX47_Swing"
+		"JB.Weapon_Speakers_Music3"
 		{
 			"channel"		"CHAN_WEAPON"
 			"volume"		"1.0"
-			"pitch"			"93,107"
+			"pitch"			"100"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		"weapons/ax47/swing.wav"
+			"wave"		")weapons/dubstep/dub3.wav"
 		
 		} 
-		"Weapon_Ricochet.AltFire"
+		"JB.Weapon_Speakers_Music4"
 		{
 			"channel"		"CHAN_WEAPON"
 			"volume"		"1.0"
-			"pitch"			"93,107"
+			"pitch"			"100"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		"weapons/ricochet/altfire.wav"
+			"wave"		")weapons/dubstep/dub4.wav"
+		
+		} 
+		"JB.Weapon_Speakers_Music5"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		")weapons/dubstep/dub5.wav"
 		
 		} 
 		"JB.Weapon_Beretta_Shoot"
@@ -98,16 +98,6 @@
 				"wave"	"weapons/cat/angry_3.mp3" 
 			} 
 		} 
-		"JB.Weapon_TMP_Shoot"
-		{
-			"channel"		"CHAN_WEAPON"
-			"volume"		"1.0"
-			"pitch"			"93,107"
-			"soundlevel"	"SNDLVL_GUNFIRE"
-	
-			"wave"		")weapons/tmp/shoot.wav"
-		
-		} 
 		"JB.Weapon_Bofors_Shoot"
 		{
 			"channel"		"CHAN_WEAPON"
@@ -128,6 +118,76 @@
 			"wave"		"weapons/slam/throw.wav"
 		
 		} 
+		"JB.Projectile_Rocket_Detonate"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"93,107"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		"^weapons/hegrenade/explode3.wav"
+		
+		} 
+		"JB.Weapon_AX47_Shoot"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"93,107"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		")weapons/ax47/shoot.wav"
+		
+		} 
+		"JB.Weapon_AX47_Swing"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"93,107"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		"weapons/ax47/swing.wav"
+		
+		} 
+		"Weapon_Ricochet.AltFire"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"93,107"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		"weapons/ricochet/altfire.wav"
+		
+		} 
+		"JB.Weapon_Speakers_MusicR2"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		")ambience/industrial5.wav"
+		
+		} 
+		"JB.Weapon_Speakers_MusicR1"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		")misc/wtf.mp3"
+		
+		} 
+		"JB.Weapon_TMP_Shoot"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"93,107"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		")weapons/tmp/shoot.wav"
+		
+		} 
 		"JB.Weapon_Cat_Throw"
 		{
 			"channel"		"CHAN_WEAPON"
@@ -141,4 +201,14 @@
 				"wave"	"weapons/cat/angry_2.mp3" 
 				"wave"	"weapons/cat/angry_3.mp3" 
 			} 
+		} 
+		"JB.Weapon_Speakers_Music2"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		")weapons/dubstep/dub2.wav"
+		
 		} 
