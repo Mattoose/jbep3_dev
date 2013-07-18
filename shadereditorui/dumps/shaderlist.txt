@@ -1,5 +1,0 @@
-"shaderlist"
-{
-	"shader_000"		"jb_dubstep"
-	"shader_001"		"jb_pp_warp"
-}
