@@ -2,13 +2,7 @@
 // ** auto generated pixelshader **
 // ********************************
 
-// Includes
-#include "common_ps_fxc.h"
-#include "common_vertexlitgeneric_dx9.h"
-#include "common_lightmappedgeneric_fxc.h"
-#include "common_flashlight_fxc.h"
-#include "common_parallax.h"
-
+#define SHADER_EDITOR_2013_COMPILE
 
 // Combos
 // STATIC: "FLASHLIGHT"		"0..1"
@@ -17,6 +11,14 @@
 // DYNAMIC: "NUM_LIGHTS"		"0..4"
 // DYNAMIC: "PIXELFOGTYPE"		"0..1"
 // DYNAMIC: "WRITEWATERFOGTODESTALPHA"		"0..1"
+
+// Includes
+#include "common_ps_fxc.h"
+#include "common_vertexlitgeneric_dx9.h"
+#include "common_lightmappedgeneric_fxc.h"
+#include "common_flashlight_fxc.h"
+#include "common_parallax.h"
+
 
 // Samplers
 sampler _Sampler_00		: register( s0 );
@@ -34,8 +36,6 @@ const float4 g_cFlashlightPos		: register( c9 );
 const float4 g_cShadowTweaks		: register( c7 );
 const float3 g_cAmbientCube[6]		: register( c0 );
 PixelShaderLightInfo g_cLightInfo[3]		: register( c6 );
-
-// Arrays
 
 // Semantic structures
 struct PS_INPUT

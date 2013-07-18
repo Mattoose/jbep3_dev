@@ -1,10 +1,10 @@
 "config"
 {
 	"preview_visible"		"1"
-	"p_x"		"1134"
-	"p_y"		"500"
-	"p_sx"		"449"
-	"p_sy"		"378"
+	"p_x"		"1480"
+	"p_y"		"546"
+	"p_sx"		"440"
+	"p_sy"		"521"
 	"draw_datatypes"		"1"
 	"draw_shadows"		"1"
 	"draw_all_limits"		"0"
@@ -16,6 +16,6 @@
 	"warn_unsaved_changes"		"1"
 	"cedit_x"		"95"
 	"cedit_y"		"195"
-	"cedit_sx"		"918"
-	"cedit_sy"		"585"
+	"cedit_sx"		"909"
+	"cedit_sy"		"657"
 }
