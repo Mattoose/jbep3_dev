@@ -49,9 +49,6 @@
 			game				"|gameinfo_path|../cstrike/"
 
 			// HL2
-			//game_lv				hl2/hl2_lv.vpk
-			//game+mod			hl2mp/hl2mp_english.vpk
-			//game+mod			hl2mp/hl2mp_pak.vpk
 			game				|all_source_engine_paths|hl2/hl2_english.vpk
 			game				|all_source_engine_paths|hl2/hl2_pak.vpk
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
