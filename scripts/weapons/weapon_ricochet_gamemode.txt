@@ -20,7 +20,7 @@ WeaponData
 	
 	"fov"					"60"
 
-	"primary_ammo"			"ricochet"
+	"primary_ammo"			"ricochet_gamemode"
 	"secondary_ammo"		"None"
 
 	"weight"				"1"

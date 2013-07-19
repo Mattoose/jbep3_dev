@@ -7,3 +7,13 @@
 
 	"wave"	"ricochet/triggerjump.wav"
 }
+
+"JB.RicochetSpawn"
+{
+	channel		        CHAN_STATIC
+	volume		        1.0
+	soundlevel			SNDLVL_85db
+	pitch				100
+
+	"wave"	"ricochet/pspawn.wav"
+}

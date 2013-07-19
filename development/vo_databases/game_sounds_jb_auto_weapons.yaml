@@ -12,6 +12,21 @@ categories:
     soundlevel: SNDLVL_GUNFIRE
     volume: 1.0
     pitch: 100
+  weapon_100pitch:
+    channel: CHAN_WEAPON
+    soundlevel: SNDLVL_GUNFIRE
+    volume: 1.0
+    pitch: 100
+  ricochet_discsounds:
+    channel: CHAN_AUTO
+    soundlevel: SNDLVL_75db
+    volume: .75
+    pitch: 100
+  ricochet_discsounds_loud:
+    channel: CHAN_AUTO
+    soundlevel: SNDLVL_95db
+    volume: 1
+    pitch: 100
   cat:
     channel: CHAN_VOICE
     soundlevel: SNDLVL_85db
@@ -73,7 +88,31 @@ sounds:
 
   Weapon_Ricochet.AltFire:
     wave: weapons/ricochet/altfire.wav
-    category: weapon
+    category: weapon_100pitch
+    wave_prefix: 
+    vcd: false  
+
+  Weapon_Ricochet.DiscHit:
+    wave: weapons/ricochet/dischit.wav
+    category: ricochet_discsounds
+    wave_prefix: 
+    vcd: false  
+
+  Weapon_Ricochet.DiscReturn:
+    wave: weapons/ricochet/discreturn.wav
+    category: ricochet_discsounds
+    wave_prefix: 
+    vcd: false  
+
+  Weapon_Ricochet.Decap:
+    wave: weapons/ricochet/decap.wav
+    category: ricochet_discsounds
+    wave_prefix: 
+    vcd: false  
+
+  Weapon_Ricochet.ChargedLoop:
+    wave: weapons/ricochet/chargedloop.wav
+    category: ricochet_discsounds_loud
     wave_prefix: 
     vcd: false  
 

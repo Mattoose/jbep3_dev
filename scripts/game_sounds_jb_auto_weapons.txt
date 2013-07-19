@@ -34,14 +34,14 @@
 			"wave"		")weapons/dubstep/dub1.wav"
 		
 		} 
-		"JB.Weapon_Satchel_Detonate"
+		"JB.Weapon_Speakers_Music2"
 		{
 			"channel"		"CHAN_WEAPON"
 			"volume"		"1.0"
-			"pitch"			"93,107"
+			"pitch"			"100"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		"weapons/satchel/detonate.wav"
+			"wave"		")weapons/dubstep/dub2.wav"
 		
 		} 
 		"JB.Weapon_Speakers_Music3"
@@ -74,16 +74,6 @@
 			"wave"		")weapons/dubstep/dub5.wav"
 		
 		} 
-		"JB.Weapon_Beretta_Shoot"
-		{
-			"channel"		"CHAN_WEAPON"
-			"volume"		"1.0"
-			"pitch"			"93,107"
-			"soundlevel"	"SNDLVL_GUNFIRE"
-	
-			"wave"		")weapons/beretta/shoot.wav"
-		
-		} 
 		"JB.Weapon_Cat_Muffled1"
 		{
 			"channel"		"CHAN_VOICE"
@@ -98,6 +88,16 @@
 				"wave"	"weapons/cat/angry_3.mp3" 
 			} 
 		} 
+		"Weapon_Ricochet.DiscReturn"
+		{
+			"channel"		"CHAN_AUTO"
+			"volume"		"0.75"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_75db"
+	
+			"wave"		"weapons/ricochet/discreturn.wav"
+		
+		} 
 		"JB.Weapon_Bofors_Shoot"
 		{
 			"channel"		"CHAN_WEAPON"
@@ -108,14 +108,24 @@
 			"wave"		"^weapons/bofors/shoot.wav"
 		
 		} 
-		"JB.Weapon_Satchel_Throw"
+		"Weapon_Ricochet.DiscHit"
 		{
-			"channel"		"CHAN_WEAPON"
-			"volume"		"1.0"
-			"pitch"			"93,107"
-			"soundlevel"	"SNDLVL_GUNFIRE"
+			"channel"		"CHAN_AUTO"
+			"volume"		"0.75"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_75db"
 	
-			"wave"		"weapons/slam/throw.wav"
+			"wave"		"weapons/ricochet/dischit.wav"
+		
+		} 
+		"Weapon_Ricochet.Decap"
+		{
+			"channel"		"CHAN_AUTO"
+			"volume"		"0.75"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_75db"
+	
+			"wave"		"weapons/ricochet/decap.wav"
 		
 		} 
 		"JB.Projectile_Rocket_Detonate"
@@ -152,7 +162,7 @@
 		{
 			"channel"		"CHAN_WEAPON"
 			"volume"		"1.0"
-			"pitch"			"93,107"
+			"pitch"			"100"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
 			"wave"		"weapons/ricochet/altfire.wav"
@@ -202,13 +212,43 @@
 				"wave"	"weapons/cat/angry_3.mp3" 
 			} 
 		} 
-		"JB.Weapon_Speakers_Music2"
+		"JB.Weapon_Satchel_Throw"
 		{
 			"channel"		"CHAN_WEAPON"
 			"volume"		"1.0"
-			"pitch"			"100"
+			"pitch"			"93,107"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		")weapons/dubstep/dub2.wav"
+			"wave"		"weapons/slam/throw.wav"
+		
+		} 
+		"JB.Weapon_Beretta_Shoot"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"93,107"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		")weapons/beretta/shoot.wav"
+		
+		} 
+		"Weapon_Ricochet.ChargedLoop"
+		{
+			"channel"		"CHAN_AUTO"
+			"volume"		"1"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95db"
+	
+			"wave"		"weapons/ricochet/chargedloop.wav"
+		
+		} 
+		"JB.Weapon_Satchel_Detonate"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"93,107"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		"weapons/satchel/detonate.wav"
 		
 		} 

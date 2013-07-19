@@ -35,10 +35,10 @@ PS_OUTPUT main( const PS_INPUT In )
 {
 	PS_OUTPUT Out;
 	float2 _var0 = float( 1.000000 ) / _g_TexelSize;
-	_var0 = _var0 / float( 5.000000 );
+	_var0 = _var0 / float( 7.000000 );
 	float2 _var1 = In.vTexCoord_0 * _var0;
-	float2 _var2 = ceil( _var1 );
-	float2 _var3 = round( _var1 );
+	float2 _var2 = round( _var1 );
+	float2 _var3 = ceil( _var1 );
 	_var2 = _var2 / _var0;
 	float4 _var4 = tex2D( _Sampler_00, _var2 ).rgba;
 	Out.vColor_0 = _var4;
