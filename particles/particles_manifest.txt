@@ -45,6 +45,7 @@ particles_manifest
 	"file"		"particles/jb_weapon_handgun_insta.pcf"
 	"file"		"particles/jb_weapon_goldengun.pcf"
 	"file"		"particles/jb_deaths.pcf"
+	"file"		"!particles/jb_ricochet.pcf"
 	
 	//"file"		"particles/rain_fx.pcf"
 }

@@ -8,7 +8,7 @@
 	"wave"	"ricochet/triggerjump.wav"
 }
 
-"JB.RicochetSpawn"
+"JB.RicochetPowerupSpawn"
 {
 	channel		        CHAN_STATIC
 	volume		        1.0
@@ -16,4 +16,14 @@
 	pitch				100
 
 	"wave"	"ricochet/pspawn.wav"
+}
+
+"JB.RicochetPowerupPickup"
+{
+	channel		        CHAN_STATIC
+	volume		        1.0
+	soundlevel			SNDLVL_85db
+	pitch				100
+
+	"wave"	"ricochet/powerup.wav"
 }

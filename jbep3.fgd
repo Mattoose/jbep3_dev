@@ -163,7 +163,7 @@
 ]
 
 //
-// Triggers
+// Ricochet
 // 
 
 @SolidClass base(Trigger) = jb_trigger_jump : "Bounces players to the target."
@@ -172,5 +172,10 @@
 ]
 
 @SolidClass base(Trigger) = jb_trigger_falldeath : "Ricochet style fall death."
+[
+]
+
+@PointClass base(Targetname) iconsprite("editor/jb_ricochet_pickup.vmt")  =  jb_ricochet_powerup :
+	"Pickup spawn for ricochet"
 [
 ]
