@@ -162,11 +162,11 @@
 		"entid"			"short"
 	}
 	
-	"pickup_visible"
-	{
-		"userid"			"short"
-		"type"			"short"
-	}
+	//"pickup_visible"
+	//{
+	//	"userid"			"short"
+	//	"type"			"short"
+	//}
 	
 	"pickup_visible"
 	{
@@ -206,6 +206,20 @@
 	"rcrowbar_impacted" // We hit something with our rocket crowbar
 	{
 		"wasplayer"		"bool"
+	}
+	
+	"gameinstructor_draw"
+	{
+	}
+	
+	"gameinstructor_nodraw"
+	{
+	}
+	
+	"set_instructor_group_enabled"
+	{
+		"group"		"string"
+		"enabled"	"short"
 	}
 	
 }

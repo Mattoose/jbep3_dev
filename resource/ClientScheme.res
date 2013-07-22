@@ -278,6 +278,74 @@ Scheme
 	Fonts
 	{
 	
+	
+		"InstructorTitle"
+		{
+			"1"
+			{
+				"Name"			"Neo Sans"
+				"tall"			"16"
+				"weight"	"100"
+				"antialias" "1"
+				//"dropshadow"	"1"
+			}
+		}
+		"InstructorTitle_ss"
+		{
+			"1"
+			{
+				"Name"			"Neo Sans"
+				"tall"			"16"
+				"weight"	"100"
+				"antialias" "1"
+				//"dropshadow"	"1"
+			}
+		}
+		"InstructorTitleGlow"
+		{
+			"1"
+			{
+				"Name"			"Neo Sans"
+				"tall"			"16"
+				"weight"	"100"
+				"antialias" "1"
+				//"dropshadow"	"1"
+				"blur"	"2"
+			}
+		}
+		"InstructorTitleGlow_ss"
+		{
+			"1"
+			{
+				"Name"			"Neo Sans"
+				"tall"			"16"
+				"weight"	"100"
+				"antialias" "1"
+				//"dropshadow"	"1"
+				"blur"	"2"
+			}
+		}
+		InstructorButtons
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.65"
+				"scaley"	"0.65"
+			}
+		}
+		"InstructorKeyBindings"
+		{
+			"1"
+			{
+				"name"		"Trade Gothic"
+				"tall"		"11"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
 		"TargetID"
 		{
 			"1"
@@ -1687,6 +1755,7 @@ Scheme
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2MP.ttf"
 		"3"		"resource/MGRay.ttf"
+		//"4"		"resource/neosans.vfont"
 	}
 
 }

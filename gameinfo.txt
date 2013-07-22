@@ -8,8 +8,9 @@
 	nomodels 1
 	gamelogo 1 
 	
-	developer 					"jimbomcb, postal & team"
+	developer 					"Team BBB"
 	developer_url 				"http://jaykinbacon.co.uk"
+	icon 						"resource/icon/icon"
 	
 	SupportsDX8					0
 	
