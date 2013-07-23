@@ -4,6 +4,16 @@
 // - jimbomcb
 //
 
+		"JB.Weapon_Vintorez"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"93,107"
+			"soundlevel"	"SNDLVL_NORM"
+	
+			"wave"		"weapons/ruger/single.wav"
+		
+		} 
 		"JB.Weapon_Railgun_Shoot"
 		{
 			"channel"		"CHAN_WEAPON"

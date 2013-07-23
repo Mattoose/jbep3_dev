@@ -31,17 +31,17 @@ WeaponData
 	Recoil
 	{
 		// Horizontal kickback. Positive = right, negative = left.
-		MinX	-7.5
-		MaxX	7.5
+		MinX	-4
+		MaxX	4
 		// Vertical kickback. Positive = up, negative = down.
-		MinY	7.0
-		MaxY	10.0
+		MinY	5.5
+		MaxY	7.0
 	}
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"single_shot"		"Weapon_Ruger.Single"
+		"single_shot"		"JB.Weapon_Vintorez"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.

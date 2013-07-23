@@ -52,3 +52,13 @@
 	"wave"	"misc/c4_beep1.wav"
 }
 
+"JB.QuakeJumpPad"
+{
+	channel		        CHAN_STATIC
+	volume		        1.0
+	soundlevel			SNDLVL_85db
+	pitch				98,100
+
+	"wave"	"misc/quake_launch.wav"
+}
+

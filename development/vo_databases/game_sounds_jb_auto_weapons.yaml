@@ -7,6 +7,11 @@ categories:
     soundlevel: SNDLVL_GUNFIRE
     volume: 1.0
     pitch: 93,107
+  weapon_silenced:
+    channel: CHAN_WEAPON
+    soundlevel: SNDLVL_NORM
+    volume: 1.0
+    pitch: 93,107
   weapon_100pitch:
     channel: CHAN_WEAPON
     soundlevel: SNDLVL_GUNFIRE
@@ -174,4 +179,10 @@ sounds:
     wave: ambience/industrial5.wav
     category: weapon_100pitch
     wave_prefix: )
+    vcd: false  
+
+  JB.Weapon_Vintorez:
+    wave: weapons/ruger/single.wav
+    category: weapon_silenced
+    wave_prefix:
     vcd: false  

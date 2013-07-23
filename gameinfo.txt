@@ -32,6 +32,7 @@
 			game+mod			|gameinfo_path|custom/*
 			game+mod			|gameinfo_path|jb_content.vpk
 			game+mod+mod_write+default_write_path		|gameinfo_path|.
+			game+mod			|gameinfo_path|scripts.vpk
 			gamebin				|gameinfo_path|bin
 			
 			// HL1 Textures
