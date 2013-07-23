@@ -169,6 +169,15 @@
 @SolidClass base(Trigger) = jb_trigger_jump : "Bounces players to the target."
 [
 	target(target_destination) : "Target" : "" : "Name of entity we'll bounce players to."
+	
+	do_bounce_sound(choices) : "Bounce Sound" : "1" : "Sound played on trigger" =
+	[
+		0 : "None"
+		1 : "Ricochet"
+	]
+	
+	// Outputs
+	output OnJump(void) : "Fired when a player (or object) are bounced."
 ]
 
 @SolidClass base(Trigger) = jb_trigger_falldeath : "Ricochet style fall death."

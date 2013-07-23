@@ -2,7 +2,7 @@
 {
 	channel		        CHAN_STATIC
 	volume		        1.0
-	soundlevel			SNDLVL_120db
+	soundlevel			SNDLVL_85db
 	pitch				98,100
 
 	"wave"	"ricochet/triggerjump.wav"
