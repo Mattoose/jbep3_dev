@@ -30,10 +30,11 @@
 		SearchPaths
 		{
 			game+mod			|gameinfo_path|custom/*
-			game+mod			|gameinfo_path|jb_content.vpk
-			game+mod+mod_write+default_write_path		|gameinfo_path|.
-			game+mod			|gameinfo_path|scripts.vpk
 			gamebin				|gameinfo_path|bin
+			game+mod+mod_write+default_write_path		|gameinfo_path|.
+			
+			// VPKs
+			game+mod			|gameinfo_path|jb_map_longestyard.vpk
 			
 			// HL1 Textures
 			game				|gameinfo_path|hl_textures.vpk
