@@ -15,5 +15,8 @@ Everything else: jb_spawn_all
 
 Q: How do I use custom SvT round music/set terrorist skins?
 A: jb_gamerules entity - has outputs for various round events and KV for terrorist skin.
+
+Q: How do I do the ricochet style jump pads?
+A: jb_trigger_jump, targeting an info_target. Raising the apex value will increase the arc.
 	
 Need help with anything not listed? Email jimbomcb@gmail.com
