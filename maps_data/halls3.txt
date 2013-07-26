@@ -1,0 +1,209 @@
+"halls3"
+{
+	"Entities"
+	{
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1329.35 -1311.05 173.95"
+			"angles"		"0.00 66.89 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1489.81 -1426.36 36.85"
+			"angles"		"0.00 44.84 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1582.30 -833.93 158.29"
+			"angles"		"0.00 52.19 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-976.03 -745.80 293.63"
+			"angles"		"0.00 -141.38 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-989.03 -897.98 168.03"
+			"angles"		"0.00 146.68 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-805.72 -220.59 168.03"
+			"angles"		"0.00 -150.85 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-693.52 -197.48 168.03"
+			"angles"		"0.00 -36.02 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-525.64 -667.97 168.03"
+			"angles"		"0.00 23.38 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1.16 -182.98 168.03"
+			"angles"		"0.00 -115.29 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"375.74 -429.31 343.33"
+			"angles"		"0.00 165.24 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"252.23 163.81 256.03"
+			"angles"		"0.00 149.92 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"269.94 551.20 256.03"
+			"angles"		"0.00 -90.80 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"342.46 304.79 384.03"
+			"angles"		"0.00 147.54 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-777.24 468.45 24.03"
+			"angles"		"0.00 -117.34 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1128.77 558.99 26.66"
+			"angles"		"0.00 -132.01 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1100.35 -454.50 467.84"
+			"angles"		"0.00 125.24 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1072.03 -18.78 361.17"
+			"angles"		"0.00 -132.28 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1060.56 -1360.24 256.03"
+			"angles"		"0.00 26.18 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1035.07 -1005.16 256.03"
+			"angles"		"0.00 -26.65 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"351.22 -1126.96 384.03"
+			"angles"		"0.00 -160.68 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"261.47 -1237.43 256.03"
+			"angles"		"0.00 174.28 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"363.31 -572.22 168.03"
+			"angles"		"0.00 -155.60 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"346.09 -14.36 218.72"
+			"angles"		"0.00 -128.91 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-1017.35 172.60 256.03"
+			"angles"		"0.00 31.61 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"338.25 -820.12 218.37"
+			"angles"		"0.00 -87.60 -0.00"
+		}
+	}
+	"KOTHAreas"
+	{
+		"control room 1"
+		{
+			"bounding_min"		"159.7249 -1278.0425 253.7073"
+			"bounding_max"		"411.2795 -952.5487 375.9688"
+			"area_0"
+			{
+				"min"		"411.2795 -1278.0425 370.0086"
+				"max"		"264.3968 -952.5487 254.0218"
+			}
+			"area_1"
+			{
+				"min"		"264.7243 -1268.4187 375.9688"
+				"max"		"220.2767 -994.5195 258.4492"
+			}
+			"area_2"
+			{
+				"min"		"219.6706 -1219.4271 375.9688"
+				"max"		"159.7249 -1000.1841 253.7073"
+			}
+		}
+		"control room 2"
+		{
+			"bounding_min"		"153.8031 122.6119 256.7483"
+			"bounding_max"		"457.4236 444.9702 378.8671"
+			"area_0"
+			{
+				"min"		"457.4236 122.6119 360.4874"
+				"max"		"153.8031 344.8599 256.7483"
+			}
+			"area_1"
+			{
+				"min"		"153.8031 344.8599 256.7483"
+				"max"		"409.6210 411.5782 378.8671"
+			}
+			"area_2"
+			{
+				"min"		"409.6210 411.5782 378.8671"
+				"max"		"258.0952 444.9702 260.7849"
+			}
+		}
+		"outside middle"
+		{
+			"bounding_min"		"-1658.2849 -501.8111 128.7453"
+			"bounding_max"		"-1190.0748 -141.6980 335.8060"
+			"area_0"
+			{
+				"min"		"-1190.0748 -501.8111 335.8060"
+				"max"		"-1658.2849 -141.6980 128.7453"
+			}
+		}
+	}
+}

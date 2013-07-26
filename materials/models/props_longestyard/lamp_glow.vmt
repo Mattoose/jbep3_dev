@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_longestyard/lamp"
+	"$selfillum" "1"
+}

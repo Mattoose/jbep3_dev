@@ -7,6 +7,12 @@
 //
 //
 
+@SolidClass = func_ladder : 
+	"Ladder. Players will be able to move freely along this brush, as if it was a ladder." +
+	"Apply the toolsinvisibleladder material to a func_ladder brush."
+[
+]
+
 @BaseClass = worldbase
 [
 	message(string) : "Map Description / Title"

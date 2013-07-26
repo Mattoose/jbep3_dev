@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_longestyard/telefade"
+	"$additive" 1
+	"$nocull" 1
+	"$selfillum" "1"
+}

@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" 	"jumppad/jumppad_trim"
+	"$selfillum" "1"
+}
