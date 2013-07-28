@@ -33,11 +33,8 @@
 			gamebin				|gameinfo_path|bin
 			game+mod+mod_write+default_write_path		|gameinfo_path|.
 			
-			// VPKs
-			game+mod			|gameinfo_path|content/bms_content.vpk
-			
-			// HL1 Textures
-			game				|gameinfo_path|content/hl_textures.vpk
+			// Mount all VPKs & subfolders under content.		
+			game				|gameinfo_path|content/*
 			
 			// Mount HL2MP
 			game				"|gameinfo_path|../../common/Half-Life 2 Deathmatch/hl2mp/hl2mp_pak.vpk"
