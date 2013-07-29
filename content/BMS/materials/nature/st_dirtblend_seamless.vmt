@@ -10,5 +10,5 @@
 	"$surfaceprop" "dirt"
 	"$surfaceprop2" "rock"
 	"%keywords" "bms"
-	$seamless_scale 0.0025
+	$seamless_scale 0.0015
 }
