@@ -1,5 +1,3 @@
-#base global.txt
-
 "dm_runoff"
 {
 	"Entities"
@@ -398,6 +396,88 @@
 			"origin"		"10656.19 1295.97 -474.01"
 			"angles"		"0.00 -24.43 0.00"
 			"mutation"		"tdm"
+		}
+		"replace"
+		{
+			"weapon_snark"		"jb_pickup_weapon_3"
+			"weapon_357"		"jb_pickup_weapon_3"
+			"weapon_crossbow"		"jb_pickup_weapon_2"
+			"weapon_egon"		"jb_pickup_weapon_2"
+			"weapon_gauss"		"jb_pickup_weapon_2"
+			"weapon_egon"		"jb_pickup_weapon_3"
+			"weapon_handgrenade"		"jb_pickup_weapon_1"
+			"weapon_hornetgun"		"jb_pickup_weapon_3"
+			"weapon_mp5"		"jb_pickup_weapon_1"
+			"weapon_rpg"		"jb_pickup_weapon_3"
+			"weapon_satchel"		"jb_pickup_weapon_1"
+			"weapon_shotgun"		"jb_pickup_weapon_2"
+			"weapon_crossbow"		"jb_pickup_weapon_2"
+			"weapon_ar2"		"jb_pickup_weapon_2"
+			"weapon_slam"		"jb_pickup_weapon_1"
+			"weapon_frag"		"jb_pickup_weapon_1"
+		}
+	}
+	"KOTHAreas"
+	{
+		"Bridge"
+		{
+			"bounding_min"		"11008.0254 3036.8418 -255.9052"
+			"bounding_max"		"11134.5205 4193.1792 -30.1805"
+			"area_0"
+			{
+				"min"		"11008.0254 4193.1792 -255.9052"
+				"max"		"11134.5205 3036.8418 -30.1805"
+			}
+		}
+		"Bathroom"
+		{
+			"bounding_min"		"10462.9707 1423.8763 -256.3795"
+			"bounding_max"		"10738.1240 1609.1101 -127.0675"
+			"area_0"
+			{
+				"min"		"10738.1240 1609.1101 -256.3795"
+				"max"		"10462.9707 1423.8763 -127.0675"
+			}
+		}
+		"Control room"
+		{
+			"bounding_min"		"10751.9697 1599.0062 -256.4293"
+			"bounding_max"		"11212.2900 2048.1897 -64.2342"
+			"area_0"
+			{
+				"min"		"10751.9697 1599.0062 -256.4293"
+				"max"		"10935.2295 2048.1204 -64.2342"
+			}
+			"area_1"
+			{
+				"min"		"10930.9336 1635.6954 -256.3317"
+				"max"		"11047.8701 2048.0940 -64.3623"
+			}
+			"area_2"
+			{
+				"min"		"11046.2256 1707.6847 -256.1305"
+				"max"		"11104.2197 2048.0520 -64.2799"
+			}
+			"area_3"
+			{
+				"min"		"11103.4697 1771.1924 -256.0434"
+				"max"		"11175.0283 2048.1897 -64.5081"
+			}
+			"area_4"
+			{
+				"min"		"11174.0361 1899.0125 -256.0777"
+				"max"		"11212.2900 2048.1372 -64.5530"
+			}
+		}
+		"Side wall"
+		{
+			"bounding_min"		"7595.9326 277.8563 -256.4667"
+			"bounding_max"		"9730.1436 692.9583 146.5724"
+			"area_0"
+			{
+				"min"		"9730.1436 692.9583 -256.4667"
+				"max"		"7595.9326 277.8563 146.5724"
+			}
 		}
 	}
 }
