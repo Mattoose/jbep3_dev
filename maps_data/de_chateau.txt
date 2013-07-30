@@ -1,5 +1,3 @@
-#base global.txt
-
 "de_chateau"
 {
 	"Entities"
@@ -418,6 +416,118 @@
 			"origin"		"120.37 -386.49 -112.86"
 			"angles"		"0.00 88.91 0.00"
 			"mutation"		"svt"
+		}
+		"replace"
+		{
+			"weapon_snark"		"jb_pickup_weapon_3"
+			"weapon_357"		"jb_pickup_weapon_3"
+			"weapon_crossbow"		"jb_pickup_weapon_2"
+			"weapon_egon"		"jb_pickup_weapon_2"
+			"weapon_gauss"		"jb_pickup_weapon_2"
+			"weapon_egon"		"jb_pickup_weapon_3"
+			"weapon_handgrenade"		"jb_pickup_weapon_1"
+			"weapon_hornetgun"		"jb_pickup_weapon_3"
+			"weapon_mp5"		"jb_pickup_weapon_1"
+			"weapon_rpg"		"jb_pickup_weapon_3"
+			"weapon_satchel"		"jb_pickup_weapon_1"
+			"weapon_shotgun"		"jb_pickup_weapon_2"
+			"weapon_crossbow"		"jb_pickup_weapon_2"
+			"weapon_ar2"		"jb_pickup_weapon_2"
+			"weapon_slam"		"jb_pickup_weapon_1"
+			"weapon_frag"		"jb_pickup_weapon_1"
+		}
+	}
+	"KOTHAreas"
+	{
+		"Arena"
+		{
+			"bounding_min"		"2031.5410 1007.6383 -0.9593"
+			"bounding_max"		"2432.3694 1432.9436 153.2886"
+			"area_0"
+			{
+				"min"		"2432.3694 1007.6383 -0.9593"
+				"max"		"2031.5410 1432.9436 153.2886"
+			}
+		}
+		"Wine cellar"
+		{
+			"bounding_min"		"2687.5413 47.6820 -160.4869"
+			"bounding_max"		"3120.2566 952.1009 192.2308"
+			"area_0"
+			{
+				"min"		"2687.5413 47.6820 -160.4869"
+				"max"		"3120.2566 952.1009 192.2308"
+			}
+		}
+		"Woods"
+		{
+			"bounding_min"		"1052.7118 -1473.5157 -176.9165"
+			"bounding_max"		"1996.1696 84.1697 431.6995"
+			"area_0"
+			{
+				"min"		"1826.2064 84.1697 -176.9165"
+				"max"		"1564.3643 -341.7503 -10.8558"
+			}
+			"area_1"
+			{
+				"min"		"1052.7118 -529.9679 -160.5595"
+				"max"		"1950.5085 -1473.5157 200.2171"
+			}
+			"area_2"
+			{
+				"min"		"1995.2323 -318.3202 -160.8086"
+				"max"		"1437.2640 -566.6256 200.6029"
+			}
+			"area_3"
+			{
+				"min"		"1949.3002 -1473.2559 431.6995"
+				"max"		"1052.7174 -529.9892 164.6061"
+			}
+			"area_4"
+			{
+				"min"		"1437.4126 -318.3553 194.6964"
+				"max"		"1996.1696 -565.1356 431.6360"
+			}
+		}
+		"Yard"
+		{
+			"bounding_min"		"663.0840 2319.9424 -8.3638"
+			"bounding_max"		"1800.1782 2916.2034 469.4104"
+			"area_0"
+			{
+				"min"		"663.0840 2319.9424 -8.3638"
+				"max"		"1800.1782 2916.2034 469.4104"
+			}
+		}
+		"Collapsed room"
+		{
+			"bounding_min"		"692.3975 -242.0833 -0.2869"
+			"bounding_max"		"1009.5217 528.3375 196.0224"
+			"area_0"
+			{
+				"min"		"692.3975 528.3375 -0.2869"
+				"max"		"1009.5217 -242.0833 196.0224"
+			}
+		}
+		"Collapsed floor rooms"
+		{
+			"bounding_min"		"575.7330 883.3965 207.6016"
+			"bounding_max"		"1618.8940 1289.2770 446.2614"
+			"area_0"
+			{
+				"min"		"575.7330 883.3965 207.6016"
+				"max"		"1120.7795 1289.2770 401.2352"
+			}
+			"area_1"
+			{
+				"min"		"1328.4827 1256.2552 207.9693"
+				"max"		"1075.7225 1164.8835 315.3708"
+			}
+			"area_2"
+			{
+				"min"		"1295.5448 1256.0795 207.8089"
+				"max"		"1618.8940 985.5386 446.2614"
+			}
 		}
 	}
 }
