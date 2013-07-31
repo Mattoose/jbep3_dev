@@ -1,5 +1,3 @@
-#base global.txt
-
 "de_train"
 {
 	"Entities"
@@ -430,6 +428,108 @@
 			"classname"		"jb_spawn_svt_terrorist"
 			"origin"		"-198.09 359.36 -223.64"
 			"angles"		"0.00 179.38 0.00"
+		}
+		"replace"
+		{
+			"weapon_snark"		"jb_pickup_weapon_3"
+			"weapon_357"		"jb_pickup_weapon_3"
+			"weapon_crossbow"		"jb_pickup_weapon_2"
+			"weapon_egon"		"jb_pickup_weapon_2"
+			"weapon_gauss"		"jb_pickup_weapon_2"
+			"weapon_egon"		"jb_pickup_weapon_3"
+			"weapon_handgrenade"		"jb_pickup_weapon_1"
+			"weapon_hornetgun"		"jb_pickup_weapon_3"
+			"weapon_mp5"		"jb_pickup_weapon_1"
+			"weapon_rpg"		"jb_pickup_weapon_3"
+			"weapon_satchel"		"jb_pickup_weapon_1"
+			"weapon_shotgun"		"jb_pickup_weapon_2"
+			"weapon_crossbow"		"jb_pickup_weapon_2"
+			"weapon_ar2"		"jb_pickup_weapon_2"
+			"weapon_slam"		"jb_pickup_weapon_1"
+			"weapon_frag"		"jb_pickup_weapon_1"
+		}
+	}
+	"KOTHAreas"
+	{
+		"bathrooms"
+		{
+			"bounding_min"		"-910.0551 -152.6525 15.7145"
+			"bounding_max"		"-555.7170 544.2576 144.4712"
+			"area_0"
+			{
+				"min"		"-910.0551 499.0930 15.9216"
+				"max"		"-555.8516 -104.0214 144.4712"
+			}
+			"area_1"
+			{
+				"min"		"-716.1832 -152.6525 15.7145"
+				"max"		"-555.7170 544.2576 144.3048"
+			}
+		}
+		"lounge"
+		{
+			"bounding_min"		"-909.9020 668.1566 39.5504"
+			"bounding_max"		"-555.4399 960.4891 160.2310"
+			"area_0"
+			{
+				"min"		"-555.4399 960.4891 39.5504"
+				"max"		"-909.9020 668.1566 160.2310"
+			}
+		}
+		"loading dock"
+		{
+			"bounding_min"		"1418.7758 -1640.0687 -325.3315"
+			"bounding_max"		"2049.6279 -928.2174 -99.6642"
+			"area_0"
+			{
+				"min"		"1418.7758 -1640.0687 -325.3315"
+				"max"		"1778.7019 -928.2174 -131.6082"
+			}
+			"area_1"
+			{
+				"min"		"1762.2377 -1472.0740 -287.1082"
+				"max"		"2027.6471 -1086.9203 -99.6642"
+			}
+			"area_2"
+			{
+				"min"		"1741.1099 -1639.9905 -325.0714"
+				"max"		"2049.6279 -1487.9591 -131.8303"
+			}
+		}
+		"corridor"
+		{
+			"bounding_min"		"-1063.2860 -1792.1598 -153.2431"
+			"bounding_max"		"-558.0238 -939.8986 94.0939"
+			"area_0"
+			{
+				"min"		"-895.4871 -939.8986 -153.2431"
+				"max"		"-1063.2593 -1792.1483 94.0939"
+			}
+			"area_1"
+			{
+				"min"		"-558.0238 -1662.6718 32.4955"
+				"max"		"-1063.2860 -1792.1598 -153.1451"
+			}
+		}
+		"alley"
+		{
+			"bounding_min"		"-518.4263 1221.8020 -227.0551"
+			"bounding_max"		"234.2945 1700.5201 54.9749"
+			"area_0"
+			{
+				"min"		"-518.4263 1700.5201 -227.0551"
+				"max"		"234.2945 1221.8020 54.9749"
+			}
+		}
+		"Zone A entrance corridor"
+		{
+			"bounding_min"		"1233.4923 622.2621 -216.2633"
+			"bounding_max"		"1520.5022 1407.7864 22.8295"
+			"area_0"
+			{
+				"min"		"1233.4923 1407.7864 -216.2633"
+				"max"		"1520.5022 622.2621 22.8295"
+			}
 		}
 	}
 }
