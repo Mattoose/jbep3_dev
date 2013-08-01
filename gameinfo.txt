@@ -33,8 +33,8 @@
 		SearchPaths
 		{
 			game+mod			|gameinfo_path|custom/*
-			gamebin				|gameinfo_path|bin
 			game+mod+mod_write+default_write_path		|gameinfo_path|.
+			gamebin				|gameinfo_path|bin
 			
 			// Mount all VPKs & subfolders under content.		
 			game				|gameinfo_path|content/*
@@ -42,12 +42,14 @@
 			// Mount HL2MP
 			game				"|gameinfo_path|../../common/Half-Life 2 Deathmatch/hl2mp/hl2mp_pak.vpk"
 			game				"|gameinfo_path|../../common/Half-Life 2 Deathmatch/hl2mp/"
+			// (and dedicated server HL2MP stuff)
 			game				"|gameinfo_path|../hl2mp/hl2mp_pak.vpk"
 			game				"|gameinfo_path|../hl2mp/"
 			
 			// Mount CSS
 			game				"|gameinfo_path|../../common/Counter-Strike Source/cstrike/cstrike_pak.vpk"
 			game				"|gameinfo_path|../../common/Counter-Strike Source/cstrike/"
+			// (and dedicated server CSS stuff)
 			game				"|gameinfo_path|../cstrike/cstrike_pak.vpk"
 			game				"|gameinfo_path|../cstrike/"
 
@@ -64,6 +66,9 @@
 			game				|all_source_engine_paths|hl2mp
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
+			
+			// Mount any misc downloaded content last.
+			game+download		|gameinfo_path|download
 		}
 	}
 }
