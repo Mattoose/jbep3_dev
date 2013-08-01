@@ -90,6 +90,10 @@ game_sounds_manifest
 	"precache_file"		"scripts/game_sounds_jb_auto_weapons.txt"
 	
 	"precache_file"		"scripts/game_sounds_jb_ricochet.txt"
+	
+	// CSS
+	"preload_file"  	"scripts/css_game_sounds_physics.txt"	
+	"preload_file"		"scripts/css_game_sounds_world.txt"
 }
 
 
