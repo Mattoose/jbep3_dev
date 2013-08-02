@@ -612,6 +612,7 @@
 		"wide"	 "f0"
 		"tall"	 "480"
 	}
+	
 	HudAnimationInfo
 	{
 		"fieldName" "HudAnimationInfo"
@@ -619,6 +620,9 @@
 		"enabled" "1"
 		"wide"	 "f0"
 		"tall"	 "480"
+		"LabelFont"	"WeaponIconsSmall"
+		"ItemFont"	"WeaponIconsSmall"
+		
 	}
 
 	HudPredictionDump

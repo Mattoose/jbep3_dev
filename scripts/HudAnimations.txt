@@ -63,9 +63,8 @@ event WeaponHighlight
 
 event OpenWeaponSelectionMenu
 {
-	StopEvent CloseWeaponSelectionMenu	0.0
-	
-	Animate HudWeaponSelection OpenScale  "1"	 	Spline 0.0 0.15
+	StopEvent CloseWeaponSelectionMenu	0.0	
+	Animate HudWeaponSelection OpenScale  "1"	 	Spline 0.00 0.07
 	
 	//Animate HudWeaponSelection BoxWidth  "160"	 Deaccel 0.0 1.0
 	//Animate HudWeaponSelection BoxHeight  "65"	 Deaccel 0.0 1.0
@@ -74,8 +73,7 @@ event OpenWeaponSelectionMenu
 event CloseWeaponSelectionMenu
 {
 	StopEvent OpenWeaponSelectionMenu	0.0	
-	
-	Animate HudWeaponSelection OpenScale  "0"	 	Deaccel 0.0 0.3
+	Animate HudWeaponSelection OpenScale  "0"	 	Deaccel 0.0 0.15
 
 	//Animate HudWeaponSelection BoxWidth  "270"	 Deaccel 0.0 1.0
 	//Animate HudWeaponSelection BoxHeight  "109"	 Deaccel 0.0 1.0
