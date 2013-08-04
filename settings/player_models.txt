@@ -38,6 +38,12 @@
 		"deathsound"	"JB.Death_Custom_Alien"
 	}
 	
+	ape
+	{
+		"model" 	"models/player/ape.mdl"
+		"name"		"Ape"
+	}
+	
 	postal
 	{
 		"model" 	"models/player/postal.mdl"

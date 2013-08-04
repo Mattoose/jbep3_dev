@@ -59,3 +59,12 @@
 
 	"wave"			"misc/bodies.mp3"
 }
+
+"JB.SVMMusic"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			100
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"misc/svm.mp3"
+}

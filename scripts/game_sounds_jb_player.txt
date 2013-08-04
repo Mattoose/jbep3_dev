@@ -281,3 +281,17 @@
 
 	"wave"		"player/quakejump.wav"	
 }
+
+"JB.MonkeyRandom"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_85dB"
+	"pitch"			"80,120"
+	
+	rndwave
+	{
+		"wave"	"player/monkey/backup.wav"
+		"wave"	"player/monkey/enemysighted.wav"
+	}
+}

@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/ape/ape_pants"
+	"$bumpmap" "dev/flat_normal"
+
+ 	"$phong" "1"
+	"$phongexponent" "1.35"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[.15 .45 1]"
+}
