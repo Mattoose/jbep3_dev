@@ -1,0 +1,20 @@
+
+criterion "ConceptMonkeyNoise" "Concept" "TLK_MONKEY_NOISE" required
+Criterion "NotMadeMonkeyNoise" "MadeMonkeyNoise" "!=1" "required"
+
+Response MonkeyMakeNoise
+{
+	scene "scenes/player/monkey/backup.vcd"
+	scene "scenes/player/monkey/clear.vcd"
+	scene "scenes/player/monkey/enemysighted.vcd"
+	scene "scenes/player/monkey/imagination.vcd"
+	scene "scenes/player/monkey/respond.vcd"
+	scene "scenes/player/monkey/whatwasthat.vcd"
+}
+
+Rule MonkeyMakeNoise
+{
+	criteria ConceptMonkeyNoise NotMadeMonkeyNoise 50PercentChance
+	ApplyContext "MadeMonkeyNoise:1:6"
+	Response MonkeyMakeNoise
+}

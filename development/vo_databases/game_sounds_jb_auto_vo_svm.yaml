@@ -1,0 +1,48 @@
+settings:
+  output: game_sounds_jb_auto_vo_svm
+  
+categories:
+  voice:
+    channel: CHAN_VOICE
+    soundlevel: SNDLVL_95dB
+    volume: 1.0
+    pitch: 100
+
+
+sounds:
+
+  JB.VO_MonkeyNoise1:
+    wave: player/monkey/backup.wav
+    category: voice
+    wave_prefix:
+    vcd: true
+
+  JB.VO_MonkeyNoise2:
+    wave: player/monkey/clear.wav
+    category: voice
+    wave_prefix:
+    vcd: true
+
+  JB.VO_MonkeyNoise3:
+    wave: player/monkey/enemysighted.wav
+    category: voice
+    wave_prefix:
+    vcd: true
+
+  JB.VO_MonkeyNoise4:
+    wave: player/monkey/imagination.wav
+    category: voice
+    wave_prefix:
+    vcd: true
+
+  JB.VO_MonkeyNoise5:
+    wave: player/monkey/respond.wav
+    category: voice
+    wave_prefix:
+    vcd: true
+
+  JB.VO_MonkeyNoise6:
+    wave: player/monkey/whatwasthat.wav
+    category: voice
+    wave_prefix:
+    vcd: true

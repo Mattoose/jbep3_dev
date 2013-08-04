@@ -193,3 +193,4 @@ criterion "ConceptTerroristFindDeadTerrorist" "Concept" "TLK_TERRORIST_FINDDEADT
 
 #include "talker/svt_guards_1.txt"
 #include "talker/svt_terrorists.txt"
+#include "talker/svm.txt"
