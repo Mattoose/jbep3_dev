@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"vgui\logos\notamonkey_white"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "1"
+}
