@@ -1,0 +1,6 @@
+"Eyeball"
+{
+	"$baseTexture" "models/player/hevsonic/pupil"
+	
+	"$halflambert" 1
+}

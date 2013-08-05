@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/sora/pants"
+	"$halflambert" 1
+}

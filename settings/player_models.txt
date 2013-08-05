@@ -4,17 +4,6 @@
 {
 
 	// Player Specific Models
-	assassin
-	{
-		"model" 	"models/player/assassin.mdl"
-		"name"		"Combine Assassin"
-		"restrict" 	
-		{
-			"76561197974142768" 	"onion"
-		}
-		"deathsound"	"JB.Death_Custom_Assassin"
-	}
-	
 	adamjensen
 	{
 		"model" 	"models/player/adamjensen.mdl"
@@ -38,10 +27,15 @@
 		"deathsound"	"JB.Death_Custom_Alien"
 	}
 	
-	ape
+	assassin
 	{
-		"model" 	"models/player/ape.mdl"
-		"name"		"Ape"
+		"model" 	"models/player/assassin.mdl"
+		"name"		"Combine Assassin"
+		"restrict" 	
+		{
+			"76561197974142768" 	"onion"
+		}
+		"deathsound"	"JB.Death_Custom_Assassin"
 	}
 	
 	postal
@@ -54,6 +48,16 @@
 		}
 		
 		"deathsound"	"JB.Death_Custom_Barney"
+	}
+	
+	keyloggger
+	{
+		"model" 	"models/player/keylogger.mdl"
+		"name"		"Captain Keylogger"
+		"restrict"
+		{
+			"76561198011170564"		"BansheeFreind"
+		}
 	}
 	
 	cj
@@ -110,6 +114,30 @@
 		"deathsound"	"JB.Death_Custom_Chunli"
 	}
 	
+	daftpunk
+	{
+		"model" 	"models/player/daftpunk.mdl"
+		"name"		"Daft Punk"
+		"restrict" 	
+		{
+			"76561197998049758" 	"Marty2000"
+		}
+		
+		"deathsound"	"JB.Death_Custom_DaftPunk"
+	}
+	
+	dog
+	{
+		"model" 	"models/player/dog.mdl"
+		"name"		"Dog"
+		"restrict" 	
+		{
+			"76561198008559373" 	"ehmmett"
+		}
+		
+		"deathsound"	"JB.Death_Custom_Dog"
+	}
+	
 	doomguy
 	{
 		"model" 	"models/player/doom.mdl"
@@ -137,12 +165,27 @@
 	{
 		"model" 	"models/player/ghoul/ghoul.mdl"
 		"name"		"Ghoul"
+	}
+	
+	glados
+	{
+		"model" 	"models/player/glados.mdl"
+		"name"		"Glados"
 		"restrict" 	
 		{
-			"76561197989976412" 	"ninja-gnome"
+			"76561198011869315" 	"ZaneByrnes"
 		}
-		
-		"deathsound"	"JB.Death_Custom_Ghoul"
+		"deathsound"	"JB.Death_Custom_Glados"
+	}
+	
+	greenlantern
+	{
+		"model" 	"models/player/greenlantern.mdl"
+		"name"		"Green Lantern"
+		"restrict" 	
+		{
+			"76561197971132081" 	"Dragonninja"
+		}
 	}
 	
 	hatsune
@@ -155,6 +198,16 @@
 		}
 		
 		"deathsound"	"JB.Death_Custom_Hatsune"
+	}
+	
+	hevsonic
+	{
+		"model" 	"models/player/hevsonic.mdl"
+		"name"		"HEV Sonic"
+		"restrict" 	
+		{
+			"76561197965608320" 	"Neotheone"
+		}
 	}
 	
 	hobo
@@ -261,6 +314,39 @@
 		"deathsound"	"JB.Death_Custom_Skeleton"
 	}
 	
+	saddam
+	{
+		"model" 	"models/player/saddam.mdl"
+		"name"		"Saddam"
+		"restrict"
+		{
+			"76561197975164101"		"CommissarK"
+		}
+		"deathsound"	"JB.Death_Custom_Saddam"
+	}
+	
+	shaun
+	{
+		"model" 	"models/player/shaun.mdl"
+		"name"		"Shaun"
+		"restrict"
+		{
+			"76561198027133102"		"KVOSH"
+		}
+		"deathsound"	"JB.Death_Custom_Shaun"
+	}
+	
+	terminator
+	{
+		"model" 	"models/player/terminator.mdl"
+		"name"		"Terminator"
+		"restrict"
+		{
+			"76561197989121298"		"foxmeister"
+		}
+		"deathsound"	"JB.Death_Custom_Terminator"
+	}
+	
 	tommy
 	{
 		"model" 	"models/player/tommyv.mdl"
@@ -270,6 +356,17 @@
 			"76561197981737869"		"TippZ"
 		}
 		"deathsound"	"JB.Death_Custom_TommyV"
+	}
+	
+	tonyhawk
+	{
+		"model" 	"models/player/tonyhawk.mdl"
+		"name"		"Tony Hawk"
+		"restrict"
+		{
+			"76561197989976412"		"NinjaGnome"
+		}
+		"deathsound"	"JB.Death_Custom_Tonyhawk"
 	}
 	
 	allied

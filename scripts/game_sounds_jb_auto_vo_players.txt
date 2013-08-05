@@ -58,6 +58,16 @@
 			"wave"		"player/custom_vo/tommyv/death.wav"
 		
 		} 
+		"JB.Death_Custom_Glados"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		"player/custom_vo/glados/death.wav"
+		
+		} 
 		"JB.Death_Custom_Batman"
 		{
 			"channel"		"CHAN_VOICE"
@@ -69,6 +79,21 @@
 			{
 				"wave"	"player/custom_vo/batman/batman_death_1.wav" 
 				"wave"	"player/custom_vo/batman/batman_death_2.wav" 
+			} 
+		} 
+		"JB.Death_Custom_DaftPunk"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"rndwave"		
+			{
+				"wave"	"player/custom_vo/daftpunk/1.mp3" 
+				"wave"	"player/custom_vo/daftpunk/2.mp3" 
+				"wave"	"player/custom_vo/daftpunk/3.mp3" 
+				"wave"	"player/custom_vo/daftpunk/4.mp3" 
 			} 
 		} 
 		"JB.Death_Custom_Postaldude"
@@ -229,6 +254,26 @@
 			"soundlevel"	"SNDLVL_85dB"
 	
 			"wave"		"player/custom_vo/chunli/death.wav"
+		
+		} 
+		"JB.Death_Custom_Saddam"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		"player/custom_vo/saddam/death.mp3"
+		
+		} 
+		"JB.Death_Custom_Tonyhawk"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		"player/custom_vo/tonyhawk/deathsound.wav"
 		
 		} 
 		"JB.Death_Custom_Craptasket"

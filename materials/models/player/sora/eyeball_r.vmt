@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/sora/eyeball_r"
+	"$halflambert" 1
+
+}

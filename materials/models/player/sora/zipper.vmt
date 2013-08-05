@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/sora/zipper"
+	"$halflambert" 1
+	"$translucent" 1
+	"$alphatest" 1
+}

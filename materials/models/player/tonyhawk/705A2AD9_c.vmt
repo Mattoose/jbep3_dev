@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/tonyhawk/705A2AD9"
+	"$nocull" 1
+}

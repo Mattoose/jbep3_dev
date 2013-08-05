@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/keylogger/face_male51_grin"
+	"$nocull" 1
+	"$halflambert" 1
+	"$nodecal" 1
+	"$model" 1
+
+	"$phong" "1"
+	"$phongexponent" 33
+	"$phongboost"	"6"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+}

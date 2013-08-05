@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/greenlantern/slow_green_lantern"
+	"$bumpmap"	"models/player/greenlantern/slow_green_lantern_bump"
+}

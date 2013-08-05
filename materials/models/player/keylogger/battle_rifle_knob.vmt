@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/keylogger/capt_patches_decal"
+	"$bumpmap" "models/player/keylogger/capt_patches_decsal"
+	"$nocull" 1
+	"$nodecal" 1
+}

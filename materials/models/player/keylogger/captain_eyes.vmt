@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/keylogger/captain_eyes"
+	"$envmap" "env_cubemap"
+	"$nocull" 1
+	"$nodecal" 1
+}

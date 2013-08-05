@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\glados\iris_R"
+	"$halflambert" 1
+	"$nodecal" "1"
+	"$nocull" 1
+}
+

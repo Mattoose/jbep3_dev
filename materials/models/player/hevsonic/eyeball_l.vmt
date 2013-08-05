@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/hevsonic/pupil"
+	"$iris" "models/player/hevsonic/pupil"
+	"$halflambert" 1
+	
+}

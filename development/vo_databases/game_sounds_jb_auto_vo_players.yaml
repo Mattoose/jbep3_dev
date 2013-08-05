@@ -206,3 +206,50 @@ player/custom_vo/gcombine/RanchPuddingDeathSound3.wav]
     category: voiceover
     wave_prefix:
     vcd: true
+
+  JB.Death_Custom_Saddam:
+    wave: player/custom_vo/saddam/death.mp3
+    category: deathcry_100pitch
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_Tonyhawk:
+    wave: player/custom_vo/tonyhawk/deathsound.wav
+    category: deathcry_100pitch
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_DaftPunk:
+    waves: [player/custom_vo/daftpunk/1.mp3,
+player/custom_vo/daftpunk/2.mp3,
+player/custom_vo/daftpunk/3.mp3,
+player/custom_vo/daftpunk/4.mp3]
+    category: deathcry_100pitch
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Glados:
+    wave: player/custom_vo/glados/death.wav
+    category: deathcry_100pitch
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_Terminator:
+    wave: player/custom_vo/terminator/death.mp3
+    category: deathcry_100pitch
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Shaun:
+    waves: [player/custom_vo/shaun/1.wav,
+player/custom_vo/shaun/2.wav,
+player/custom_vo/shaun/3.wav]
+    category: deathcry_100pitch
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Dog:
+    wave: player/custom_vo/dog/dog.wav
+    category: deathcry
+    wave_prefix:
+    vcd: false

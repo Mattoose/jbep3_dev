@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/dog/c_mutta_0d"
+	"$bumpmap" "models/player/dog/c_mutta_0n"
+
+	"$halflambert" "1"
+	"$model" "1"
+	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost" "0.7"
+	"$phongfresnelranges"	"[0.5 5 30]"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/sora/eyesteeth"
+	"$halflambert" 1
+	"$translucent" 1
+	"$alphatest" 1
+}

@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/greenlantern/slow_green_lantern"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[.08 .5 .13]"
+	"$envmapcontrast" .7
+	"$envmapsaturation" 1
+}
+
