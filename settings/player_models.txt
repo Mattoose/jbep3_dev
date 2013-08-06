@@ -453,17 +453,77 @@
 		"model" 	"models/player/ghoul/ghoul.mdl"
 		"name"		"Ghoul"
 	}
+	
+	hl1assassin
+	{
+		"model" 	"models/player/hl1_assassin.mdl"
+		"name"		"HL1 Assassin"
+	}
 		
+	hl1assault
+	{
+		"model" 	"models/player/hl1_assault.mdl"
+		"name"		"HL1 Assault"
+	}
+	
 	gman
 	{
 		"model" 	"models/player/hl1_gman.mdl"
-		"name"		"G-Man"
+		"name"		"HL1 G-Man"
+	}
+	
+	hl1grunt
+	{
+		"model" 	"models/player/hl1_grunt.mdl"
+		"name"		"HL1 Grunt"
+	}
+	
+	hl1gruntcommander
+	{
+		"model" 	"models/player/hl1_grunt_commander.mdl"
+		"name"		"HL1 Grunt Commander"
 	}
 	
 	hl1helmet
 	{
 		"model" 	"models/player/hl1_helmet.mdl"
-		"name"		"Helmet"
+		"name"		"HL1 Helmet"
+	}
+	
+	hl1holo
+	{
+		"model" 	"models/player/hl1_holo.mdl"
+		"name"		"HL1 Hologram"
+	}
+	
+	hl1player
+	{
+		"model" 	"models/player/hl1_player.mdl"
+		"name"		"HL1 Gordon"
+	}
+	
+	hl1scientist_1
+	{
+		"model" 	"models/player/hl1_scientist_1.mdl"
+		"name"		"HL1 Sci Einstien"
+	}
+	
+	hl1scientist_2
+	{
+		"model" 	"models/player/hl1_scientist_2.mdl"
+		"name"		"HL1 Sci Luther"
+	}
+	
+	hl1scientist_3
+	{
+		"model" 	"models/player/hl1_scientist_3.mdl"
+		"name"		"HL1 Sci Slick"
+	}
+	
+	hl1scientist_4
+	{
+		"model" 	"models/player/hl1_scientist_4.mdl"
+		"name"		"HL1 Sci Walter"
 	}
 	
 	jungle_warfare
@@ -478,7 +538,7 @@
 		"name"		"Ocelot"
 	}
 	
-		ocelotunit
+	ocelotunit
 	{
 		"model" 	"models/player/ocelot_unit.mdl"
 		"name"		"Ocelot Unit"

@@ -3,7 +3,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"				"#jb_tripmine"
 	"viewmodel"				"models/weapons/v_tripmine.mdl"
-	"playermodel"			"models/weapons/w_slam.mdl"
+	"playermodel"			"models/weapons/w_tripmine.mdl"
 	"anim_prefix"			"slam"
 	"bucket"				"5"
 	"bucket_position"		"1"
