@@ -1165,4 +1165,18 @@
 	"gamematerial"	"O"
 }
 
+
+"fruit"
+{
+	"density"	"900"
+	"audiohardnessfactor" "0.0"
+	"audioroughnessfactor" "0.0"
+	"stepleft"		""
+	"stepright"		""
+	"impacthard"	""
+	"impactsoft"	""
+	"scraperough"	""
+	"scrapesmooth"	""
+	"bulletimpact"	""
+}
  

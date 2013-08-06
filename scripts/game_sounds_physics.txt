@@ -1197,7 +1197,7 @@
 "Flesh.ImpactSoft"
 {
 	"soundlevel"		"SNDLVL_75dB"
-	"volume"		"0.6"
+	"volume"		"0.45"
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
@@ -1214,7 +1214,7 @@
 "Flesh.ImpactHard"
 {
 	"soundlevel"		"SNDLVL_75dB"
-	"volume"		"0.8"
+	"volume"		"0.45"
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
