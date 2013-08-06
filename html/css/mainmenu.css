@@ -211,6 +211,11 @@ body {
 	padding: 0px 0 0 10px;	
 }
 
+.private
+{
+	box-shadow: inset 0 0 10px rgba(250,180,0,1.0);
+}
+
 #player_customization #selection #options li
 {
 	background-repeat: no-repeat;

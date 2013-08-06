@@ -14,6 +14,21 @@
 			"wave"		"player/custom_vo/hunter/death.wav"
 		
 		} 
+		"JB.Death_Custom_Sniper"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"rndwave"		
+			{
+				"wave"	"player/custom_vo/sniper/sniper_paincrticialdeath01.wav" 
+				"wave"	"player/custom_vo/sniper/sniper_paincrticialdeath02.wav" 
+				"wave"	"player/custom_vo/sniper/sniper_paincrticialdeath03.wav" 
+				"wave"	"player/custom_vo/sniper/sniper_paincrticialdeath04.wav" 
+			} 
+		} 
 		"JB.Death_Custom_Barney"
 		{
 			"channel"		"CHAN_VOICE"

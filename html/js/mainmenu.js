@@ -146,7 +146,7 @@ var menu_options = {
 	"customizeplayer":[ "CUSTOMIZE PLAYER", "Change your player model.", true, true, PAGE_CUSTOMISATION ],
 	"options":[ "OPTIONS", "Change game options.", true, true, false ],
 	"donate":[ "DONATE", "Support our mod.", true, true, false ],
-	"quit":[ "QUIT", "Quit the game.", true, false, false ]
+	"quit":[ "QUIT", "Quit the game.", true, true, false ]
 };
 
 function updateMenu()
@@ -208,44 +208,31 @@ var CURRENT_PLAYER = false;
 
 function setupPlayerModels()
 {
-	if ( !IS_ENGINE ) return;
 	
 	PLAYER_MODELS = {};
-    var playerModels = MENU.getPlayerModels();
+    var playerModels;
     var target_element = $('#player_customization #selection #options .mCSB_container');
     var active_model = CURRENT_PLAYER;
 
-    /*var objs = [ ["postal", "Test Model"],
-        ["adamjensen", "Test Model 2"],
-        ["alien", "These"],
-        ["allied", "Are"],
-        ["ash", "Populated"],
-        ["6", "By"],
-        ["7", "The"],
-        ["8", "Engine"],
-        ["10", "Test Model"],
-        ["20", "Test Model 2"],
-        ["30", "These"],
-        ["40", "Are"],
-        ["50", "Populated"],
-        ["60", "By"],
-        ["70", "The"],
-        ["80", "Engine"],
-        ["100", "Test Model"],
-        ["200", "Test Model 2"],
-        ["300", "These"],
-        ["400", "Are"],
-        ["500", "Populated"],
-        ["600", "By"],
-        ["700", "The"],
-        ["800", "Engine"]
-        ];*/
-
+	if ( !IS_ENGINE )
+	{	
+		var playerModels = [ 
+			["postal", "Test Model", false, true ],
+			["postal2", "Test Model 2", false ],
+			["postal3", "Test Model 3", false ],
+			];
+		}
+	else
+	{	
+		playerModels = MENU.getPlayerModels();
+	}
+	
     for(var id in playerModels)
     {
         var model_id = playerModels[id][0];
         var model_name = playerModels[id][1];
         var model_active = playerModels[id][2];
+		var li_class = ( playerModels[id][3] ? "private" : "" );
 
         //console.log("Model "+model_id+": "+model_name+" "+(model_active?"ACTIVE":"INACTIVE"));
 
@@ -256,7 +243,7 @@ function setupPlayerModels()
             "img_thumb": "img/mainmenu/players/preview/"+model_id+".png"
         };
 
-        target_element.append("<div id='"+model_id+"' class='container'><li><img><div>"+model_name.toUpperCase()+"</div></li></div>");
+        target_element.append("<div id='"+model_id+"' class='container'><li class='"+li_class+"'><img><div>"+model_name.toUpperCase()+"</div></li></div>");
         setupPlayerCustomizeImages( model_id );
 
         if ( model_active ) active_model = model_id;
@@ -343,5 +330,12 @@ $(document).on('CEFReady', function() {
 	setupPlayerModels ();
 
 	$("#buttons #back").click(function(){changePage(false)});
+	
+	// Skip intro 
+	if ( !IS_ENGINE )
+	{
+		cycleMenuState();
+		cycleMenuState();
+	}
 		
 });

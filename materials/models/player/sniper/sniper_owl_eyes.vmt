@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\player\sniper/sniper_owl"	
+	"$bumpmap" "dev\flat_normal"
+	">=DX90"
+	{
+		$selfillum 1
+	}
+}

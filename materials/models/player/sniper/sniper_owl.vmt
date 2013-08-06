@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\player\sniper/sniper_owl"	
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" ".3"	
+	"$lightwarptexture" "models/player/sniper/lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+
+}

@@ -175,12 +175,6 @@
 		"deathsound"	"JB.Death_Custom_GCombine"
 	}
 	
-	ghoul
-	{
-		"model" 	"models/player/ghoul/ghoul.mdl"
-		"name"		"Ghoul"
-	}
-	
 	glados
 	{
 		"model" 	"models/player/glados.mdl"
@@ -327,6 +321,28 @@
 		"deathsound"	"JB.Death_Custom_Replica"
 	}
 	
+	saddam
+	{
+		"model" 	"models/player/saddam.mdl"
+		"name"		"Saddam"
+		"restrict"
+		{
+			"76561197975164101"		"CommissarK"
+		}
+		"deathsound"	"JB.Death_Custom_Saddam"
+	}
+		
+	shaun
+	{
+		"model" 	"models/player/shaun.mdl"
+		"name"		"Shaun"
+		"restrict"
+		{
+			"76561198027133102"		"KVOSH"
+		}
+		"deathsound"	"JB.Death_Custom_Shaun"
+	}
+	
 	skeleton
 	{
 		"model" 	"models/player/skeleton/skeleton.mdl"
@@ -339,26 +355,16 @@
 		"deathsound"	"JB.Death_Custom_Skeleton"
 	}
 	
-	saddam
+	sniper
 	{
-		"model" 	"models/player/saddam.mdl"
-		"name"		"Saddam"
+		"model" 	"models/player/sniper.mdl"
+		"name"		"Sniper"
 		"restrict"
 		{
-			"76561197975164101"		"CommissarK"
+			"76561197980132881"		"corvidaephilia"
 		}
-		"deathsound"	"JB.Death_Custom_Saddam"
-	}
-	
-	shaun
-	{
-		"model" 	"models/player/shaun.mdl"
-		"name"		"Shaun"
-		"restrict"
-		{
-			"76561198027133102"		"KVOSH"
-		}
-		"deathsound"	"JB.Death_Custom_Shaun"
+		
+		"deathsound"	"JB.Death_Custom_Sniper"
 	}
 	
 	steampunkfoster
@@ -440,6 +446,12 @@
 	{
 		"model" 	"models/player/clot.mdl"
 		"name"		"Clot"
+	}
+	
+	ghoul
+	{
+		"model" 	"models/player/ghoul/ghoul.mdl"
+		"name"		"Ghoul"
 	}
 		
 	gman

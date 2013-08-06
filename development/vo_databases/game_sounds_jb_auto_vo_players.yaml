@@ -286,3 +286,12 @@ player/custom_vo/replica/shit.WAV]
     category: deathcry_100pitch
     wave_prefix: )
     vcd: false
+
+  JB.Death_Custom_Sniper:
+    waves: [player/custom_vo/sniper/sniper_paincrticialdeath01.wav,
+player/custom_vo/sniper/sniper_paincrticialdeath02.wav,
+player/custom_vo/sniper/sniper_paincrticialdeath03.wav,
+player/custom_vo/sniper/sniper_paincrticialdeath04.wav]
+    category: deathcry_100pitch
+    wave_prefix: )
+    vcd: false
