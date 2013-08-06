@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/carebear/eyes"
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "4"
+	"$basemapalphaphongmask" "1"
+	"$phongfresnelranges"	"[0.1 0.5 1]"
+}

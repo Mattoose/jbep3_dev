@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/replica/body"
+        "$bumpmap" "models/player/replica/body_norm"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1 
+// 	"$halflambert" "1"
+}
+

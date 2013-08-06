@@ -241,9 +241,9 @@ player/custom_vo/daftpunk/4.mp3]
     vcd: false
 
   JB.Death_Custom_Shaun:
-    waves: [player/custom_vo/shaun/1.wav,
-player/custom_vo/shaun/2.wav,
-player/custom_vo/shaun/3.wav]
+    waves: [player/custom_vo/shaun/1.mp3,
+player/custom_vo/shaun/2.mp3,
+player/custom_vo/shaun/3.mp3]
     category: deathcry_100pitch
     wave_prefix: )
     vcd: false
@@ -252,4 +252,37 @@ player/custom_vo/shaun/3.wav]
     wave: player/custom_vo/dog/dog.wav
     category: deathcry
     wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_Yuuki:
+    waves: [player/custom_vo/yuuki/death1.wav,
+player/custom_vo/yuuki/death2.wav,
+player/custom_vo/yuuki/death3.wav]
+    category: deathcry_100pitch
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Replica:
+    waves: [player/custom_vo/replica/fuck.WAV,
+player/custom_vo/replica/shit.WAV]
+    category: deathcry_100pitch
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_SteampunkFoster:
+    wave: player/custom_vo/steampunkfoster/death.mp3
+    category: deathcry_100pitch
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Lee:
+    wave: player/custom_vo/lee/death.mp3
+    category: deathcry_100pitch
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Carebear:
+    wave: player/custom_vo/carebear/death.mp3
+    category: deathcry_100pitch
+    wave_prefix: )
     vcd: false

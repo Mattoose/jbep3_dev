@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/player/carmine/carmine-head"
+	"$bumpmap" 			"models/player/carmine/carmine-head-normal"
+	"$surfaceprop" 		"flesh"
+	"$model" 1
+	"$alphatest" 1
+	"$phong" "1"
+	"$phongboost"	"9"
+	"$phongfresnelranges"	"[0.04 0.1 0.1]"
+	"$phongexponent" "10"
+}
+
+
+

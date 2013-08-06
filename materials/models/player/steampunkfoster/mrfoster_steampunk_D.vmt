@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/steampunkfoster/mrfoster_steampunk_D"
+	"$nocull" "1"
+	"$model" "1"
+	"$halflambert" "1"
+
+	"$envmapmask" "models/player/steampunkfoster/mrfoster_steampunk_S"
+	$envmaptint "[0.2 0.2 0.2]"
+	"$envmap" "env_cubemap"
+}

@@ -1,9 +1,12 @@
 //Editing the restrictions here will allow you to use private models locally
-//This is enforced server-side too so you can't get around these limitations on random server.
+//This is enforced server-side too so you can't get around these limitations on random servers.
 "player_models"
 {
+	
+	// 
+	// Private models
+	//
 
-	// Player Specific Models
 	adamjensen
 	{
 		"model" 	"models/player/adamjensen.mdl"
@@ -80,6 +83,17 @@
 	//	}
 	//	"deathsound"	"JB.Death_Custom_Batman"
 	//}
+	
+	carebear
+	{
+		"model" 	"models/player/carebear.mdl"
+		"name"		"Carebear"
+		"restrict" 	
+		{
+			"76561198003919455" 	"mopman"
+		}
+		"deathsound"	"JB.Death_Custom_Carebear"
+	}
 	
 	clot_craptasket
 	{
@@ -244,6 +258,17 @@
 		"deathsound"	"JB.Death_Custom_Knight"
 	}
 	
+	lee
+	{
+		"model" 	"models/player/lee.mdl"
+		"name"		"Lee"
+		"restrict"
+		{
+			"76561197990403596"		"bpc908"
+		}
+		"deathsound"				"JB.Death_Custom_Lee"
+	}
+	
 	lokimech
 	{
 		"model" 	"models/player/loki_mech.mdl"
@@ -290,16 +315,16 @@
 		"deathsound"	"JB.Death_Custom_Postaldude"
 	}
 	
-	rorschach
+	replica
 	{
-		"model" 	"models/player/rorschach.mdl"
-		"name"		"Rorschach"
+		"model" 	"models/player/replica.mdl"
+		"name"		"Replica"
 		"restrict"
 		{
-			"76561198008559373"		"Ehmmett"
+			"76561197998305192"		"Colossal"
 		}
 		
-		"deathsound"	"JB.Death_Custom_Rorschach"
+		"deathsound"	"JB.Death_Custom_Replica"
 	}
 	
 	skeleton
@@ -336,6 +361,17 @@
 		"deathsound"	"JB.Death_Custom_Shaun"
 	}
 	
+	steampunkfoster
+	{
+		"model" 	"models/player/steampunkfoster.mdl"
+		"name"		"Steampunk Mr Foster"
+		"restrict"
+		{
+			"76561198034741968"		"colerogers"
+		}
+		"deathsound"	"JB.Death_Custom_SteampunkFoster"
+	}
+	
 	terminator
 	{
 		"model" 	"models/player/terminator.mdl"
@@ -366,8 +402,13 @@
 		{
 			"76561197989976412"		"NinjaGnome"
 		}
+		"special"		"1"
 		"deathsound"	"JB.Death_Custom_Tonyhawk"
 	}
+	
+	// 
+	// Public models
+	//
 	
 	allied
 	{
@@ -441,6 +482,12 @@
 	{
 		"model" 	"models/player/robocop.mdl"
 		"name"		"Robocop"
+	}
+	
+	rorschach
+	{
+		"model" 	"models/player/rorschach.mdl"
+		"name"		"Rorschach"
 	}
 	
 	shephard

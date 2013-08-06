@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/cfalcon/cap_equipment"
+               "$halflambert"1
+	"$alphatest"1 
+	"$nocull"1 
+ }

@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/player/carmine/carmine-body"
+	"$bumpmap" 			"models/player/carmine/carmine-body-normal"
+	//"$envmap" 			"env_cubemap"	
+	//"$selfillum" 1
+	//"$envmapcontrast" .3
+	"$surfaceprop" 		"flesh"
+	"$model" 1
+	"$phong" "1"
+	"$phongboost"	"9"
+	"$phongfresnelranges"	"[0.04 0.4 1]"
+	"$phongexponent" "20"
+}
+
+
+

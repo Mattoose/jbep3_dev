@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/lee/Lee_torso_d"
+	"$model" "1"
+
+	"$phong" "1"
+	"$phongexponent" "1"
+	"$phongboost" "0.1"
+	"$phongalbedotint" "1"
+	"$phongtint" "[1 .95 .95]"
+	"$phongfresnelranges"	"[0.5 1 15]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "0.1"
+
+	"$ambientocclusion" "1"
+
+}
