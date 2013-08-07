@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" 		"models/player/mariobro/rebel_sheet"
+    "$bumpmap" 			"models/player/mariobro/rebel_sheet_n"
+	"$halflambert" 1
+	"$nocull" 1
+
+	"$rimlight" "1"										
+	"$rimlightexponent" "80"							
+	"$rimlightboost" "0.1"
+}

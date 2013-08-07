@@ -1,0 +1,13 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/taokaka/Knife_UVW"	
+"$bumpmap" "models/player/taokaka/Knife_UVW_bump"
+
+                "$phong" "1"
+                "$phongboost" 90
+                "$phongexponent"  20
+                "$phongfresnelranges" "[0.001 0.3 1]"
+                "$rimlight" "1"
+                "$rimlightexponent" "1"
+                "$rimlightboost" "20"
+}

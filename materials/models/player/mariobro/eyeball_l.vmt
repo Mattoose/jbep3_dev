@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/monk/eyeball_l"
+	"$halflambert" 1
+}

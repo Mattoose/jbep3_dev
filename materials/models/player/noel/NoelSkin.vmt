@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/noel/NoelSkin"
+	"$bumpmap" "models/player/noel/NoelSkinNormal"
+
+	"$surfaceprop" "flesh"
+	"$model" 1
+	"$nocull" 1
+	"$halflambert" "1"
+	 
+
+}

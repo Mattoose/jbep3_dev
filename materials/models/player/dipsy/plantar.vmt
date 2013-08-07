@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/dipsy/plantar"
+	"$model" 1
+}

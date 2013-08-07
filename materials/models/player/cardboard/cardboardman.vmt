@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/player/cardboard/cardboardman"
+	"$bumpmap" "models/player/cardboard/cardboardman_bump"
+                "$model" 1
+                "$nodecal" 1
+
+	"$phong" "1"
+	"$phongexponent" "60"
+                "$phongexponenttexture" "models/player/cardboard/cardboardman_phong"
+	"$phongboost" ".21"	
+                "$lightwarptexture" "models/player/cardboard/cardboardman_lightwarp"
+	"$phongfresnelranges"	"[.4 1 8]"
+	"$halflambert" 0
+
+}

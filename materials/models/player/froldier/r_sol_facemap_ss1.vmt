@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/froldier/r_sol_facemap_ss1"
+	"$halflambert" 1
+}

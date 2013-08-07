@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/morgan/citizen_refugee"
+                "$bumpmap" "models/player/morgan/citizen_sheet_normal_refugee"
+	"$halflambert" 1
+	"$nocull" 1
+
+	"$rimlight" "1"										
+	"$rimlightexponent" "80"							
+	"$rimlightboost" "0.1"
+}

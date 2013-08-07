@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/grimreaper/sythe"
+			"$envmap" "env_cubemap"
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmapmask" "models/player/grimreaper/sythe_mask"
+	"$envmaptint" "[.7 .7 .7]"
+}

@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/taokaka/nekomimi"
+"$bumpmap" "models/player/taokaka/nekomimi_n"
+
+
+
+"$nocull" 1
+}
+

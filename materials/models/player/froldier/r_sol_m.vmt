@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/froldier/r_sol_m"
+	"$envmap" "env_cubemap"	
+	"$bumpmap" "models/player/froldier/r_sol_m_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$surfaceprop" "flesh"
+	"$model" 1
+	"$selfillum" 1
+	"$halflambert" 1
+}

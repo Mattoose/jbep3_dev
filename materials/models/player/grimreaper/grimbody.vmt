@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/grimreaper/grimbody"
+	"$halflambert" 1
+	"$bumpmap" "models/player/grimreaper/grim_normal"
+    "$alphatest" 1
+    "$model" 1
+    "$nocull" 1
+}

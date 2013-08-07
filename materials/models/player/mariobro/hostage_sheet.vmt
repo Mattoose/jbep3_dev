@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/player/mariobro/hostage_sheet"
+	"$bumpmap"      "models/player/mariobro/hostage_sheet_normal"
+
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "0.1"	
+	"$phongfresnelranges"	"[.1 0.2 1]"
+	"$halflambert" "1"
+
+
+	"$rimlight" "1"										
+	"$rimlightexponent" "30"							
+	"$rimlightboost" "0.1"
+
+}

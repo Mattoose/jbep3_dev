@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/taokaka/ko-to"
+"$bumpmap" "models/player/taokaka/ko-to_n"
+"$nocull" 1
+}
+

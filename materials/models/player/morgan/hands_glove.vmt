@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/morgan/hands_glove"
+                "$bumpmap" "models/player/morgan/hands_glove_n"
+	"$halflambert" 1
+	"$nocull" 1
+}

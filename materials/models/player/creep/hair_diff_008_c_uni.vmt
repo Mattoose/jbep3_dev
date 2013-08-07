@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/creep/hair_diff_008_c_uni"
+	"$translucent" 1
+	"$bumpmap" "models/player/creep/hair_normal_008"
+}

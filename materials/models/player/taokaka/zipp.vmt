@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/taokaka/zipp"
+"$bumpmap" "models/player/taokaka/zipp_n"
+}
+

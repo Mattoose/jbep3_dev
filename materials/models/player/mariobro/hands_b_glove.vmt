@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/mariobro/hands_b_glove"
+                "$bumpmap"     "models/player/mariobro/hands_b_glove_n"
+	"$halflambert" 1
+	"$nocull" 1
+
+                "$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.1 0.2 1]"
+	"$halflambert" "1"
+}

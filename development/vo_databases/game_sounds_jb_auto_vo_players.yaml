@@ -295,3 +295,69 @@ player/custom_vo/sniper/sniper_paincrticialdeath04.wav]
     category: deathcry_100pitch
     wave_prefix: )
     vcd: false
+
+  JB.Death_Custom_Froldier:
+    wave: player/custom_vo/froldier/Doyoulikefunk.mp3
+    category: deathcry_100pitch
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Noel:
+    wave: player/custom_vo/noel/death.mp3
+    category: deathcry_100pitch
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Steve:
+    wave: player/custom_vo/steve/death.mp3
+    category: deathcry_100pitch
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Assassin2:
+    wave: player/custom_vo/assassin2/saythattomyfacefucker.mp3
+    category: deathcry_100pitch
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_Creep:
+    wave: player/custom_vo/creep/death.mp3
+    category: deathcry_100pitch
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_Cardboard:
+    wave: player/custom_vo/cardboard/death.mp3
+    category: deathcry_100pitch
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_Dipsy:
+    wave: player/custom_vo/dipsy/death.mp3
+    category: deathcry_100pitch
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_GrimReaper:
+    wave: player/custom_vo/grimreaper/death.mp3
+    category: deathcry_100pitch
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_Mariobro:
+    wave: player/custom_vo/mariobro/death.mp3
+    category: deathcry
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_Morgan:
+    wave: player/custom_vo/morgan/death.mp3
+    category: deathcry_100pitch
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_Turd:
+    wave: player/custom_vo/turd/death.mp3
+    category: deathcry_100pitch
+    wave_prefix:
+    vcd: false

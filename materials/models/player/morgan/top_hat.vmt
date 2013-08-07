@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/morgan/top_hat"
+	"$bumpmap" "models/player/morgan/top_hat_normal"
+	
+	"$phong" "1"
+	"$phongexponent" "5.0"
+	"$phongboost" "0.5"
+	"$phongfresnelranges"	"[0.05 0.4 0.6]"
+
+}

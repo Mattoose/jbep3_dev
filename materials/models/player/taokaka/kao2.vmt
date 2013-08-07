@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/taokaka/kao2"
+   "$selfillum" "1"
+
+}
+

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/player/stalin/grigori_head"
+ 	"$bumpmap" "models/player/stalin/monk_head_normal"
+	"$halflambert" 1
+}

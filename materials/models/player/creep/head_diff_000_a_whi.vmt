@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/creep/head_diff_000_a_whi"
+	"$bumpmap"	"models/player/creep/head_diff_000_a_whib"
+	"$phong" "1"
+	"$phongexponent" "5"
+}

@@ -41,6 +41,17 @@
 		"deathsound"	"JB.Death_Custom_Assassin"
 	}
 	
+	assassin2
+	{
+		"model" 	"models/player/assassin.mdl"
+		"name"		"Combine Assassin"
+		"restrict" 	
+		{
+			"76561197984391163" 	"Bear"
+		}
+		"deathsound"	"JB.Death_Custom_Assassin2"
+	}
+	
 	postal
 	{
 		"model" 	"models/player/postal.mdl"
@@ -63,16 +74,6 @@
 		}
 	}
 	
-	cj
-	{
-		"model" 	"models/player/cj/cj.mdl"
-		"name"		"CJ"
-		"restrict" 	
-		{
-			"76561197985524420" 	"birdmarde"
-		}
-	}
-	
 	//batman
 	//{
 	//	"model" 	"models/player/combat_batman.mdl"
@@ -84,6 +85,17 @@
 	//	"deathsound"	"JB.Death_Custom_Batman"
 	//}
 	
+	cardboard
+	{
+		"model" 	"models/player/cardboard.mdl"
+		"name"		"Cardboard Man"
+		"restrict" 	
+		{
+			"76561197984065275" 	"Avgjoe"
+		}
+		"deathsound"	"JB.Death_Custom_Cardboard"
+	}
+	
 	carebear
 	{
 		"model" 	"models/player/carebear.mdl"
@@ -93,6 +105,28 @@
 			"76561198003919455" 	"mopman"
 		}
 		"deathsound"	"JB.Death_Custom_Carebear"
+	}
+	
+	citizen_1
+	{
+		"model" 	"models/player/mariobro.mdl"
+		"name"		"Citizen (Top Hat)"
+		"restrict" 	
+		{
+			"76561198013632481" 	"mariobro"
+		}
+		"deathsound"	"JB.Death_Custom_Mariobro"
+	}
+	
+	citizen_2
+	{
+		"model" 	"models/player/morgan.mdl"
+		"name"		"Citizen"
+		"restrict" 	
+		{
+			"76561198029043493" 	"morgan"
+		}
+		"deathsound"				"JB.Death_Custom_Morgan"
 	}
 	
 	clot_craptasket
@@ -117,16 +151,27 @@
 		"deathsound"	"JB.Death_Custom_Chewbacca"
 	}
 	
-	chunli
+	cj
 	{
-		"model" 	"models/player/chunli.mdl"
-		"name"		"ChunLi"
+		"model" 	"models/player/cj/cj.mdl"
+		"name"		"CJ"
 		"restrict" 	
 		{
-			"76561197997913268" 	"AlienFanatic"
+			"76561197985524420" 	"birdmarde"
 		}
-		"deathsound"	"JB.Death_Custom_Chunli"
 	}
+	
+	creep
+	{
+		"model" 	"models/player/creep.mdl"
+		"name"		"Creep"
+		"restrict" 	
+		{
+			"76561198026734746" 	"user"
+		}
+		"deathsound"	"JB.Death_Custom_Creep"
+	}
+	
 	
 	daftpunk
 	{
@@ -138,6 +183,18 @@
 		}
 		
 		"deathsound"	"JB.Death_Custom_DaftPunk"
+	}
+	
+	dipsy
+	{
+		"model" 	"models/player/dipsy.mdl"
+		"name"		"Dipsy"
+		"restrict" 	
+		{
+			"76561197987300375" 	"luaduck"
+		}
+		
+		"deathsound"	"JB.Death_Custom_Dipsy"
 	}
 	
 	dog
@@ -152,16 +209,16 @@
 		"deathsound"	"JB.Death_Custom_Dog"
 	}
 	
-	doomguy
+	froldier
 	{
-		"model" 	"models/player/doom.mdl"
-		"name"		"Doom Guy"
+		"model" 	"models/player/froldier.mdl"
+		"name"		"Fro Solider"
 		"restrict" 	
 		{
 			"76561197999488846" 	"WillieBurkeSherwood"
 		}
 		
-		"deathsound"	"JB.Death_Custom_Doom"
+		"deathsound"	"JB.Death_Custom_Froldier"
 	}
 	
 	ghillicombine
@@ -194,6 +251,17 @@
 		{
 			"76561197971132081" 	"Dragonninja"
 		}
+	}
+	
+	grimreaper
+	{
+		"model" 	"models/player/grimreaper.mdl"
+		"name"		"Grip Reaper"
+		"restrict" 	
+		{
+			"76561197996924066" 	"nook"
+		}
+		"deathsound"	"Death_Custom_GrimReaper"
 	}
 	
 	hatsune
@@ -297,6 +365,17 @@
 		"deathsound"				"JB.Death_Custom_MaxPayne"
 	}
 	
+	noel
+	{
+		"model" 	"models/player/noel.mdl"
+		"name"		"Noel Vermillion"
+		"restrict" 	
+		{
+			"76561197983956314" 	"bantamu"
+		}
+		"deathsound"				"JB.Death_Custom_Noel"
+	}
+	
 	postaldude
 	{
 		"model" 	"models/player/postaldude.mdl"
@@ -378,6 +457,38 @@
 		"deathsound"	"JB.Death_Custom_SteampunkFoster"
 	}
 	
+	stalin
+	{
+		"model" 	"models/player/stalin.mdl"
+		"name"		"Stalin"
+		"restrict"
+		{
+			"76561197988571509"		"grant"
+		}
+	}
+	
+	steve
+	{
+		"model" 	"models/player/steve.mdl"
+		"name"		"Minecraft Steve"
+		"restrict"
+		{
+			"76561197999116045"		"dan"
+		}
+		"deathsound"	"JB.Death_Custom_Steve"
+	}
+	
+	taokaka
+	{
+		"model" 	"models/player/taokaka.mdl"
+		"name"		"Taokaka"
+		"restrict" 	
+		{
+			"76561197997913268" 	"AlienFanatic"
+		}
+		"deathsound"	"JB.Death_Custom_Chunli"
+	}
+	
 	terminator
 	{
 		"model" 	"models/player/terminator.mdl"
@@ -412,6 +523,17 @@
 		"deathsound"	"JB.Death_Custom_Tonyhawk"
 	}
 	
+	turd
+	{
+		"model" 	"models/player/turd.mdl"
+		"name"		"Turd"
+		"restrict"
+		{
+			"76561198006644004"		"qbopper"
+		}
+		"deathsound"	"JB.Death_Custom_Turd"
+	}
+	
 	// 
 	// Public models
 	//
@@ -442,10 +564,23 @@
 		"deathsound"	"JB.Death_Custom_Solid_Snake"
 	}
 		
+	chunli
+	{
+		"model" 	"models/player/chunli.mdl"
+		"name"		"ChunLi"
+	}
+	
 	clot
 	{
 		"model" 	"models/player/clot.mdl"
 		"name"		"Clot"
+	}
+	
+	doomguy
+	{
+		"model" 	"models/player/doom.mdl"
+		"name"		"Doom Guy"		
+		"deathsound"	"JB.Death_Custom_Doom"
 	}
 	
 	ghoul
