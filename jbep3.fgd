@@ -111,6 +111,9 @@
 	output OnRoundSVTStart(void) : "Fired when a SVT round start"
 	output OnRoundSVTSnakeWin(void) : "Fired when Snake wins in SVT"
 	output OnRoundSVTTerroristWin(void) : "Fired when Terrorists wins in SVT"
+	output OnRoundSVMStart(void) : "Fired when a SVT round start"
+	output OnRoundSVMSnakeWin(void) : "Fired when Snake wins in SVT"
+	output OnRoundSVMMonkeyWin(void) : "Fired when Monkeys wins in SVT"
 ]
 
 @PointClass base(Targetname, EnableDisable) iconsprite("editor/logic_relay.vmt") = logic_relay :

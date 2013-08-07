@@ -1,4 +1,7 @@
-var IS_ENGINE = ( navigator.userAgent == "JaykinBacon" );
+var IS_ENGINE = ( navigator.userAgent.search("JaykinBacon") > -1 );
+var IS_DEV = ( !IS_ENGINE || navigator.userAgent.search("Developer") > -1 );
+var IS_RELEASE = ( IS_DEV && navigator.userAgent.search("Release") > -1 );
+
 var IN_GAME = false;
 var TOTAL_BACKGROUNDS = 2;
 
@@ -337,5 +340,7 @@ $(document).on('CEFReady', function() {
 		cycleMenuState();
 		cycleMenuState();
 	}
-		
+	
+	if ( IS_DEV )
+		$("#menu").append("<div id='dev'>DEV VERSION ("+ (IS_RELEASE?"RELEASE":"DEBUG")+")</div>");
 });

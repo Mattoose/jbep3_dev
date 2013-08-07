@@ -1,4 +1,6 @@
-var IS_GAME = ( navigator.userAgent == "JaykinBacon" );
+var IS_ENGINE = ( navigator.userAgent.search("JaykinBacon") > -1 );
+var IS_DEV = ( !IS_ENGINE || navigator.userAgent.search("Developer") > -1 );
+var IS_RELEASE = ( IS_DEV && navigator.userAgent.search("Release") > -1 );
 
 var number_offsets = [];
 number_offsets[0] = [5,0,56,100]; // x, y, w, h

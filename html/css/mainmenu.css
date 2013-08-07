@@ -118,6 +118,17 @@ body {
 	opacity: 0.25;
 }
 
+#menu #dev 
+{
+	position: absolute;
+	z-index: -6;
+	top: 10%;
+	right: 5%;
+	margin-top: 85px;
+	text-align: right;
+	width: 500px;
+}
+
 #menu #logo img
 {
 	width: 100%;
