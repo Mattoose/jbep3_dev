@@ -23,6 +23,7 @@ def generate_vpk( vpk_name, vpk_folders ):
 	 
 	out.close()
 	 
-	subprocess.call([vpk_path, "-k", "jaykinbacon.publickey.vdf", "-K", "jaykinbacon.privatekey.vdf", "-P", "-M", "-c", "1", "a", vpk_name, "@" + response_path])
+	#subprocess.call([vpk_path, "-k", "jaykinbacon.publickey.vdf", "-K", "jaykinbacon.privatekey.vdf", "-P", "-M", "-c", "1", "a", vpk_name, "@" + response_path])
+	subprocess.call([vpk_path, "-P", "-M", "-c", "1", "a", vpk_name, "@" + response_path])
 	
-generate_vpk( "hl_textures", ["materials/halflife"] )
+generate_vpk( "jb_content", ["materials","models","sound","particles","scenes"] )

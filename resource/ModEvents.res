@@ -157,6 +157,11 @@
 		"type"			"string"
 	}
 	
+	"pistol_deploy"
+	{
+		"canfart"			"bool"
+	}
+	
 	//
 	// Instructor Events
 	//
@@ -221,9 +226,17 @@
 		"enabled"	"short"
 	}
 	
-	"pistol_deploy"
+	// NAV
+	
+
+	"nav_blocked"
 	{
-		"canfart"			"bool"
+		"area"		"long"
+		"blocked"	"bool"
+	}
+
+	"nav_generate"
+	{
 	}
 	
 }
