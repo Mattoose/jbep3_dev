@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/v_gravmine/grav_main"
+	"$bumpmap" "models/weapons/v_gravmine/grav_main_N"
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" 10
+	"$BasemapAlphaPhongMask" "1"
+	"$phongalbedotint" "1"								
+	"$phongfresnelranges"	"[.1 5 1]"
+	"$nodecal" 1
+}
