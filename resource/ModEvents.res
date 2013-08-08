@@ -113,6 +113,11 @@
 	{
 		"map"		"string"
 	}
+		
+	"alltalk_changed"
+	{
+		"enabled"			"bool"
+	}
 	
 	//
 	// CLIENT EVENTS
@@ -161,12 +166,6 @@
 	{
 		"entid"			"short"
 	}
-	
-	//"pickup_visible"
-	//{
-	//	"userid"			"short"
-	//	"type"			"short"
-	//}
 	
 	"pickup_visible"
 	{
@@ -220,6 +219,11 @@
 	{
 		"group"		"string"
 		"enabled"	"short"
+	}
+	
+	"pistol_deploy"
+	{
+		"canfart"			"bool"
 	}
 	
 }

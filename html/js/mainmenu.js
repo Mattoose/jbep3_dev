@@ -51,12 +51,18 @@ function cycleMenuState()
 	}
 	else if ( iState == 1 ) // display splash, start menu musiq
 	{
-		console.log("TODO: We've endered iState 1, play our menu music.");
-		
 		// Hide video
 		var introVideo = $('#video video').get(0);			
 		introVideo.pause();
 		$("#video").hide();
+		
+		// Play Music. TODO: Improve this, it's shit at the minute.
+		// Might have issues...
+		if ( IS_ENGINE && typeof MENU != "undefined" && !IN_GAME ) 
+		{	
+			console.log("Playing menu music.");		
+			MENU.playMenuMusic();
+		}
 		
 		// Show splash
 		splashBackgroundScrollLoop();

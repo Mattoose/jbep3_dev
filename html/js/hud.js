@@ -123,7 +123,7 @@ $( function(){
 
 $(window).resize(updateScale);
 
-if ( !IS_GAME )
+if ( !IS_ENGINE )
 {
 	var hp = 0;
 	function loop(){

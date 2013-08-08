@@ -261,7 +261,7 @@
 		{
 			"76561197996924066" 	"nook"
 		}
-		"deathsound"	"Death_Custom_GrimReaper"
+		"deathsound"	"JB.Death_Custom_GrimReaper"
 	}
 	
 	hatsune
@@ -518,6 +518,7 @@
 		"restrict"
 		{
 			"76561197989976412"		"NinjaGnome"
+			"76561197987799766"		"jimb"
 		}
 		"special"		"1"
 		"deathsound"	"JB.Death_Custom_Tonyhawk"

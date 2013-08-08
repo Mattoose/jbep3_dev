@@ -224,10 +224,10 @@
 		
 		"open"
 		{			
-			"weapon_deploy"
+			"pistol_deploy"
 			{
-				"string1 set"			"string weapon"
-				"string1 is"			"string weapon_pistol"	
+				"integer1 set"			"bool canfart"
+				"integer1 is"			"bool 1"	
 				"icon_target set"		"player local_player"
 			}
 		}
