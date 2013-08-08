@@ -1,6 +1,7 @@
 WeaponData
 {
 	"BuiltRightHanded"		"1"
+	"Damage"				"50"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"					"#jb_weapon_railgun"
@@ -8,11 +9,11 @@ WeaponData
 	"playermodel"				"models/weapons/w_railgun.mdl"
 	"PlayerAnimationExtension"	"mp5"
 	
-	"bucket"				"3"
-	"bucket_position"		"11"
+	"bucket"				"8"
+	"bucket_position"		"0"
 
 	"clip_size"				"-1"
-	"NumClips"				"-1"
+	"default_clip"			"-1"
 	
 	"fov"					"60"
 	
