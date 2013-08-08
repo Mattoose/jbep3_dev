@@ -1,7 +1,7 @@
 WeaponData
 {
 	"BuiltRightHanded"		"1"
-	"Damage"				"50"
+	"Damage"				"80"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"					"#jb_weapon_railgun"
