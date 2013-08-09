@@ -1,4 +1,13 @@
-"LightmappedGeneric"
+"UnlitGeneric"
 {
 	"$baseTexture" 	"rico/SQUARE1"
+	"Proxies" 
+	{ 
+	"AnimatedTexture" 
+	{ 
+	"animatedTextureVar" "$basetexture" 
+	"animatedTextureFrameNumVar" "$frame" 
+	"animatedTextureFrameRate" "10" 
+	}
+	} 
 }

@@ -590,11 +590,11 @@
 		"name"		"Ghoul"
 	}
 	
-	hl1assassin
-	{
-		"model" 	"models/player/hl1_assassin.mdl"
-		"name"		"HL1 Assassin"
-	}
+	//hl1assassin
+	//{
+	//	"model" 	"models/player/hl1_assassin.mdl"
+	//	"name"		"HL1 Assassin"
+	//}
 		
 	hl1assault
 	{
