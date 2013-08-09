@@ -31,7 +31,7 @@ function setHealth( health )
 		}
 						
 		var offset = number_offsets[digit];
-		
+				
 		elem.css( { 
 			'background-position' : -(offset[0])+'px',
 			'width' : offset[2]+'px',
