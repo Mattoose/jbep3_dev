@@ -24,7 +24,7 @@ WeaponData
 	"fov"					"52"
 	
 	"primary_ammo"			"ruger"
-	"secondary_ammo"		"decoy"
+	"secondary_ammo"		"None"
 
 	"weight"				"0"
 	"item_flags"			"0"
