@@ -4,444 +4,124 @@
 // - jimbomcb
 //
 
-		"JB.VO_Terrorist_Radio_Clear_2"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_clear/T_R_Clear_2.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_Clear_3"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_clear/T_R_Clear_3.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_Clear_1"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_clear/T_R_Clear_1.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_Clear_4"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_clear/T_R_Clear_4.wav"
-		
-		} 
-		"JB.VO_Terrorist_KillSnake_4"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/killed_snake/4.wav"
-		
-		} 
-		"JB.VO_Terrorist_KillSnake_3"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/killed_snake/3.wav"
-		
-		} 
-		"JB.VO_Terrorist_KillSnake_2"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/killed_snake/2.wav"
-		
-		} 
-		"JB.VO_Terrorist_KillSnake_1"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/killed_snake/1.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_Imagination_4"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_imagination/T_R_Nevermind_4.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_Imagination_1"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_imagination/T_R_Nevermind_1.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_Imagination_3"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_imagination/T_R_Nevermind_3.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_Imagination_2"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_imagination/T_R_Nevermind_2.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_Investigate_2"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_investigate/T_R_Investigate_2.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_Investigate_3"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_investigate/T_R_Investigate_3.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_Investigate_1"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_investigate/T_R_Investigate_1.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_Investigate_4"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_investigate/T_R_Investigate_4.wav"
-		
-		} 
-		"JB.VO_Terrorist_ReloadingInCombat_3"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/reloading_in_combat/T_Reloading_3.wav"
-		
-		} 
-		"JB.VO_Terrorist_ReloadingInCombat_2"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/reloading_in_combat/T_Reloading_2.wav"
-		
-		} 
-		"JB.VO_Terrorist_ReloadingInCombat_1"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/reloading_in_combat/T_Reloading_1.wav"
-		
-		} 
-		"JB.VO_Terrorist_ReloadingInCombat_4"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/reloading_in_combat/T_Reloading_4.wav"
-		
-		} 
-		"JB.VO_Terrorist_Win_3"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/win/3.wav"
-		
-		} 
-		"JB.VO_Terrorist_Win_2"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/win/2.wav"
-		
-		} 
-		"JB.VO_Terrorist_Win_1"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/win/1.wav"
-		
-		} 
-		"JB.VO_Terrorist_Win_4"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/win/4.wav"
-		
-		} 
-		"JB.VO_DeadTerrorist_2"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/dead_terrorist/T_DeadTerrorist_2.wav"
-		
-		} 
-		"JB.VO_DeadTerrorist_3"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/dead_terrorist/T_DeadTerrorist_3.wav"
-		
-		} 
-		"JB.VO_Terrorist_OutOfAmmo_4"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/out_of_ammo/T_OutOfAmmo_4.wav"
-		
-		} 
-		"JB.VO_DeadTerrorist_1"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/dead_terrorist/T_DeadTerrorist_1.wav"
-		
-		} 
-		"JB.VO_Terrorist_OutOfAmmo_2"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/out_of_ammo/T_OutOfAmmo_2.wav"
-		
-		} 
-		"JB.VO_Terrorist_OutOfAmmo_3"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/out_of_ammo/T_OutOfAmmo_3.wav"
-		
-		} 
-		"JB.VO_DeadTerrorist_4"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/dead_terrorist/T_DeadTerrorist_4.wav"
-		
-		} 
-		"JB.VO_Terrorist_OutOfAmmo_1"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/out_of_ammo/T_OutOfAmmo_1.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_PleaseRespond_1"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_respond/T_R_PleaseRespond_1.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_PleaseRespond_2"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_respond/T_R_PleaseRespond_2.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_PleaseRespond_3"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_respond/T_R_PleaseRespond_3.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_PleaseRespond_4"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_respond/T_R_PleaseRespond_4.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_EnemySighted_4"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_enemysighted/T_R_EnemySighted_4.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_EnemySighted_2"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_enemysighted/T_R_EnemySighted_2.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_EnemySighted_3"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_enemysighted/T_R_EnemySighted_3.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_EnemySighted_1"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_enemysighted/T_R_EnemySighted_1.wav"
-		
-		} 
-		"JB.VO_Terrorist_TripmineKill_4"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/tripmine_kill/4.wav"
-		
-		} 
-		"JB.VO_Terrorist_FrogCaptured_1"
+		"JB.VO_Terrorist_Mumble_16"
 		{
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"vo/terrorists/snake_capture_frog/1.wav"
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_16.wav"
 		
 		} 
-		"JB.VO_Terrorist_FrogCaptured_2"
+		"JB.VO_Terrorist_Mumble_17"
 		{
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"vo/terrorists/snake_capture_frog/2.wav"
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_17.wav"
 		
 		} 
-		"JB.VO_Terrorist_FrogCaptured_3"
+		"JB.VO_Terrorist_Mumble_14"
 		{
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"vo/terrorists/snake_capture_frog/3.wav"
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_14.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_15"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_15.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_12"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_12.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_13"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_13.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_10"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_10.wav"
+		
+		} 
+		"JB.VO_Terrorist_TripmineKill_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_landmine/SVT_T_Landmine_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_TripmineKill_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_landmine/SVT_T_Landmine_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_18"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_18.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_19"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_19.wav"
+		
+		} 
+		"JB.VO_Terrorist_TripmineKill_7"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_landmine/SVT_T_Landmine_7.wav"
 		
 		} 
 		"JB.VO_Terrorist_FrogCaptured_4"
@@ -451,7 +131,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"vo/terrorists/snake_capture_frog/4.wav"
+			"wave"		"vo/terrorist_frogcapture/SVT_T_FrogCapture_4.wav"
 		
 		} 
 		"JB.VO_Terrorist_TripmineKill_1"
@@ -459,19 +139,99 @@
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
+			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"vo/terrorists/tripmine_kill/1.wav"
+			"wave"		"vo/terrorist_landmine/SVT_T_Landmine_1.wav"
 		
 		} 
-		"JB.VO_Terrorist_TripmineKill_2"
+		"JB.VO_Terrorist_Investigate_8"
 		{
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
+			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"vo/terrorists/tripmine_kill/2.wav"
+			"wave"		"vo/terrorist_investigate/SVT_T_Investigate_8.wav"
+		
+		} 
+		"JB.VO_Terrorist_Clear_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_clear/SVT_T_Clear_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_Clear_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_clear/SVT_T_Clear_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_Clear_7"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_clear/SVT_T_Clear_7.wav"
+		
+		} 
+		"JB.VO_Terrorist_Clear_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_clear/SVT_T_Clear_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_Clear_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_clear/SVT_T_Clear_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_Clear_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_clear/SVT_T_Clear_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_Investigate_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_investigate/SVT_T_Investigate_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_Investigate_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_investigate/SVT_T_Investigate_2.wav"
 		
 		} 
 		"JB.VO_Terrorist_TripmineKill_3"
@@ -479,9 +239,1029 @@
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
+			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"vo/terrorists/tripmine_kill/3.wav"
+			"wave"		"vo/terrorist_landmine/SVT_T_Landmine_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_Investigate_4"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_investigate/SVT_T_Investigate_4.wav"
+		
+		} 
+		"JB.VO_Terrorist_Investigate_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_investigate/SVT_T_Investigate_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_Investigate_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_investigate/SVT_T_Investigate_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_Investigate_7"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_investigate/SVT_T_Investigate_7.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_8"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_8.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_9"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_9.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_4"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_4.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_7"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_7.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_FrogCaptured_8"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_frogcapture/SVT_T_FrogCapture_8.wav"
+		
+		} 
+		"JB.VO_Terrorist_Victory_9"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_victory/SVT_T_Victory_9.wav"
+		
+		} 
+		"JB.VO_Terrorist_Victory_8"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_victory/SVT_T_Victory_8.wav"
+		
+		} 
+		"JB.VO_Terrorist_TripmineKill_4"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_landmine/SVT_T_Landmine_4.wav"
+		
+		} 
+		"JB.VO_Terrorist_FrogCaptured_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_frogcapture/SVT_T_FrogCapture_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_FrogCaptured_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_frogcapture/SVT_T_FrogCapture_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_FrogCaptured_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_frogcapture/SVT_T_FrogCapture_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_Victory_7"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_victory/SVT_T_Victory_7.wav"
+		
+		} 
+		"JB.VO_Terrorist_FrogCaptured_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_frogcapture/SVT_T_FrogCapture_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_TripmineKill_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_landmine/SVT_T_Landmine_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_FrogCaptured_7"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_frogcapture/SVT_T_FrogCapture_7.wav"
+		
+		} 
+		"JB.VO_Terrorist_DeadTeam_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_dead/SVT_T_Dead_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_DeadTeam_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_dead/SVT_T_Dead_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_11"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_11.wav"
+		
+		} 
+		"JB.VO_Terrorist_DeadTeam_7"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_dead/SVT_T_Dead_7.wav"
+		
+		} 
+		"JB.VO_Terrorist_Magazine_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_magazine/SVT_T_Magazine_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_Magazine_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_magazine/SVT_T_Magazine_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_Magazine_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_magazine/SVT_T_Magazine_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_Magazine_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_magazine/SVT_T_Magazine_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_Magazine_7"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_magazine/SVT_T_Magazine_7.wav"
+		
+		} 
+		"JB.VO_Terrorist_Magazine_4"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_magazine/SVT_T_Magazine_4.wav"
+		
+		} 
+		"JB.VO_Terrorist_Magazine_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_magazine/SVT_T_Magazine_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_DeadTeam_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_dead/SVT_T_Dead_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_Magazine_8"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_magazine/SVT_T_Magazine_8.wav"
+		
+		} 
+		"JB.VO_Terrorist_Mumble_20"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_misc/SVT_T_Misc_20.wav"
+		
+		} 
+		"JB.VO_Terrorist_Nevermind_8"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_nevermind/SVT_T_Nevermind_8.wav"
+		
+		} 
+		"JB.VO_Terrorist_Nevermind_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_nevermind/SVT_T_Nevermind_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_Nevermind_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_nevermind/SVT_T_Nevermind_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_Nevermind_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_nevermind/SVT_T_Nevermind_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_Nevermind_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_nevermind/SVT_T_Nevermind_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_Nevermind_4"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_nevermind/SVT_T_Nevermind_4.wav"
+		
+		} 
+		"JB.VO_Terrorist_Nevermind_7"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_nevermind/SVT_T_Nevermind_7.wav"
+		
+		} 
+		"JB.VO_Terrorist_Nevermind_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_nevermind/SVT_T_Nevermind_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_Victory_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_victory/SVT_T_Victory_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_Backup_4"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_backup/SVT_T_Backup_4.wav"
+		
+		} 
+		"JB.VO_Terrorist_Backup_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_backup/SVT_T_Backup_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_Backup_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_backup/SVT_T_Backup_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_MagazineMumble_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_magazine/SVT_T_MagazineSounds_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_MagazineMumble_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_magazine/SVT_T_MagazineSounds_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_Backup_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_backup/SVT_T_Backup_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_Backup_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_backup/SVT_T_Backup_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_DeadTeam_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_dead/SVT_T_Dead_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_Victory_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_victory/SVT_T_Victory_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_FrogCaptured_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_frogcapture/SVT_T_FrogCapture_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_Victory_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_victory/SVT_T_Victory_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_Clear_4"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_clear/SVT_T_Clear_4.wav"
+		
+		} 
+		"JB.VO_Terrorist_EnemySighted_8"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_enemysighted/SVT_T_EnemySighted_8.wav"
+		
+		} 
+		"JB.VO_Terrorist_OutOfAmmo_4"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_noammo/SVT_T_NoAmmo_4.wav"
+		
+		} 
+		"JB.VO_Terrorist_OutOfAmmo_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_noammo/SVT_T_NoAmmo_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_OutOfAmmo_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_noammo/SVT_T_NoAmmo_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_OutOfAmmo_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_noammo/SVT_T_NoAmmo_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_OutOfAmmo_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_noammo/SVT_T_NoAmmo_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_EnemySighted_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_enemysighted/SVT_T_EnemySighted_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_EnemySighted_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_enemysighted/SVT_T_EnemySighted_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_EnemySighted_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_enemysighted/SVT_T_EnemySighted_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_EnemySighted_4"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_enemysighted/SVT_T_EnemySighted_4.wav"
+		
+		} 
+		"JB.VO_Terrorist_EnemySighted_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_enemysighted/SVT_T_EnemySighted_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_EnemySighted_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_enemysighted/SVT_T_EnemySighted_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_EnemySighted_7"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_enemysighted/SVT_T_EnemySighted_7.wav"
+		
+		} 
+		"JB.VO_Terrorist_Backup_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_backup/SVT_T_Backup_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_Investigate_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_investigate/SVT_T_Investigate_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_MagazineMumble_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_magazine/SVT_T_MagazineSounds_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_Victory_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_victory/SVT_T_Victory_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_Victory_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_victory/SVT_T_Victory_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_Victory_11"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_victory/SVT_T_Victory_11.wav"
+		
+		} 
+		"JB.VO_Terrorist_Victory_10"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_victory/SVT_T_Victory_10.wav"
+		
+		} 
+		"JB.VO_Terrorist_Victory_4"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_victory/SVT_T_Victory_4.wav"
+		
+		} 
+		"JB.VO_Terrorist_Reloading_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_reloading/SVT_T_Reloading_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_Reloading_7"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_reloading/SVT_T_Reloading_7.wav"
+		
+		} 
+		"JB.VO_Terrorist_Reloading_4"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_reloading/SVT_T_Reloading_4.wav"
+		
+		} 
+		"JB.VO_Terrorist_Reloading_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_reloading/SVT_T_Reloading_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_Reloading_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_reloading/SVT_T_Reloading_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_Reloading_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_reloading/SVT_T_Reloading_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_Reloading_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_reloading/SVT_T_Reloading_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_SnakeDead_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_sdead/SVT_T_SDead_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_DeadTeam_4"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_dead/SVT_T_Dead_4.wav"
+		
+		} 
+		"JB.VO_Terrorist_SnakeDead_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_sdead/SVT_T_SDead_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_SnakeDead_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_sdead/SVT_T_SDead_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_SnakeDead_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_sdead/SVT_T_SDead_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_SnakeDead_4"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_sdead/SVT_T_SDead_4.wav"
+		
+		} 
+		"JB.VO_Terrorist_DeadTeam_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_dead/SVT_T_Dead_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_SnakeDead_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_sdead/SVT_T_SDead_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_Respond_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_respond/SVT_T_Respond_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_Respond_4"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_respond/SVT_T_Respond_4.wav"
+		
+		} 
+		"JB.VO_Terrorist_Respond_5"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_respond/SVT_T_Respond_5.wav"
+		
+		} 
+		"JB.VO_Terrorist_Respond_2"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_respond/SVT_T_Respond_2.wav"
+		
+		} 
+		"JB.VO_Terrorist_Respond_3"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_respond/SVT_T_Respond_3.wav"
+		
+		} 
+		"JB.VO_Terrorist_Respond_1"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_respond/SVT_T_Respond_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_RoundStart_8"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_roundstart/SVT_T_RoundStart_8.wav"
 		
 		} 
 		"JB.VO_Terrorist_RoundStart_2"
@@ -489,9 +1269,9 @@
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
+			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"vo/terrorists/round_start/2.wav"
+			"wave"		"vo/terrorist_roundstart/SVT_T_RoundStart_2.wav"
 		
 		} 
 		"JB.VO_Terrorist_RoundStart_3"
@@ -499,9 +1279,9 @@
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
+			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"vo/terrorists/round_start/3.wav"
+			"wave"		"vo/terrorist_roundstart/SVT_T_RoundStart_3.wav"
 		
 		} 
 		"JB.VO_Terrorist_RoundStart_1"
@@ -509,9 +1289,29 @@
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
+			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"vo/terrorists/round_start/1.wav"
+			"wave"		"vo/terrorist_roundstart/SVT_T_RoundStart_1.wav"
+		
+		} 
+		"JB.VO_Terrorist_RoundStart_6"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_roundstart/SVT_T_RoundStart_6.wav"
+		
+		} 
+		"JB.VO_Terrorist_RoundStart_7"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_roundstart/SVT_T_RoundStart_7.wav"
 		
 		} 
 		"JB.VO_Terrorist_RoundStart_4"
@@ -519,48 +1319,18 @@
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
+			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"vo/terrorists/round_start/4.wav"
+			"wave"		"vo/terrorist_roundstart/SVT_T_RoundStart_4.wav"
 		
 		} 
-		"JB.VO_Terrorist_Radio_Backup_4"
+		"JB.VO_Terrorist_RoundStart_5"
 		{
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
+			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"vo/terrorists/radio_backup/T_R_Backup_4.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_Backup_2"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_backup/T_R_Backup_2.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_Backup_3"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_backup/T_R_Backup_3.wav"
-		
-		} 
-		"JB.VO_Terrorist_Radio_Backup_1"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"vo/terrorists/radio_backup/T_R_Backup_1.wav"
+			"wave"		"vo/terrorist_roundstart/SVT_T_RoundStart_5.wav"
 		
 		} 

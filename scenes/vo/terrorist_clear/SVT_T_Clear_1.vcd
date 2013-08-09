@@ -1,0 +1,28 @@
+// Choreo version 1
+// auto generated...
+
+actor "player"
+{
+  channel "player"
+  {
+    event speak "JB.VO_Terrorist_Clear_1"
+    {
+      time 0.000000 1.62684807256
+      param "JB.VO_Terrorist_Clear_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+
+fps 60
+snap off
+ignorePhonemes off

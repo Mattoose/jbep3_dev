@@ -942,6 +942,15 @@ Scheme
 				"weight"	"900"
 			}
 		}
+		"Trebuchet14"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"14"
+				"weight"	"900"
+			}
+		}
 		ClientTitleFont
 		{
 			"1"

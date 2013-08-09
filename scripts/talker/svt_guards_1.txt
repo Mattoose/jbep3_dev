@@ -1,6 +1,5 @@
-
 // 
-// SVT Guards
+// SVT Terrorist RADIO
 //
 
 criterion "GuardsCooldownGlobal" "GuardVoiceGlobalCooldown" "!=1" "required" weight 0
@@ -9,13 +8,20 @@ criterion "CritGuardsCooldownWhatWasThat" "GuardsCooldownWhatWasThat" "!=1" "req
 criterion "ConceptGuardsWhatWasThat" "Concept" "TLK_GUARDS_WHATWASTHAT" required
 Response GuardsWhatWasThat
 {
-	speak "JB.VO2_SVT_T_Investigate"
+	scene "scenes/vo/terrorist_investigate/SVT_T_Investigate_1.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_investigate/SVT_T_Investigate_2.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_investigate/SVT_T_Investigate_3.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_investigate/SVT_T_Investigate_4.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_investigate/SVT_T_Investigate_5.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_investigate/SVT_T_Investigate_6.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_investigate/SVT_T_Investigate_7.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_investigate/SVT_T_Investigate_8.vcd" defaultdelay 
 }
 Rule GuardsWhatWasThat
 {
 	criteria ConceptGuardsWhatWasThat GuardsCooldownGlobal CritGuardsCooldownWhatWasThat
 	ApplyContext "GuardVoiceGlobalCooldown:1:1"
-	ApplyContext "GuardsCooldownWhatWasThat:1:4"
+	ApplyContext "GuardsCooldownWhatWasThat:1:5"
 	Response GuardsWhatWasThat
 }
 
@@ -23,13 +29,20 @@ criterion "CritGuardsCooldownImagination" "GuardsCooldownImagination" "!=1" "req
 criterion "ConceptGuardsImagination" "Concept" "TLK_GUARDS_JUSTMYIMAGINATION" required
 Response GuardsImagination
 {
-	speak "JB.VO2_SVT_T_Imagination"
+	scene "scenes/vo/terrorist_nevermind/SVT_T_Nevermind_1.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_nevermind/SVT_T_Nevermind_2.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_nevermind/SVT_T_Nevermind_3.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_nevermind/SVT_T_Nevermind_4.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_nevermind/SVT_T_Nevermind_5.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_nevermind/SVT_T_Nevermind_6.vcd" defaultdelay  
+	scene "scenes/vo/terrorist_nevermind/SVT_T_Nevermind_7.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_nevermind/SVT_T_Nevermind_8.vcd" defaultdelay 
 }
 Rule GuardsImagination
 {
 	criteria ConceptGuardsImagination GuardsCooldownGlobal CritGuardsCooldownImagination
 	ApplyContext "GuardVoiceGlobalCooldown:1:1"
-	ApplyContext "GuardsCooldownImagination:1:4"
+	ApplyContext "GuardsCooldownImagination:1:5"
 	Response GuardsImagination
 }
 
@@ -37,13 +50,21 @@ criterion "CritGuardsCooldownEnemy" "GuardsCooldownEnemy" "!=1" "required" weigh
 criterion "ConceptGuardsEnemy" "Concept" "TLK_GUARDS_ENEMYSIGHTED" required
 Response GuardsEnemy
 {
-	speak "JB.VO2_SVT_T_EnemySighted"
+	scene "scenes/vo/terrorist_enemysighted/SVT_T_EnemySighted_1.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_enemysighted/SVT_T_EnemySighted_2.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_enemysighted/SVT_T_EnemySighted_3.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_enemysighted/SVT_T_EnemySighted_4.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_enemysighted/SVT_T_EnemySighted_5.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_enemysighted/SVT_T_EnemySighted_6.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_enemysighted/SVT_T_EnemySighted_7.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_enemysighted/SVT_T_EnemySighted_8.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_enemysighted/SVT_T_EnemySighted_9.vcd" defaultdelay 
 }
 Rule GuardsEnemy
 {
 	criteria ConceptGuardsEnemy GuardsCooldownGlobal CritGuardsCooldownEnemy
 	ApplyContext "GuardVoiceGlobalCooldown:1:1"
-	ApplyContext "GuardsCooldownEnemy:1:4"
+	ApplyContext "GuardsCooldownEnemy:1:5"
 	Response GuardsEnemy
 }
 
@@ -51,13 +72,18 @@ criterion "CritGuardsCooldownBackup" "GuardsCooldownBackup" "!=1" "required" wei
 criterion "ConceptGuardsBackup" "Concept" "TLK_GUARDS_SENDBACKUP" required
 Response GuardsBackup
 {
-	speak "JB.VO2_SVT_T_Backup"
+	scene "scenes/vo/terrorist_backup/SVT_T_Backup_1.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_backup/SVT_T_Backup_2.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_backup/SVT_T_Backup_3.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_backup/SVT_T_Backup_4.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_backup/SVT_T_Backup_5.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_backup/SVT_T_Backup_6.vcd" defaultdelay 
 }
 Rule GuardsBackup
 {
 	criteria ConceptGuardsBackup GuardsCooldownGlobal CritGuardsCooldownBackup
 	ApplyContext "GuardVoiceGlobalCooldown:1:1"
-	ApplyContext "GuardsCooldownBackup:1:4"
+	ApplyContext "GuardsCooldownBackup:1:5"
 	Response GuardsBackup
 }
 
@@ -65,13 +91,19 @@ criterion "CritGuardsCooldownClear" "GuardsCooldownClear" "!=1" "required" weigh
 criterion "ConceptGuardsClear" "Concept" "TLK_GUARDS_CLEAR" required
 Response GuardsClear
 {
-	speak "JB.VO2_SVT_T_Clear"
+	scene "scenes/vo/terrorist_clear/SVT_T_Clear_1.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_clear/SVT_T_Clear_2.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_clear/SVT_T_Clear_3.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_clear/SVT_T_Clear_4.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_clear/SVT_T_Clear_5.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_clear/SVT_T_Clear_6.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_clear/SVT_T_Clear_7.vcd" defaultdelay 
 }
 Rule GuardsClear
 {
 	criteria ConceptGuardsClear GuardsCooldownGlobal CritGuardsCooldownClear
 	ApplyContext "GuardVoiceGlobalCooldown:1:1"
-	ApplyContext "GuardsCooldownClear:1:4"
+	ApplyContext "GuardsCooldownClear:1:5"
 	Response GuardsClear
 }
 
@@ -79,12 +111,18 @@ criterion "CritGuardsCooldownRespond" "GuardsCooldownRespond" "!=1" "required" w
 criterion "ConceptGuardsRespond" "Concept" "TLK_GUARDS_WHATSGOINGONRESPOND" required
 Response GuardsRespond
 {
-	speak "JB.VO2_SVT_T_PleaseRespond"
+	scene "scenes/vo/terrorist_respond/SVT_T_Respond_1.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_respond/SVT_T_Respond_2.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_respond/SVT_T_Respond_3.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_respond/SVT_T_Respond_4.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_respond/SVT_T_Respond_5.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_respond/SVT_T_Respond_6.vcd" defaultdelay 
+	scene "scenes/vo/terrorist_respond/SVT_T_Respond_7.vcd" defaultdelay 
 }
 Rule GuardsRespond
 {
 	criteria ConceptGuardsRespond GuardsCooldownGlobal CritGuardsCooldownRespond
 	ApplyContext "GuardVoiceGlobalCooldown:1:1"
-	ApplyContext "GuardsCooldownRespond:1:4"
+	ApplyContext "GuardsCooldownRespond:1:5"
 	Response GuardsRespond
 }

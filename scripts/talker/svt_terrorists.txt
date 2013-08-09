@@ -2,55 +2,86 @@
 Criterion "NotSaidTerroristKillSnake" "SaidTerroristKillSnake" "!=1" "required"
 Criterion "NotSaidRoundStart" "SaidRoundStart" "!=1" "required"
 Criterion "NotSaidFrogCaptured" "SaidFrogCaptured" "!=1" "required"
-Criterion "IsTripmineKill" "is_tripmine" "1" "required"
-Criterion "IsNotTripmineKill" "is_tripmine" "!=1" "required"
 Criterion "NotSaidOutOfAmmo" "SaidOutOfAmmo" "!=1" "required"
 Criterion "NotRemarkedDeadTerrorist" "SaidDeadTerrorist" "!=1" "required"
+Criterion "CanChatter" "DoneChatter" "!=1" "required"
 
 
 // Kill snake
 Response TerroristKillSnake
 {
-	speak "JB.VO2_SVT_T_KillSnake"	
+	scene "scenes/vo/terrorist_sdead/SVT_T_SDead_1.vcd"
+	scene "scenes/vo/terrorist_sdead/SVT_T_SDead_2.vcd"
+	scene "scenes/vo/terrorist_sdead/SVT_T_SDead_3.vcd"
+	scene "scenes/vo/terrorist_sdead/SVT_T_SDead_4.vcd"
+	scene "scenes/vo/terrorist_sdead/SVT_T_SDead_5.vcd"
+	scene "scenes/vo/terrorist_sdead/SVT_T_SDead_6.vcd"
 }
 
 Rule TerroristKillSnake
 {
-	criteria ConceptTerroristKillSnake NotSaidTerroristKillSnake IsNotTripmineKill 25PercentChance
+	criteria ConceptTerroristKillSnake NotSaidTerroristKillSnake
 	ApplyContext "SaidTerroristKillSnake:1:10"
+	ApplyContext "DoneChatter:1:3"
 	Response TerroristKillSnake
 }
 
 // Start Round
 Response TerroristRoundStart
 {
-	speak "JB.VO2_SVT_T_RoundStart"
+	scene "scenes/vo/terrorist_roundstart/SVT_T_RoundStart_1.vcd"
+	scene "scenes/vo/terrorist_roundstart/SVT_T_RoundStart_2.vcd"
+	scene "scenes/vo/terrorist_roundstart/SVT_T_RoundStart_3.vcd"
+	scene "scenes/vo/terrorist_roundstart/SVT_T_RoundStart_4.vcd"
+	scene "scenes/vo/terrorist_roundstart/SVT_T_RoundStart_5.vcd"
+	scene "scenes/vo/terrorist_roundstart/SVT_T_RoundStart_6.vcd"
+	scene "scenes/vo/terrorist_roundstart/SVT_T_RoundStart_7.vcd"
+	scene "scenes/vo/terrorist_roundstart/SVT_T_RoundStart_8.vcd"
 }
 
 Rule TerroristRoundStart
 {
 	criteria ConceptTerroristRoundStart NotSaidRoundStart
 	ApplyContext "SaidRoundStart:1:20"
+	ApplyContext "DoneChatter:1:3"
 	Response TerroristRoundStart
 }
 
 // Frog captured
 Response TerroristFrogCaptured
 {
-	speak "JB.VO2_SVT_T_FrogCaptured"
+	scene "scenes/vo/terrorist_frogcapture/SVT_T_FrogCapture_1.vcd"
+	scene "scenes/vo/terrorist_frogcapture/SVT_T_FrogCapture_2.vcd"
+	scene "scenes/vo/terrorist_frogcapture/SVT_T_FrogCapture_3.vcd"
+	scene "scenes/vo/terrorist_frogcapture/SVT_T_FrogCapture_4.vcd"
+	scene "scenes/vo/terrorist_frogcapture/SVT_T_FrogCapture_5.vcd"
+	scene "scenes/vo/terrorist_frogcapture/SVT_T_FrogCapture_6.vcd"
+	scene "scenes/vo/terrorist_frogcapture/SVT_T_FrogCapture_7.vcd"
+	scene "scenes/vo/terrorist_frogcapture/SVT_T_FrogCapture_8.vcd"
 }
 
 Rule TerroristFrogCaptured
 {
 	criteria ConceptTerroristFrogCaptured NotSaidFrogCaptured
 	ApplyContext "SaidFrogCaptured:1:25"
+	ApplyContext "DoneChatter:1:3"
 	Response TerroristFrogCaptured
 }
 
 // Terrorist Win
 Response TerroristWin
 {
-	speak "JB.VO2_SVT_T_Win"
+	scene "scenes/vo/terrorist_victory/SVT_T_Victory_1.vcd"
+	scene "scenes/vo/terrorist_victory/SVT_T_Victory_2.vcd"
+	scene "scenes/vo/terrorist_victory/SVT_T_Victory_3.vcd"
+	scene "scenes/vo/terrorist_victory/SVT_T_Victory_4.vcd"
+	scene "scenes/vo/terrorist_victory/SVT_T_Victory_5.vcd"
+	scene "scenes/vo/terrorist_victory/SVT_T_Victory_6.vcd"
+	scene "scenes/vo/terrorist_victory/SVT_T_Victory_7.vcd"
+	scene "scenes/vo/terrorist_victory/SVT_T_Victory_8.vcd"
+	scene "scenes/vo/terrorist_victory/SVT_T_Victory_9.vcd"
+	scene "scenes/vo/terrorist_victory/SVT_T_Victory_10.vcd"
+	scene "scenes/vo/terrorist_victory/SVT_T_Victory_11.vcd"
 }
 
 Rule TerroristWin
@@ -62,39 +93,53 @@ Rule TerroristWin
 // Tripmine Kill
 Response TerroristKillSnakeTripmine
 {
-	speak "JB.VO2_SVT_T_TripmineKill"
+	scene "scenes/vo/terrorist_landmine/SVT_T_Landmine_1.vcd"
+	scene "scenes/vo/terrorist_landmine/SVT_T_Landmine_2.vcd"
+	scene "scenes/vo/terrorist_landmine/SVT_T_Landmine_3.vcd"
+	scene "scenes/vo/terrorist_landmine/SVT_T_Landmine_4.vcd"
+	scene "scenes/vo/terrorist_landmine/SVT_T_Landmine_5.vcd"
+	scene "scenes/vo/terrorist_landmine/SVT_T_Landmine_6.vcd"
+	scene "scenes/vo/terrorist_landmine/SVT_T_Landmine_7.vcd"
 }
 
 Rule TerroristKillSnakeTripmine
 {
-	criteria ConceptTerroristKillSnake IsTripmineKill
+	criteria ConceptTerroristKillSnakeTripmine
 	ApplyContext "SaidTerroristKillSnake:1:10"
+	ApplyContext "DoneChatter:1:3"
 	Response TerroristKillSnakeTripmine
 }
 
 // Terrorist Reloading In Combat
 Response TerroristReloadInCombat
 {
-	speak "JB.VO2_SVT_T_ReloadInCombat"
+	scene "scenes/vo/terrorist_reloading/SVT_T_Reloading_3.vcd"
 }
 
 Rule TerroristReloadInCombat
 {
-	criteria ConceptPlayerReloading IsSVT WasHurtInLast3Seconds PlayerNotSaidReloading
+	criteria ConceptPlayerReloading IsSVT WasHurtInLast3Seconds PlayerNotSaidReloading 25PercentChance
 	ApplyContext "SaidReloading:1:25" // Don't let us do this for another 15 seconds
+	ApplyContext "DoneChatter:1:3"
 	Response TerroristReloadInCombat
 }
 
 // Terrorist Reloading NOT In Combat
 Response TerroristNonCombatReload
 {
-	speak "JB.VO2_SVT_T_Reload"
+	scene "scenes/vo/terrorist_reloading/SVT_T_Reloading_1.vcd"
+	scene "scenes/vo/terrorist_reloading/SVT_T_Reloading_2.vcd"
+	scene "scenes/vo/terrorist_reloading/SVT_T_Reloading_4.vcd"
+	scene "scenes/vo/terrorist_reloading/SVT_T_Reloading_5.vcd"
+	scene "scenes/vo/terrorist_reloading/SVT_T_Reloading_6.vcd"
+	scene "scenes/vo/terrorist_reloading/SVT_T_Reloading_7.vcd"
 }
 
 Rule TerroristNonCombatReload
 {
-	criteria ConceptPlayerReloading IsSVT PlayerNotSaidReloading 25PercentChance
+	criteria ConceptPlayerReloading IsSVT PlayerNotSaidReloading 50PercentChance
 	ApplyContext "SaidReloading:1:25" // Don't let us do this for another 15 seconds
+	ApplyContext "DoneChatter:1:3"
 	Response TerroristNonCombatReload
 }
 
@@ -112,13 +157,18 @@ Rule SVTReloadingBlock
 
 Response TerroristOutOfAmmo
 {
-	speak "JB.VO2_SVT_T_OutOfAmmo"
+	scene "scenes/vo/terrorist_noammo/SVT_T_NoAmmo_1.vcd"
+	scene "scenes/vo/terrorist_noammo/SVT_T_NoAmmo_2.vcd"
+	scene "scenes/vo/terrorist_noammo/SVT_T_NoAmmo_3.vcd"
+	scene "scenes/vo/terrorist_noammo/SVT_T_NoAmmo_4.vcd"
+	scene "scenes/vo/terrorist_noammo/SVT_T_NoAmmo_5.vcd"
 }
 
 Rule TerroristOutOfAmmo
 {
-	criteria ConceptTerroristOutOfAmmo IsSVT NotSaidOutOfAmmo 50PercentChance
+	criteria ConceptTerroristOutOfAmmo IsSVT NotSaidOutOfAmmo
 	ApplyContext "SaidOutOfAmmo:1:15" // Don't let us do this for another 15 seconds
+	ApplyContext "DoneChatter:1:3"
 	Response TerroristOutOfAmmo
 }
 
@@ -127,12 +177,54 @@ Rule TerroristOutOfAmmo
 
 Response TerroristFindDeadTerrorist
 {
-	speak "JB.VO2_SVT_T_DeadTerrorist"
+	scene "scenes/vo/terrorist_dead/SVT_T_Dead_1.vcd"
+	scene "scenes/vo/terrorist_dead/SVT_T_Dead_2.vcd"
+	scene "scenes/vo/terrorist_dead/SVT_T_Dead_3.vcd"
+	scene "scenes/vo/terrorist_dead/SVT_T_Dead_4.vcd"
+	scene "scenes/vo/terrorist_dead/SVT_T_Dead_5.vcd"
+	scene "scenes/vo/terrorist_dead/SVT_T_Dead_6.vcd"
+	scene "scenes/vo/terrorist_dead/SVT_T_Dead_7.vcd"
 }
 
-Rule TerroristOutOfAmmo
+Rule TerroristFindDeadTerrorist
 {
 	criteria ConceptTerroristFindDeadTerrorist IsSVT NotRemarkedDeadTerrorist
 	ApplyContext "SaidDeadTerrorist:1:4"
+	ApplyContext "DoneChatter:1:3"
 	Response TerroristFindDeadTerrorist
+}
+
+// --------------------------------------------------------------------------------
+// Idle Chatter
+
+Response TerroristIdleChatter
+{
+	norepeat
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_1.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_2.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_3.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_4.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_5.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_6.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_7.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_8.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_9.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_10.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_11.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_12.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_13.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_14.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_15.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_16.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_17.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_18.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_19.vcd"
+	scene "scenes/vo/terrorist_misc/SVT_T_Misc_20.vcd"
+}
+
+Rule TerroristIdleChatter
+{
+	criteria ConceptTerroristChatter IsSVT HasNotShotRecently CanChatter
+	ApplyContext "DoneChatter:1:12"
+	Response TerroristIdleChatter
 }

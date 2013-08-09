@@ -122,7 +122,7 @@
 "JB.MusicStartRound"
 {
 	"channel"		"CHAN_VOICE"
-	"volume"		"VOL_NORM"
+	"volume"		"0.8"
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_NONE"
@@ -184,7 +184,8 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"	"announce/times/1minremain.mp3"
+	//"wave"	"announce/times/1minremain.mp3"
+	"wave"	"blank.wav"
 }
 
 "JB.30SecRemaining"
@@ -195,7 +196,8 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"	"announce/times/30secremain.mp3"
+	//"wave"	"announce/times/30secremain.mp3"
+	"wave"	"blank.wav"
 }
 
 "JB.10SecRemaining"
@@ -206,7 +208,8 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"	"announce/times/10secremain.mp3"
+	//"wave"	"announce/times/10secremain.mp3"
+	"wave"	"blank.wav"
 }
 
 "JB.5"
@@ -217,7 +220,7 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"	"announce/times/5.mp3"
+	"wave"	"announce/times/5.wav"
 }
 
 "JB.4"
@@ -228,7 +231,7 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"	"announce/times/4.mp3"
+	"wave"	"announce/times/4.wav"
 }
 
 "JB.3"
@@ -239,7 +242,7 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"	"announce/times/3.mp3"
+	"wave"	"announce/times/3.wav"
 }
 
 "JB.2"
@@ -250,7 +253,7 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"	"announce/times/2.mp3"
+	"wave"	"announce/times/2.wav"
 }
 
 "JB.1"
@@ -272,5 +275,6 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"	"announce/times/gameover.mp3"
+	//"wave"	"announce/times/gameover.mp3"
+	"wave"	"blank.wav"
 }

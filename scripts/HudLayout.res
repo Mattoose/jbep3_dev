@@ -527,6 +527,7 @@
 		"wide"	 "f0"
 		"tall"	 "256"
 	}
+	
 	HudMenu
 	{
 		"fieldName" "HudMenu"
@@ -534,6 +535,9 @@
 		"enabled" "1"
 		"wide"	 "f0"
 		"tall"	 "480"
+		
+		"TextFont"		"Trebuchet14"
+		"ItemFont"		"Trebuchet14"
 	}
 
 	HudCloseCaption

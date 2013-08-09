@@ -11,7 +11,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"player/monkey/respond.wav"
+			"wave"		"Noneplayer/monkey/respond.wav"
 		
 		} 
 		"JB.VO_MonkeyNoise4"
@@ -21,7 +21,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"player/monkey/imagination.wav"
+			"wave"		"Noneplayer/monkey/imagination.wav"
 		
 		} 
 		"JB.VO_MonkeyNoise6"
@@ -31,7 +31,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"player/monkey/whatwasthat.wav"
+			"wave"		"Noneplayer/monkey/whatwasthat.wav"
 		
 		} 
 		"JB.VO_MonkeyNoise1"
@@ -41,7 +41,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"player/monkey/backup.wav"
+			"wave"		"Noneplayer/monkey/backup.wav"
 		
 		} 
 		"JB.VO_MonkeyNoise3"
@@ -51,7 +51,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"player/monkey/enemysighted.wav"
+			"wave"		"Noneplayer/monkey/enemysighted.wav"
 		
 		} 
 		"JB.VO_MonkeyNoise2"
@@ -61,6 +61,6 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"player/monkey/clear.wav"
+			"wave"		"Noneplayer/monkey/clear.wav"
 		
 		} 

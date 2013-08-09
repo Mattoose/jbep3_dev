@@ -160,6 +160,8 @@ criterion "50PercentChance"  	"randomnum"               ">50"   	required weight
 criterion "IsSVT" "current_mutation" "svt" required weight 10  // if we're in SVT
 
 criterion "WasHurtInLast3Seconds" "timesincelasthurt" "<7" "required" weight 5
+criterion "HasShotRecently" "timesincelastfire" "<10" "required" weight 5
+criterion "HasNotShotRecently" "timesincelastfire" ">10" "required" weight 5
 
 // 
 // begin rules
@@ -184,11 +186,13 @@ Rule PlayerReloading
 // base criteron
 
 criterion "ConceptTerroristKillSnake" "Concept" "TLK_TERRORIST_KILL_SNAKE" required 
+criterion "ConceptTerroristKillSnakeTripmine" "Concept" "TLK_TERRORIST_KILL_SNAKE_TRIPMINE" required 
 criterion "ConceptTerroristRoundStart" "Concept" "TLK_TERRORIST_ROUND_START" required 
 criterion "ConceptTerroristFrogCaptured" "Concept" "TLK_TERRORIST_FROG_CAPTURED" required 
 criterion "ConceptTerroristWin" "Concept" "TLK_TERRORIST_WIN" required 
 criterion "ConceptTerroristOutOfAmmo" "Concept" "TLK_TERRORIST_OUTOFAMMO" required 
 criterion "ConceptTerroristFindDeadTerrorist" "Concept" "TLK_TERRORIST_FINDDEADTERRORIST" required 
+criterion "ConceptTerroristChatter" "Concept" "TLK_TERRORIST_CHATTER" required 
 
 
 #include "talker/svt_guards_1.txt"

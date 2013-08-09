@@ -33,7 +33,10 @@ def parseYAMLData( sFile ):
 			
 		lSoundCategory = lCategories[lData["category"]]
 		bHasMultipleSounds = ( "waves" in lData )
-		sPrefix = lData["wave_prefix"] if lData["wave_prefix"] is not None else ""
+		if ( "wave_prefix" in lData ): 
+			sPrefix = lData["wave_prefix"]
+		else:
+			sPrefix = ""	
 		
 		# Sound category info
 		sSoundscriptOutput += """

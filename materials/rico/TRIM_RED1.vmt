@@ -1,5 +1,4 @@
-"LightmappedGeneric"
+"UnlitGeneric"
 {
 	"$baseTexture" 	"rico/TRIM_RED1"
-	$selfillum 1
 }

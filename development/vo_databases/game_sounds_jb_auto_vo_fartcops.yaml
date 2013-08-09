@@ -1,0 +1,55 @@
+settings:
+  output: game_sounds_jb_auto_vo_svt
+  
+categories:
+  voiceover:
+    channel: CHAN_VOICE
+    soundlevel: SNDLVL_105dB
+    volume: 1.0
+    pitch: 100
+
+sounds:
+  JB.VO_FartCop_Promotion_1:
+    wave: vo/fc_promotion/FC_Promotion_1.wav
+    category: voiceover
+    vcd: true
+  JB.VO_FartCop_Promotion_2:
+    wave: vo/fc_promotion/FC_Promotion_2.wav
+    category: voiceover
+    vcd: true
+  JB.VO_FartCop_Promotion_3:
+    wave: vo/fc_promotion/FC_Promotion_3.wav
+    category: voiceover
+    vcd: true
+  JB.VO_FartCop_Promotion_4:
+    wave: vo/fc_promotion/FC_Promotion_4.wav
+    category: voiceover
+    vcd: true
+  JB.VO_FartCop_Promotion_5:
+    wave: vo/fc_promotion/FC_Promotion_5.wav
+    category: voiceover
+    vcd: true
+  JB.VO_FartCop_Promotion_6:
+    wave: vo/fc_promotion/FC_Promotion_6.wav
+    category: voiceover
+    vcd: true
+  JB.VO_FartCop_Promotion_7:
+    wave: vo/fc_promotion/FC_Promotion_7.wav
+    category: voiceover
+    vcd: true
+  JB.VO_FartCop_Promotion_8:
+    wave: vo/fc_promotion/FC_Promotion_8.wav
+    category: voiceover
+    vcd: true
+  JB.VO_FartCop_Promotion_9:
+    wave: vo/fc_promotion/FC_Promotion_9.wav
+    category: voiceover
+    vcd: true
+  JB.VO_FartCop_Promotion_10:
+    wave: vo/fc_promotion/FC_Promotion_10.wav
+    category: voiceover
+    vcd: true
+  JB.VO_FartCop_Promotion_11:
+    wave: vo/fc_promotion/FC_Promotion_11.wav
+    category: voiceover
+    vcd: true
