@@ -89,6 +89,8 @@ game_sounds_manifest
 	"precache_file"		"scripts/game_sounds_jb_auto_vo_svt.txt"
 	"precache_file"		"scripts/game_sounds_jb_auto_weapons.txt"
 	"precache_file"		"scripts/game_sounds_jb_auto_vo_svm.txt"
+	"precache_file"		"scripts/game_sounds_jb_auto_vo_fartcops.txt"
+	"precache_file"		"scripts/game_sounds_jb_auto_vo_br.txt"
 	
 	"precache_file"		"scripts/game_sounds_jb_ricochet.txt"
 	

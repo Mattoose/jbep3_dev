@@ -11,7 +11,7 @@
 			"pitch"			"93,107"
 			"soundlevel"	"SNDLVL_NORM"
 	
-			"wave"		"Noneweapons/ruger/single.wav"
+			"wave"		"weapons/ruger/single.wav"
 		
 		} 
 		"JB.Weapon_Railgun_Shoot"
@@ -21,7 +21,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		"Noneweapons/railgun/q2_railgun.wav"
+			"wave"		"weapons/railgun/q2_railgun.wav"
 		
 		} 
 		"JB.Weapon_Flashbang_Detonate"
@@ -105,7 +105,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_75db"
 	
-			"wave"		"Noneweapons/ricochet/discreturn.wav"
+			"wave"		"weapons/ricochet/discreturn.wav"
 		
 		} 
 		"JB.Weapon_Bofors_Shoot"
@@ -125,7 +125,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_75db"
 	
-			"wave"		"Noneweapons/ricochet/dischit.wav"
+			"wave"		"weapons/ricochet/dischit.wav"
 		
 		} 
 		"Weapon_Ricochet.Decap"
@@ -135,7 +135,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_75db"
 	
-			"wave"		"Noneweapons/ricochet/decap.wav"
+			"wave"		"weapons/ricochet/decap.wav"
 		
 		} 
 		"JB.Projectile_Rocket_Detonate"
@@ -165,7 +165,7 @@
 			"pitch"			"93,107"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		"Noneweapons/ax47/swing.wav"
+			"wave"		"weapons/ax47/swing.wav"
 		
 		} 
 		"Weapon_Ricochet.AltFire"
@@ -175,7 +175,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		"Noneweapons/ricochet/altfire.wav"
+			"wave"		"weapons/ricochet/altfire.wav"
 		
 		} 
 		"JB.Weapon_Speakers_MusicR2"
@@ -229,7 +229,7 @@
 			"pitch"			"93,107"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		"Noneweapons/slam/throw.wav"
+			"wave"		"weapons/slam/throw.wav"
 		
 		} 
 		"JB.Weapon_Beretta_Shoot"
@@ -249,7 +249,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_95db"
 	
-			"wave"		"Noneweapons/ricochet/chargedloop.wav"
+			"wave"		"weapons/ricochet/chargedloop.wav"
 		
 		} 
 		"JB.Weapon_Satchel_Detonate"
@@ -259,6 +259,6 @@
 			"pitch"			"93,107"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		"Noneweapons/satchel/detonate.wav"
+			"wave"		"weapons/satchel/detonate.wav"
 		
 		} 

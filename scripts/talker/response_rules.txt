@@ -162,6 +162,7 @@ criterion "IsSVT" "current_mutation" "svt" required weight 10  // if we're in SV
 criterion "WasHurtInLast3Seconds" "timesincelasthurt" "<7" "required" weight 5
 criterion "HasShotRecently" "timesincelastfire" "<10" "required" weight 5
 criterion "HasNotShotRecently" "timesincelastfire" ">10" "required" weight 5
+criterion "IsVisible" "isinvisible" "!=1" "required" weight 5
 
 // 
 // begin rules
@@ -198,3 +199,5 @@ criterion "ConceptTerroristChatter" "Concept" "TLK_TERRORIST_CHATTER" required
 #include "talker/svt_guards_1.txt"
 #include "talker/svt_terrorists.txt"
 #include "talker/svm.txt"
+#include "talker/fartcops.txt"
+#include "talker/br.txt"

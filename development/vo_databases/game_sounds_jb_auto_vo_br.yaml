@@ -1,0 +1,170 @@
+settings:
+  output: game_sounds_jb_auto_vo_br
+  
+categories:
+  voiceover:
+    channel: CHAN_VOICE
+    soundlevel: SNDLVL_95dB
+    volume: 1.0
+    pitch: 100
+
+sounds:
+  JB.VO_BR_1V1_1:
+    wave: vo/br_1v1/BR_1v1_1.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_1V1_2:
+    wave: vo/br_1v1/BR_1v1_2.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_1V1_3:
+    wave: vo/br_1v1/BR_1v1_3.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_1V1_4:
+    wave: vo/br_1v1/BR_1v1_4.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_1V1_5:
+    wave: vo/br_1v1/BR_1v1_5.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_1V1_6:
+    wave: vo/br_1v1/BR_1v1_6.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_1V1_7:
+    wave: vo/br_1v1/BR_1v1_7.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_1V1_8:
+    wave: vo/br_1v1/BR_1v1_8.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_1V1_9:
+    wave: vo/br_1v1/BR_1v1_9.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_1V1_10:
+    wave: vo/br_1v1/BR_1v1_10.wav
+    category: voiceover
+    vcd: true
+
+  JB.VO_BR_Kill_1:
+    wave: vo/br_kill/BR_Kill_1.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_2:
+    wave: vo/br_kill/BR_Kill_2.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_3:
+    wave: vo/br_kill/BR_Kill_3.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_4:
+    wave: vo/br_kill/BR_Kill_4.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_5:
+    wave: vo/br_kill/BR_Kill_5.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_6:
+    wave: vo/br_kill/BR_Kill_6.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_7:
+    wave: vo/br_kill/BR_Kill_7.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_8:
+    wave: vo/br_kill/BR_Kill_8.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_9:
+    wave: vo/br_kill/BR_Kill_9.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_10:
+    wave: vo/br_kill/BR_Kill_10.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_11:
+    wave: vo/br_kill/BR_Kill_11.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_12:
+    wave: vo/br_kill/BR_Kill_12.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_13:
+    wave: vo/br_kill/BR_Kill_13.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_14:
+    wave: vo/br_kill/BR_Kill_14.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_15:
+    wave: vo/br_kill/BR_Kill_15.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_16:
+    wave: vo/br_kill/BR_Kill_16.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_17:
+    wave: vo/br_kill/BR_Kill_17.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_18:
+    wave: vo/br_kill/BR_Kill_18.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_19:
+    wave: vo/br_kill/BR_Kill_19.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Kill_20:
+    wave: vo/br_kill/BR_Kill_20.wav
+    category: voiceover
+    vcd: true
+
+
+  JB.VO_BR_Winner_1:
+    wave: vo/br_winner/BR_Winner_1.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Winner_2:
+    wave: vo/br_winner/BR_Winner_2.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Winner_3:
+    wave: vo/br_winner/BR_Winner_3.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Winner_4:
+    wave: vo/br_winner/BR_Winner_4.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Winner_5:
+    wave: vo/br_winner/BR_Winner_5.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Winner_6:
+    wave: vo/br_winner/BR_Winner_6.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Winner_7:
+    wave: vo/br_winner/BR_Winner_7.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Winner_8:
+    wave: vo/br_winner/BR_Winner_8.wav
+    category: voiceover
+    vcd: true
+  JB.VO_BR_Winner_9:
+    wave: vo/br_winner/BR_Winner_9.wav
+    category: voiceover
+    vcd: true

@@ -1,0 +1,79 @@
+// 1V1
+criterion "ConceptBR1V1" "Concept" "TLK_BR_1v1" required
+
+Response BR1V1
+{
+	scene "scenes/vo/br_1v1/BR_1v1_1.vcd"
+	scene "scenes/vo/br_1v1/BR_1v1_2.vcd"
+	scene "scenes/vo/br_1v1/BR_1v1_3.vcd"
+	scene "scenes/vo/br_1v1/BR_1v1_4.vcd"
+	scene "scenes/vo/br_1v1/BR_1v1_5.vcd"
+	scene "scenes/vo/br_1v1/BR_1v1_6.vcd"
+	scene "scenes/vo/br_1v1/BR_1v1_7.vcd"
+	scene "scenes/vo/br_1v1/BR_1v1_8.vcd"
+	scene "scenes/vo/br_1v1/BR_1v1_9.vcd"
+	scene "scenes/vo/br_1v1/BR_1v1_10.vcd"
+}
+
+Rule BR1V1
+{
+	criteria ConceptBR1V1 IsVisible
+	Response BR1V1
+}
+
+// Kill
+Criterion "CanDoKill" "SaidKill" "!=1" "required"
+criterion "ConceptBRKill" "Concept" "TLK_BR_KILL" required
+
+Response BRKill
+{
+	scene "scenes/vo/br_kill/BR_Kill_1.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_2.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_3.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_4.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_5.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_6.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_7.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_8.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_9.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_10.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_11.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_12.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_13.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_14.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_15.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_16.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_17.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_18.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_19.vcd"
+	scene "scenes/vo/br_kill/BR_Kill_20.vcd"
+}
+
+Rule BRKill
+{
+	criteria ConceptBRKill CanDoKill IsVisible
+	ApplyContext "SaidKill:1:3"
+	Response BRKill
+}
+
+// Kill
+criterion "ConceptBRWin" "Concept" "TLK_BR_WINNER" required
+
+Response BRWin
+{
+	scene "scenes/vo/br_winner/BR_Winner_1.vcd"
+	scene "scenes/vo/br_winner/BR_Winner_2.vcd"
+	scene "scenes/vo/br_winner/BR_Winner_3.vcd"
+	scene "scenes/vo/br_winner/BR_Winner_4.vcd"
+	scene "scenes/vo/br_winner/BR_Winner_5.vcd"
+	scene "scenes/vo/br_winner/BR_Winner_6.vcd"
+	scene "scenes/vo/br_winner/BR_Winner_7.vcd"
+	scene "scenes/vo/br_winner/BR_Winner_8.vcd"
+	scene "scenes/vo/br_winner/BR_Winner_9.vcd"
+}
+
+Rule BRWin
+{
+	criteria ConceptBRWin 
+	Response BRWin
+}

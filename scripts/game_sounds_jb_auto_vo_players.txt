@@ -11,7 +11,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/hunter/death.wav"
+			"wave"		"player/custom_vo/hunter/death.wav"
 		
 		} 
 		"JB.Death_Custom_Sniper"
@@ -36,7 +36,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/barney/death.wav"
+			"wave"		"player/custom_vo/barney/death.wav"
 		
 		} 
 		"JB.Death_Custom_TommyV"
@@ -46,7 +46,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/tommyv/death.wav"
+			"wave"		"player/custom_vo/tommyv/death.wav"
 		
 		} 
 		"JB.Death_Custom_Carebear"
@@ -66,7 +66,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/mariobro/death.mp3"
+			"wave"		"player/custom_vo/mariobro/death.mp3"
 		
 		} 
 		"JB.Death_Custom_Replica"
@@ -122,7 +122,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/postaldude/death.wav"
+			"wave"		"player/custom_vo/postaldude/death.wav"
 		
 		} 
 		"JB.Death_Custom_Hobo"
@@ -132,7 +132,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/hobo/death.wav"
+			"wave"		"player/custom_vo/hobo/death.wav"
 		
 		} 
 		"JB.Death_Custom_Shaun"
@@ -156,7 +156,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/dipsy/death.mp3"
+			"wave"		"player/custom_vo/dipsy/death.mp3"
 		
 		} 
 		"JB.Death_Custom_Assassin"
@@ -166,7 +166,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/assassin/die1.wav"
+			"wave"		"player/custom_vo/assassin/die1.wav"
 		
 		} 
 		"JB.Death_Custom_Ghoul"
@@ -176,7 +176,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/ghoul/death.wav"
+			"wave"		"player/custom_vo/ghoul/death.wav"
 		
 		} 
 		"JB.Death_Custom_Cardboard"
@@ -186,7 +186,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/cardboard/death.mp3"
+			"wave"		"player/custom_vo/cardboard/death.mp3"
 		
 		} 
 		"JB.Death_Custom_Doom"
@@ -196,7 +196,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/doom/death3.wav"
+			"wave"		"player/custom_vo/doom/death3.wav"
 		
 		} 
 		"JB.Death_Custom_Turd"
@@ -206,7 +206,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/turd/death.mp3"
+			"wave"		"player/custom_vo/turd/death.mp3"
 		
 		} 
 		"JB.RR_Reloading1"
@@ -216,7 +216,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/vo/reloadspeech1.wav"
+			"wave"		"player/vo/reloadspeech1.wav"
 		
 		} 
 		"JB.Death_Custom_Solid_Snake"
@@ -250,7 +250,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/chunli/death.wav"
+			"wave"		"player/custom_vo/chunli/death.wav"
 		
 		} 
 		"JB.Death_Custom_Tonyhawk"
@@ -260,7 +260,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/tonyhawk/deathsound.wav"
+			"wave"		"player/custom_vo/tonyhawk/deathsound.wav"
 		
 		} 
 		"JB.Death_Custom_Craptasket"
@@ -270,7 +270,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/craptasket/ugnautdie01.wav"
+			"wave"		"player/custom_vo/craptasket/ugnautdie01.wav"
 		
 		} 
 		"JB.Death_Custom_Hatsune"
@@ -300,7 +300,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/morgan/death.mp3"
+			"wave"		"player/custom_vo/morgan/death.mp3"
 		
 		} 
 		"JB.Death_Custom_Rorschach"
@@ -310,7 +310,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/rorschach/die.wav"
+			"wave"		"player/custom_vo/rorschach/die.wav"
 		
 		} 
 		"JB.Death_Custom_Dog"
@@ -320,7 +320,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/dog/dog.wav"
+			"wave"		"player/custom_vo/dog/dog.wav"
 		
 		} 
 		"JB.Death_Custom_Marisa"
@@ -373,7 +373,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/creep/death.mp3"
+			"wave"		"player/custom_vo/creep/death.mp3"
 		
 		} 
 		"JB.Death_Custom_Glados"
@@ -383,7 +383,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/glados/death.wav"
+			"wave"		"player/custom_vo/glados/death.wav"
 		
 		} 
 		"JB.Death_Custom_Knight"
@@ -393,7 +393,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/knight/knight_death.wav"
+			"wave"		"player/custom_vo/knight/knight_death.wav"
 		
 		} 
 		"JB.Death_Custom_Ash"
@@ -403,7 +403,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/ash/death.wav"
+			"wave"		"player/custom_vo/ash/death.wav"
 		
 		} 
 		"JB.Death_Custom_Lee"
@@ -423,7 +423,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/grimreaper/death.mp3"
+			"wave"		"player/custom_vo/grimreaper/death.mp3"
 		
 		} 
 		"JB.Death_Custom_MaxPayne"
@@ -433,7 +433,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/maxpayne/max_death_01.wav"
+			"wave"		"player/custom_vo/maxpayne/max_death_01.wav"
 		
 		} 
 		"JB.Death_Custom_Assassin2"
@@ -443,7 +443,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/assassin2/saythattomyfacefucker.mp3"
+			"wave"		"player/custom_vo/assassin2/saythattomyfacefucker.mp3"
 		
 		} 
 		"JB.Death_Custom_Skeleton"
@@ -488,7 +488,7 @@
 			"pitch"			"90,110"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/alien/death.wav"
+			"wave"		"player/custom_vo/alien/death.wav"
 		
 		} 
 		"JB.RR_Reloading2"
@@ -498,7 +498,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/vo/reloadspeech2.wav"
+			"wave"		"player/vo/reloadspeech2.wav"
 		
 		} 
 		"JB.RR_Reloading3"
@@ -508,7 +508,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/vo/reloadspeech3.wav"
+			"wave"		"player/vo/reloadspeech3.wav"
 		
 		} 
 		"JB.Death_Custom_Steve"
@@ -528,7 +528,7 @@
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"Noneplayer/custom_vo/saddam/death.mp3"
+			"wave"		"player/custom_vo/saddam/death.mp3"
 		
 		} 
 		"JB.Death_Custom_Chewbacca"

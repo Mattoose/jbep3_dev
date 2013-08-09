@@ -1,0 +1,22 @@
+// POOT POOT
+criterion "ConceptFartCopPromotion" "Concept" "TLK_FC_PROMOTION" required
+Response FCPromotion
+{
+	scene "scenes/vo/fc_promotion/FC_Promotion_1.vcd"
+	scene "scenes/vo/fc_promotion/FC_Promotion_2.vcd"
+	scene "scenes/vo/fc_promotion/FC_Promotion_3.vcd"
+	scene "scenes/vo/fc_promotion/FC_Promotion_4.vcd"
+	scene "scenes/vo/fc_promotion/FC_Promotion_5.vcd"
+	scene "scenes/vo/fc_promotion/FC_Promotion_6.vcd"
+	scene "scenes/vo/fc_promotion/FC_Promotion_7.vcd"
+	scene "scenes/vo/fc_promotion/FC_Promotion_8.vcd"
+	scene "scenes/vo/fc_promotion/FC_Promotion_9.vcd"
+	scene "scenes/vo/fc_promotion/FC_Promotion_10.vcd"
+	scene "scenes/vo/fc_promotion/FC_Promotion_11.vcd"
+}
+
+Rule FCPromotion
+{
+	criteria ConceptFartCopPromotion
+	Response FCPromotion
+}
