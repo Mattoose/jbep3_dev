@@ -128,4 +128,205 @@
 			}
 		}
 	}
+	"Entities"
+	{
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-2199.78 2015.17 304.01"
+			"angles"		"0.00 -90.32 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-2386.22 2016.20 304.01"
+			"angles"		"0.00 -90.32 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-2568.75 2017.21 304.01"
+			"angles"		"0.00 -90.32 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-2755.58 2018.24 268.12"
+			"angles"		"0.00 -90.32 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-2924.94 2019.17 234.24"
+			"angles"		"0.00 -90.32 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-3123.27 2020.26 194.58"
+			"angles"		"0.00 -90.32 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-3322.21 2021.36 176.03"
+			"angles"		"0.00 -90.32 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-3313.92 1892.10 176.03"
+			"angles"		"0.00 3.67 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-3305.27 1757.11 176.03"
+			"angles"		"0.00 3.67 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-3295.11 1598.69 176.03"
+			"angles"		"0.00 3.67 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-3286.37 1462.27 176.03"
+			"angles"		"0.00 3.67 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-3072.72 1475.97 120.39"
+			"angles"		"0.00 3.67 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-2932.91 1484.94 50.49"
+			"angles"		"0.00 3.67 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-2770.14 1495.37 -30.90"
+			"angles"		"0.00 3.67 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-2115.07 1854.39 26.18"
+			"angles"		"0.00 -162.62 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-2353.71 1835.85 11.46"
+			"angles"		"0.00 -175.56 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1305.96 -1123.27 571.12"
+			"angles"		"0.00 -159.69 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1277.02 -1217.93 571.12"
+			"angles"		"0.00 -159.69 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1241.57 -1330.51 571.12"
+			"angles"		"0.00 -159.69 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1210.28 -1431.20 571.12"
+			"angles"		"0.00 -159.69 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1184.57 -1513.93 571.12"
+			"angles"		"0.00 -159.69 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1267.36 -1538.81 571.42"
+			"angles"		"0.00 110.49 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1340.60 -1562.43 571.42"
+			"angles"		"0.00 110.55 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1442.96 -1594.24 571.42"
+			"angles"		"0.00 110.55 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1497.72 -1611.25 571.12"
+			"angles"		"0.00 110.55 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1524.51 -1514.47 571.12"
+			"angles"		"0.00 18.42 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1567.38 -1384.83 571.12"
+			"angles"		"0.00 16.17 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1601.38 -1276.74 571.12"
+			"angles"		"0.00 16.17 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1628.05 -1191.10 571.12"
+			"angles"		"0.00 16.17 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1323.83 -1471.00 571.42"
+			"angles"		"0.00 115.63 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1420.12 -1500.42 571.42"
+			"angles"		"0.00 106.99 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1386.74 -1415.25 619.74"
+			"angles"		"0.00 94.84 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"-1399.93 -1377.66 571.42"
+			"angles"		"0.00 113.06 0.00"
+		}
+	}
 }

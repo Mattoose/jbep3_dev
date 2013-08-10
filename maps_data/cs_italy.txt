@@ -508,6 +508,270 @@
 			"weapon_slam"		"jb_pickup_weapon_1"
 			"weapon_frag"		"jb_pickup_weapon_1"
 		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-463.37 -1949.69 -231.97"
+			"angles"		"0.00 97.29 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-595.24 -1950.67 -231.97"
+			"angles"		"0.00 90.43 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-727.16 -1951.65 -239.97"
+			"angles"		"0.00 90.43 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-880.74 -1952.79 -228.15"
+			"angles"		"0.00 90.43 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-944.00 -1943.05 -231.97"
+			"angles"		"0.00 90.43 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-927.31 -1861.21 -215.97"
+			"angles"		"0.00 0.43 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-943.98 -1798.06 -199.97"
+			"angles"		"0.00 -0.32 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-940.80 -1724.06 -183.97"
+			"angles"		"0.00 -3.62 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-940.10 -1663.00 -167.97"
+			"angles"		"0.00 9.25 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-944.35 -1513.06 -151.97"
+			"angles"		"0.00 1.06 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-448.03 -1879.73 -231.97"
+			"angles"		"0.00 89.90 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-556.22 -1879.54 -239.97"
+			"angles"		"0.00 89.90 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-674.90 -1879.33 -239.97"
+			"angles"		"0.00 89.90 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-798.01 -1879.11 -239.97"
+			"angles"		"0.00 89.90 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-803.27 -1706.09 -239.97"
+			"angles"		"0.00 89.90 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-679.34 -1706.17 -239.97"
+			"angles"		"0.00 89.90 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-567.11 -1706.37 -239.97"
+			"angles"		"0.00 89.90 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-480.03 -1706.53 -239.97"
+			"angles"		"0.00 89.90 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-480.00 -1561.67 -239.97"
+			"angles"		"0.00 89.90 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-597.19 -1561.47 -239.97"
+			"angles"		"0.00 89.90 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-713.68 -1561.26 -239.97"
+			"angles"		"0.00 89.90 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_blue"
+			"origin"		"-830.91 -1561.05 -239.97"
+			"angles"		"0.00 89.90 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"991.21 2190.08 128.03"
+			"angles"		"0.00 -178.23 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"852.85 2189.79 128.03"
+			"angles"		"0.00 -179.88 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"725.01 2189.52 128.03"
+			"angles"		"0.00 -179.88 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"590.68 2192.60 128.03"
+			"angles"		"0.00 88.58 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"592.34 2308.01 128.03"
+			"angles"		"0.00 89.17 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"593.72 2403.35 128.03"
+			"angles"		"0.00 89.17 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"595.29 2512.19 128.03"
+			"angles"		"0.00 89.17 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"684.21 2422.97 128.03"
+			"angles"		"0.00 178.90 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"686.31 2332.70 128.03"
+			"angles"		"0.00 -178.66 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"779.10 2335.15 128.03"
+			"angles"		"0.00 -178.06 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"775.27 2448.44 128.03"
+			"angles"		"0.00 -178.06 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"863.99 2451.44 128.03"
+			"angles"		"0.00 -178.06 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"868.43 2320.17 128.03"
+			"angles"		"0.00 -178.06 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"953.11 2323.03 128.03"
+			"angles"		"0.00 -178.06 -0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"949.31 2435.09 128.03"
+			"angles"		"0.00 -178.06 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"1004.35 2543.97 128.03"
+			"angles"		"0.00 -178.06 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"594.05 2521.14 10.36"
+			"angles"		"0.00 -84.94 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"596.14 2378.29 0.03"
+			"angles"		"0.00 -89.16 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"718.51 2378.10 0.03"
+			"angles"		"0.00 -179.16 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"840.18 2376.75 0.03"
+			"angles"		"0.00 179.36 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"937.04 2375.68 0.03"
+			"angles"		"0.00 179.36 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_deathmatch_red"
+			"origin"		"1007.97 2374.73 0.03"
+			"angles"		"0.00 179.36 0.00"
+		}
 	}
 	"KOTHAreas"
 	{
