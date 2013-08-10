@@ -51,7 +51,7 @@ WeaponData
 		}
 		"icon"
 		{
-			"file"		"VGUI/weapons/weapon_equipped_handgun"
+			"file"		"VGUI/weapons/weapon_equipped_jonstjohn"
 			"x"			"0"
 			"y"			"0"
 			"width"		"256"
@@ -59,7 +59,7 @@ WeaponData
 		}	
 		"icon_selection"
 		{
-			"file"		"VGUI/weapons/weapon_handgun"
+			"file"		"VGUI/weapons/weapon_jonstjohn"
 			"x"			"0"
 			"y"			"0"
 			"width"		"128"

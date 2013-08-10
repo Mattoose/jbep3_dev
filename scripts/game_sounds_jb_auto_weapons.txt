@@ -11,17 +11,27 @@
 			"pitch"			"93,107"
 			"soundlevel"	"SNDLVL_NORM"
 	
-			"wave"		"weapons/ruger/single.wav"
+			"wave"		")weapons/vintorez/fire.wav"
+		
+		} 
+		"JB.Weapon_Shotgun_Pump"
+		{
+			"channel"		"CHAN_AUTO"
+			"volume"		"0.75"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_75db"
+	
+			"wave"		")weapons/shotgun/shotgun_cock.wav"
 		
 		} 
 		"JB.Weapon_Railgun_Shoot"
 		{
 			"channel"		"CHAN_WEAPON"
 			"volume"		"1.0"
-			"pitch"			"100"
+			"pitch"			"93,107"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		"weapons/railgun/q2_railgun.wav"
+			"wave"		")weapons/railgun/railgun.wav"
 		
 		} 
 		"JB.Weapon_Flashbang_Detonate"
@@ -31,7 +41,7 @@
 			"pitch"			"93,107"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		")weapons/fricnade/explode.wav"
+			"wave"		")weapons/flashbang/explode.wav"
 		
 		} 
 		"JB.Weapon_Speakers_Music1"
@@ -84,6 +94,26 @@
 			"wave"		")weapons/dubstep/dub5.wav"
 		
 		} 
+		"JB.Weapon_Goldengun_Fire"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"93,107"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		")weapons/goldengun/fire.wav"
+		
+		} 
+		"JB.Weapon_Shotgun_Single"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"93,107"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		")weapons/m3/m3-1.wav"
+		
+		} 
 		"JB.Weapon_Cat_Muffled1"
 		{
 			"channel"		"CHAN_VOICE"
@@ -98,14 +128,14 @@
 				"wave"	"weapons/cat/angry_3.mp3" 
 			} 
 		} 
-		"Weapon_Ricochet.DiscReturn"
+		"JB.Weapon_Goldengun_Hit"
 		{
 			"channel"		"CHAN_AUTO"
-			"volume"		"0.75"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_75db"
+			"volume"		"1.0"
+			"pitch"			"90,110"
+			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		"weapons/ricochet/discreturn.wav"
+			"wave"		")weapons/goldengun/hit.wav"
 		
 		} 
 		"JB.Weapon_Bofors_Shoot"
@@ -126,6 +156,16 @@
 			"soundlevel"	"SNDLVL_75db"
 	
 			"wave"		"weapons/ricochet/dischit.wav"
+		
+		} 
+		"JB.Weapon_Shotgun_Burst"
+		{
+			"channel"		"CHAN_WEAPON"
+			"volume"		"1.0"
+			"pitch"			"93,107"
+			"soundlevel"	"SNDLVL_GUNFIRE"
+	
+			"wave"		")weapons/shotgun/burst.wav"
 		
 		} 
 		"Weapon_Ricochet.Decap"
@@ -166,6 +206,16 @@
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
 			"wave"		"weapons/ax47/swing.wav"
+		
+		} 
+		"JB.Weapon_Vintorez_Reload"
+		{
+			"channel"		"CHAN_AUTO"
+			"volume"		"0.75"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_75db"
+	
+			"wave"		")weapons/vintorez/reload.wav"
 		
 		} 
 		"Weapon_Ricochet.AltFire"
@@ -260,5 +310,15 @@
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
 			"wave"		"weapons/satchel/detonate.wav"
+		
+		} 
+		"Weapon_Ricochet.DiscReturn"
+		{
+			"channel"		"CHAN_AUTO"
+			"volume"		"0.75"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_75db"
+	
+			"wave"		"weapons/ricochet/discreturn.wav"
 		
 		} 

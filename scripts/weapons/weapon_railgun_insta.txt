@@ -51,7 +51,7 @@ WeaponData
 		}	
 		"icon"
 		{
-			"file"		"VGUI/weapons/weapon_equipped_saa"
+			"file"		"VGUI/weapons/weapon_equipped_railgun"
 			"x"			"0"
 			"y"			"0"
 			"width"		"256"
@@ -59,7 +59,7 @@ WeaponData
 		}	
 		"icon_selection"
 		{
-			"file"		"VGUI/weapons/weapon_saa"
+			"file"		"VGUI/weapons/weapon_railgun"
 			"x"			"0"
 			"y"			"0"
 			"width"		"128"

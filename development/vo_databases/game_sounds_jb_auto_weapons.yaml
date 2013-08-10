@@ -37,6 +37,11 @@ categories:
     soundlevel: SNDLVL_85db
     volume: 1.0
     pitch: 80,110
+  goldengun_hit:
+    channel: CHAN_AUTO
+    soundlevel: SNDLVL_GUNFIRE
+    volume: 1.0
+    pitch: 90,110
 
 
 sounds:
@@ -56,7 +61,7 @@ sounds:
     vcd: false
 
   JB.Weapon_Flashbang_Detonate:
-    wave: weapons/fricnade/explode.wav
+    wave: weapons/flashbang/explode.wav
     category: weapon
     wave_prefix: )
     vcd: false
@@ -140,9 +145,9 @@ sounds:
     vcd: false  
 
   JB.Weapon_Railgun_Shoot:
-    wave: weapons/railgun/q2_railgun.wav
-    category: weapon_100pitch
-    wave_prefix:
+    wave: weapons/railgun/railgun.wav
+    category: weapon
+    wave_prefix: )
     vcd: false  
 
   JB.Weapon_Speakers_Music1:
@@ -182,7 +187,39 @@ sounds:
     vcd: false  
 
   JB.Weapon_Vintorez:
-    wave: weapons/ruger/single.wav
+    wave: weapons/vintorez/fire.wav
     category: weapon_silenced
-    wave_prefix:
+    wave_prefix: )
+    vcd: false  
+  JB.Weapon_Vintorez_Reload:
+    wave: weapons/vintorez/reload.wav
+    category: ricochet_discsounds
+    wave_prefix: )
+    vcd: false  
+
+  JB.Weapon_Goldengun_Fire:
+    wave: weapons/goldengun/fire.wav
+    category: weapon
+    wave_prefix: )
+    vcd: false  
+  JB.Weapon_Goldengun_Hit:
+    wave: weapons/goldengun/hit.wav
+    category: goldengun_hit
+    wave_prefix: )
+    vcd: false  
+
+  JB.Weapon_Shotgun_Single:
+    wave: weapons/shotgun/fire.wav
+    category: weapon
+    wave_prefix: )
+    vcd: false  
+  JB.Weapon_Shotgun_Burst:
+    wave: weapons/shotgun/burst.wav
+    category: weapon
+    wave_prefix: )
+    vcd: false  
+  JB.Weapon_Shotgun_Pump:
+    wave: weapons/shotgun/shotgun_cock.wav
+    category: ricochet_discsounds
+    wave_prefix: )
     vcd: false  

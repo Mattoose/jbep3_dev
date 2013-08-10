@@ -8,8 +8,9 @@
 	"$model" 1
 
 	// rusty todo?
-	//"$phong" "1"
-	//"$phongexponent" "10"
-	//"$phongboost"    "1"
-	//"$phongfresnelranges"    "[2 4 1]"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost"    "1"
+	"$phongfresnelranges"    "[2 4 1]"
 }
+

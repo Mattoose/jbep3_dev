@@ -10,7 +10,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"#SDK_Weapon_Shotgun"
 	"viewmodel"			"models/weapons/v_remington870.mdl"
-	"playermodel"			"models/weapons/w_shot_m3super90.mdl"
+	"playermodel"			"models/weapons/w_remington.mdl"
 	"PlayerAnimationExtension"	"m3s90"
 	"fov"					"55"
 	
@@ -43,8 +43,9 @@ WeaponData
 	{
 		//"reload"			"Default.Reload"
 		//"empty"			"Default.ClipEmpty_Rifle"
-		"single_shot"			"Weapon_M3.Single"
-		"special1"				"Weapon_M3.Pump"
+		"single_shot"		"JB.Weapon_Shotgun_Single"
+		"burst"				"JB.Weapon_Shotgun_Burst"
+		"special1"			"JB.Weapon_Shotgun_Pump"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.

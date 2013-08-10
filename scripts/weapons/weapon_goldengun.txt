@@ -35,7 +35,7 @@ WeaponData
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"single_shot"		"Weapon_Zapper.Shoot"
+		"single_shot"		"JB.Weapon_Goldengun_Fire"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -51,7 +51,7 @@ WeaponData
 		}		
 		"icon"
 		{
-			"file"		"VGUI/weapons/weapon_equipped_ruger"
+			"file"		"VGUI/weapons/weapon_equipped_goldengun"
 			"x"			"0"
 			"y"			"0"
 			"width"		"256"
@@ -59,7 +59,7 @@ WeaponData
 		}	
 		"icon_selection"
 		{
-			"file"		"VGUI/weapons/weapon_ruger"
+			"file"		"VGUI/weapons/weapon_goldengun"
 			"x"			"0"
 			"y"			"0"
 			"width"		"128"

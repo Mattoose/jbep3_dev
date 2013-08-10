@@ -57,7 +57,7 @@ WeaponData
 		}	
 		"icon"
 		{
-			"file"		"VGUI/weapons/weapon_equipped_mosin"
+			"file"		"VGUI/weapons/weapon_equipped_vintorez"
 			"x"			"0"
 			"y"			"0"
 			"width"		"256"
@@ -65,7 +65,7 @@ WeaponData
 		}	
 		"icon_selection"
 		{
-			"file"		"VGUI/weapons/weapon_mosin"
+			"file"		"VGUI/weapons/weapon_vintorez"
 			"x"			"0"
 			"y"			"0"
 			"width"		"128"

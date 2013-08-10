@@ -54,7 +54,7 @@ WeaponData
 		}		
 		"icon"
 		{
-			"file"		"VGUI/weapons/weapon_equipped_ruger"
+			"file"		"VGUI/weapons/weapon_equipped_zapper"
 			"x"			"0"
 			"y"			"0"
 			"width"		"256"
@@ -62,7 +62,7 @@ WeaponData
 		}	
 		"icon_selection"
 		{
-			"file"		"VGUI/weapons/weapon_ruger"
+			"file"		"VGUI/weapons/weapon_zapper"
 			"x"			"0"
 			"y"			"0"
 			"width"		"128"

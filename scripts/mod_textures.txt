@@ -341,10 +341,10 @@
 		"d_shotgun"
 		{
 				"file"	"HUD/d_jbicons"
-				"x"		"99"
-				"y"		"4"
-				"width"		"143"
-				"height"	"35"
+				"x"		"7"
+				"y"		"657"
+				"width"		"154"
+				"height"	"48"
 		}
 			
 		"d_crowbar"
@@ -651,6 +651,97 @@
 				"y"			"511"
 				"width"		"53"
 				"height"	"51"
+		}
+		
+		"d_prop_physics_multiplayer"
+		{
+				"file"		"HUD/d_jbicons"
+				"x"			"449"
+				"y"			"577"
+				"width"		"60"
+				"height"	"60"
+		}
+		"d_prop_physics"
+		{
+				"file"		"HUD/d_jbicons"
+				"x"			"449"
+				"y"			"577"
+				"width"		"60"
+				"height"	"60"
+		}
+		"d_prop_physics_respawnable"
+		{
+				"file"		"HUD/d_jbicons"
+				"x"			"449"
+				"y"			"577"
+				"width"		"60"
+				"height"	"60"
+		}
+			
+		"d_handgun_insta"
+		{
+				"file"		"HUD/d_jbicons"
+				"x"			"11"
+				"y"			"528"
+				"width"		"98"
+				"height"	"60"
+		}
+		
+		"d_railgun"
+		{
+				"file"		"HUD/d_jbicons"
+				"x"			"13"
+				"y"			"597"
+				"width"		"153"
+				"height"	"46"
+		}
+		"d_railgun_insta"
+		{
+				"file"		"HUD/d_jbicons"
+				"x"			"13"
+				"y"			"597"
+				"width"		"153"
+				"height"	"46"
+		}
+		"d_neszapper"
+		{
+				"file"		"HUD/d_jbicons"
+				"x"			"175"
+				"y"			"601"
+				"width"		"108"
+				"height"	"55"
+		}
+		"d_goldengun"
+		{
+				"file"		"HUD/d_jbicons"
+				"x"			"188"
+				"y"			"672"
+				"width"		"98"
+				"height"	"55"
+		}
+		"d_bombcollar"
+		{
+				"file"		"HUD/d_jbicons"
+				"x"			"347"
+				"y"			"679"
+				"width"		"89"
+				"height"	"54"
+		}
+		"d_stomp"
+		{
+				"file"		"HUD/d_jbicons"
+				"x"			"346"
+				"y"			"585"
+				"width"		"95"
+				"height"	"65"
+		}
+		"d_vintorez"
+		{
+				"file"		"HUD/d_jbicons"
+				"x"			"120"
+				"y"			"537"
+				"width"		"165"
+				"height"	"52"
 		}
 		
 	}	
