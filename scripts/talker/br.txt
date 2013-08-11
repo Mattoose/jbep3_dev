@@ -17,7 +17,7 @@ Response BR1V1
 
 Rule BR1V1
 {
-	criteria ConceptBR1V1 IsVisible
+	criteria ConceptBR1V1 IsVisible 50PercentChance
 	Response BR1V1
 }
 
@@ -74,6 +74,6 @@ Response BRWin
 
 Rule BRWin
 {
-	criteria ConceptBRWin 
+	criteria ConceptBRWin 50PercentChance
 	Response BRWin
 }

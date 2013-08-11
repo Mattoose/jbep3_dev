@@ -404,6 +404,16 @@
 			"wave"		"vo/terrorist_victory/SVT_T_Victory_8.wav"
 		
 		} 
+		"JB.VO_Terrorist_Reloading_7"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_95dB"
+	
+			"wave"		"vo/terrorist_reloading/SVT_T_Reloading_7.wav"
+		
+		} 
 		"JB.VO_Terrorist_TripmineKill_4"
 		{
 			"channel"		"CHAN_VOICE"
@@ -1054,14 +1064,14 @@
 			"wave"		"vo/terrorist_reloading/SVT_T_Reloading_6.wav"
 		
 		} 
-		"JB.VO_Terrorist_Reloading_7"
+		"JB.VO_Terrorist_Magazine_End"
 		{
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_95dB"
 	
-			"wave"		"vo/terrorist_reloading/SVT_T_Reloading_7.wav"
+			"wave"		"blank.wav"
 		
 		} 
 		"JB.VO_Terrorist_Reloading_4"

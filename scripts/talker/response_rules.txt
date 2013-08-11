@@ -194,6 +194,9 @@ criterion "ConceptTerroristWin" "Concept" "TLK_TERRORIST_WIN" required
 criterion "ConceptTerroristOutOfAmmo" "Concept" "TLK_TERRORIST_OUTOFAMMO" required 
 criterion "ConceptTerroristFindDeadTerrorist" "Concept" "TLK_TERRORIST_FINDDEADTERRORIST" required 
 criterion "ConceptTerroristChatter" "Concept" "TLK_TERRORIST_CHATTER" required 
+criterion "ConceptTerroristPornMag" "Concept" "TLK_TERRORIST_PORNMAG" required 
+criterion "ConceptTerroristPornMagLong" "Concept" "TLK_TERRORIST_PORNMAG_LONG" required 
+criterion "ConceptTerroristPornMagEnd" "Concept" "TLK_TERRORIST_PORNMAG_END" required 
 
 
 #include "talker/svt_guards_1.txt"

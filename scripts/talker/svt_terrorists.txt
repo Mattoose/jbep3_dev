@@ -5,6 +5,7 @@ Criterion "NotSaidFrogCaptured" "SaidFrogCaptured" "!=1" "required"
 Criterion "NotSaidOutOfAmmo" "SaidOutOfAmmo" "!=1" "required"
 Criterion "NotRemarkedDeadTerrorist" "SaidDeadTerrorist" "!=1" "required"
 Criterion "CanChatter" "DoneChatter" "!=1" "required"
+Criterion "IsNotChattingAboutPorn" "SeenPorn" "!=1" "required"
 
 
 // Kill snake
@@ -227,4 +228,53 @@ Rule TerroristIdleChatter
 	criteria ConceptTerroristChatter IsSVT HasNotShotRecently CanChatter
 	ApplyContext "DoneChatter:1:12"
 	Response TerroristIdleChatter
+}
+
+// --------------------------------------------------------------------------------
+// porn mag
+
+Response TerroristPornMag
+{
+	scene "scenes/vo/terrorist_magazine/SVT_T_Magazine_1.vcd"
+	scene "scenes/vo/terrorist_magazine/SVT_T_Magazine_2.vcd"
+	scene "scenes/vo/terrorist_magazine/SVT_T_Magazine_3.vcd"
+	scene "scenes/vo/terrorist_magazine/SVT_T_Magazine_4.vcd"
+	scene "scenes/vo/terrorist_magazine/SVT_T_Magazine_5.vcd"
+	scene "scenes/vo/terrorist_magazine/SVT_T_Magazine_6.vcd"
+	scene "scenes/vo/terrorist_magazine/SVT_T_Magazine_7.vcd"
+	scene "scenes/vo/terrorist_magazine/SVT_T_Magazine_8.vcd"
+}
+
+Rule TerroristPornMag
+{
+	criteria ConceptTerroristPornMag IsNotChattingAboutPorn
+	ApplyContext "SeenPorn:1:8"
+	Response TerroristPornMag
+}
+
+Response TerroristPornMagLong
+{
+	scene "scenes/vo/terrorist_magazine/SVT_T_MagazineSounds_1.vcd"
+	scene "scenes/vo/terrorist_magazine/SVT_T_MagazineSounds_1.vcd"
+	scene "scenes/vo/terrorist_magazine/SVT_T_MagazineSounds_2.vcd"
+	scene "scenes/vo/terrorist_magazine/SVT_T_MagazineSounds_2.vcd"
+	scene "scenes/vo/terrorist_magazine/SVT_T_MagazineSounds_3.vcd"
+}
+
+Rule TerroristPornMagLong
+{
+	criteria ConceptTerroristPornMagLong IsNotChattingAboutPorn
+	ApplyContext "SeenPorn:1:18"
+	Response TerroristPornMagLong
+}
+
+Response TerroristPornMagEnd
+{
+	speak "JB.VO_Terrorist_Magazine_End"
+}
+
+Rule TerroristPornMagEnd
+{
+	criteria ConceptTerroristPornMagEnd
+	Response TerroristPornMagEnd
 }

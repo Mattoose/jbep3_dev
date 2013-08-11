@@ -4,27 +4,26 @@ WeaponData
 	"Bullets"				"0"
 	"CycleTime"				"1.0"
 	"BuiltRightHanded"		"1"
-	"fov"					"60"
+	"fov"					"68"
 	"printname"				"#jb_weapon_magazine"
-	"viewmodel"				"models/weapons/v_cash.mdl"
-	"playermodel"			"models/weapons/w_cash.mdl"
-	"bucket"				"9"
+	"viewmodel"				"models/weapons/v_magazine.mdl"
+	"playermodel"			"models/weapons/w_magazine.mdl"
+	"bucket"				"3"
 	"bucket_position"		"10"
-	"clip_size"				"15"
-	"default_clip"			"15"
+	"clip_size"				"-1"
+	"clip_size2"			"-1"
 	"primary_ammo"			"magazine"
 	"secondary_ammo"		"None"
 	"weight"				"0"
 	"item_flags"			"0"
 	SoundData
 	{
-		"single_shot"		"Weapon_Cash.Throw"
 	}
 	TextureData
 	{
 		"icon"
 		{
-			"file"		"VGUI/weapons/weapon_equipped_cash"
+			"file"		"VGUI/weapons/weapon_equipped_magazine"
 			"x"			"0"
 			"y"			"0"
 			"width"		"256"
@@ -32,7 +31,7 @@ WeaponData
 		}	
 		"icon_selection"
 		{
-			"file"		"VGUI/weapons/weapon_cash"
+			"file"		"VGUI/weapons/weapon_magazine"
 			"x"			"0"
 			"y"			"0"
 			"width"		"128"

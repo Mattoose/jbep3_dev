@@ -286,7 +286,12 @@ sounds:
     wave: vo/terrorist_magazine/SVT_T_MagazineSounds_3.wav
     category: voiceover
     vcd: true
-    
+
+  JB.VO_Terrorist_Magazine_End:
+    wave: blank.wav
+    category: voiceover
+    vcd: true
+
   # Misc
   JB.VO_Terrorist_Mumble_1:
     wave: vo/terrorist_misc/SVT_T_Misc_1.wav

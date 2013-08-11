@@ -111,7 +111,7 @@
 			"pitch"			"93,107"
 			"soundlevel"	"SNDLVL_GUNFIRE"
 	
-			"wave"		")weapons/shotgun/fire.wav"
+			"wave"		")weapons/shotgun/shotgun_old.wav"
 		
 		} 
 		"JB.Weapon_Cat_Muffled1"

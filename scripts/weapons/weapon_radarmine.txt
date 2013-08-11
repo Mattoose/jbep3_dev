@@ -40,7 +40,7 @@ WeaponData
 		}		
 		"icon"
 		{
-			"file"		"VGUI/weapons/weapon_equipped_ruger"
+			"file"		"VGUI/weapons/weapon_equipped_radarmine"
 			"x"			"0"
 			"y"			"0"
 			"width"		"256"
@@ -48,7 +48,7 @@ WeaponData
 		}	
 		"icon_selection"
 		{
-			"file"		"VGUI/weapons/weapon_ruger"
+			"file"		"VGUI/weapons/weapon_radarmine"
 			"x"			"0"
 			"y"			"0"
 			"width"		"128"

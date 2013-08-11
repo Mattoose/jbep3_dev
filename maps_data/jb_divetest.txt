@@ -41,6 +41,12 @@
 			"angles"		"0.00 45.05 0.00"
 			"tier"		"1"
 		}
+		"create"
+		{
+			"classname"		"jb_obj_frog"
+			"origin"		"207.86 104.62 -127.97"
+			"angles"		"0.00 90.59 0.00"
+		}
 	}
 	"KOTHAreas"
 	{
