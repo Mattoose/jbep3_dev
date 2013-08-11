@@ -557,19 +557,19 @@
 		"d_tripmine"
 		{
 				"file"		"HUD/d_jbicons"
-				"x"			"420"
-				"y"			"319"
-				"width"		"75"
-				"height"	"48"
+				"x"			"9"
+				"y"			"728"
+				"width"		"85"
+				"height"	"30"
 		}
 		
 		"d_gravtrip"
 		{
 				"file"		"HUD/d_jbicons"
-				"x"			"420"
-				"y"			"265"
-				"width"		"75"
-				"height"	"48"
+				"x"			"7"
+				"y"			"766"
+				"width"		"52"
+				"height"	"54"
 		}
 		
 		"d_satchel"

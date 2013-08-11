@@ -637,6 +637,38 @@
 		}
 	}
 	
+	//
+	// Magazine
+	//
+		
+	"Weapon explain magazine"
+	{
+		"priority"				"15"
+		"instance_type"			"2"			
+		"display_limit"			"3"			
+		"binding"				"+attack"
+		"onscreen_icon"			"use_binding"
+		"caption"				"#jb_lesson_wep_magazine"
+		"timeout"				"7.00"		
+		"open"
+		{			
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 is"			"string weapon_magazine"	
+				"icon_target set"		"player local_player"
+			}
+		}
+		"close"
+		{
+			"weapon_deploy"
+			{
+				"string1 set"			"string weapon"
+				"string1 !is"			"string weapon_magazine"	
+			}
+		}
+	}
+	
 	//--------------------------------------------------------
 	// SvT Instructions
 	//--------------------------------------------------------

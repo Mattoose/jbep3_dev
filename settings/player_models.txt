@@ -74,16 +74,16 @@
 		}
 	}
 	
-	//batman
-	//{
-	//	"model" 	"models/player/combat_batman.mdl"
-	//	"name"		"Batman"
-	//	"restrict" 	
-	//	{
-	//		"76561197970736688" 	"rusty"
-	//	}
-	//	"deathsound"	"JB.Death_Custom_Batman"
-	//}
+	batman
+	{
+		"model" 	"models/player/combat_batman.mdl"
+		"name"		"Batman"
+		"restrict" 	
+		{
+			"76561197970736688" 	"rusty"
+		}
+		"deathsound"	"JB.Death_Custom_Batman"
+	}
 	
 	cardboard
 	{

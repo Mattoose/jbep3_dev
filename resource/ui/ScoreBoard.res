@@ -45,7 +45,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"autoresize"		"3"
-		"linespacing"		"18"
+		"linespacing"		"14"
 		"font"			"ClassMenuDefaultVerySmall"
 	}
 }
