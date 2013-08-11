@@ -821,7 +821,7 @@
 	}
 	"KOTHAreas"
 	{
-		"Upper offices"
+		"upper offices"
 		{
 			"bounding_min"		"-104.4521 -625.9105 196.6402"
 			"bounding_max"		"845.3694 128.2643 328.1826"
@@ -831,7 +831,7 @@
 				"max"		"845.3694 -625.9105 196.6402"
 			}
 		}
-		"Lounge"
+		"lounge"
 		{
 			"bounding_min"		"-576.8762 -897.3788 63.8969"
 			"bounding_max"		"-63.6952 0.7852 192.2149"
@@ -841,7 +841,7 @@
 				"max"		"-576.8762 0.7852 192.2149"
 			}
 		}
-		"Oval office"
+		"oval office"
 		{
 			"bounding_min"		"1796.9320 -548.6328 63.4938"
 			"bounding_max"		"2305.8000 -68.1679 193.6117"
@@ -881,7 +881,7 @@
 				"max"		"2268.8284 -460.8690 193.3853"
 			}
 		}
-		"Security Checkpoint"
+		"security checkpoint"
 		{
 			"bounding_min"		"2239.3616 -758.8505 63.6196"
 			"bounding_max"		"2879.7939 -187.9825 192.5378"
@@ -946,7 +946,7 @@
 				"max"		"2323.4749 -537.2447 192.3750"
 			}
 		}
-		"Main corridor"
+		"main corridor"
 		{
 			"bounding_min"		"639.7397 -960.3077 63.7843"
 			"bounding_max"		"1408.1179 -447.7858 191.2826"
@@ -956,7 +956,7 @@
 				"max"		"639.7397 -960.3077 191.2826"
 			}
 		}
-		"Basement entrance"
+		"basement entrance"
 		{
 			"bounding_min"		"127.2910 -2435.5759 -448.6805"
 			"bounding_max"		"642.0954 -2047.7917 -128.0313"

@@ -222,7 +222,7 @@
 	}
 	"KOTHAreas"
 	{
-		"Lower Floor"
+		"lower floor"
 		{
 			"bounding_min"		"5967.5537 6215.9497 -0.5828"
 			"bounding_max"		"7488.1245 6776.6792 184.9361"
@@ -337,7 +337,7 @@
 				"max"		"6988.4077 6776.2710 184.0896"
 			}
 		}
-		"Middle floor"
+		"middle floor"
 		{
 			"bounding_min"		"5958.5010 6215.4370 191.6625"
 			"bounding_max"		"7487.9917 6776.2441 376.9094"
@@ -437,7 +437,7 @@
 				"max"		"6725.9995 6215.4370 376.8740"
 			}
 		}
-		"Top Floor"
+		"top floor"
 		{
 			"bounding_min"		"5968.1318 6215.8657 383.8828"
 			"bounding_max"		"7580.0156 7065.9937 575.0574"

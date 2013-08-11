@@ -406,7 +406,7 @@
 	}
 	"KOTHAreas"
 	{
-		"apartment"
+		"Jim's apartment"
 		{
 			"bounding_min"		"782.0961 -432.2787 31.3578"
 			"bounding_max"		"1537.7393 -14.9072 224.2779"
@@ -431,7 +431,7 @@
 				"max"		"848.8572 783.9194 439.1281"
 			}
 		}
-		"apartment 2"
+		"other apartment"
 		{
 			"bounding_min"		"-960.7877 343.6391 23.1648"
 			"bounding_max"		"-191.7031 768.9133 224.7275"
@@ -446,7 +446,7 @@
 				"max"		"-512.3790 343.6391 224.7275"
 			}
 		}
-		"apartment 3"
+		"fascinating apartment"
 		{
 			"bounding_min"		"-128.4760 -388.2696 30.7837"
 			"bounding_max"		"624.4857 -31.8825 224.7766"

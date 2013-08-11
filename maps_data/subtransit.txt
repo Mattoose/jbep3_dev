@@ -221,7 +221,7 @@
 	}
 	"KOTHAreas"
 	{
-		"Catwalk"
+		"catwalk"
 		{
 			"bounding_min"		"-913.2904 -177.1476 207.9104"
 			"bounding_max"		"-175.3640 512.8240 352.0313"
@@ -271,7 +271,7 @@
 				"max"		"-846.6920 1767.3131 386.4594"
 			}
 		}
-		"Jimbo's room"
+		"Jim's room"
 		{
 			"bounding_min"		"-1413.4594 -489.6258 62.9735"
 			"bounding_max"		"-959.0148 322.9590 286.2241"
@@ -291,7 +291,7 @@
 				"max"		"-1413.4594 -400.3449 286.2241"
 			}
 		}
-		"Drainage hatch"
+		"drainage hatch"
 		{
 			"bounding_min"		"254.4312 771.3613 -228.0600"
 			"bounding_max"		"825.9658 1342.0671 128.4468"
@@ -316,7 +316,7 @@
 				"max"		"825.9658 771.3613 128.4468"
 			}
 		}
-		"Lower treadmill access"
+		"lower treadmill access"
 		{
 			"bounding_min"		"-1560.2968 683.7496 -0.2890"
 			"bounding_max"		"-1213.7313 1368.0123 222.1303"
@@ -326,7 +326,7 @@
 				"max"		"-1213.7313 683.7496 222.1303"
 			}
 		}
-		"Corridor"
+		"corridor"
 		{
 			"bounding_min"		"-990.9736 -704.4691 -0.4692"
 			"bounding_max"		"2.4608 -575.6520 192.3825"

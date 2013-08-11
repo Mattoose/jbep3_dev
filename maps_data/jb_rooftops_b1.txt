@@ -941,7 +941,7 @@
 	}
 	"KOTHAreas"
 	{
-		"bottomleveltalltower"
+		"sniper tower bottom level"
 		{
 			"bounding_min"		"257.0139 -1282.4457 64.0313"
 			"bounding_max"		"1346.7556 -704.4379 321.7830"
@@ -971,7 +971,7 @@
 				"max"		"387.4476 -1278.0861 321.7830"
 			}
 		}
-		"lowerTgarden"
+		"lower T garden"
 		{
 			"bounding_min"		"-1019.2889 -1051.2458 -191.9688"
 			"bounding_max"		"-384.8124 31.0360 58.0728"
@@ -996,7 +996,7 @@
 				"max"		"-914.4646 -992.3986 -31.8457"
 			}
 		}
-		"centerlower2buildings"
+		"low center buildings"
 		{
 			"bounding_min"		"-256.1388 -320.4223 70.2862"
 			"bounding_max"		"1024.1000 384.2872 384.1658"
@@ -1016,7 +1016,7 @@
 				"max"		"570.2004 -7.3055 384.1658"
 			}
 		}
-		"centerbuildingroofs"
+		"center building roofs"
 		{
 			"bounding_min"		"1023.6639 -387.7226 390.3382"
 			"bounding_max"		"2183.4639 448.3123 753.8848"
@@ -1026,7 +1026,7 @@
 				"max"		"2183.4639 -387.7226 753.8848"
 			}
 		}
-		"centerlowergarden"
+		"center building low garden"
 		{
 			"bounding_min"		"1406.4835 -391.1247 71.1001"
 			"bounding_max"		"1791.8712 450.8422 369.3383"
@@ -1036,7 +1036,7 @@
 				"max"		"1791.8712 -391.1247 369.3383"
 			}
 		}
-		"centerapartments"
+		"apartments"
 		{
 			"bounding_min"		"588.6162 -371.8657 63.0313"
 			"bounding_max"		"1402.0314 436.9799 200.8719"
@@ -1066,7 +1066,7 @@
 				"max"		"1014.2739 277.2308 187.9688"
 			}
 		}
-		"redroofs"
+		"red rooftops"
 		{
 			"bounding_min"		"-522.3423 703.2328 264.0949"
 			"bounding_max"		"1540.7089 1410.8937 607.5097"
@@ -1076,7 +1076,7 @@
 				"max"		"1540.7089 1410.8937 607.5097"
 			}
 		}
-		"watertowerbuilding"
+		"water tower building"
 		{
 			"bounding_min"		"1024.3790 1918.2889 260.5863"
 			"bounding_max"		"1347.2463 2688.8860 1298.0254"
@@ -1101,7 +1101,7 @@
 				"max"		"1088.0724 1918.2889 609.5840"
 			}
 		}
-		"tripletowerbuilding"
+		"triple tower building"
 		{
 			"bounding_min"		"1471.4460 1535.6248 384.0313"
 			"bounding_max"		"1984.4207 2176.3950 1097.1677"
@@ -1116,7 +1116,7 @@
 				"max"		"1535.6523 2176.3950 1096.9485"
 			}
 		}
-		"tallestcornerbuilding"
+		"tall corner building"
 		{
 			"bounding_min"		"3116.9077 1852.3779 236.0803"
 			"bounding_max"		"3873.1960 2561.1016 1599.9688"
@@ -1126,7 +1126,7 @@
 				"max"		"3873.1960 2561.1016 1599.9688"
 			}
 		}
-		"twintowers"
+		"twin towers"
 		{
 			"bounding_min"		"1797.8768 1217.6266 767.2778"
 			"bounding_max"		"3264.8196 2093.6550 1025.2303"
@@ -1146,7 +1146,7 @@
 				"max"		"2495.3125 1545.7222 1025.2303"
 			}
 		}
-		"tallestgarden"
+		"center tree"
 		{
 			"bounding_min"		"1536.1892 766.5156 259.2141"
 			"bounding_max"		"2592.6843 1280.6498 679.3893"

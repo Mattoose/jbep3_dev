@@ -451,7 +451,7 @@
 	}
 	"KOTHAreas"
 	{
-		"Garage"
+		"garage"
 		{
 			"bounding_min"		"1519.1812 -897.1525 -1.7732"
 			"bounding_max"		"2336.7651 -255.3224 256.6132"
@@ -461,7 +461,7 @@
 				"max"		"1519.1812 -897.1525 256.6132"
 			}
 		}
-		"Storage building"
+		"storage building"
 		{
 			"bounding_min"		"1535.5942 415.2001 -0.5496"
 			"bounding_max"		"2113.2813 800.8627 253.4563"
@@ -471,7 +471,7 @@
 				"max"		"2113.2813 800.8627 253.4563"
 			}
 		}
-		"Shed"
+		"shed"
 		{
 			"bounding_min"		"1536.0104 -1632.0798 15.6934"
 			"bounding_max"		"1916.0383 -1383.9088 144.9625"
@@ -481,7 +481,7 @@
 				"max"		"1916.0383 -1632.0798 144.9625"
 			}
 		}
-		"Cargo container corner"
+		"cargo container corner"
 		{
 			"bounding_min"		"319.5469 -1600.6606 -0.0479"
 			"bounding_max"		"1024.0957 -321.9655 121.1904"

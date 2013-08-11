@@ -197,7 +197,7 @@
 	}
 	"KOTHAreas"
 	{
-		"leftwharehouse"
+		"left half warehouse"
 		{
 			"bounding_min"		"77.1038 703.8756 0.5835"
 			"bounding_max"		"784.0126 1506.2317 368.0313"
@@ -207,7 +207,7 @@
 				"max"		"77.1038 1506.2317 368.0313"
 			}
 		}
-		"rightwharehouse"
+		"right half warehouse"
 		{
 			"bounding_min"		"-641.2720 703.6871 -0.3556"
 			"bounding_max"		"77.1084 1506.3010 368.0313"
@@ -217,7 +217,7 @@
 				"max"		"-641.2720 703.6871 -0.3556"
 			}
 		}
-		"centercorridors"
+		"center corridors"
 		{
 			"bounding_min"		"-360.1597 -129.8729 -0.0313"
 			"bounding_max"		"362.8533 703.1656 158.9846"
@@ -252,7 +252,7 @@
 				"max"		"222.6796 703.1656 158.0935"
 			}
 		}
-		"uppersupplyarea"
+		"upper supply room"
 		{
 			"bounding_min"		"-241.4677 -223.9968 144.4303"
 			"bounding_max"		"368.7409 368.1221 352.0313"
@@ -282,7 +282,7 @@
 				"max"		"-47.1302 241.1080 313.8609"
 			}
 		}
-		"leftfield"
+		"left field"
 		{
 			"bounding_min"		"-1.0046 -403.8465 6.2591"
 			"bounding_max"		"1093.2839 243.0824 321.8123"
@@ -297,7 +297,7 @@
 				"max"		"-1.0046 -254.8562 128.0313"
 			}
 		}
-		"rightfield"
+		"right field"
 		{
 			"bounding_min"		"-1121.1082 -401.9912 -1.9567"
 			"bounding_max"		"-0.9584 613.0869 332.9437"

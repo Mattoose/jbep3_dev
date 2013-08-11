@@ -1,10 +1,10 @@
-jb_bounce
+jb_bounce_b1
 jb_deck16
 jb_dm3
 jb_e1m1
 jb_longestyard
 jb_oneslip
-jb_rooftops
+jb_rooftops_b1
 jb_sabbath
 dm_lockdown
 dm_runoff

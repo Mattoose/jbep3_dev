@@ -421,7 +421,7 @@
 	}
 	"KOTHAreas"
 	{
-		"Bomb site A"
+		"bomb site A"
 		{
 			"bounding_min"		"-274.7523 -685.7480 -0.4873"
 			"bounding_max"		"776.6961 -308.6115 114.8468"
@@ -456,7 +456,7 @@
 				"max"		"-160.8635 -1792.0563 129.2795"
 			}
 		}
-		"Bomb Site B"
+		"bomb site B"
 		{
 			"bounding_min"		"-1340.1290 -1728.8323 -128.7563"
 			"bounding_max"		"-815.4977 -1092.8049 -1.1127"
@@ -466,7 +466,7 @@
 				"max"		"-815.4977 -1092.8049 -1.1127"
 			}
 		}
-		"Stupid fucking pathway"
+		"stupid fucking pathway"
 		{
 			"bounding_min"		"-1508.0897 -788.0132 -16.0954"
 			"bounding_max"		"-763.6268 -259.8492 135.6224"
@@ -481,7 +481,7 @@
 				"max"		"-863.5397 -523.1293 135.5053"
 			}
 		}
-		"Back garden"
+		"back garden"
 		{
 			"bounding_min"		"-1246.7874 468.0199 -138.0243"
 			"bounding_max"		"-30.8023 1283.8817 198.1595"

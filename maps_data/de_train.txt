@@ -521,7 +521,7 @@
 				"max"		"234.2945 1221.8020 54.9749"
 			}
 		}
-		"Zone A entrance corridor"
+		"zone A entrance corridor"
 		{
 			"bounding_min"		"1233.4923 622.2621 -216.2633"
 			"bounding_max"		"1520.5022 1407.7864 22.8295"

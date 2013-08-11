@@ -216,7 +216,7 @@
 	}
 	"KOTHAreas"
 	{
-		"leftelevatorbuilding"
+		"back left building"
 		{
 			"bounding_min"		"260.9322 772.3837 -1693.5703"
 			"bounding_max"		"881.4089 1529.4608 -1358.2052"
@@ -256,7 +256,7 @@
 				"max"		"443.3646 1528.0314 -1358.5718"
 			}
 		}
-		"centerelevatorbuilding"
+		"back center building"
 		{
 			"bounding_min"		"-429.8739 1106.7946 -1695.9688"
 			"bounding_max"		"61.4586 1523.2783 -1354.8605"
@@ -266,7 +266,7 @@
 				"max"		"61.4586 1523.2783 -1354.8605"
 			}
 		}
-		"rightelevatorbuilding"
+		"back right building"
 		{
 			"bounding_min"		"-1009.6481 247.1946 -1695.9688"
 			"bounding_max"		"-623.4240 1332.2751 -1348.7650"
@@ -306,7 +306,7 @@
 				"max"		"-666.2427 641.7570 -1535.9688"
 			}
 		}
-		"centerbuilding"
+		"center building"
 		{
 			"bounding_min"		"-384.3467 -304.3880 -1696.4767"
 			"bounding_max"		"432.9472 176.6434 -1480.7310"
@@ -346,7 +346,7 @@
 				"max"		"384.9799 -3.9412 -1541.1903"
 			}
 		}
-		"centerlefttopbuilding"
+		"center left building"
 		{
 			"bounding_min"		"400.3655 -48.8428 -1536.7185"
 			"bounding_max"		"886.9408 569.0901 -1357.2959"
@@ -376,7 +376,7 @@
 				"max"		"706.8348 569.0901 -1357.2959"
 			}
 		}
-		"nukebuilding"
+		"bunker"
 		{
 			"bounding_min"		"-642.6131 -2753.0354 -1889.2194"
 			"bounding_max"		"640.5078 -1838.8806 -1629.2057"

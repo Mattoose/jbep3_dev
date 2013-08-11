@@ -665,7 +665,7 @@
 	}
 	"KOTHAreas"
 	{
-		"Control room"
+		"control room"
 		{
 			"bounding_min"		"-2760.1477 2071.3694 823.1516"
 			"bounding_max"		"-2231.2297 2504.2883 1016.1766"
@@ -685,7 +685,7 @@
 				"max"		"-2697.6809 2135.7830 951.9688"
 			}
 		}
-		"Foreman's office"
+		"foreman's office"
 		{
 			"bounding_min"		"-2524.0715 190.3440 419.8863"
 			"bounding_max"		"-2214.2700 509.0389 520.5210"
@@ -695,7 +695,7 @@
 				"max"		"-2524.0715 509.0389 520.5210"
 			}
 		}
-		"Car storage"
+		"car storage"
 		{
 			"bounding_min"		"-2776.5759 1152.3512 219.9266"
 			"bounding_max"		"-2215.9258 1864.4468 520.9366"
@@ -725,7 +725,7 @@
 				"max"		"-2700.3850 1864.4468 407.6268"
 			}
 		}
-		"Storage entrance"
+		"storage entrance"
 		{
 			"bounding_min"		"-2495.1826 -91.9796 219.2216"
 			"bounding_max"		"-2242.8140 510.5902 416.1118"
@@ -745,7 +745,7 @@
 				"max"		"-2304.2349 266.0555 303.7472"
 			}
 		}
-		"Front"
+		"ship front"
 		{
 			"bounding_min"		"-2782.2061 -1239.1930 604.6373"
 			"bounding_max"		"-2207.8984 -471.6657 952.7019"

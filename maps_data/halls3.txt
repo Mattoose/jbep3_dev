@@ -155,7 +155,7 @@
 	}
 	"KOTHAreas"
 	{
-		"Right control room"
+		"right control room"
 		{
 			"bounding_min"		"159.9065 124.2300 254.8624"
 			"bounding_max"		"400.1071 445.5125 376.8738"
@@ -240,7 +240,7 @@
 				"max"		"173.2686 205.1929 376.0496"
 			}
 		}
-		"Left control room"
+		"left control room"
 		{
 			"bounding_min"		"159.1740 -1277.1864 255.7150"
 			"bounding_max"		"400.9004 -959.0222 376.4034"
@@ -325,7 +325,7 @@
 				"max"		"248.3303 -962.2050 376.2739"
 			}
 		}
-		"Center warehouse"
+		"center warehouse"
 		{
 			"bounding_min"		"-1044.3002 -696.0432 167.8696"
 			"bounding_max"		"-159.3586 -143.7941 508.4785"

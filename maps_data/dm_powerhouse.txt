@@ -270,7 +270,7 @@
 	}
 	"KOTHAreas"
 	{
-		"Left armor station"
+		"left charger station"
 		{
 			"bounding_min"		"551.8027 -1697.6925 31.7535"
 			"bounding_max"		"1324.6606 -1283.1602 184.3936"
@@ -285,7 +285,7 @@
 				"max"		"588.0262 -1616.4174 184.3936"
 			}
 		}
-		"front armor station"
+		"front charger station"
 		{
 			"bounding_min"		"-767.9316 -2679.1418 31.5907"
 			"bounding_max"		"545.8349 -2395.5674 185.3132"
@@ -345,7 +345,7 @@
 				"max"		"133.5863 -2589.4949 58.3126"
 			}
 		}
-		"right armor station"
+		"right charger station"
 		{
 			"bounding_min"		"-1306.4868 -1612.8455 31.1553"
 			"bounding_max"		"-744.0516 -793.7673 184.2888"
@@ -360,7 +360,7 @@
 				"max"		"-744.0516 -1580.4534 184.1410"
 			}
 		}
-		"back armor station"
+		"back charger station"
 		{
 			"bounding_min"		"-928.2349 92.2667 31.0280"
 			"bounding_max"		"108.3739 607.8608 184.9398"
@@ -425,7 +425,7 @@
 				"max"		"-488.1875 144.4663 184.7270"
 			}
 		}
-		"top left armor station"
+		"top left charger station"
 		{
 			"bounding_min"		"371.7610 -1430.1217 191.5147"
 			"bounding_max"		"1112.9424 -639.9931 455.9679"
@@ -445,7 +445,7 @@
 				"max"		"592.6000 -1034.5887 368.7265"
 			}
 		}
-		"top right armor station"
+		"top right charger station"
 		{
 			"bounding_min"		"-1524.4918 -1455.2003 190.8211"
 			"bounding_max"		"-899.6104 -767.5616 448.3440"

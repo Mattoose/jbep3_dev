@@ -127,7 +127,7 @@
 				"max"		"4133.3516 -491.0779 210.2571"
 			}
 		}
-		"Cargo elevator"
+		"cargo elevator"
 		{
 			"bounding_min"		"2367.7163 31.9657 14.8877"
 			"bounding_max"		"3328.9507 736.2905 296.4812"

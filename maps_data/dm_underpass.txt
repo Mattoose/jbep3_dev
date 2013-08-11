@@ -216,7 +216,7 @@
 	}
 	"KOTHAreas"
 	{
-		"Powerstation roof"
+		"powerstation roof"
 		{
 			"bounding_min"		"-92.9896 -1021.9146 319.5464"
 			"bounding_max"		"385.0354 -358.0686 582.8495"
@@ -226,7 +226,7 @@
 				"max"		"385.0354 -1021.9146 582.8495"
 			}
 		}
-		"Destroyed wall"
+		"destroyed wall"
 		{
 			"bounding_min"		"-104.6489 -1896.5463 -0.5708"
 			"bounding_max"		"1035.1062 -1103.9531 352.0256"
@@ -256,7 +256,7 @@
 				"max"		"-631.6420 -1216.1195 184.4996"
 			}
 		}
-		"Sewers"
+		"sewers"
 		{
 			"bounding_min"		"-1249.1589 -1493.5115 -536.7341"
 			"bounding_max"		"-541.9502 -1295.4897 -319.0021"
@@ -266,7 +266,7 @@
 				"max"		"-541.9502 -1493.5115 -319.0021"
 			}
 		}
-		"Sewers entrance"
+		"sewers entrance"
 		{
 			"bounding_min"		"-480.8671 -2664.4385 -432.8237"
 			"bounding_max"		"-55.0768 -1209.0416 -175.4906"
@@ -301,7 +301,7 @@
 				"max"		"-258.1277 -1209.0416 -204.5601"
 			}
 		}
-		"Mid stairwell"
+		"mid stairwell"
 		{
 			"bounding_min"		"-1200.4918 -2247.8572 -276.2973"
 			"bounding_max"		"-806.1196 -1782.9326 116.7049"

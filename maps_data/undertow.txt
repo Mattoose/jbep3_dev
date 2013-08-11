@@ -246,7 +246,7 @@
 	}
 	"KOTHAreas"
 	{
-		"Water pump access"
+		"water pump access"
 		{
 			"bounding_min"		"-2496.0889 -96.7912 63.9086"
 			"bounding_max"		"-2111.0762 311.9210 315.1050"
@@ -301,7 +301,7 @@
 				"max"		"-2144.6729 128.5372 315.0493"
 			}
 		}
-		"Bridge arena"
+		"bridge arena"
 		{
 			"bounding_min"		"-319.9721 -416.6476 0.1839"
 			"bounding_max"		"320.3522 417.5829 121.8601"
@@ -311,7 +311,7 @@
 				"max"		"320.3522 417.5829 121.8601"
 			}
 		}
-		"Flood buildings"
+		"flood buildings"
 		{
 			"bounding_min"		"1022.1425 -578.6464 -385.3914"
 			"bounding_max"		"1665.6597 -261.1808 -192.0313"

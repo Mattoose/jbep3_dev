@@ -482,7 +482,7 @@
 				"max"		"-1758.4771 777.4612 -1.3977"
 			}
 		}
-		"longjumpsandpit"
+		"catwalk sandpit"
 		{
 			"bounding_min"		"-497.4458 1461.8022 -128.1766"
 			"bounding_max"		"369.3525 2289.0212 189.1000"
@@ -502,7 +502,7 @@
 				"max"		"-369.6209 1733.8270 -128.1766"
 			}
 		}
-		"edgebuilding"
+		"corner building"
 		{
 			"bounding_min"		"-256.1150 -1898.3086 0.4577"
 			"bounding_max"		"765.3101 -1151.0734 448.2759"
@@ -572,7 +572,7 @@
 				"max"		"-114.8073 1.0430 -127.9688"
 			}
 		}
-		"sandpitwatertowers"
+		"watertowers sandpit"
 		{
 			"bounding_min"		"-2288.8081 1679.0951 -128.2256"
 			"bounding_max"		"-1374.7544 2544.3821 209.4117"
@@ -592,7 +592,7 @@
 				"max"		"-1657.2505 2502.4397 209.4117"
 			}
 		}
-		"warehouseright"
+		"warehouse right half"
 		{
 			"bounding_min"		"938.5295 16.6217 -0.4199"
 			"bounding_max"		"2051.1550 608.0615 448.6482"
@@ -767,7 +767,7 @@
 				"max"		"285.2726 432.0147 -111.8322"
 			}
 		}
-		"building1"
+		"Jim's building"
 		{
 			"bounding_min"		"-2896.0532 -575.9791 -0.1882"
 			"bounding_max"		"-1391.9835 368.3979 448.7527"
@@ -802,7 +802,7 @@
 				"max"		"-2656.3562 170.0785 176.1384"
 			}
 		}
-		"building2"
+		"normal building"
 		{
 			"bounding_min"		"-2144.0496 559.9122 -0.1838"
 			"bounding_max"		"-719.0640 1537.1211 177.0032"
@@ -842,7 +842,7 @@
 				"max"		"-1392.0023 1376.0659 175.9745"
 			}
 		}
-		"building3"
+		"boring building"
 		{
 			"bounding_min"		"-256.1025 -993.2101 -0.0313"
 			"bounding_max"		"356.2198 0.5779 448.2541"
@@ -897,7 +897,7 @@
 				"max"		"-95.4878 -624.6680 448.2083"
 			}
 		}
-		"building4"
+		"absolutely fucking stupid building"
 		{
 			"bounding_min"		"-1360.2146 1695.7461 -0.1599"
 			"bounding_max"		"-528.0051 2337.1714 448.7294"
@@ -927,7 +927,7 @@
 				"max"		"-703.8979 2337.1714 448.7294"
 			}
 		}
-		"buildingtop"
+		"big building top"
 		{
 			"bounding_min"		"-560.4656 172.8510 191.6459"
 			"bounding_max"		"400.5020 1536.2500 451.0982"
@@ -1022,7 +1022,7 @@
 				"max"		"-276.7802 490.0492 451.0982"
 			}
 		}
-		"buildingbottom"
+		"big building bottom"
 		{
 			"bounding_min"		"-560.2808 159.7045 -0.5912"
 			"bounding_max"		"352.5211 1536.7203 176.6322"
@@ -1067,7 +1067,7 @@
 				"max"		"-352.7100 488.3381 176.5232"
 			}
 		}
-		"warehouseleft"
+		"warehouse left half"
 		{
 			"bounding_min"		"783.9702 -1135.9974 190.2852"
 			"bounding_max"		"2063.7180 -255.3020 478.0221"
