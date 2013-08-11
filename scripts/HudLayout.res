@@ -798,6 +798,16 @@
 		"wide"					"f60"	[$X360]
 		"tall"					"100"
 	}
+	
+	JBVote
+	{
+		"fieldName"	"JBVote"
+		"visible"	"1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"	
+	}
 
 	
 }

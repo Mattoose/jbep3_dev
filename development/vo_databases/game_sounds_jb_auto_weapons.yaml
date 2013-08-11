@@ -209,7 +209,7 @@ sounds:
     vcd: false  
 
   JB.Weapon_Shotgun_Single:
-    wave: weapons/shotgun/fire.wav
+    wave: weapons/shotgun/shotgun_old.wav
     category: weapon
     wave_prefix: )
     vcd: false  
