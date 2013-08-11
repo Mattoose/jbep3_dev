@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$translucent" 1	
-	"$basetexture" "VGUI\weapons\weapon_equipped_tripmine"
+	"$basetexture" "VGUI\weapons\weapon_equipped_gravmine"
 	"$vertexcolor" 1
 	"$vertexalpha" 1
 	
