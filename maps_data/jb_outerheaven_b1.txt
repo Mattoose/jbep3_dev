@@ -73,4 +73,19 @@
 			}
 		}
 	}
+	"Entities"
+	{
+		"create"
+		{
+			"classname"		"jb_spawn_svt_snake"
+			"origin"		"-505.97 1440.82 64.03"
+			"angles"		"0.00 -90.57 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_svt_snake"
+			"origin"		"-654.25 1440.77 64.03"
+			"angles"		"0.00 -87.60 0.00"
+		}
+	}
 }
