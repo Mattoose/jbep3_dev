@@ -25,6 +25,7 @@ WeaponData
 	"item_flags"				"0"
 
 	"MeleeWeapon"				"1"
+	"MeleeHitDelay"				"0.08" // Delay between swinging and doing damage. Has to be lower than cycletime.
 	
 	Recoil
 	{
