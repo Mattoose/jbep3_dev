@@ -28,6 +28,8 @@ Scheme
 		"ForTesting"		"255 0 0 32"
 		"ForTesting_Magenta"	"255 0 255 255"
 		"ForTesting_MagentaDim"	"255 0 255 120"
+		
+		"JBWhite"			"255 255 255 255"
 	}
 	
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -82,15 +84,15 @@ Scheme
 
 ///HERE
 				// vgui_controls color specifications
-		Border.Bright					"LightOrange"		// the lit side of a control
-		Border.Dark						"LightOrange"		// the dark/unlit side of a control
+		Border.Bright					"Blank"		// the lit side of a control
+		Border.Dark					"Blank"		// the dark/unlit side of a control
 		Border.Selection				"Blank"				// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"Orange"
+		Button.TextColor				"JBWhite"
 		Button.BgColor					"Blank"
-		Button.ArmedTextColor			"Orange"
+		Button.ArmedTextColor			"JBWhite"
 		Button.ArmedBgColor				"Red"
-		Button.DepressedTextColor		"Orange"
+		Button.DepressedTextColor		"JBWhite"
 		Button.DepressedBgColor			"Red"
 
 		CheckButton.TextColor			"Orange"
@@ -128,13 +130,13 @@ Scheme
 		GraphPanel.FgColor				"Orange"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"Orange"
-		Label.TextColor					"Orange"
-		Label.TextBrightColor			"Orange"
-		Label.SelectedTextColor			"Orange"
+		Label.TextDullColor				"JBWhite"
+		Label.TextColor					"JBWhite"
+		Label.TextBrightColor			"JBWhite"
+		Label.SelectedTextColor			"JBWhite"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
-		Label.DisabledFgColor2			"LightOrange"
+		Label.DisabledFgColor2			"JBWhite"
 
 		ListPanel.TextColor					"Orange"
 		ListPanel.BgColor					"TransparentBlack"
@@ -277,8 +279,39 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
-	
-	
+		"Ray50"
+		{
+		   "1"
+		   {
+				"name"  "MGRay"
+				"tall"  "50"
+				"weight" "0"
+				"antialias" "1"
+		   }
+		}
+		
+		"Ray40"
+		{
+		   "1"
+		   {
+				"name"  "MGRay"
+				"tall"  "40"
+				"weight" "0"
+				"antialias" "1"
+		   }
+		}
+		
+		"Ray30"
+		{
+		   "1"
+		   {
+				"name"  "MGRay"
+				"tall"  "30"
+				"weight" "0"
+				"antialias" "1"
+		   }
+		}
+		
 		"InstructorTitle"
 		{
 			"1"
@@ -1106,7 +1139,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
 	}
 
 		//////////////////// BORDERS //////////////////////////////
@@ -1116,7 +1148,7 @@ Scheme
 	{
 		BaseBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
@@ -1156,7 +1188,7 @@ Scheme
 		
 		TitleButtonBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
@@ -1196,7 +1228,7 @@ Scheme
 
 		TitleButtonDisabledBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
