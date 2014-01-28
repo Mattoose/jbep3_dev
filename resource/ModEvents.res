@@ -93,17 +93,9 @@
 		"music"			"bool"
 	}
 	
-	//"jb_stop_sounds" // temp fix to stop any remaining looping sound bugs on some round reloads, going to be properly fixed soon
-	//{
-	//}
-	
 	"jb_force_scoreboard_update"
 	{
 	}
-	
-	//"jb_start_roundintro"
-	//{
-	//}
 	
 	"jb_round_cleanup"
 	{
@@ -118,6 +110,15 @@
 	{
 		"enabled"			"bool"
 	}
+	
+	// 
+	// SERVER EVENTS
+	//
+	"player_spawn_initial"
+	{
+		"userid"			"short"
+	}
+	
 	
 	//
 	// CLIENT EVENTS
