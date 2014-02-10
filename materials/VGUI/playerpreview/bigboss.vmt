@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/playerpreview/bigboss"
+	"$translucent" 1
+}

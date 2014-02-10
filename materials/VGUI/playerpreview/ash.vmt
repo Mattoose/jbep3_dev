@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/playerpreview/ash"
+	"$translucent" 1
+}

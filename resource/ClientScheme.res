@@ -272,6 +272,9 @@ Scheme
 
 		// Blank space to leave beneath the menu on the main screen
 		"Main.BottomBorder"	"32"
+		
+		"MainMenu.ArmedBG"		"255 255 255 20"
+		"MainMenu.DepressedBG"		"255 255 255 10"
 	}
 	
 	//////////////////////// FONTS /////////////////////////////

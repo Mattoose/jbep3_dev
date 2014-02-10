@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/playerpreview/small/clot_craptasket"
+	"$translucent" 1
+}
