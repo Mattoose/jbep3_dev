@@ -1,8 +1,7 @@
 //Editing the restrictions here will allow you to use private models locally
 //This is enforced server-side too so you can't get around these limitations on random servers.
 "player_models"
-{
-	
+{	
 	// 
 	// Private models
 	//
@@ -13,8 +12,8 @@
 		"name"		"Adam Jensen"
 		"restrict" 	
 		{
-			"76561197987039559" 	"derek"
-			"76561197970736688" 	"rusty"
+			"derek"		"76561197987039559"
+			"rusty"		"76561197970736688"
 		}
 	}
 	
@@ -24,7 +23,7 @@
 		"name"		"Alien"
 		"restrict" 	
 		{
-			"76561197972139156" 	"kingmonsters"
+			"kingmonsters"	"76561197972139156" 	
 		}
 		
 		"deathsound"	"JB.Death_Custom_Alien"
@@ -36,7 +35,7 @@
 		"name"		"Combine Assassin"
 		"restrict" 	
 		{
-			"76561197974142768" 	"onion"
+			"onion"		"76561197974142768" 	
 		}
 		"deathsound"	"JB.Death_Custom_Assassin"
 	}
@@ -47,7 +46,7 @@
 		"name"		"Combine Assassin"
 		"restrict" 	
 		{
-			"76561197984391163" 	"Bear"
+			"Bear"		"76561197984391163" 	
 		}
 		"deathsound"	"JB.Death_Custom_Assassin2"
 	}
@@ -58,7 +57,7 @@
 		"name"		"Barney"
 		"restrict" 	
 		{
-			"76561197967520820" 	"postal"
+			"postal"		"76561197967520820"
 		}
 		
 		"deathsound"	"JB.Death_Custom_Barney"
@@ -70,7 +69,7 @@
 		"name"		"Captain Keylogger"
 		"restrict"
 		{
-			"76561198011170564"		"BansheeFreind"
+			"BansheeFreind" 	"76561198011170564"
 		}
 	}
 	
@@ -80,7 +79,7 @@
 		"name"		"Batman"
 		"restrict" 	
 		{
-			"76561197970736688" 	"rusty"
+			"rusty"		"76561197970736688"
 		}
 		"deathsound"	"JB.Death_Custom_Batman"
 	}
@@ -91,7 +90,7 @@
 		"name"		"Cardboard Man"
 		"restrict" 	
 		{
-			"76561197984065275" 	"Avgjoe"
+			"Avgjoe"		"76561197984065275"
 		}
 		"deathsound"	"JB.Death_Custom_Cardboard"
 	}
@@ -102,7 +101,7 @@
 		"name"		"Carebear"
 		"restrict" 	
 		{
-			"76561198003919455" 	"mopman"
+			"mopman"		"76561198003919455"
 		}
 		"deathsound"	"JB.Death_Custom_Carebear"
 	}
@@ -113,7 +112,7 @@
 		"name"		"Citizen (Top Hat)"
 		"restrict" 	
 		{
-			"76561198013632481" 	"mariobro"
+			"mariobro"		"76561198013632481"
 		}
 		"deathsound"	"JB.Death_Custom_Mariobro"
 	}
@@ -124,7 +123,7 @@
 		"name"		"Citizen"
 		"restrict" 	
 		{
-			"76561198029043493" 	"morgan"
+			"morgan"		"76561198029043493"
 		}
 		"deathsound"				"JB.Death_Custom_Morgan"
 	}
@@ -135,7 +134,7 @@
 		"name"		"Clot"
 		"restrict" 	
 		{
-			"76561197979130428" 	"Craptasket"
+			"Craptasket"	"76561197979130428"
 		}
 		"deathsound"	"JB.Death_Custom_Craptasket"
 	}
@@ -146,7 +145,7 @@
 		"name"		"Chewbacca"
 		"restrict" 	
 		{
-			"76561197995397964" 	"threepwood"
+			"threepwood"		"76561197995397964"
 		}
 		"deathsound"	"JB.Death_Custom_Chewbacca"
 	}
@@ -157,7 +156,7 @@
 		"name"		"CJ"
 		"restrict" 	
 		{
-			"76561197985524420" 	"birdmarde"
+			"birdmarde"		"76561197985524420"
 		}
 	}
 	
@@ -167,7 +166,7 @@
 		"name"		"Creep"
 		"restrict" 	
 		{
-			"76561198026734746" 	"user"
+			"user"		"76561198026734746" 
 		}
 		"deathsound"	"JB.Death_Custom_Creep"
 	}
@@ -179,7 +178,7 @@
 		"name"		"Daft Punk"
 		"restrict" 	
 		{
-			"76561197998049758" 	"Marty2000"
+			"Marty2000"		"76561197998049758" 
 		}
 		
 		"deathsound"	"JB.Death_Custom_DaftPunk"
@@ -191,7 +190,7 @@
 		"name"		"Dipsy"
 		"restrict" 	
 		{
-			"76561197987300375" 	"luaduck"
+			"luaduck"		"76561197987300375"
 		}
 		
 		"deathsound"	"JB.Death_Custom_Dipsy"
@@ -203,7 +202,7 @@
 		"name"		"Dog"
 		"restrict" 	
 		{
-			"76561198008559373" 	"ehmmett"
+			"ehmmett"		"76561198008559373"	
 		}
 		
 		"deathsound"	"JB.Death_Custom_Dog"
@@ -215,7 +214,7 @@
 		"name"		"Fro Solider"
 		"restrict" 	
 		{
-			"76561197999488846" 	"WillieBurkeSherwood"
+			"WillieBurkeSherwood"	"76561197999488846"
 		}
 		
 		"deathsound"	"JB.Death_Custom_Froldier"
@@ -227,7 +226,7 @@
 		"name"		"Ghillie Combine"
 		"restrict" 	
 		{
-			"76561198004812841" 	"RanchPudding"
+			"RanchPudding"		"76561198004812841"
 		}
 		"deathsound"	"JB.Death_Custom_GCombine"
 	}
@@ -238,7 +237,7 @@
 		"name"		"Glados"
 		"restrict" 	
 		{
-			"76561198011869315" 	"ZaneByrnes"
+			"ZaneByrnes"		"76561198011869315"
 		}
 		"deathsound"	"JB.Death_Custom_Glados"
 	}
@@ -249,7 +248,7 @@
 		"name"		"Green Lantern"
 		"restrict" 	
 		{
-			"76561197971132081" 	"Dragonninja"
+			"Dragonninja"		"76561197971132081"
 		}
 	}
 	
@@ -259,7 +258,7 @@
 		"name"		"Grip Reaper"
 		"restrict" 	
 		{
-			"76561197996924066" 	"nook"
+			"nook"		"76561197996924066"
 		}
 		"deathsound"	"JB.Death_Custom_GrimReaper"
 	}
@@ -270,7 +269,7 @@
 		"name"		"Hatsune Miku"
 		"restrict" 	
 		{
-			"76561197960273489" 	"nomadicninja"
+			"nomadicninja"		"76561197960273489"
 		}
 		
 		"deathsound"	"JB.Death_Custom_Hatsune"
@@ -282,7 +281,7 @@
 		"name"		"HEV Sonic"
 		"restrict" 	
 		{
-			"76561197965608320" 	"Neotheone"
+			"Neotheone"		"76561197965608320"
 		}
 	}
 	
@@ -292,7 +291,7 @@
 		"name"		"Hobo"
 		"restrict" 	
 		{
-			"76561197996599994" 	"hideous"
+			"hideous"		"76561197996599994" 	
 		}
 		
 		"deathsound"	"JB.Death_Custom_Hobo"
@@ -304,7 +303,7 @@
 		"name"		"Hunter"
 		"restrict" 	
 		{
-			"76561198000587129" 	"pyth110"
+			"pyth110"		"76561198000587129" 	
 		}
 		"deathsound"	"JB.Death_Custom_Hunter"
 	}
@@ -315,7 +314,7 @@
 		"name"		"Knight"
 		"restrict"
 		{
-			"76561197970525198"		"sunabouzu"
+			"sunabouzu"		"76561197970525198"		
 		}
 		"deathsound"	"JB.Death_Custom_Knight"
 	}
@@ -326,7 +325,7 @@
 		"name"		"Lee"
 		"restrict"
 		{
-			"76561197990403596"		"bpc908"
+			"bpc908"		"76561197990403596"		
 		}
 		"deathsound"				"JB.Death_Custom_Lee"
 	}
@@ -337,7 +336,7 @@
 		"name"		"LOKI Mech"
 		"restrict"
 		{
-			"76561197987157993"		"conro"
+			"conro"		"76561197987157993"		
 		}
 		"deathsound"				"JB.Death_Custom_Mech"
 	}
@@ -348,7 +347,7 @@
 		"name"		"Marisa"
 		"restrict" 	
 		{
-			"76561197968427083" 	"dav0r"
+			"dav0r"		"76561197968427083" 	
 		}
 		"deathsound"				"JB.Death_Custom_Marisa"
 	}
@@ -359,8 +358,8 @@
 		"name"		"MaxPayne"
 		"restrict" 	
 		{
-			"76561197998849105" 	"natrox"
-			"76561197970736688" 	"rusty"
+			"natrox"	"76561197998849105" 	
+			"rusty"		"76561197970736688" 	
 		}
 		"deathsound"				"JB.Death_Custom_MaxPayne"
 	}
@@ -371,7 +370,7 @@
 		"name"		"Noel Vermillion"
 		"restrict" 	
 		{
-			"76561197983956314" 	"bantamu"
+			"bantamu"		"76561197983956314" 	
 		}
 		"deathsound"				"JB.Death_Custom_Noel"
 	}
@@ -382,7 +381,7 @@
 		"name"		"Postal Dude"
 		"restrict"
 		{
-			"76561197972070735"		"redback3"
+			"redback3"		"76561197972070735"		
 		}
 		
 		"deathsound"	"JB.Death_Custom_Postaldude"
@@ -394,7 +393,7 @@
 		"name"		"Replica"
 		"restrict"
 		{
-			"76561197998305192"		"Colossal"
+			"Colossal"		"76561197998305192"		
 		}
 		
 		"deathsound"	"JB.Death_Custom_Replica"
@@ -406,7 +405,7 @@
 		"name"		"Saddam"
 		"restrict"
 		{
-			"76561197975164101"		"CommissarK"
+			"CommissarK"		"76561197975164101"		
 		}
 		"deathsound"	"JB.Death_Custom_Saddam"
 	}
@@ -417,7 +416,7 @@
 		"name"		"Shaun"
 		"restrict"
 		{
-			"76561198027133102"		"KVOSH"
+			"KVOSH"		"76561198027133102"		
 		}
 		"deathsound"	"JB.Death_Custom_Shaun"
 	}
@@ -428,7 +427,7 @@
 		"name"		"Skeleton"
 		"restrict"
 		{
-			"76561197999238716"		"dragon"
+			"dragon"		"76561197999238716"		
 		}
 		
 		"deathsound"	"JB.Death_Custom_Skeleton"
@@ -440,7 +439,7 @@
 		"name"		"Sniper"
 		"restrict"
 		{
-			"76561197980132881"		"corvidaephilia"
+			"corvidaephilia"		"76561197980132881"		
 		}
 		
 		"deathsound"	"JB.Death_Custom_Sniper"
@@ -452,7 +451,7 @@
 		"name"		"Steampunk Mr Foster"
 		"restrict"
 		{
-			"76561198034741968"		"colerogers"
+			"colerogers"		"76561198034741968"		
 		}
 		"deathsound"	"JB.Death_Custom_SteampunkFoster"
 	}
@@ -463,7 +462,7 @@
 		"name"		"Stalin"
 		"restrict"
 		{
-			"76561197988571509"		"grant"
+			"grant"		"76561197988571509"		
 		}
 	}
 	
@@ -473,7 +472,7 @@
 		"name"		"Minecraft Steve"
 		"restrict"
 		{
-			"76561197999116045"		"dan"
+			"dan"		"76561197999116045"		
 		}
 		"deathsound"	"JB.Death_Custom_Steve"
 	}
@@ -484,7 +483,7 @@
 		"name"		"Taokaka"
 		"restrict" 	
 		{
-			"76561197997913268" 	"AlienFanatic"
+			"AlienFanatic"		"76561197997913268" 	
 		}
 		"deathsound"	"JB.Death_Custom_Chunli"
 	}
@@ -495,7 +494,7 @@
 		"name"		"Terminator"
 		"restrict"
 		{
-			"76561197989121298"		"foxmeister"
+			"foxmeister"		"76561197989121298"		
 		}
 		"deathsound"	"JB.Death_Custom_Terminator"
 	}
@@ -506,7 +505,7 @@
 		"name"		"Tommy Vercetti"
 		"restrict"
 		{
-			"76561197981737869"		"TippZ"
+			"TippZ"			"76561197981737869"		
 		}
 		"deathsound"	"JB.Death_Custom_TommyV"
 	}
@@ -517,11 +516,11 @@
 		"name"		"Tony Hawk"
 		"restrict"
 		{
-			"76561197989976412"		"NinjaGnome"
-			"76561197987799766"		"jimb"
+			"NinjaGnome"		"76561197989976412"		
+			"jimb"				"76561197987799766"		
 		}
-		"special"		"1"
-		"deathsound"	"JB.Death_Custom_Tonyhawk"
+		"ragdollspecial"		"1"
+		"deathsound"			"JB.Death_Custom_Tonyhawk"
 	}
 	
 	turd
@@ -530,7 +529,7 @@
 		"name"		"Turd"
 		"restrict"
 		{
-			"76561198006644004"		"qbopper"
+			"qbopper"		76561198006644004
 		}
 		"deathsound"	"JB.Death_Custom_Turd"
 	}

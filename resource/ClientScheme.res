@@ -315,6 +315,17 @@ Scheme
 		   }
 		}
 		
+		"Ray20"
+		{
+		   "1"
+		   {
+				"name"  "MGRay"
+				"tall"  "20"
+				"weight" "0"
+				"antialias" "1"
+		   }
+		}
+		
 		"InstructorTitle"
 		{
 			"1"

@@ -22,6 +22,7 @@
 		"image"					"menu/bg_logo"
 		"drawcolor"				"255 255 255 50"
 		"scaleImage"				"1"
+		"zpos"					"-1"
 	}
 
 	"BackgroundPanel"
@@ -33,7 +34,7 @@
 		"tall"					"f"
 		"visible"				"1"
 		"enabled"				"1"
-		"zpos"					"-1"
+		"zpos"					"-2"
 	}
 	
 	"MenuContainer"
@@ -159,57 +160,71 @@
 		"tall"					"400"
 		"visible"				"1"
 		"enabled"				"1"
-		"SideBarwidth"			"3"
+		"SideBarWidth"			"3"
 		
-		"PlayerListScroller"
+		"Loading"
 		{
-			"ControlName"				"ScrollableEditablePanel"
-			"fieldName"				"PlayerListScroller"
-			"xpos"					"20"
-			"ypos"					"240"
-			"wide"					"280"
-			"tall"					"95"
-			"PaintBackgroundType"		"2"
-			"fgcolor_override"		"255 0 0 255"
+			"ControlName"			"Label"
+			"fieldName"				"Loading"
+			"xpos"					"0"
+			"ypos"					"0"
+			"wide"					"f"
+			"tall"					"350"
 			
-			"PlayerListPanel"
+			"proportionalToParent"		"1"
+			
+			"font"					"Ray30"
+			"labelText"				"#JB_Menu_Loading"
+			"textAlignment"			"center"
+			
+		}
+		
+		"ModelPreview"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"ModelPreview"
+			"xpos"					"0"
+			"ypos"					"0"
+			"wide"					"350"
+			"tall"					"350"
+		
+			"visible"				"1"
+			"enabled"				"1"
+			"image"					"playerpreview/missing"
+			"drawcolor"				"255 255 255 255"
+			
+		}
+		
+		
+		"ModelListScroller"
+		{
+			"ControlName"			"ScrollableEditablePanel"
+			"fieldName"				"ModelListScroller"
+			"xpos"					"r360"
+			"ypos"					"0"
+			"wide"					"280"
+			"tall"					"350"
+			"PaintBackgroundType"		"2"
+			//"bgcolor_override"		"255 0 0 255"
+			
+			"ModelList"
 			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"PlayerListPanel"
+				"ControlName"	"CButtonList"
+				"fieldName"		"ModelList"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"250"
-				"tall"			"300"
+				"wide"			"f"
+				"tall"			"f"
 				"visible"		"1"
-				"PaintBackgroundType"		"2"
-				"fgcolor_override"		"0 255 0 255"
-			
-				"MOTD_TextLabel"
-				{
-					"ControlName"		"Label"
-					"fieldName"		"MOTD_TextLabel"
-					"font"			"HudFontSmall"
-					"labelText"		"Label Text"
-					"textAlignment"	"north-west"
-					"xpos"			"0"
-					"ypos"			"0"
-					"wide"			"250"
-					"tall"			"300"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"fgcolor_override"	"TanLight"
-					"wrap"					"1"
-					"PaintBackgroundType"		"2"
-					"fgcolor_override"		"0 0 255 255"
-				}
+				//"PaintBackgroundType"		"2"
+				//"bgcolor_override"			"255 0 0 10"
+				"proportionalToParent"		"1"
 			}
 		}
 		
-		"ButtonQuit"
+		"ButtonBack"
 		{	
-			"ControlName"				"MainMenuButton"
+			"ControlName"			"MainMenuButton"
 			"xpos"					"10"
 			"ypos"					"r50"
 			"wide"					"f"
