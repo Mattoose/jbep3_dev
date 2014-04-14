@@ -295,3 +295,11 @@
 		"wave"	"player/monkey/enemysighted.wav"
 	}
 }
+
+"JB.Stomped"
+{
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_110dB"
+
+	"wave"	")player/stomped.mp3"
+}

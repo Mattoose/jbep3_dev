@@ -39,19 +39,11 @@
 			// Mount all VPKs & subfolders under content.		
 			game				|gameinfo_path|content/*
 			
-			// Mount HL2MP
-			game				"|gameinfo_path|../../common/Half-Life 2 Deathmatch/hl2mp/hl2mp_pak.vpk"
-			game				"|gameinfo_path|../../common/Half-Life 2 Deathmatch/hl2mp/"
-			// (and dedicated server HL2MP stuff)
-			game				"|gameinfo_path|../hl2mp/hl2mp_pak.vpk"
-			game				"|gameinfo_path|../hl2mp/"
-			
-			// Mount CSS
-			game				"|gameinfo_path|../../common/Counter-Strike Source/cstrike/cstrike_pak.vpk"
-			game				"|gameinfo_path|../../common/Counter-Strike Source/cstrike/"
-			// (and dedicated server CSS stuff)
-			game				"|gameinfo_path|../cstrike/cstrike_pak.vpk"
-			game				"|gameinfo_path|../cstrike/"
+			// Dedicated server mounting
+			game				|all_source_engine_paths|hl2mp/hl2mp_pak.vpk
+			game				|all_source_engine_paths|hl2mp/
+			game				|all_source_engine_paths|cstrike/cstrike_pak.vpk
+			game				|all_source_engine_paths|cstrike/
 
 			// HL2
 			game				|all_source_engine_paths|hl2/hl2_english.vpk
