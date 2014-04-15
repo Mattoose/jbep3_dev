@@ -1,0 +1,2919 @@
+//Auto-generated on 2014-04-15 21:07:29.291000
+"players"
+{
+    "76561197960273489"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197960328989"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197960408363"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197960425699"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197960510890"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197960619098"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197962289455"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197962628364"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197963263437"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197963407577"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197964123513"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561197964429831"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197965157087"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197965608320"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197966014818"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197966565755"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197967253955"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197967520820"
+    {
+        "flags"
+        {
+            donator 1
+            blacklisted 1
+            developer 1
+        }
+    }
+
+    "76561197967899265"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561197968404526"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197968427083"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197968599338"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197969165965"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197969495655"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197969567763"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197969719546"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197970271890"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197970373495"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197970525198"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197970554511"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197970635619"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197970736688"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+            developer 1
+        }
+    }
+
+    "76561197970745833"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197971055508"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197971065836"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197971123389"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197971132081"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197971292297"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197972070735"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197972139156"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197972284906"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561197972360379"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197972371385"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197972662865"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197972807303"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197973057528"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561197973058972"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197973508593"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197973588408"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197974018579"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197974142768"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197974471805"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197974546636"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197975066599"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197975164101"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197975511174"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197976080855"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197976828552"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197977306844"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197977728794"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197978054534"
+    {
+        "title_override" "hello! :~)"
+        "flags"
+        {
+
+        }
+    }
+
+    "76561197978484843"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+            developer 1
+        }
+    }
+
+    "76561197978744236"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197978754696"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197978757499"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197978960043"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561197979095002"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197979130428"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+            developer 1
+        }
+    }
+
+    "76561197979774986"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197979980942"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197980132881"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197980503773"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197980773277"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197980893868"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197980900325"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197981062699"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197981648656"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197981737869"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197982159124"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197982167039"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197982297709"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561197982326546"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197982383005"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197982444570"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197982449149"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197982547025"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197983222749"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197983405995"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197983956314"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197984065275"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197984228054"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197984391163"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197985398013"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197985524420"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197985949162"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197986854771"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197986902911"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197986988739"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197987039559"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197987157993"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197987177019"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197987300375"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197987469354"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197987624522"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197987799766"
+    {
+        "flags"
+        {
+            donator 1
+            developer 1
+        }
+    }
+
+    "76561197987962783"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197988006877"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197988016591"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561197988111894"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197988571509"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197988738720"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197988822757"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197988903500"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197989121298"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197989552691"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197989767953"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197989776492"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197989976412"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197990105498"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197990111113"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197990375079"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197990403596"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197990644750"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197990761365"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197991345488"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197991687178"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197991998310"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197992306361"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197992528570"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197992843833"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197992929419"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197993098791"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197993161894"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197993188046"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197993203252"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197993650688"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197993915912"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197993933280"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561197993944433"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197993995276"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197994134338"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197994194109"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197994686504"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197994704078"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197994805192"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197995114330"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197995198574"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197995205496"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197995280553"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197995288642"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197995397964"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197995558837"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197995820083"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197995913352"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561197996599994"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+            developer 1
+        }
+    }
+
+    "76561197996672949"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197996842325"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197996924066"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197996955276"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561197997701057"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197997800765"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561197997854616"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197997913268"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197998025854"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197998049758"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197998305192"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197998392985"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561197998447166"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197998549043"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197998849105"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+            developer 1
+        }
+    }
+
+    "76561197998986602"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197999039271"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197999116045"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197999125727"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197999238716"
+    {
+        "flags"
+        {
+            donator 1
+            developer 1
+        }
+    }
+
+    "76561197999260465"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561197999488846"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197999557138"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197999707476"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561198000080639"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198000163298"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198000286399"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198000315229"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561198000349088"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198000587129"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+            developer 1
+        }
+    }
+
+    "76561198000624155"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561198000663596"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198000706982"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198000713688"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198000870830"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198000905958"
+    {
+        "flags"
+        {
+            blacklisted 1
+        }
+    }
+
+    "76561198000966737"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198001055508"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198001483932"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198001498188"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198001500231"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198001571024"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198001631837"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198002172087"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561198002201063"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198002401706"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198002525877"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198002601738"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198002736134"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198002894840"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198003181734"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198003419349"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198003575535"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198003919455"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198003938282"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198004011583"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198004020431"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198004288829"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561198004361420"
+    {
+        "flags"
+        {
+            developer 1
+        }
+    }
+
+    "76561198004413600"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198004512921"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198004650568"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198004756730"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561198004812841"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198005295920"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198006644004"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198007390227"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198008111865"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198008148312"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198008559373"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198008913405"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561198009306487"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198010000392"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198011170564"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198011352539"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198011586405"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198011598835"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198011869315"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198011910122"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198011949180"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198012250853"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561198012336244"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198012788176"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198012858248"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198012871508"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198012967995"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561198013011855"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198013298511"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198013558742"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198013632481"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198013644026"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198013709722"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198013899107"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198014191068"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198014373614"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198014487544"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198014919540"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198014931153"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198015248098"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198017005749"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198017061856"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198017461045"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198018301081"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198018550512"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561198018625003"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198018691690"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198018841530"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198019085440"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198019739625"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198020657165"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198020693729"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198023451908"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198025054694"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561198025114280"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198025209403"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198025277949"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198025832766"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198026734746"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198026864436"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198027133102"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198027367747"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198027426692"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198028172465"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198028714492"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198028748392"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198028756384"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198029043493"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198029065178"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198029981623"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198030127257"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198030327522"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198032857838"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561198033039652"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198033321448"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198033853324"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198034247539"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198034741968"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198035637736"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198035960261"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198036281696"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198038941779"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198039012977"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198039024076"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198039101296"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198039259708"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198039646364"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198039893143"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198040022895"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198040313169"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198040380422"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198040527252"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198040743425"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198041371411"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198042979218"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198043687049"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198046211496"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198046309476"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198047172292"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198047608558"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198047768434"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561198048500090"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198050154137"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198051496133"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198051827808"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198055422562"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198057427159"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198058648898"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198064834625"
+    {
+        "flags"
+        {
+            donator 1
+        }
+    }
+
+    "76561198066453251"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198070797656"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198071482825"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198095646881"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561198127899656"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+}
