@@ -1,4 +1,4 @@
-//Auto-generated on 2014-04-15 21:07:29.291000
+//Auto-generated on 2014-04-15 21:12:21.790000
 "players"
 {
     "76561197960273489"
@@ -157,7 +157,6 @@
         "flags"
         {
             donator 1
-            blacklisted 1
             developer 1
         }
     }
