@@ -1,0 +1,12 @@
+SpriteCard
+{
+$BASETEXTURE "particle/fluid_blast/fluid_blast"
+
+$OVERBRIGHTFACTOR 0.8
+
+$ADDSELF 0.5
+$DEPTHBLEND 1
+
+$startfadesize .35
+$endfadesize .65
+}
