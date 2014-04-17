@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+ 	"$model" 0
+	"$basetexture" "effects/strider_pinch_dx70"
+	"$additive" "1"
+	$startfadesize .35
+	$endfadesize .65
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 25
+		}
+	}
+}
