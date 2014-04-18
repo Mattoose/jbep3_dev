@@ -59,20 +59,21 @@ def buildvpk( vpk_path, vpk_name, root_path, target_folders ):
 						fancy_progress( "", current_file, total_files )
 						full_path = os.path.join(root.replace("/","\\"), file)
 						relative_path = os.path.join(root[len_cd:].replace("/","\\"), file)
-						clean_path = relative_path.replace("..\\..\\","")
+						kv_files[ full_path ] = {}
+						kv_files[ full_path ][ "destpath" ] = relative_path
+						
 						if ( do_md5 ):
-							kv_files[ full_path ] = md5sum( full_path )
-						else:
-							kv_files[ full_path ] = 0
+							kv_files[ full_path ][ "md5" ] = md5sum( full_path )
+						
 						current_file += 1
 
 		# Write to file
 		print "\nWriting KV file"
 		out = open(kv_path,'w')
 		
-		for name,md5 in kv_files.iteritems():
-			out.write( '"file"\n{\n\t"srcpath" "'+name+'"\n\t"destpath" "'+name+'"\n' )			
-			if ( md5 > 0 ): out.write( '\t"MD5" "'+md5+'"\n' )
+		for srcpath,data in kv_files.iteritems():
+			out.write( '"file"\n{\n\t"srcpath" "'+srcpath+'"\n\t"destpath" "'+data["destpath"]+'"\n' )			
+			if ( "md5" in data ): out.write( '\t"MD5" "'+data["md5"]+'"\n' )
 			out.write( '}\n' )
 		
 		out.close()
