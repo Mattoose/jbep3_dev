@@ -3,7 +3,7 @@ WeaponData
 	// Weapon characteristics:
 	"Damage"					"35"		// damage per bullet
 	"Bullets"					"1"		// bullets per shoot
-	"CycleTime"					"0.15"		// time between shoots
+	"CycleTime"					"0.1"		// time between shoots
 
 	"BuiltRightHanded"			"1"
 	
