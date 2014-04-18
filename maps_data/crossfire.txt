@@ -182,18 +182,6 @@
 			"origin"		"-879.97 303.97 -1767.97"
 			"angles"		"0.00 -26.96 0.00"
 		}
-		"create"
-		{
-			"classname"		"jb_spawn_all"
-			"origin"		"327.76 -1661.64 -1311.97"
-			"angles"		"0.00 85.93 0.00"
-		}
-		"create"
-		{
-			"classname"		"jb_spawn_all"
-			"origin"		"-329.05 -1652.32 -1311.97"
-			"angles"		"0.00 89.69 0.00"
-		}
 		"replace"
 		{
 			"weapon_snark"		"jb_pickup_weapon_3"
@@ -212,6 +200,18 @@
 			"weapon_ar2"		"jb_pickup_weapon_2"
 			"weapon_slam"		"jb_pickup_weapon_1"
 			"weapon_frag"		"jb_pickup_weapon_1"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"-303.97 -144.03 -1695.97"
+			"angles"		"0.00 -28.47 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_spawn_all"
+			"origin"		"656.03 -1615.97 -1695.97"
+			"angles"		"0.00 76.14 0.00"
 		}
 	}
 	"KOTHAreas"
