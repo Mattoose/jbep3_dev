@@ -107,13 +107,13 @@
 	// Outputs
 	output OnRoundStart(void) : "Fired when the round starts (and players can move)"
 	output OnRoundEnd(void) : "Fired when the round ends (IE we have a winner, frog is captured etc)."
-	output OnRoundReset(void) : "When the map is reset, waiting for round start."
 	output OnRoundSVTStart(void) : "Fired when a SVT round start"
 	output OnRoundSVTSnakeWin(void) : "Fired when Snake wins in SVT"
 	output OnRoundSVTTerroristWin(void) : "Fired when Terrorists wins in SVT"
 	output OnRoundSVMStart(void) : "Fired when a SVT round start"
 	output OnRoundSVMSnakeWin(void) : "Fired when Snake wins in SVT"
 	output OnRoundSVMMonkeyWin(void) : "Fired when Monkeys wins in SVT"
+	output OnNewGamemode(string) : "Fires after all entities have been (re)created, string represents gamemode (ie base, battleroyale, tdm)."
 ]
 
 @PointClass base(Targetname, EnableDisable) iconsprite("editor/logic_relay.vmt") = logic_relay :
