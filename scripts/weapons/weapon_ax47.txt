@@ -1,7 +1,7 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"Damage"			"25"	// damage per bullet
+	"Damage"			"28"	// damage per bullet
 	"Bullets"			"1"		// bullets per shoot
 	"CycleTime"			"0.1"		// time between shoots ( 600 per min )
 
