@@ -735,6 +735,14 @@
 				"width"		"95"
 				"height"	"65"
 		}
+		"d_crush"
+		{
+				"file"		"HUD/d_jbicons"
+				"x"			"346"
+				"y"			"585"
+				"width"		"95"
+				"height"	"65"
+		}
 		"d_vintorez"
 		{
 				"file"		"HUD/d_jbicons"
