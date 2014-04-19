@@ -114,6 +114,7 @@
 	output OnRoundSVMSnakeWin(void) : "Fired when Snake wins in SVT"
 	output OnRoundSVMMonkeyWin(void) : "Fired when Monkeys wins in SVT"
 	output OnNewGamemode(string) : "Fires after all entities have been (re)created, string represents gamemode (ie base, battleroyale, tdm)."
+	output OnRoundBRKothStart(void) : "Fired when KOTH mode is activated in Battle Royale"
 ]
 
 @PointClass base(Targetname, EnableDisable) iconsprite("editor/logic_relay.vmt") = logic_relay :
