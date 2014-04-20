@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture" "_rt_JBCamera_3"
+	"%tooltexture" "dev/dev_monitor"
+	"lightmappedgeneric_dx6"
+	{
+		"$basetexture" "dev/dev_monitor"
+	}
+	"$surfaceprop" "glass"
+}
