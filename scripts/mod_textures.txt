@@ -95,150 +95,110 @@
 		
 		"icon_health"
 		{
-			"file"	"HUD/health/icons"
-			"x"			"67"
-			"y"			"18"
-			"width"		"120"
-			"height"	"114"
+			"file"	"HUD/icon_health"
+			"x"			"0"
+			"y"			"0"
+			"width"		"450"
+			"height"	"450"
 		}
 		
 		"icon_armor"
 		{
-			"file"	"HUD/health/icons"
-			"x"			"83"
-			"y"			"129"
-			"width"		"97"
-			"height"	"118"
+			"file"	"HUD/icon_armor"
+			"x"			"0"
+			"y"			"0"
+			"width"		"450"
+			"height"	"450"
 		}
 		
 		"number_1"
 		{
 			"file"	"HUD/numbers"
-			//"x"			"145"
-			//"y"			"47"
-			//"width"		"102"
-			//"height"	"260"
-			x		69
-			y		24
-			width 	56
-			height	130
+			x		80
+			y		0
+			width 	34
+			height	100
 		}
 		
 		"number_2"
 		{
 			"file"	"HUD/numbers"
-			//"x"			"413"
-			//"y"			"47"
-			//"width"		"175"
-			//"height"	"260"
-			x		210
-			y		24
-			width	84
-			height	130
+			x		139
+			y		0
+			width	55
+			height	100
 		}
 		
 		"number_3"
 		{
 			"file"	"HUD/numbers"
-			//"x"			"732"
-			//"y"			"47"
-			//"width"		"176"
-			//"height"	"260"
-			x		366
-			y		24
-			width	87
-			height	130
+			x		203
+			y		0
+			width	62
+			height	100
 		}
 		
 		"number_4"
 		{
 			"file"	"HUD/numbers"
-			//"x"			"71"
-			//"y"			"356"
-			//"width"		"176"
-			//"height"	"260"
-			x		35
-			y		178
-			width	87
-			height	130
+			x		269
+			y		0
+			width	61s
+			height	100
 		}
 	
 		"number_5"
 		{
 			"file"	"HUD/numbers"
-			//"x"			"333"
-			//"y"			"356"
-			//"width"		"182"
-			//"height"	"260"
-			x		167
-			y		178
-			width	87
-			height	130
+			x		337
+			y		0
+			width	62
+			height	100
 		}
 		
 		"number_6"
 		{
 			"file"	"HUD/numbers"
-			//"x"			"584"
-			//"y"			"356"
-			//"width"		"174"
-			//"height"	"260"
-			x		291
-			y		178
-			width	87
-			height	130
+			x		404
+			y		0
+			width	60
+			height	100
 		}
 		
 		"number_7"
 		{
 			"file"	"HUD/numbers"
-			//"x"			"796"
-			//"y"			"356"
-			//"width"		"46"
-			//"height"	"67"
-			x		400
-			y		178
-			width	87
-			height	130
+			x		474
+			y		0
+			width	57
+			height	100
 		}
 		
 		"number_8"
 		{
 			"file"	"HUD/numbers"
-			//"x"			"796"
-			//"y"			"356"
-			//"width"		"192"
-			//"height"	"260"
-			x		74
-			y		351
-			width	87
-			height	130
+			x		537
+			y		0
+			width	60
+			height	100
 		}
 		
 		"number_9"
 		{
 			"file"	"HUD/numbers"
-			//"x"			"151"
-			//"y"			"702"
-			//"width"		"179"
-			//"height"	"260"
-			x		219
-			y		351
-			width	87
-			height	130
+			x		604
+			y		0
+			width	59
+			height	100
 		}
 		
 		"number_0"
 		{
 			"file"	"HUD/numbers"
-			//"x"			"441"
-			//"y"			"702"
-		//	"width"		"174"
-		//	"height"	"260"
-			x		359
-			y		351
-			width	84
-			height	130
+			x		3
+			y		0
+			width	58
+			height	100
 		}
 	
 		"d_skull"

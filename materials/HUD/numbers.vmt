@@ -1,32 +1,8 @@
-UnlitGeneric
+"UnlitGeneric"
 {
-	$basetexture	hud\numbers
-	$translucent	1
-	$distancealpha	1
-	
-	$softedges		0
-	$edgesoftnessstart	.5
-	$edgesoftnessend	.49
-	$scaleedgesoftnessbasedonscreenres 0
-	
-	$glow		1
-	$glowcolor	"[0.4 0 0]"
-	$glowalpha	1
-	$glowstart	0.35
-	$glowend	0.4
-	//$glowx	0.5
-	/$glowy	.5.
-	
-	$outline 1
-	$outlinecolor "[0.4 0 0]"
-	$outlinestart0 0.45
-	$outlinestart1 0.5
-	$outlineend0 0.5
-	$outlineend1 0.6
-	$scaleoutlinesoftnessbasedonscreenres 1
-
-	$vertexcolor	1
-	$vertexalpha	1
-	$no_fullbright	1
-	$ignorez 		1
+	"$baseTexture" "HUD\numbers"
+	"$vertexcolor" 1
+	"$vertexalpha"	1
+	"$translucent" 1
 }
+

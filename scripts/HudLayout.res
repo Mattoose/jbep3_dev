@@ -186,22 +186,33 @@
 	HudHealth
 	{
 		"fieldName"		"HudHealth"
-		"xpos"	"10"
-		"ypos"	"r50"
-		"wide"	"250"
-		"tall"  	"40"
+		"xpos"		"10"
+		"ypos"		"r62"
+		"wide"		"250"
+		"tall"  	"62"
 		"visible" "1"
 		"enabled" "1"
 
-		HealthIconX	5
-		HealthIconW	90
-		HealthIconH	90
-		
-		PaddingIconToText 		10
-		PaddingText 			0
-		
-		HealthNumbersX		100
-		HealthNumbersHeight 	80
+		HealthIconX				0		
+		PaddingIconToText 		5
+		PaddingText 			1
+		PaddingVertical 		10
+	}
+
+	HudSuit
+	{
+		"fieldName"		"HudSuit"
+		"xpos"	"120"
+		"ypos"	"r62"
+		"wide"	"250"
+		"tall"  	"62"
+		"visible" "1"
+		"enabled" "1"
+
+		HealthIconX				0		
+		PaddingIconToText 		5
+		PaddingText 			1
+		PaddingVertical 		10
 	}
 	
 	overview
@@ -223,28 +234,7 @@
 		"wide"	 "f0"
 		"tall"	 "480"
 	}
-
-	HudSuit
-	{
-		"fieldName"		"HudSuit"
-		"xpos"	"130"
-		"ypos"	"r50"
-		"wide"	"250"
-		"tall"  	"40"
-		"visible" "1"
-		"enabled" "1"
-
-		HealthIconX	5
-		HealthIconW	90
-		HealthIconH	90
-		
-		PaddingIconToText 		10
-		PaddingText 			0
-		
-		HealthNumbersX		100
-		HealthNumbersHeight 	80
-	}
-
+	
 	HudAmmo
 	{
 		"fieldName" "HudAmmo"
