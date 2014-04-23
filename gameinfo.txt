@@ -7,6 +7,7 @@
 
 	nomodels 1
 	gamelogo 1 
+	nodegraph 0
 	
 	developer 					"Team BBB"
 	developer_url 				"http://jaykinbacon.co.uk"
