@@ -303,3 +303,20 @@
 
 	"wave"	")player/stomped.mp3"
 }
+
+"JB.WallImpact"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_85dB"
+	
+	rndwave
+	{
+		"wave"	"physics/body/body_medium_impact_hard1.wav"
+		"wave"	"physics/body/body_medium_impact_hard2.wav"
+		"wave"	"physics/body/body_medium_impact_hard3.wav"
+		"wave"	"physics/body/body_medium_impact_hard4.wav"
+		"wave"	"physics/body/body_medium_impact_hard5.wav"
+		"wave"	"physics/body/body_medium_impact_hard6.wav"
+	}
+}
