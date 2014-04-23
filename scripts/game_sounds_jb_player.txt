@@ -309,14 +309,12 @@
 	"channel"		"CHAN_AUTO"
 	"volume"		"1.0"
 	"soundlevel"  	"SNDLVL_85dB"
+	"pitch"			"105,120"
 	
 	rndwave
 	{
-		"wave"	"physics/body/body_medium_impact_hard1.wav"
-		"wave"	"physics/body/body_medium_impact_hard2.wav"
-		"wave"	"physics/body/body_medium_impact_hard3.wav"
-		"wave"	"physics/body/body_medium_impact_hard4.wav"
-		"wave"	"physics/body/body_medium_impact_hard5.wav"
-		"wave"	"physics/body/body_medium_impact_hard6.wav"
+		"wave"		"player/pl_fallpain1.wav"
+		"wave"		"player/pl_fallpain2.wav"
+		"wave"		"player/pl_fallpain3.wav"
 	}
 }
