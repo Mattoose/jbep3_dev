@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "hex/hex_ad_psa3"
+	"$surfaceprop" "MetalPanel"
+	"$nodecal" 1
+}

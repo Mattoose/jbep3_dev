@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "hex/hex_boost"
+	"$nodecal" 1
+
+	"Proxies"
+
+	{
+		"TextureScroll"
+		
+		{
+			"textureScrollVar" "$basetexturetransform"
+              			"textureScrollRate" 1
+			"textureScrollAngle" "-90"
+		}
+	}
+}

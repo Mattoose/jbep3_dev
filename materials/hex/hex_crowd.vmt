@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "hex/hex_crowd"
+	"%keywords" "hex"
+	"$nocull" 1
+	"$nodecal" 1
+	"$translucent" 1
+}
