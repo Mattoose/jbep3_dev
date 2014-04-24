@@ -23,7 +23,7 @@ WeaponData
 	"primary_ammo"			"None"
 	"secondary_ammo"		"None"
 
-	"weight"				"-20"
+	"weight"				"0"
 	"item_flags"			"0"	
 	
 	

@@ -15,7 +15,7 @@ WeaponData
 	"primary_ammo"		"MelonXBowBolt"
 	"secondary_ammo"	"None"
 
-	"weight"		"3"
+	"weight"		"0"
 	"item_flags"		"0"
 
 	"fov"					"55"

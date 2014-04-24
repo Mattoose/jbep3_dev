@@ -21,7 +21,7 @@ WeaponData
 	"primary_ammo"			"mosin"
 	"secondary_ammo"		"None"
 
-	"weight"				"25"
+	"weight"				"0"
 	"item_flags"			"0"
 	
 	"fov"					"55"

@@ -23,7 +23,7 @@ WeaponData
 	"primary_ammo"			"scientists"
 	"secondary_ammo"		"None"
 
-	"weight"				"20"
+	"weight"				"0"
 	"item_flags"			"0"
 	
 	Recoil

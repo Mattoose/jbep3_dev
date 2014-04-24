@@ -15,7 +15,7 @@ WeaponData
 	"default_clip"			"-1"
 	"default_clip2"			"-1"
 
-	"weight"				"1"
+	"weight"				"0"
 	"item_flags"			"2"
 			
 	Recoil

@@ -23,7 +23,7 @@ WeaponData
 	"primary_ammo"			"ax47"
 	"secondary_ammo"		"None"
 
-	"weight"			"25"
+	"weight"			"0"
 	"item_flags"			"0"
 	
 	// Magazine settings	

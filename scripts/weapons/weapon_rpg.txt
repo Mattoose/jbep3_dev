@@ -23,7 +23,7 @@ WeaponData
 	"primary_ammo"			"rpg"
 	"secondary_ammo"		"None"
 
-	"weight"				"1"
+	"weight"				"0"
 	
 	Recoil
 	{

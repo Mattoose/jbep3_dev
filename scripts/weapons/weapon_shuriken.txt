@@ -23,7 +23,7 @@ WeaponData
 	"primary_ammo"			"shuriken"
 	"secondary_ammo"		"None"
 
-	"weight"				"1"
+	"weight"				"0"
 	"item_flags"			"18"	// ITEM_FLAG_NOAUTORELOAD | ITEM_FLAG_EXHAUSTIBLE
 	
 	Recoil
