@@ -703,6 +703,14 @@
 				"width"		"95"
 				"height"	"65"
 		}
+		"d_fall"
+		{
+				"file"		"HUD/d_jbicons"
+				"x"			"349"
+				"y"			"368"
+				"width"		"57"
+				"height"	"72"		
+		}
 		"d_vintorez"
 		{
 				"file"		"HUD/d_jbicons"
