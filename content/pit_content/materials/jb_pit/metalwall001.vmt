@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jb_pit/metalwall001"
+	"$surfaceprop" "metal"
+	"%keywords" "colossal jaykin pit"
+	"$bumpmap" "jb_pit/metalwall001_n"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" .2
+	"$envmaptint"	"[ .2 .2 .2 ]"
+}

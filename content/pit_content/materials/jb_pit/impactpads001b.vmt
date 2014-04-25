@@ -1,0 +1,19 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jb_pit/impactpads001b"
+	"$bumpmap" "jb_pit/impactpads001_normal"
+	"$surfaceprop" "rubber"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 2
+	"$envmaptint" "[.2 .2 .2]"
+	"$envmap" "env_cubemap"
+
+	"$detail" "detail/noise_detail_01"
+	"$detailscale" 9
+	"$detailblendfactor" .3
+	"$detailblendmode" 0
+
+	"%keywords" "colossal jaykin pit"
+}
