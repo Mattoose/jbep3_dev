@@ -1,0 +1,26 @@
+"gamemounting.txt"
+{
+	"Counter-Strike: Source"
+	{
+		"appid"		"240"
+		"required"	"1"
+		
+		"paths"
+		{
+			"path"	"cstrike"
+			"path"	"cstrike/cstrike_pak.vpk"
+		}
+	}
+	
+	"Half-Life 2 Deathmatch"
+	{
+		"appid"		"320"
+		"required"	"1"
+		
+		"paths"
+		{
+			"path"	"hl2mp"
+			"path"	"hl2mp/hl2mp_pak.vpk"
+		}
+	}
+}
