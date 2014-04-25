@@ -202,7 +202,7 @@
 	HudSuit
 	{
 		"fieldName"		"HudSuit"
-		"xpos"	"120"
+		"xpos"	"140"
 		"ypos"	"r62"
 		"wide"	"250"
 		"tall"  	"62"
