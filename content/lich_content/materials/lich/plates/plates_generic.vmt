@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "lich/plates/plates_generic"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "Metal"
+	"$envmapmask"	"lich/plates/plates_generic_spec"
+	"$envmaptint"		"[0.1 0.1 0.1]"
+}

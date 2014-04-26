@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "lich/walls/walls5"
+	"$bumpmap" "lich/walls/walls5_normal"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "Metal"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint"		"[0.1 0.1 0.1]"
+}
