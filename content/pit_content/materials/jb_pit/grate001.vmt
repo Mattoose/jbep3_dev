@@ -4,7 +4,7 @@
 	"$surfaceprop" "metalgrate"
 	"%compilepassbullets" 1
 	"%keywords" "colossal jaykin pit"
-	"$bumpmap" "jb_pit/grate_n"
+	//"$bumpmap" "jb_pit/grate_n"
 	"$alphatest" 1
 	"$envmap" "env_cubemap"
 	"$normalmapalphaenvmapmask" 1

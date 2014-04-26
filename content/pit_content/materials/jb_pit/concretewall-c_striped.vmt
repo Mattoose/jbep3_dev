@@ -6,7 +6,7 @@
 	"$bumpmap" "jb_pit/concretewall_striped-c_n"
 	"$envmap" "env_cubemap"
 	"$normalmapalphaenvmapmask" 1
-	"$envmapcontrast" 1
-	"$envmapsaturation" .2
-	"$envmaptint"	"[ .2 .2 .2 ]"
+	//"$envmapcontrast" 1
+	//"$envmapsaturation" .5
+	"$envmaptint"	"[ 0.75 0.5 0.5 ]"
 }
