@@ -1,3 +1,5 @@
+// Local paths automatically determine app installation dir from steam.
+// Dedicated paths are relative to srcds/srcds_linux
 "gamemounting.txt"
 {
 	"Counter-Strike: Source"
@@ -7,8 +9,11 @@
 		
 		"paths"
 		{
-			"path"	"cstrike"
-			"path"	"cstrike/cstrike_pak.vpk"
+			"local"			"cstrike"
+			"local"			"cstrike/cstrike_pak.vpk"
+			
+			"dedicated"		"cstrike"
+			"dedicated"		"cstrike/cstrike_pak.vpk"
 		}
 	}
 	
@@ -19,8 +24,11 @@
 		
 		"paths"
 		{
-			"path"	"hl2mp"
-			"path"	"hl2mp/hl2mp_pak.vpk"
+			"local"			"hl2mp"
+			"local"			"hl2mp/hl2mp_pak.vpk"
+			
+			"dedicated"		"hl2mp"
+			"dedicated"		"hl2mp/hl2mp_pak.vpk"
 		}
 	}
 }
