@@ -16,6 +16,9 @@ WeaponData
 	"secondary_ammo"		"None"
 	"weight"				"0"
 	"item_flags"			"0"
+	
+	"autoswitchto"			"0"
+	"autoswitchfrom"		"0"
 		
 	Recoil
 	{
