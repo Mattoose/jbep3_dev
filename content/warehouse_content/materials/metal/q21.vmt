@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/q21"
+	"$normalmap" "metal/q21_n"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "metal/q20"
+	"$surfaceprop" "SolidMetal"
+}
