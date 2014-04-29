@@ -2,6 +2,22 @@
 {
 	"Entities"
 	{
+		"modify"
+		{
+			"targetname"		"tower1_cannon_targ"
+			"values"
+			{
+				"radius"		"35000"
+			}
+		}
+		"modify"
+		{
+			"targetname"		"tower2_cannon_targ"
+			"values"
+			{
+				"radius"		"35000"
+			}
+		}		
 		"create"
 		{
 			"classname"		"jb_spawn_all"
