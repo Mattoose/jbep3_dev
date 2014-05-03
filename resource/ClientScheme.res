@@ -29,6 +29,9 @@ Scheme
 		"ForTesting_Magenta"	"255 0 255 255"
 		"ForTesting_MagentaDim"	"255 0 255 120"
 		
+		"JBGrey"			"150 150 150 255"
+		"JBDark"			"0 0 0 200"
+		"JBDim"				"50 50 50 200"
 		"JBWhite"			"255 255 255 255"
 	}
 	
@@ -42,7 +45,7 @@ Scheme
 		"BgColor"			"0 0 0 76"
 
 		"Panel.FgColor"			"255 220 0 100"
-		"Panel.BgColor"			"0 0 0 76"
+		"Panel.BgColor"			"JBDark"
 		
 		"BrightFg"		"255 220 0 255"
 
@@ -84,8 +87,8 @@ Scheme
 
 ///HERE
 				// vgui_controls color specifications
-		Border.Bright					"Blank"		// the lit side of a control
-		Border.Dark					"Blank"		// the dark/unlit side of a control
+		Border.Bright					"JBWhite"		// the lit side of a control
+		Border.Dark						"JBDim"		// the dark/unlit side of a control
 		Border.Selection				"Blank"				// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"JBWhite"
@@ -198,8 +201,8 @@ Scheme
 		Slider.DisabledTextColor1	"117 117 117 255"
 		Slider.DisabledTextColor2	"30 30 30 255"
 
-		TextEntry.TextColor			"Orange"
-		TextEntry.BgColor			"TransparentBlack"
+		TextEntry.TextColor			"JBWhite"
+		TextEntry.BgColor			"Blank"
 		TextEntry.CursorColor		"Orange"
 		TextEntry.DisabledTextColor	"Orange"
 		TextEntry.DisabledBgColor	"Blank"
@@ -321,6 +324,39 @@ Scheme
 		   {
 				"name"  "MGRay"
 				"tall"  "20"
+				"weight" "0"
+				"antialias" "1"
+		   }
+		}
+		
+		"IngameMenuTitle"
+		{
+		   "1"
+		   {
+				"name"  "MGRay"
+				"tall"  "36"
+				"weight" "0"
+				"antialias" "1"
+		   }
+		}
+		
+		"IngameMenuButton"
+		{
+		   "1"
+		   {
+				"name"  "MGRay"
+				"tall"  "28"
+				"weight" "0"
+				"antialias" "1"
+		   }
+		}
+		
+		"MGRaySmall"
+		{
+		   "1"
+		   {
+				"name"  "MGRay"
+				"tall"  "18"
 				"weight" "0"
 				"antialias" "1"
 		   }
@@ -1167,7 +1203,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
+					"color" "Border.Bright"
 					"offset" "0 1"
 				}
 			}
@@ -1185,7 +1221,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
+					"color" "Border.Bright"
 					"offset" "0 0"
 				}
 			}
@@ -1406,7 +1442,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 			}
@@ -1415,7 +1451,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -1424,7 +1460,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Blank"
 					"offset" "1 1"
 				}
 			}
@@ -1433,7 +1469,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -1441,12 +1477,12 @@ Scheme
 
 		FrameBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "ControlBG"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 			}
@@ -1455,7 +1491,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ControlBG"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -1464,7 +1500,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ControlBG"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 			}
@@ -1473,7 +1509,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ControlBG"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -1608,7 +1644,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 			}
@@ -1617,7 +1653,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -1626,7 +1662,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Blank"
 					"offset" "1 1"
 				}
 			}
@@ -1635,7 +1671,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -1644,41 +1680,6 @@ Scheme
 		ButtonDepressedBorder
 		{
 			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "1 1"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
 		}
 
 		ComboBoxBorder
