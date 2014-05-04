@@ -33,7 +33,16 @@ WeaponData
 		MinY	-2.5
 		MaxY	-3.7
 		//
-		SmoothKick false
+		SmoothKick 1
+		
+		AlternateForce
+		{
+			MinX	-5.0
+			MaxX	-5.0
+			MinY	-2.0
+			MaxY	2.0
+			SmoothKick	1
+		}
 	}
 	
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
