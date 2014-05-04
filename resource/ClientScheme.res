@@ -318,12 +318,56 @@ Scheme
 		   }
 		}
 		
+		"Ray25"
+		{
+		   "1"
+		   {
+				"name"  "MGRay"
+				"tall"  "25"
+				"weight" "0"
+				"antialias" "1"
+		   }
+		}
+		
 		"Ray20"
 		{
 		   "1"
 		   {
 				"name"  "MGRay"
 				"tall"  "20"
+				"weight" "0"
+				"antialias" "1"
+		   }
+		}
+		
+		"Ray18"
+		{
+		   "1"
+		   {
+				"name"  "MGRay"
+				"tall"  "18"
+				"weight" "0"
+				"antialias" "1"
+		   }
+		}
+		
+		"Ray18NoAA"
+		{
+		   "1"
+		   {
+				"name"  "MGRay"
+				"tall"  "18"
+				"weight" "0"
+				"antialias" "0"
+		   }
+		}
+		
+		"Ray10"
+		{
+		   "1"
+		   {
+				"name"  "MGRay"
+				"tall"  "10"
 				"weight" "0"
 				"antialias" "1"
 		   }

@@ -17,6 +17,19 @@
 		"enabled" "1"
 		"wide"	 "f0"
 		"tall"	 "480"
+		
+		"GradientHeight" 		"150"
+		
+		"MapNameFont"			"Ray40"
+		"MapNameX"				"20"
+		"MapNameY"				"12"
+		
+		"SpecTargetFont"		"Ray40"
+		"SpecTargetX"			"f10"
+		"SpecTargetY"			"420"
+		
+		"TextDropShadowDist"	"2"
+		"TextDropShadowAlpha"	"255"
 	}
 	
 	HudVoiceSelfStatus
@@ -178,7 +191,9 @@
 		"visible" "1"
 		"enabled" "1"
 		
-		"TextFont"		"Trebuchet24"
+		"TextFont"		"Ray25"
+		"SubTextFont"	"Ray18"
+		
 		"YPadding"	"0"
 		
 	}
