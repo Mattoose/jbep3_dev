@@ -18,7 +18,7 @@
 		"wide"	 "f0"
 		"tall"	 "480"
 		
-		"GradientHeight" 		"150"
+		"GradientHeight" 		"120"
 		
 		"MapNameFont"			"Ray40"
 		"MapNameX"				"20"
