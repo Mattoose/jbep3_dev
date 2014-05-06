@@ -444,6 +444,14 @@
 		"AmmoOffsetX"				"-2"
 		
 		"TextFont"				"HudWepSelectName"
+		
+		"AmmoBarBorder"			"255 201 14 255"
+		"AmmoBarBG"				"50 50 50 10"
+		"AmmoBarFill"			"0 255 0 120"
+		"AmmoBarX"				"60"
+		"AmmoBarY"				"17"
+		"AmmoBarHeight"			"3"
+		"AmmoBarPadding"		"1.5"
 	}
 
 	HudCrosshair
