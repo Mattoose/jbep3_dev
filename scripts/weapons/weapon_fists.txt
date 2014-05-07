@@ -1,6 +1,6 @@
 WeaponData
 {
-	"CycleTime"			"0.215"
+	"CycleTime"			"0.15"
 	"Damage"			"10"
 
 	// Weapon data is loaded by both the Game and Client DLLs.
