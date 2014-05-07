@@ -62,3 +62,15 @@
 	"wave"	"misc/quake_launch.wav"
 }
 
+"JB.BreakableSurfShatter"
+{
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.5"
+	"pitch"			"90,110"
+	"rndwave"
+	{
+		"wave"	"physics/glass/glass_sheet_break1.wav"
+		"wave"	"physics/glass/glass_sheet_break2.wav"
+		"wave"	"physics/glass/glass_sheet_break3.wav"
+	}
+}

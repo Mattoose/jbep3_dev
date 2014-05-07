@@ -26,7 +26,7 @@
 		
 		"SpecTargetFont"		"Ray40"
 		"SpecTargetX"			"f10"
-		"SpecTargetY"			"420"
+		"SpecTargetY"			"410"
 		
 		"TextDropShadowDist"	"2"
 		"TextDropShadowAlpha"	"255"
