@@ -13,6 +13,16 @@
 	}
 }
 
+"JB.BR_Overtime"
+{
+	channel		        "CHAN_STATIC"
+	volume		        "VOL_NORM"
+	soundlevel			SNDLVL_NONE
+	pitch				95
+
+	"wave"				"vox\eliminate.wav"
+}
+
 "JB.BRMusic_1"
 {
 	"channel"		"CHAN_VOICE"
