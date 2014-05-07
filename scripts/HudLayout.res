@@ -66,6 +66,8 @@
 		"text_xpos"	"5"
 
 		"PaintBackgroundType" "3"
+		
+		"Font"		"Ray25"
 	}
 		
 	JBHudAnnouncer	
@@ -160,13 +162,14 @@
 		"fieldName"				"RoundIntro"
 		
 		"MainStart"				"0.35"
-		"MainHeight"				"45"
+		"MainHeight"			"55"
+		
+		"TitlePosition"			"0.3"
 		
 		"BorderHeight"			"2"
 		
-		"TitleFont"				"HudRoundIntroTitle"
-		
-		"SubTitleFont"			"HudRoundIntroSubTitle"
+		"TitleFont"				"Ray40"		
+		"SubTitleFont"			"Ray25"
 		
 		"ImageHeight"			"180"
 	}
@@ -248,6 +251,8 @@
 		"enabled" "1"
 		"wide"	 "f0"
 		"tall"	 "480"
+		
+		"Font"	"Ray30"
 	}
 	
 	HudAmmo
