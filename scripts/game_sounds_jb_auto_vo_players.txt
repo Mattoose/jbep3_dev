@@ -545,3 +545,13 @@
 				"wave"	"player/custom_vo/chewbacca/death3.mp3" 
 			} 
 		} 
+		
+		"JB.Death_Custom_Sonic"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"90,110"
+			"soundlevel"	"SNDLVL_85dB"	
+			
+			"wave"			"player/custom_vo/hevsonic/bonic.mp3"
+		}

@@ -283,6 +283,7 @@
 		{
 			"Neotheone"		"76561197965608320"
 		}
+		"deathsound"	"JB.Death_Custom_Sonic"
 	}
 	
 	hobo
