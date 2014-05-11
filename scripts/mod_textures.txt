@@ -2,7 +2,15 @@
 {
 	TextureData
 	{
-	
+		"crosshair_default"
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"10"
+			"y"			"10"
+			"width"		"3"
+			"height"	"3"
+		}	
+		
 		"mgs_healthbar_bg"
 		{
 			"file"		"VGUI/healthbar/mgs_bg"
