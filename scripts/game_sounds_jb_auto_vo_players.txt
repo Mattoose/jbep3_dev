@@ -550,7 +550,7 @@
 		{
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
-			"pitch"			"90,110"
+			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"	
 			
 			"wave"			"player/custom_vo/hevsonic/bonic.mp3"
