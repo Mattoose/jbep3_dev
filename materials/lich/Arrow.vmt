@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "lich/Arrow"
+	"$translucent" 1
+	"$additive" 1
+	"$decal" "1"
+}

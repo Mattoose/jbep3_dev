@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "lich/strips/strips6"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "Metal"
+	"$envmaptint"		"[0.1 0.1 0.1]"
+}

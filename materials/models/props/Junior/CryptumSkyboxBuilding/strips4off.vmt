@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "lich/strips/strips4off"
+	"$bumpmap" "lich/strips/strips4_normal"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "metal"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint"		"[0.1 0.1 0.1]"
+}

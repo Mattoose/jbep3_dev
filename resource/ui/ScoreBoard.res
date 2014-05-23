@@ -21,7 +21,7 @@
 		"xpos"			"3"
 		"ypos"			"2"
 		"wide"			"250"
-		"tall"			"24"
+		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -30,6 +30,7 @@
 		"textAlignment"		"north-west"
 		"dulltext"		"0"
 		"brighttext"		"1"
+		"font"			"MGRaySmall"
 	}
 	"PlayerList"
 	{

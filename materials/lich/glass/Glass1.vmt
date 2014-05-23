@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "lich/glass/Glass1"
+	"$bumpmap" "lich/glass/Glass1_normal"
+	"$surfaceprop" "Glass"
+	"%keywords" "glass"
+	"$translucent" 1
+}
