@@ -244,3 +244,13 @@
 	"Pickup spawn for ricochet"
 [
 ]
+
+// KOTH
+
+@SolidClass base(Trigger) = jb_koth_zone : "KOTH area for Battle Royale"
+[
+	message(string) : "Map Description / Title"
+	
+	// Outputs
+	output OnSelected(void) : "Fired when this KOTH area is selected as the round objective and players need to get here."
+]
