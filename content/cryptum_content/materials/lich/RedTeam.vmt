@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "lich/RedTeam"
-	"$translucent" 1
-	"$additive" 1
-	"$decal" "1"
-}

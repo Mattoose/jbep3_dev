@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "jb_pit/concretewall-l"
-	"$surfaceprop" "concrete"
-	"%keywords" "colossal jaykin pit"
-	"$bumpmap" "jb_pit/concretewall_striped-l_n"
-}

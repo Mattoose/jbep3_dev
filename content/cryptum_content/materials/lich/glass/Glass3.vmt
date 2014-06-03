@@ -1,9 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "lich/glass/Glass3"
-	"$envmapmask"	"lich/plates/plates_generic_spec"
-	"$translucent" 1
-	"$envmap" "env_cubemap"
-	"$surfaceprop" "Glass"
-	"%keywords" "glass"
-}

@@ -1,9 +1,0 @@
-"WorldVertexTransition"
-{
-	"$basetexture" "jb_pit/concrete001a"
-	"$basetexture2" "jb_pit/concrete001b"
-	"$blendmodulatetexture" "jb_pit/concrete_blend"
-	"%keywords" "colossal jaykin pit"
-	"$surfaceprop" "concrete"
-	"%tooltexture" "jb_pit/concreteblend_tooltexture"
-}

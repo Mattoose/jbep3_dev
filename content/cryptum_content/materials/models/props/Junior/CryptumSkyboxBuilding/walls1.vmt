@@ -1,9 +1,0 @@
-"vertexlitgeneric"
-{
-	"$basetexture" "lich/walls/walls1"
-	"$bumpmap" "lich/walls/walls1_normal"
-	"$envmap" "env_cubemap"
-	"$surfaceprop" "metal"
-	"$normalmapalphaenvmapmask" 1
-	"$envmaptint"		"[0.1 0.1 0.1]"
-}
