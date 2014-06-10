@@ -376,6 +376,16 @@
 			"wave"		"player/custom_vo/creep/death.mp3"
 		
 		} 
+		"JB.Death_Custom_GK99"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		"player/custom_vo/gk99/death.wav"
+		
+		} 
 		"JB.Death_Custom_Glados"
 		{
 			"channel"		"CHAN_VOICE"

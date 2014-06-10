@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/player/gk99/gk99_sheet"
+	"$halflambert" 1
+}
