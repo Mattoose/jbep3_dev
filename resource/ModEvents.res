@@ -76,11 +76,11 @@
 		"entityname"	"string"	// name of the entity they see
 	}
 	
-	//"killstreak"
-	//{
-	//	"userid"			"short"		// Who
-	//	"kills"				"short"		// and how many.
-	//}
+	"killstreak"
+	{
+		"userid"			"short"		// Who
+		"kills"				"short"		// and how many.
+	}
 	
 	"intermission" // Scoreboard opens, waits x seconds (mp_chattime) and changes to nextlevel.
 	{
