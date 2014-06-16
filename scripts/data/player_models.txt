@@ -231,19 +231,6 @@
 		"deathsound"	"JB.Death_Custom_GCombine"
 	}
 	
-	gk99
-	{
-		"model"		"models/player/gk99.mdl"
-		"name"		"GK99 Custom"
-		
-		"restrict"
-		{
-			"gk99"		"76561197987469354"
-		}
-		
-		"deathsound"	"JB.Death_Custom_GK99"
-	}
-	
 	glados
 	{
 		"model" 	"models/player/glados.mdl"
