@@ -1,0 +1,9 @@
+LightmappedGeneric 
+{ 
+    "$basetexture"		"jaanus/maptextures/cliff01a" 
+    "$bumpmap"			"jaanus/maptextures/cliff01n"
+ 
+    "$surfaceprop"		rock
+	
+	//Postal sucks big fat dong
+}

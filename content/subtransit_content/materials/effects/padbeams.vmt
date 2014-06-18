@@ -1,0 +1,23 @@
+"UnlitGeneric"
+{
+   $basetexture "effects/padbeams"
+    $translucent "1"
+ 
+   "Proxies"
+   {
+   "TextureScroll"
+    {
+         "texturescrollvar" "$basetexturetransform"
+         "texturescrollrate" "0.25"
+         "texturescrollangle" "90"
+    } 
+	      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+         "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" "20"
+      }
+
+     
+}
+}

@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"jaanus/lights/ceilinglamp/ceilinglamp"
+	"$selfillum" "1"
+	"$bumpmap" "jaanus/lights/ceilinglamp/ceilinglamp_n"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	//"$envmapcontrast" "1"
+	//"$envmapsaturation" "[20.0 20.0 20.0]"
+	"$model" 1				
+}
+

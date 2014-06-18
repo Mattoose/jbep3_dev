@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+
+	 $basetexture "housebarrel/purpledankdiffuse"
+	 $envmap "env_cubemap"
+	 $phong 1
+	 $bumpmap "housebarrel/purpledanknormal"
+	 $normalmapalphaenvmapmask  1
+}
