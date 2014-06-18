@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"jaanus/lights/glossylamp/glossylamp"
+	"$selfillum" "1"
+	"$bumpmap" "jaanus/lights/shinylamp/shinylamp_n"
+	"$model" "1"
+	"$phong" "1"
+	"$phongboost" "1"
+	//"$phongexponenttexture" "jaanus/bar/stool/stoolmask"
+	"$phongalbedotint" "2"								
+	"$phongfresnelranges"	"[.5 1 2]"
+	
+	"$rimlight" "1" // To enable rim lighting (requires phong)
+	"$rimlightexponent" "1" // Exponent for phong component of rim lighting
+	"$rimlightboost" "1" // Boost for ambient cube component of rim lighting		
+}
+
