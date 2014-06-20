@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	"$basetexture" "models/player/hecu/ct_sas"
+	"$bumpmap" "models/player/hecu/ct_sas_normal"
+	"$phong" "1"
+
+	"$phongexponent" 1.75
+	"$phongboost" "1.25"	
+	"$phongfresnelranges"	"[.25 1.25 6.5]"
+	"$phongexponenttexture" "models/player/hecu/ct_sas_exp"
+	"$phongalbedotint" "1"
+}

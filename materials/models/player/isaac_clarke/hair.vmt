@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 						"models/player/isaac_clarke/hair"
+	"$bumpmap" 					        "models/player/isaac_clarke/hair_n"
+        "$alphatest" "1"
+        "$nodecal" 							"1"
+	"$nocull" 							"1"
+	}

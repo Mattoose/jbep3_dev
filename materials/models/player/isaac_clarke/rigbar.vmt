@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 						"models/player/isaac_clarke/riglow.vtf"
+	"$selfillum"				"1"
+        "$selfillumfresnel"                     "1"
+        "$additive" "1"
+		}

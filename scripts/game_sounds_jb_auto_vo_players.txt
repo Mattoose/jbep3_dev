@@ -29,6 +29,16 @@
 				"wave"	"player/custom_vo/sniper/sniper_paincrticialdeath04.wav" 
 			} 
 		} 
+		"JB.Death_Custom_Fatass"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"90,110"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		")player/custom_vo/fatass/death.wav"
+		
+		} 
 		"JB.Death_Custom_Barney"
 		{
 			"channel"		"CHAN_VOICE"
@@ -135,6 +145,16 @@
 			"wave"		"player/custom_vo/hobo/death.wav"
 		
 		} 
+		"JB.Death_Custom_Dipsy"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		"player/custom_vo/dipsy/death.mp3"
+		
+		} 
 		"JB.Death_Custom_Shaun"
 		{
 			"channel"		"CHAN_VOICE"
@@ -149,14 +169,24 @@
 				"wave"	"player/custom_vo/shaun/3.mp3" 
 			} 
 		} 
-		"JB.Death_Custom_Dipsy"
+		"JB.Death_Custom_Gingerbread"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"90,110"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		")player/custom_vo/gingerbread/death.mp3"
+		
+		} 
+		"JB.Death_Custom_GK99"
 		{
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"player/custom_vo/dipsy/death.mp3"
+			"wave"		"player/custom_vo/gk99/death.wav"
 		
 		} 
 		"JB.Death_Custom_Assassin"
@@ -189,6 +219,16 @@
 			"wave"		"player/custom_vo/cardboard/death.mp3"
 		
 		} 
+		"JB.Death_Custom_Turd"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		"player/custom_vo/turd/death.mp3"
+		
+		} 
 		"JB.Death_Custom_Doom"
 		{
 			"channel"		"CHAN_VOICE"
@@ -199,14 +239,14 @@
 			"wave"		"player/custom_vo/doom/death3.wav"
 		
 		} 
-		"JB.Death_Custom_Turd"
+		"JB.Death_Custom_Sonic"
 		{
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		"player/custom_vo/turd/death.mp3"
+			"wave"		"player/custom_vo/hevsonic/bonic.mp3"
 		
 		} 
 		"JB.RR_Reloading1"
@@ -323,6 +363,16 @@
 			"wave"		"player/custom_vo/dog/dog.wav"
 		
 		} 
+		"JB.Death_Custom_Froldier"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"100"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		")player/custom_vo/froldier/Doyoulikefunk.mp3"
+		
+		} 
 		"JB.Death_Custom_Marisa"
 		{
 			"channel"		"CHAN_VOICE"
@@ -356,15 +406,22 @@
 				"wave"	"player/custom_vo/gcombine/RanchPuddingDeathSound3.wav" 
 			} 
 		} 
-		"JB.Death_Custom_Froldier"
+		"JB.Death_Custom_Uboa"
 		{
 			"channel"		"CHAN_VOICE"
 			"volume"		"1.0"
 			"pitch"			"100"
 			"soundlevel"	"SNDLVL_85dB"
 	
-			"wave"		")player/custom_vo/froldier/Doyoulikefunk.mp3"
-		
+			"rndwave"		
+			{
+				"wave"	"player/custom_vo/uboa/1.wav" 
+				"wave"	"player/custom_vo/uboa/2.wav" 
+				"wave"	"player/custom_vo/uboa/3.wav" 
+				"wave"	"player/custom_vo/uboa/4.wav" 
+				"wave"	"player/custom_vo/uboa/5.wav" 
+				"wave"	"player/custom_vo/uboa/6.wav" 
+			} 
 		} 
 		"JB.Death_Custom_Creep"
 		{
@@ -376,16 +433,6 @@
 			"wave"		"player/custom_vo/creep/death.mp3"
 		
 		} 
-		"JB.Death_Custom_GK99"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"
-	
-			"wave"		"player/custom_vo/gk99/death.wav"
-		
-		} 
 		"JB.Death_Custom_Glados"
 		{
 			"channel"		"CHAN_VOICE"
@@ -394,6 +441,16 @@
 			"soundlevel"	"SNDLVL_85dB"
 	
 			"wave"		"player/custom_vo/glados/death.wav"
+		
+		} 
+		"JB.Death_Custom_Jmanownsu"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"90,110"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		")player/custom_vo/jmanownsu/deathsound.mp3"
 		
 		} 
 		"JB.Death_Custom_Knight"
@@ -426,6 +483,16 @@
 			"wave"		")player/custom_vo/lee/death.mp3"
 		
 		} 
+		"JB.Death_Custom_Knoxed"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"90,110"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		")player/custom_vo/knoxed/deathsound.mp3"
+		
+		} 
 		"JB.Death_Custom_GrimReaper"
 		{
 			"channel"		"CHAN_VOICE"
@@ -436,6 +503,36 @@
 			"wave"		"player/custom_vo/grimreaper/death.mp3"
 		
 		} 
+		"JB.Death_Custom_Hecu"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"90,110"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		"player/custom_vo/hecu/death1.wav"
+		
+		} 
+		"JB.Death_Custom_Doll"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"90,110"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		")player/custom_vo/doll/death.wav"
+		
+		} 
+		"JB.Death_Custom_Ott"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"90,110"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		"player/custom_vo/ott/death.wav"
+		
+		} 
 		"JB.Death_Custom_MaxPayne"
 		{
 			"channel"		"CHAN_VOICE"
@@ -444,6 +541,16 @@
 			"soundlevel"	"SNDLVL_85dB"
 	
 			"wave"		"player/custom_vo/maxpayne/max_death_01.wav"
+		
+		} 
+		"JB.Death_Custom_50cent"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"90,110"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		")player/custom_vo/50cent/deathsound.wav"
 		
 		} 
 		"JB.Death_Custom_Assassin2"
@@ -541,6 +648,16 @@
 			"wave"		"player/custom_vo/saddam/death.mp3"
 		
 		} 
+		"JB.Death_Custom_Naluri"
+		{
+			"channel"		"CHAN_VOICE"
+			"volume"		"1.0"
+			"pitch"			"90,110"
+			"soundlevel"	"SNDLVL_85dB"
+	
+			"wave"		"player/custom_vo/naluri/death.mp3"
+		
+		} 
 		"JB.Death_Custom_Chewbacca"
 		{
 			"channel"		"CHAN_VOICE"
@@ -555,13 +672,3 @@
 				"wave"	"player/custom_vo/chewbacca/death3.mp3" 
 			} 
 		} 
-		
-		"JB.Death_Custom_Sonic"
-		{
-			"channel"		"CHAN_VOICE"
-			"volume"		"1.0"
-			"pitch"			"100"
-			"soundlevel"	"SNDLVL_85dB"	
-			
-			"wave"			"player/custom_vo/hevsonic/bonic.mp3"
-		}

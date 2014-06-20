@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 						"models/player/isaac_clarke/isaacface"
+	"$bumpmap" 					        "models/player/isaac_clarke/isaacface_n"
+        "$normalmapalphaenvmapmask" 1
+        "$phong" 1
+	"$phongexponent" "20"
+	"$phongboost" "5"	
+	"$phongfresnelranges"	"[0.1 0.1 0.2]"
+	}

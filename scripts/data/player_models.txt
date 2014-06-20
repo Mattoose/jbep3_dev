@@ -17,16 +17,14 @@
 		}
 	}
 	
-	alien
+	wilson
 	{
-		"model" 	"models/player/alien.mdl"
-		"name"		"Alien"
+		"model" 	"models/player/wilson.mdl"
+		"name"		"Wilson"
 		"restrict" 	
 		{
 			"kingmonsters"	"76561197972139156" 	
 		}
-		
-		"deathsound"	"JB.Death_Custom_Alien"
 	}
 	
 	assassin
@@ -344,15 +342,14 @@
 		"deathsound"				"JB.Death_Custom_Lee"
 	}
 	
-	lokimech
+	conro
 	{
-		"model" 	"models/player/loki_mech.mdl"
-		"name"		"LOKI Mech"
+		"model" 	"models/player/conro.mdl"
+		"name"		"Robot"
 		"restrict"
 		{
 			"conro"		"76561197987157993"		
 		}
-		"deathsound"				"JB.Death_Custom_Mech"
 	}
 	
 	marisa
@@ -534,6 +531,126 @@
 			"qbopper"		76561198006644004
 		}
 		"deathsound"	"JB.Death_Custom_Turd"
+	}
+	
+	uboa
+	{
+		"model" 	"models/player/uboa.mdl"
+		"name"		"Steampunk Metrocop"
+		"restrict"
+		{
+			"uboa"		76561198017061856
+		}
+		"deathsound"	"JB.Death_Custom_Uboa"
+	}
+	
+	knoxed
+	{
+		"model" 	"models/player/knoxed.mdl"
+		"name"		"Billy Mays"
+		"restrict"
+		{
+			"knoxed"		76561197994704078
+		}
+		"deathsound"	"JB.Death_Custom_Knoxed"
+	}
+	
+	jmanownsu
+	{
+		"model" 	"models/player/knoxed.mdl"
+		"name"		"Billy Mays (jmanownsu)"
+		"restrict"
+		{
+			"jmanownsu"		76561198028748392
+		}
+		"deathsound"	"JB.Death_Custom_Jmanownsu"
+	}
+	
+	gingerbread
+	{
+		"model" 	"models/player/gingerbread.mdl"
+		"name"		"Gingerbread Man"
+		"restrict"
+		{
+			"potatonick"		76561198012871508
+		}
+		"deathsound"	"JB.Death_Custom_Gingerbread"
+	}
+	
+	ott
+	{
+		"model" 	"models/player/ott.mdl"
+		"name"		"Player"
+		"restrict"
+		{
+			"ott"		76561198033321448
+		}
+		"deathsound"	"JB.Death_Custom_Ott"
+	}
+	
+	hecu
+	{
+		"model" 	"models/player/hecu.mdl"
+		"name"		"HECU Combine"
+		"restrict"
+		{
+			"broomstickhero"		76561198050154137
+		}
+		"deathsound"	"JB.Death_Custom_Hecu"
+	}
+	
+	naluri
+	{
+		"model" 	"models/player/naluri.mdl"
+		"name"		"Naluri"
+		"restrict"
+		{
+			"kochieboy"		76561197998025854
+		}
+		"deathsound"	"JB.Death_Custom_Naluri"
+	}
+	
+	isaac_clarke
+	{
+		"model" 	"models/player/isaac_clarke.mdl"
+		"name"		"Isaac Clarke"
+		"restrict"
+		{
+			"caylum"		76561198007390227
+		}
+	}
+	
+	fatass
+	{
+		"model" 	"models/player/fatass.mdl"
+		"name"		"Fatass"
+		"restrict"
+		{
+			"cowabanga"		76561198003938282
+		}
+		"deathsound"	"JB.Death_Custom_Fatass"
+	}
+	
+	50cent
+	{
+		"model" 	"models/player/50cent.mdl"
+		"name"		"50 Cent"
+		"restrict"
+		{
+			"skooch"		76561198025209403
+		}
+		"deathsound"	"JB.Death_Custom_50cent"
+	}
+	
+	doll
+	{
+		"model" 	"models/player/doll.mdl"
+		"name"		"Doll"
+		"restrict"
+		{
+			// TODO
+		}
+		"deathsound"	"JB.Death_Custom_Doll"
 	}
 	
 	// 

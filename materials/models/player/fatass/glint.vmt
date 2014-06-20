@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+		// compile and material by banshee64
+	// Original shader: AddTexture
+	"$basetexture" "models/Humans/Male/glint"
+	"$additive" 1
+	"$model" 1
+}

@@ -1,0 +1,7 @@
+"EyeRefract"
+{
+	"$Iris"               "models/player/isaac_clarke/eye"
+	"$AmbientOcclTexture" "models/player/isaac_clarke/eye-extra"
+	"$CorneaTexture"      "models/player/isaac_clarke/eye-cornea"          		            	
+	"$Envmap"             "models/player/isaac_clarke/eye-reflection-cubemap-"   	
+	}

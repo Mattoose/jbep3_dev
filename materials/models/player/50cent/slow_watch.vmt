@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/50cent/slow_body"
+	"$bumpmap" "models/player/50cent/slow_body_bump"
+
+	"$phong" 			"1"
+	"$phongexponent"		"3"
+	"$phongboost"		"35"
+	"$phongfresnelranges"	"[.05 .1 .2]"
+}

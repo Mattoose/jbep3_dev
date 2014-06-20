@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/hecu/ct_sas_glass"
+	
+
+// Specularity
+	"$envmap" 			"env_cubemap"
+	"$envmapmask" "models/player/hecu/ct_sas_glass_spec"
+
+
+// Transparency
+	"$translucent" 1
+	
+	
+}
+

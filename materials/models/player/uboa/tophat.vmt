@@ -1,0 +1,23 @@
+
+"VertexLitGeneric"
+{
+$basetexture "models/player/uboa/tophat"
+$bumpmap "models/player/uboa/tophat_n"
+$basemapalphaphongmask 0
+
+
+$phong "1"
+$phongboost ".25"
+$phongexponent 2
+$phongtint "[1.15 1 .95]"
+$halflambert 0
+$phongfresnelranges "[1 1 5]"
+$ambientocclusion 1
+
+//$color2 "{255 255 255}"
+//$blendTintByBaseAlpha "1"
+
+$rimlight "0"	
+$rimlightexponent "10"
+$rimlightboost "1"
+}

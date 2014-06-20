@@ -227,7 +227,7 @@ player/custom_vo/daftpunk/4.mp3]
     category: deathcry_100pitch
     wave_prefix: )
     vcd: false
-	
+
   JB.Death_Custom_GK99:
     wave: player/custom_vo/gk99/death.wav
     category: deathcry_100pitch
@@ -367,9 +367,74 @@ player/custom_vo/sniper/sniper_paincrticialdeath04.wav]
     category: deathcry_100pitch
     wave_prefix:
     vcd: false
-	
-  JB.Death_Custom_Sonic
+
+  JB.Death_Custom_Sonic:
     wave: player/custom_vo/hevsonic/bonic.mp3
-	category: deathcry_100pitch
-	wave_prefix:
-	vcd: false
+    category: deathcry_100pitch
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_Uboa:
+    waves: [player/custom_vo/uboa/1.wav,
+player/custom_vo/uboa/2.wav,
+player/custom_vo/uboa/3.wav,
+player/custom_vo/uboa/4.wav,
+player/custom_vo/uboa/5.wav,
+player/custom_vo/uboa/6.wav]
+    category: deathcry_100pitch
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_Knoxed:
+    wave: player/custom_vo/knoxed/deathsound.mp3
+    category: deathcry
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Jmanownsu:
+    wave: player/custom_vo/jmanownsu/deathsound.mp3
+    category: deathcry
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Gingerbread:
+    wave: player/custom_vo/gingerbread/death.mp3
+    category: deathcry
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Ott:
+    wave: player/custom_vo/ott/death.wav
+    category: deathcry
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_Hecu:
+    wave: player/custom_vo/hecu/death1.wav
+    category: deathcry
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_Naluri:
+    wave: player/custom_vo/naluri/death.mp3
+    category: deathcry
+    wave_prefix:
+    vcd: false
+
+  JB.Death_Custom_Fatass:
+    wave: player/custom_vo/fatass/death.wav
+    category: deathcry
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_50cent:
+    wave: player/custom_vo/50cent/deathsound.wav
+    category: deathcry
+    wave_prefix: )
+    vcd: false
+
+  JB.Death_Custom_Doll:
+    wave: player/custom_vo/doll/death.wav
+    category: deathcry
+    wave_prefix: )
+    vcd: false

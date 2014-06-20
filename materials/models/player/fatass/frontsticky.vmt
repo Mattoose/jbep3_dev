@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+		// compile and material by banshee64
+	"$basetexture" "models/player/fatass/frontsticky"
+	"$nodecal" 1
+	"$nolod" 1
+}

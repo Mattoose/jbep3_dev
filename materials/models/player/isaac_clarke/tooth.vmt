@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 						"models/player/isaac_clarke/tooth"
+	"$bumpmap" 					        "models/player/isaac_clarke/tooth_n"
+}

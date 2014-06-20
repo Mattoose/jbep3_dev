@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	// compile and material by banshee64
+	"$basetexture" "models/player/fatass/template1"
+	"$bumpmap" "models/player/fatass/template1_n"
+}

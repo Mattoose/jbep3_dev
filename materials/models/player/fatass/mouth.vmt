@@ -1,0 +1,8 @@
+"Teeth"
+{
+		// compile and material by banshee64
+	"$basetexture" "models/Humans/Male/mouth"
+	"$model" 1
+	"$clientshader" "MouthShader"
+	"$halflambert" 1
+}

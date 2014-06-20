@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 						"models/player/isaac_clarke/patientbody_d"
+	"$bumpmap" 					        "models/player/isaac_clarke/patientbody_n"
+        "$normalmapalphaenvmapmask" 1
+        "$phong" 1
+	"$phongexponent" "20"
+	"$phongboost" "5"	
+	"$phongfresnelranges"	"[0.1 0.1 0.2]"
+        "$rimlight" 1
+}
