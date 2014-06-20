@@ -13,14 +13,13 @@ WeaponData
 	"playermodel"			"models/weapons/w_357.mdl"
 	"PlayerAnimationExtension"	"mp5"
 	
-	"bucket"				"7"
-	"bucket_position"		"2"
-
-	"clip_size"				"-1"
-	"NumClips"				"0"
-	
+	// Ammo parameters
 	"primary_ammo"			"None"
 	"secondary_ammo"		"None"
+	"clip_size"				"-1" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip2_size"			"-1" 
+	"DefaultAmmoPrimary"	"0" 		// Default total ammo, not clips
+	"DefaultAmmoSecondary"	"0"
 
 	"weight"				"0"
 	"item_flags"			"0"

@@ -16,13 +16,13 @@ WeaponData
 	"bucket"			"7"
 	"bucket_position"		"1"
 
-	"clip_size"				"-1" //How big is the clip? -1 = doesn't use clips.
-	"default_clip"			"1"
-	"NumClips"				"1"
-
-	
+	// Ammo parameters
 	"primary_ammo"			"bofors"
 	"secondary_ammo"		"None"
+	"clip_size"				"-1" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip2_size"			"-1" 
+	"DefaultAmmoPrimary"	"14" 		// Default total ammo, not clips
+	"DefaultAmmoSecondary"	"0"
 
 	"weight"				"0"
 	"item_flags"			"0"

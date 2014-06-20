@@ -10,10 +10,13 @@ WeaponData
 	"bucket"			"3"
 	"bucket_position"	"4"
 
-	"clip_size"		"1"
-	"default_clip"		"5"
-	"primary_ammo"		"MelonXBowBolt"
-	"secondary_ammo"	"None"
+	// Ammo parameters
+	"primary_ammo"			"MelonXBowBolt"
+	"secondary_ammo"		"None"
+	"clip_size"				"-1" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip2_size"			"-1" 
+	"DefaultAmmoPrimary"	"12" 		// Default total ammo, not clips
+	"DefaultAmmoSecondary"	"0"
 
 	"weight"		"0"
 	"item_flags"		"0"

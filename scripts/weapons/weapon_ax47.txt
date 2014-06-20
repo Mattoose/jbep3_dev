@@ -15,13 +15,13 @@ WeaponData
 	
 	"PlayerAnimationExtension"	"mp5"
 	
-	"bucket"				"2"
-	"bucket_position"		"3"
-
-	"clip_size"			"30"
-	
+	// Ammo parameters
 	"primary_ammo"			"ax47"
 	"secondary_ammo"		"None"
+	"clip_size"				"30" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip2_size"			"-1" 
+	"DefaultAmmoPrimary"	"90" 		// Default total ammo, not clips
+	"DefaultAmmoSecondary"	"0"
 
 	"weight"			"0"
 	"item_flags"			"0"

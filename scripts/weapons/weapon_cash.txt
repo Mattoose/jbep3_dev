@@ -10,10 +10,15 @@ WeaponData
 	"playermodel"			"models/weapons/w_cash.mdl"
 	"bucket"				"9"
 	"bucket_position"		"1"
-	"clip_size"				"15"
-	"default_clip"			"15"
+	
+	// Ammo parameters
 	"primary_ammo"			"cash"
 	"secondary_ammo"		"None"
+	"clip_size"				"-1" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip2_size"			"-1" 
+	"DefaultAmmoPrimary"	"12" 		// Default total ammo, not clips
+	"DefaultAmmoSecondary"	"0"
+	
 	"weight"				"0"
 	"item_flags"			"0"
 	

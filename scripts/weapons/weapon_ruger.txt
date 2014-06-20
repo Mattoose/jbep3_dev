@@ -12,19 +12,16 @@ WeaponData
 	"viewmodel"					"models/weapons/v_ruger.mdl"
 	"playermodel"				"models/weapons/w_ruger.mdl"
 	"PlayerAnimationExtension"	"mp5"
-	
-	"bucket"				"1"
-	"bucket_position"		"4"
-
-	"clip_size"				"10"
-	"clip_size2"			"-1"
-	
-	"NumClips"				"4"
-	
+		
 	"fov"					"52"
 	
+	// Ammo parameters
 	"primary_ammo"			"ruger"
 	"secondary_ammo"		"None"
+	"clip_size"				"10" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip2_size"			"-1" 
+	"DefaultAmmoPrimary"	"40" 		// Default total ammo, not clips
+	"DefaultAmmoSecondary"	"0"
 
 	"weight"				"0"
 	"item_flags"			"0"

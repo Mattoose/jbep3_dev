@@ -16,11 +16,13 @@ WeaponData
 	"bucket"			"2"
 	"bucket_position"		"0"
 
-	"clip_size"			"30"
-	"NumClips"			"3"
-
+	// Ammo parameters
 	"primary_ammo"			"mp5"
 	"secondary_ammo"		"None"
+	"clip_size"				"30" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip2_size"			"-1" 
+	"DefaultAmmoPrimary"	"90" 		// Default total ammo, not clips
+	"DefaultAmmoSecondary"	"0"
 
 	"weight"			"0"
 	"item_flags"			"0"

@@ -12,13 +12,15 @@ WeaponData
 	"bucket"				"3"
 	"bucket_position"		"11"
 
-	"clip_size"				"-1"
-	"NumClips"				"-1"
-	
 	"fov"					"60"
 	
+	// Ammo parameters
 	"primary_ammo"			"railgun_insta"
 	"secondary_ammo"		"None"
+	"clip_size"				"-1" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip2_size"			"-1" 
+	"DefaultAmmoPrimary"	"0" 		// Default total ammo, not clips
+	"DefaultAmmoSecondary"	"0"
 
 	"weight"				"0"
 	"item_flags"			"0"

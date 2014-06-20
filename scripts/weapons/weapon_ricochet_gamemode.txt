@@ -13,15 +13,16 @@ WeaponData
 
 	"bucket"				"4"
 	"bucket_position"		"5"
-
-	"clip_size"				"-1"
-	"default_clip"			"999"
-	"NumClips"				"1"
 	
 	"fov"					"60"
-
+	
+	// Ammo parameters
 	"primary_ammo"			"ricochet_gamemode"
 	"secondary_ammo"		"None"
+	"clip_size"				"-1" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip2_size"			"-1" 
+	"DefaultAmmoPrimary"	"0" 		// Default total ammo, not clips
+	"DefaultAmmoSecondary"	"0"
 
 	"weight"				"0"
 	"item_flags"			"18"	// ITEM_FLAG_NOAUTORELOAD | ITEM_FLAG_EXHAUSTIBLE
