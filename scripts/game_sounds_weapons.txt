@@ -112,13 +112,14 @@
 {
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
-	"soundlevel"	"SNDLVL_140dB"
-	"pitch"		"80,110"
+	"soundlevel"	"SNDLVL_120dB"
+	"pitch"		"80,120"
 
 	"rndwave"
 	{
-		"wave"	"weapons/debris1.wav"
-		"wave"	"weapons/debris2.wav"
+		"wave"	"^weapons/hegrenade/explode3.wav"
+		"wave"	"^weapons/hegrenade/explode4.wav"
+		"wave"	"^weapons/hegrenade/explode5.wav"
 	}
 }
 
