@@ -19,7 +19,7 @@ WeaponData
 	"secondary_ammo"		"None"
 	"clip_size"				"-1" 		// Max ammo inside a clip. -1 = Non-clip weapon
 	"clip2_size"			"-1" 
-	"DefaultAmmoPrimary"	"3" 		// Default total ammo, not clips
+	"DefaultAmmoPrimary"	"4" 		// Default total ammo, not clips
 	"DefaultAmmoSecondary"	"0"
 	
 	"fov"					"60"
