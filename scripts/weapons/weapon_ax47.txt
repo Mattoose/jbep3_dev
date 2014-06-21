@@ -13,7 +13,10 @@ WeaponData
 	"viewmodel"				"models/weapons/v_ax47.mdl"
 	"playermodel"			"models/weapons/w_ax47.mdl"
 	
-	"PlayerAnimationExtension"	"mp5"
+	"PlayerAnimationExtension"	"mp5"	
+	
+	"bucket"				"2"
+	"bucket_position"		"3"
 	
 	// Ammo parameters
 	"primary_ammo"			"ax47"

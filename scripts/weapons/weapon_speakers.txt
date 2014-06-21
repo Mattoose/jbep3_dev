@@ -13,6 +13,9 @@ WeaponData
 	"playermodel"			"models/weapons/w_357.mdl"
 	"PlayerAnimationExtension"	"mp5"
 	
+	"bucket"				"7"
+	"bucket_position"		"2"
+	
 	// Ammo parameters
 	"primary_ammo"			"None"
 	"secondary_ammo"		"None"

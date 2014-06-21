@@ -13,7 +13,10 @@ WeaponData
 	"playermodel"				"models/weapons/w_ruger.mdl"
 	"PlayerAnimationExtension"	"mp5"
 		
-	"fov"					"52"
+	"fov"					"52"	
+	
+	"bucket"				"1"
+	"bucket_position"		"4"
 	
 	// Ammo parameters
 	"primary_ammo"			"ruger"
