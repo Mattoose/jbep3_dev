@@ -17,15 +17,15 @@
 		}
 	}
 	
-	wilson
-	{
-		"model" 	"models/player/wilson.mdl"
-		"name"		"Wilson"
-		"restrict" 	
-		{
-			"kingmonsters"	"76561197972139156" 	
-		}
-	}
+	//wilson
+	//{
+	//	"model" 	"models/player/wilson.mdl"
+	//	"name"		"Wilson"
+	//	"restrict" 	
+	//	{
+	//		"kingmonsters"	"76561197972139156" 	
+	//	}
+	//}
 	
 	assassin
 	{
