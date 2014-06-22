@@ -320,16 +320,16 @@
 		"deathsound"	"JB.Death_Custom_Hunter"
 	}
 	
-	knight
-	{
-		"model" 	"models/player/knight.mdl"
-		"name"		"Knight"
-		"restrict"
-		{
-			"sunabouzu"		"76561197970525198"		
-		}
-		"deathsound"	"JB.Death_Custom_Knight"
-	}
+	//knight
+	//{
+	//	"model" 	"models/player/knight.mdl"
+	//	"name"		"Knight"
+	//	"restrict"
+	//	{
+	//		"sunabouzu"		"76561197970525198"		
+	//	}
+	//	"deathsound"	"JB.Death_Custom_Knight"
+	//}
 	
 	lee
 	{
