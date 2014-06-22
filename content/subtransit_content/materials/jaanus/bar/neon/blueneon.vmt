@@ -1,0 +1,5 @@
+"Unlitgeneric"
+{
+	"$baseTexture" "jaanus/bar/neon/blueneon"
+	"$translucent" 1
+}

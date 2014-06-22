@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "jaanus/shelf/shelf"
+	"$halflambert" 1
+	"$bumpmap"	"jaanus/shared/flat_n"
+	
+	"$model" "1"
+	"$phong" "1"
+	"$phongboost" "0.2"
+	//"$phongexponenttexture" "jaanus/bar/couch/couchmask"
+	"$phongalbedotint" "1"								
+	"$phongfresnelranges"	"[1 2 8]"
+	
+	"$rimlight" "1" // To enable rim lighting (requires phong)
+	"$rimlightexponent" "1" // Exponent for phong component of rim lighting
+	"$rimlightboost" "1" // Boost for ambient cube component of rim lighting
+	
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" 1
+	//"$envmapcontrast "0.5"
+	//"$envmapsaturation" [1.0 1.0 1.0]
+
+}

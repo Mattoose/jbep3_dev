@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "jaanus/bar/couch/couch"
+		
+	"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" "0"
+	"$envmapsaturation" "[1.0 1.0 1.0]"
+
+}

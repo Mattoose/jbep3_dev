@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "jaanus\spraycan\can_burst"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "jaanus/spraycan/burstcanmask"
+	"$envmapcontrast" "0.4"
+	"$envmapsaturation" "[.6 .6 .6]"
+}

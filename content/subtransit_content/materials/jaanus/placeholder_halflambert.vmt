@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "jaanus/placeholder_halflambert"
+	"$halflambert" 1
+}
