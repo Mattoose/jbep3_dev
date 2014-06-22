@@ -841,4 +841,28 @@
 		"name"		"Spetsnaz"
 	}
 	
+	bms_sci
+	{
+		"model" 	"models/player/bms_scientist.mdl"
+		"name"		"BMS - Scientist"
+		
+		"shuffleskin" "14"
+		"shufflebodygroups" "1"
+	}
+	
+	//bms_assassin
+	//{
+	//	"model" 	"models/player/bms_assassin.mdl"
+	//	"name"		"BMS - Assassin"
+	//}
+	
+	bms_guard
+	{
+		"model" 	"models/player/bms_guard.mdl"
+		"name"		"BMS - Guard"
+		
+		"shuffleskin" "14"
+		"shufflebodygroups" "1"
+	}
+	
 }
