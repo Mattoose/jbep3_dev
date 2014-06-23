@@ -12,5 +12,24 @@
 	"$phongexponent" "10"
 	"$phongboost"    "1"
 	"$phongfresnelranges"    "[2 4 1]"
+	
+	// Blood effects
+	$detail "models/blood.vtf"
+	$detailscale "1.8"
+	$detailblendfactor .001
+	$detailblendmode 0
+	$detailAmount 0
+	Proxies
+	{
+		WeaponBlood
+		{
+			resultVar $detailAmount
+		}
+		Equals
+		{
+			srcVar1 $detailAmount
+			resultVar $detailblendfactor			
+		}
+	}
 }
 

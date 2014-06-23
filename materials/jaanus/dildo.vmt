@@ -13,5 +13,24 @@
 	"$rimlight" "1"												// To enable rim lighting (requires phong)
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+	
+	// Blood effects
+	$detail "models/blood.vtf"
+	$detailscale "1.8"
+	$detailblendfactor .001
+	$detailblendmode 0
+	$detailAmount 0
+	Proxies
+	{
+		WeaponBlood
+		{
+			resultVar $detailAmount
+		}
+		Equals
+		{
+			srcVar1 $detailAmount
+			resultVar $detailblendfactor			
+		}
+	}
 }
 
