@@ -1,0 +1,10 @@
+"Unlitgeneric"
+{
+	"$baseTexture"	"jaanus\scrollscreen\screen_textures\screen_03"
+	"$translucent" 1
+	"$model" 1
+	"$nocull" 1
+
+
+	//jaanus was here
+}

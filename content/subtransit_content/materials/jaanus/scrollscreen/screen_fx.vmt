@@ -1,0 +1,20 @@
+"UnlitGeneric"
+{
+	"$basetexture" "jaanus\scrollscreen\screen_fx"
+	"$additive" 1
+"Proxies"
+	{
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 7
+			"texturescrollangle" 270
+		}
+	
+	}
+
+
+	//jaanus was here
+	//Along with many VMT errors
+}

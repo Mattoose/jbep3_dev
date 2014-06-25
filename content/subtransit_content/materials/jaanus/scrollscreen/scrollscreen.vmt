@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "jaanus\scrollscreen\scrollscreen"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "jaanus/scrollscreen/mask"
+	"$envmapcontrast" "1.0"
+}

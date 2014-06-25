@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "jaanus\scrollscreen\screen_shadow"
+	"$translucent" 1
+}
