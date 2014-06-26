@@ -1,7 +1,6 @@
 VertexLitGeneric
 {
 	$baseTexture "jaanus\hatch\diffuse"
-	$selfillum 1
 	$bumpmap "jaanus\hatch\normal"
 	$phongexponent 14
 	$phong 1
