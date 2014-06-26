@@ -3,6 +3,6 @@
 	"$basetexture" "jaanus/keypadbox/diffuse_white"
 	"$selfillum" 1
 	
-	"$normalmap" "jaanus/keypadbox/normal"
+	"$bumpmap" "jaanus/keypadbox/normal"
 	"$normalmapalphaenvmapmask" 1
 }
