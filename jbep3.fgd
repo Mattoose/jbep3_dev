@@ -93,7 +93,8 @@
 		1:	"Disable SvT music" : 0
 		2:	"Disable SvT Snake win music" : 0
 		4:	"Disable SvT Terrorist win music" : 0
-		//4:	"" : 0
+		8:	"Disable Normal BR music" : 0
+		16: "Disable Special BR music" : 0
 	]
 	
 	svt_terrorist_skin(choices) : "SVT: Terrorist Skin" : "0" : "The skin that terrorists in SvT should have on this map." =
@@ -114,6 +115,8 @@
 	output OnRoundSVMSnakeWin(void) : "Fired when Snake wins in SVT"
 	output OnRoundSVMMonkeyWin(void) : "Fired when Monkeys wins in SVT"
 	output OnNewGamemode(string) : "Fires after all entities have been (re)created, string represents gamemode (ie base, battleroyale, tdm)."
+	output OnRoundBRNormalStart(void) : "A normal round of BR has started."
+	output OnRoundBRSpecialStart(void) : "A Battle Royale round with a special mutator has started."
 	output OnRoundBRKothStart(void) : "Fired when KOTH mode is activated in Battle Royale"
 ]
 
