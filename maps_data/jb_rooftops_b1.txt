@@ -4,6 +4,42 @@
 	{
 		"create"
 		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"797.010254 -1167.751953 905.980835"
+			"angles"		"0 90 0"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-706.576538 -838.079407 118.603806"
+			"angles"		"0 90 0"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-128.047073 -121.271858 72.994476"
+			"angles"		"0 0 0"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"1217.207886 191.354431 532.029236"
+			"angles"		"0 0 0"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"2616.305664 1360.378540 1203.282593"
+			"angles"		"0 0 0"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"1220.249023 2570.683838 1293.657837"
+			"angles"		"0 0 0"
+		}
+		"create"
+		{
 			"classname"		"jb_spawn_all"
 			"origin"		"855.57 -1236.59 577.03"
 			"angles"		"0.00 132.41 0.00"
