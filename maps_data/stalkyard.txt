@@ -194,6 +194,32 @@
 			"origin"		"-261.45 348.92 7.53"
 			"angles"		"0.00 -150.42 0.00"
 		}
+		
+		
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-108.568779 -280.591980 163.031250"
+			"angles"		"0 180 0"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-134.924423 203.417770 266.549377"
+			"angles"		"0 -90 0"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"489.915924 1206.931519 269.341492"
+			"angles"		"0 -90 0"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-1006.921570 -300.760315 138.031265;"
+			"angles"		"0 42 0"
+		}
 	}
 	"KOTHAreas"
 	{
