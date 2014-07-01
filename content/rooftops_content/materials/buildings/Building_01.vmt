@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "Buildings/Building_01"
+	"$translucent" 1
+}

@@ -30,6 +30,7 @@ WeaponData
 	SoundData
 	{
 		"single_shot"		"NPC_Headcrab.Attack"
+		"special1"			"NPC_HeadCrab.Idle"
 	}
 
 	TextureData

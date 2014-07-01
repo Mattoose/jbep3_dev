@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Buildings/Building_10"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "Buildings/Building_10_env"
+                "$envmaptint" "[.40 .40 .45]"
+}

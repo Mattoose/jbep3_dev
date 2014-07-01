@@ -1,0 +1,11 @@
+"UnlitGeneric"
+
+{
+	"$baseTexture" "nature/tree003"
+	"$translucent" "1"
+	"$surfaceprop" "default_silent"
+	"$spriteorientation" 	"vp_parallel"
+	"$nocull" 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+}

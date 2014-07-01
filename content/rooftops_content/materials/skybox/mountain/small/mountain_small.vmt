@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "skybox/mountain/small/mountain_small"
+	"$translucent" 1
+}

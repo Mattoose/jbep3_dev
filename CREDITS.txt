@@ -62,6 +62,11 @@ Includes resources from Black Mesa by cman2k & team, licensed under CC BY-NC 3.0
 Asset Credits:
 --------------------------------------
 
+Rooftops
+- http://steamcommunity.com/id/youmenow1/
+- youmenow1@hotmail.com
+- http://www.youtube.com/user/youmenow1
+
 Combine Assassin Playermodel
 - Model: thespectator
 - Skin: deviantpictures

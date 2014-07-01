@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+
+{
+
+	"$spriteorientation"	"vp_parallel_oriented"
+	"$spriteorigin"		"[ 0.50 0.50 ]"
+	"$basetexture"		"nature/tree002"
+	"$translucent"		"1"
+}
