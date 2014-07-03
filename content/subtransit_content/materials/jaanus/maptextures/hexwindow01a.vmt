@@ -1,7 +1,7 @@
 LightmappedGeneric 
 { 
-    "$basetexture"		"jaanus/maptextures/hexwindow01a" 
-    "$bumpmap"			"jaanus/maptextures/hexwindow01n"
+    "$basetexture"		"jaanus/maptexturestures/hexwindow01a" 
+    "$bumpmap"			"jaanus/maptexturestures/hexwindow01n"
   
     "$translucent"		1                        
     "$alpha"			1
@@ -13,6 +13,12 @@ LightmappedGeneric
     "$envmap" 						"env_cubemap"
     "$envmapcontrast" 				0 //1
     "$envmapsaturation" 			.1
+	
+	$detail detail\metal_detail_01
+	$detailscale 11
+	$detailblendfactor .9
+	$detailblendmode 0
+	$ambientocclusion 1
 	
 	//Postal sucks big fat dong
 }

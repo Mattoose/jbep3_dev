@@ -1,0 +1,9 @@
+"LightMappedGeneric"
+{
+"$baseTexture" "jaanus/maptextures/metal_trim01a"
+"$surfaceprop" "metal"
+"$envmap" "env_cubemap"
+"$envmapmask" "jaanus/maptextures/metal_trim01_env"
+"$envmapcontrast" "1.0"
+	"%keywords" "galactopticon"
+}

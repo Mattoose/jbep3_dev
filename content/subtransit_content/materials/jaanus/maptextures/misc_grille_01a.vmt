@@ -1,0 +1,9 @@
+"LightMappedGeneric"
+{
+"$baseTexture" "jaanus/maptextures/misc_grille_01a"
+"$surfaceprop" "tile"
+"$bumpmap" "jaanus/maptextures/misc_grille_01n"
+"$envmap" "env_cubemap"
+"$normalmapalphaenvmapmask" 1
+	"%keywords" "galactopticon"
+}

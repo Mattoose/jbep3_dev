@@ -4,4 +4,10 @@
 	"$envmap" "env_cubemap"
 	"$envmapmask" "jaanus/scrollscreen/mask"
 	"$envmapcontrast" "1.0"
+	
+	$detail detail\metal_detail_01
+	$detailscale 8
+	$detailblendfactor .9
+	$detailblendmode 0
+	
 }

@@ -2,6 +2,7 @@ VertexLitGeneric
 {
 	$basetexture 				"jaanus/keypadbox/diffuse_white"
 	$bumpmap 					"jaanus/keypadbox/normal"
+	$selfillum 					1
 	$phongexponent 				14
 	$phong 						1
 	$phongboost 				"1.33"
@@ -13,5 +14,10 @@ VertexLitGeneric
 
 	//$halflambert 1
 
+	$detail detail\metal_detail_01
+	$detailscale 8
+	$detailblendfactor .9
+	$detailblendmode 0
+	
 	$ambientocclusion 1
 }

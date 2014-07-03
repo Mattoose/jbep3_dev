@@ -13,5 +13,10 @@
 	"$rimlight" "1"												// To enable rim lighting (requires phong)
 	"$rimlightexponent" "2"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+
+	$detail detail\metal_detail_01
+	$detailscale 8
+	$detailblendfactor .9
+	$detailblendmode 0
 }
 

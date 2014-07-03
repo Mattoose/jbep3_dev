@@ -13,6 +13,11 @@ VertexLitGeneric
 	"$envmaptint" "[1 1 .2]"
 
 	//$halflambert 1
+	
+	$detail detail\metal_detail_01
+	$detailscale 8
+	$detailblendfactor .9
+	$detailblendmode 0
 
 	$ambientocclusion 1
 }

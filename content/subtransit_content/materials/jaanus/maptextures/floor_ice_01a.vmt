@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+"$baseTexture" "jaanus/maptextures/floor_ice_01a"
+//"$bumpmap" "jaanus/maptextures/floor_ice_01a"
+"$surfaceprop" "glass"
+	"%keywords" "galactopticon"
+}

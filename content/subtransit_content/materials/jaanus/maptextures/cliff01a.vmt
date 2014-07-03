@@ -1,9 +1,14 @@
 LightmappedGeneric 
 { 
-    "$basetexture"		"jaanus/maptextures/cliff01a" 
-    "$bumpmap"			"jaanus/maptextures/cliff01n"
+    "$basetexture"		"jaanus/maptexturestures/cliff01a" 
+    "$bumpmap"			"jaanus/maptexturestures/cliff01n"
  
     "$surfaceprop"		rock
+	
+	$detail 			detail\rock_detail_01
+	$detailscale 		11
+	$detailblendfactor 	1
+	$detailblendmode 	0
 	
 	//Postal sucks big fat dong
 }

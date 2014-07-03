@@ -1,0 +1,21 @@
+"Unlitgeneric"
+{
+	"$baseTexture"	"jaanus/maptextures/misc_fuzz_01a"
+	"$surfaceprop" "glass"
+	"$additive" "1"
+
+	"$color" "{ 150 150 150 }"
+
+	"Proxies"
+		{
+	
+			"TextureScroll"
+			{
+				"texturescrollvar" "$basetexturetransform"
+				"texturescrollrate" 4
+				"texturescrollangle" 270
+			}
+		
+		}
+	"%keywords" "galactopticon"
+}

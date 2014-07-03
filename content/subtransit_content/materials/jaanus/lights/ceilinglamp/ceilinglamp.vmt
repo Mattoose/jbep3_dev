@@ -8,5 +8,10 @@
 	//"$envmapcontrast" "1"
 	//"$envmapsaturation" "[20.0 20.0 20.0]"
 	"$model" 1				
+	
+	$detail detail\metal_detail_01
+	$detailscale 8
+	$detailblendfactor .9
+	$detailblendmode 0
 }
 

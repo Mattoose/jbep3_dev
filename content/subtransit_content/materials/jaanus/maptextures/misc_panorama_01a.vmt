@@ -1,0 +1,6 @@
+"Unlitgeneric"
+{
+	"$baseTexture"	"jaanus/maptextures/misc_panorama_01a"
+	"$surfaceprop" "glass"
+		"%keywords" "galactopticon"
+}

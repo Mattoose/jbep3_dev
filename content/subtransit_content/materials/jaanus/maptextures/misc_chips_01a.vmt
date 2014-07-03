@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+"$baseTexture" "jaanus/maptextures/misc_chips_01a"
+"$surfaceprop" "computer"
+//"$translucent" "1"
+//"$bumpmap" "jaanus/maptextures/misc_chips_01n"
+	"%keywords" "galactopticon"
+}
