@@ -50,11 +50,7 @@ WeaponData
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		//"reload"			"Default.Reload"
-		//"empty"			"Default.ClipEmpty_Rifle"
-		"single_shot"		"JB.Weapon_Shotgun_Single"
-		"burst"				"JB.Weapon_Shotgun_Burst"
-		"special1"			"JB.Weapon_Shotgun_Pump"
+		"single_shot"		"Weapon_DoubleBarrel.Shoot"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
