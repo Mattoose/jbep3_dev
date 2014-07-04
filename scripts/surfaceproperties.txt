@@ -1129,6 +1129,11 @@
 "default_silent"
 {
 	"gamematerial"	"X"
+	"impacthard"	"JB.Null"
+	"impactsoft"	"JB.Null"
+	"scraperough"	"JB.Null"
+	"scrapesmooth"	"JB.Null"
+	"bulletimpact"	"JB.Null"
 }
 
 // special materials for player controller
@@ -1139,7 +1144,7 @@
 	"elasticity"	"0.001"
 
 	// player is soft & smooth for sound selection
-	"audiohardnessfactor" "0.0"
+	"audiohardnessfactor" "0.0" 
 	"audioroughnessfactor" "0.0"
 }
 

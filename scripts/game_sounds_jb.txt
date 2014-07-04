@@ -74,3 +74,13 @@
 		"wave"	"physics/glass/glass_sheet_break3.wav"
 	}
 }
+
+"JB.Null"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"			"100"
+
+	"wave" "common/null.wav"	
+}

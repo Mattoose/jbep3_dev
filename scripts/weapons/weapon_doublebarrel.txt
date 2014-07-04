@@ -1,0 +1,90 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"				"28"
+	"Bullets"				"12"
+	"CycleTime"				"0.05"
+
+	"BuiltRightHanded"		"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"				"#jb_weapon_doublebarrel"
+	"viewmodel"				"models/weapons/v_doublebarrel.mdl"
+	"playermodel"			"models/weapons/w_remington.mdl"
+	
+	"fov"					"55"
+	
+	"bucket"			"3"
+	"bucket_position"	"5"
+
+	// Ammo parameters
+	"primary_ammo"			"doublebarrel"
+	"secondary_ammo"		"None"
+	"clip_size"				"2" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip2_size"			"-1" 
+	"DefaultAmmoPrimary"	"12" 		// Default total ammo, not clips
+	"DefaultAmmoSecondary"	"0"
+
+	"weight"				"0"
+	"item_flags"			"0"
+	
+	"tracer_interval"	"1" // Show tracers every single shot.
+	
+	// Magazine settings	
+	"magazine_model"			"models/weapons/v_doublebarrel_shell.mdl"
+	"magazine_force_forward"	"-100"
+	"magazine_force_right"		"0" 
+	"magazine_force_up"			"0"
+	"magazine_impact_sound"		"1"
+	
+	Recoil
+	{
+		// Horizontal kickback. Positive = right, negative = left.
+		MinX	-6.0
+		MaxX	8.0
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	9.0
+		MaxY	10.0
+	}
+	
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		//"reload"			"Default.Reload"
+		//"empty"			"Default.ClipEmpty_Rifle"
+		"single_shot"		"JB.Weapon_Shotgun_Single"
+		"burst"				"JB.Weapon_Shotgun_Burst"
+		"special1"			"JB.Weapon_Shotgun_Pump"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"48"
+			"y"			"24"
+			"width"		"23"
+			"height"	"23"
+		}	
+		
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_shotgun"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_shotgun"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}	
+	}
+	
+}
