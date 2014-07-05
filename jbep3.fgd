@@ -239,6 +239,22 @@
 	output OnJump(void) : "Fired when a player (or object) are bounced."
 ]
 
+@SolidClass base(Trigger) = jb_trigger_jump_path : "Bounces players to the nearest node on the given path"
+[
+	target(target_destination) : "Target Path" : "" : "Name of a node in the path system we'll bounce players to."
+	apex_height_boost(float) : "Apex Height Increase" : "0" : "Used to increase the height of our apex. Higher apex = bigger arc." 
+	
+	do_bounce_sound(choices) : "Bounce Sound" : "1" : "Sound played on trigger" =
+	[
+		0 : "None"
+		1 : "Ricochet"
+		2 : "Quake"
+	]
+	
+	// Outputs
+	output OnJump(void) : "Fired when a player (or object) are bounced."
+]
+
 @SolidClass base(Trigger) = jb_trigger_falldeath : "Ricochet style fall death."
 [
 ]
