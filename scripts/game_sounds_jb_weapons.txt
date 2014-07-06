@@ -1014,7 +1014,7 @@
 	"volume"		"1.0"
 	"pitch"			"95,105"
 	"soundlevel"	"SNDLVL_GUNFIRE"
-	"wave"			"weapons/hivehand/single.wav"	
+	"wave"			")weapons/hivehand/single.wav"	
 }
 
 "Weapon_HornetGun.Buzz"
@@ -1031,5 +1031,5 @@
 	"volume"		"1.0"
 	"pitch"			"95,105"
 	"soundlevel"	"SNDLVL_105db"
-	"wave"			")weapons/hivehand/bug_impact.wav"	
+	"wave"			"weapons/hivehand/bug_impact.wav"	
 }
