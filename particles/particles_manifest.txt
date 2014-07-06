@@ -57,4 +57,8 @@ particles_manifest
 	//"file"		"particles/suna_fire.pcf"
 	//"file"		"particles/slappy_titfuck_goddamn.pcf"
 	"file"		"particles/cosmic_fx.pcf"
+	
+	// BMS	
+	"file"		"!particles/grenade_hornet.pcf"
+	"file"		"!particles/weapon_hgun.pcf"
 }

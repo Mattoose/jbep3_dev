@@ -1,0 +1,76 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"				"10"
+	"CycleTime"				"0.1"
+
+	"BuiltRightHanded"		"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"				"#jb_weapon_hornetgun"
+	"viewmodel"				"models/weapons/v_hgun.mdl"
+	"playermodel"			"models/weapons/w_hgun.mdl"
+	"fov"					"55"
+	
+	"bucket"			"3"
+	"bucket_position"	"10"
+
+	// Ammo parameters
+	"primary_ammo"			"hornet"
+	"secondary_ammo"		"None"
+	"clip_size"				"-1" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip2_size"			"-1" 
+	"DefaultAmmoPrimary"	"32" 		// Default total ammo, not clips
+	"DefaultAmmoSecondary"	"0"
+
+	"weight"				"0"
+	"item_flags"			"0"
+	
+	Recoil
+	{
+		// Horizontal kickback. Positive = right, negative = left.
+		MinX	0.0
+		MaxX	0.0
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	0.0
+		MaxY	0.0
+	}
+	
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		//"reload"			"Default.Reload"
+		//"empty"			"Default.ClipEmpty_Rifle"
+		"single_shot"		"weapon_meloncrossbow.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"26"
+			"y"			"5"
+			"width"		"19"
+			"height"	"12"
+		}	
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_meloncrossbow"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_meloncrossbow"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}
+	}
+	
+}
