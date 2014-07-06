@@ -133,6 +133,23 @@
 			"textInsetX"				"50"
 		}
 		
+		"ButtonPlayers"
+		{	
+			"ControlName"				"MainMenuButton"
+			"xpos"						"10"
+			"ypos"						"170"
+			"wide"						"f"
+			"tall"						"30"
+			"visible"					"1"
+			"enabled"					"1"
+			"font"						"Ray30"
+			"labelText"					"#JB_Menu_Players"
+			"command"					"OpenPlayerListDialog"
+			"allcaps"					"1"
+			"proportionalToParent"		"1"
+			"textInsetX"				"50"
+		}
+		
 		"ButtonQuit"
 		{	
 			"ControlName"				"MainMenuButton"
