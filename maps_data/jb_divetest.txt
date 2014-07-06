@@ -52,6 +52,7 @@
 			"classname"		"jb_possess_spawn"
 			"origin"		"0 0 0"
 			"angles"		"0.00 90.59 0.00"
+			"possess_type"	"1"
 		}
 	}
 	"KOTHAreas"
