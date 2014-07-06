@@ -46,6 +46,7 @@ particles_manifest
 	"file"		"particles/jb_weapon_frictnade.pcf"
 	"file"		"particles/jb_weapon_pistol.pcf"
 	"file"		"particles/jb_weapon_gauss.pcf"
+	"file"		"particles/jb_weapon_hornet.pcf"
 	//"file"		"!particles/jb_death_explode.pcf"
 	"file"		"!particles/jb_proj_sci.pcf"
 	"file"		"!particles/jb_misc.pcf"
