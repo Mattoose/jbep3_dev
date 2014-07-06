@@ -1,7 +1,7 @@
 LightmappedGeneric 
 { 
-    "$basetexture"		"jaanus/maptexturestures/cliff01a" 
-    "$bumpmap"			"jaanus/maptexturestures/cliff01n"
+    "$basetexture"		"jaanus/maptextures/cliff01a" 
+    "$bumpmap"			"jaanus/maptextures/cliff01n"
  
     "$surfaceprop"		rock
 	

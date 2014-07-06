@@ -1,7 +1,7 @@
 LightmappedGeneric 
 { 
-    "$basetexture"		"jaanus/maptexturestures/hexwindow01a" 
-    "$bumpmap"			"jaanus/maptexturestures/hexwindow01n"
+    "$basetexture"		"jaanus/maptextures/hexwindow01a" 
+    "$bumpmap"			"jaanus/maptextures/hexwindow01n"
   
     "$translucent"		1                        
     "$alpha"			1

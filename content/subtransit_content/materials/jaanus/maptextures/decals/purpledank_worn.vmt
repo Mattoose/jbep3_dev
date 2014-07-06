@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"jaanus\maptextures\decals\purpledank_worn"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.1"
+	"%keywords" "jaanus"
+
+}
