@@ -1,0 +1,57 @@
+WeaponData
+{
+	"CycleTime"			"1.5"
+	"Damage"			"0"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"					"#jb_weapon_possess_birdshit"
+	"viewmodel"					"models/combine_soldier_anims.mdl"
+	"playermodel"				""
+
+	"fov"					"60"
+
+	"bucket"				"0"
+	"bucket_position"		"0"
+
+	// Ammo parameters
+	"primary_ammo"			"None"
+	"secondary_ammo"		"None"
+	"clip_size"				"-1" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip2_size"			"-1" 
+	"DefaultAmmoPrimary"	"0" 		// Default total ammo, not clips
+	"DefaultAmmoSecondary"	"0"
+
+	"weight"				"0"
+	"item_flags"			"0"
+
+	"MeleeWeapon"			"1"
+	
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"weapon_pistol.Fart"
+		"melee_hit"			"Weapon_Kick.HitBody"
+		"melee_hit_world"	"Weapon_Kick.HitWorld"
+	}
+
+	TextureData
+	{
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_fists"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_fists"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}	
+	}
+	
+}
