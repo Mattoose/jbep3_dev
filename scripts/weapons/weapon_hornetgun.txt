@@ -2,7 +2,7 @@ WeaponData
 {
 	// Weapon characteristics:
 	"Damage"				"10"
-	"CycleTime"				"0.1"
+	"CycleTime"				"0.25"
 
 	"BuiltRightHanded"		"1"
 	
@@ -10,7 +10,7 @@ WeaponData
 	"printname"				"#jb_weapon_hornetgun"
 	"viewmodel"				"models/weapons/v_hgun.mdl"
 	"playermodel"			"models/weapons/w_hgun.mdl"
-	"fov"					"55"
+	"fov"					"65"
 	
 	"bucket"			"3"
 	"bucket_position"	"10"
@@ -20,11 +20,11 @@ WeaponData
 	"secondary_ammo"		"None"
 	"clip_size"				"-1" 		// Max ammo inside a clip. -1 = Non-clip weapon
 	"clip2_size"			"-1" 
-	"DefaultAmmoPrimary"	"32" 		// Default total ammo, not clips
+	"DefaultAmmoPrimary"	"16" 		// Default total ammo, not clips
 	"DefaultAmmoSecondary"	"0"
 
 	"weight"				"0"
-	"item_flags"			"0"
+	"item_flags"			"1"
 	
 	Recoil
 	{
