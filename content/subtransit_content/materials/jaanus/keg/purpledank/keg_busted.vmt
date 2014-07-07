@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	$baseTexture "jaanus\keg\purpledank\diffuse"
+	$bumpmap "jaanus\keg\purpledank\normal_busted"
+	$phongexponent 14
+	$phong 1
+	$phongboost "1.33"
+	$phongtint "[1 0.8 0.33]"
+	$phongfresnelranges "[1 3 9]"
+	$envmap env_cubemap
+	$normalmapalphaenvmapmask 1
+
+	//"$envmaptint" "[1 1 .2]"
+
+	//$halflambert 1
+	
+	$detail detail\metal_detail_01
+	$detailscale 6
+	$detailblendfactor 1
+	$detailblendmode 0
+
+	$ambientocclusion 1
+}

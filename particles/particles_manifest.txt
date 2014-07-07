@@ -62,4 +62,7 @@ particles_manifest
 	// BMS	
 	"file"		"!particles/grenade_hornet.pcf"
 	"file"		"!particles/weapon_hgun.pcf"
+
+	// jb_subtransit
+	"file"		"particles/dank_spray.pcf"
 }

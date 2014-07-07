@@ -1,0 +1,26 @@
+VertexLitGeneric
+{
+	$baseTexture "jaanus\keg\purpledank\diffuse_red"
+	$bumpmap "jaanus\keg\purpledank\normal"
+	
+	
+	//$phongexponent 14
+	$phong 1
+	$PhongExponentTexture "jaanus\keg\purpledank\exponent_red"
+	$phongboost "6"
+	$phongtint "[1 0.2 0.5]"
+	$phongfresnelranges	"[1 3 8]"
+
+	$rimlight               1
+	//$rimlightexponent       2
+	$rimlightboost          .5	
+	$rimmask 1
+	
+	
+	$detail detail\metal_detail_01
+	$detailscale 8
+	$detailblendfactor .9
+	$detailblendmode 0
+
+	$ambientocclusion 1
+}
