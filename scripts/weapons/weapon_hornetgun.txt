@@ -12,7 +12,7 @@ WeaponData
 	"playermodel"			"models/weapons/w_hgun.mdl"
 	"fov"					"65"
 	
-	"bucket"			"3"
+	"bucket"			"6"
 	"bucket_position"	"10"
 
 	// Ammo parameters
