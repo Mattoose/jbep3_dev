@@ -227,7 +227,7 @@
 [
 	target(target_destination) : "Target" : "" : "Name of entity we'll bounce players to."
 	apex_height_boost(float) : "Apex Height Increase" : "0" : "Used to increase the height of our apex. Higher apex = bigger arc." 
-	soft_landing(integer) : "Soft Landing" : "0" : "If set to 1, the player will never take fall damage next time they land."
+	soft_landing(integer) : "Soft Landing" : 0 : "If set to 1, the player will never take fall damage next time they land."
 	
 	do_bounce_sound(choices) : "Bounce Sound" : "1" : "Sound played on trigger" =
 	[
@@ -244,7 +244,7 @@
 [
 	target(target_destination) : "Target Path" : "" : "Name of a node in the path system we'll bounce players to."
 	apex_height_boost(float) : "Apex Height Increase" : "0" : "Used to increase the height of our apex. Higher apex = bigger arc." 
-	soft_landing(integer) : "Soft Landing" : "0" : "If set to 1, the player will never take fall damage next time they land."
+	soft_landing(integer) : "Soft Landing" : 0 : "If set to 1, the player will never take fall damage next time they land."
 	
 	do_bounce_sound(choices) : "Bounce Sound" : "1" : "Sound played on trigger" =
 	[
