@@ -161,7 +161,7 @@
 			"enabled"				"1"
 			"font"					"Ray30"
 			"labelText"				"#JB_Menu_Quit"
-			"command"				"engine quit"
+			"command"				"Quit"
 			"allcaps"				"1"
 			"proportionalToParent"		"1"
 			"textInsetX"				"50"
