@@ -40,6 +40,7 @@ WeaponData
 	SoundData
 	{
 		"special1"	"Weapon_Displacer.Beep"
+		"special2"	"Weapon_Displacer.BeepAlt"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.

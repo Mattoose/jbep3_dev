@@ -1072,7 +1072,16 @@
 {
 	"channel"		"CHAN_AUTO"
 	"volume"		"1.0"
-	"pitch"			"110"
+	"pitch"			"120"
+	"soundlevel"	"SNDLVL_75db"
+	"wave"			"buttons/blip1.wav"
+}
+
+"Weapon_Displacer.BeepAlt"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"90"
 	"soundlevel"	"SNDLVL_75db"
 	"wave"			"buttons/blip1.wav"
 }
