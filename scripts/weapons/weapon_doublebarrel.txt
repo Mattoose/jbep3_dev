@@ -51,6 +51,7 @@ WeaponData
 	SoundData
 	{
 		"single_shot"		"Weapon_DoubleBarrel.Shoot"
+		"special1"			"JB.Weapon_AX47_Swing"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
