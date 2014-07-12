@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "jaanus\computer\computerbody_black"
+	"$selfillum" 1
+	"$bumpmap" "jaanus\computer\computernormal"
+	
+	"$model" "1"
+	"$phong" "1"
+	"$phongboost" "0.5"
+	"$phongexponenttexture" "jaanus\computer\computerexponent"
+	"$phongalbedotint" "1"								
+	"$phongfresnelranges"	"[1 1 1]"
+	
+	"$rimlight" "1" // To enable rim lighting (requires phong)
+	"$rimlightexponent" "1" // Exponent for phong component of rim lighting
+	"$rimlightboost" "1" // Boost for ambient cube component of rim lighting
+}

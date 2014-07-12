@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "jaanus\sofa\sofasystem"
+	"$envmap" "env_cubemap"
+}
