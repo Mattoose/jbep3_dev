@@ -15,7 +15,7 @@ WeaponData
 	"fov"					"55"
 	
 	"bucket"			"3"
-	"bucket_position"	"5"
+	"bucket_position"	"3"
 
 	// Ammo parameters
 	"primary_ammo"			"doublebarrel"

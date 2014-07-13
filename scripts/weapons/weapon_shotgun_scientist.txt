@@ -14,7 +14,7 @@ WeaponData
 	"PlayerAnimationExtension"	"m3s90"
 	
 	"bucket"				"3"
-	"bucket_position"		"3"
+	"bucket_position"		"4"
 
 	// Ammo parameters
 	"primary_ammo"			"scientists"
