@@ -2,6 +2,7 @@ soundscapes_manifest
 {
 	"file"		"scripts/soundscapes.txt"
 	"file"		"scripts/soundscapes_jb_bounce.txt"
+	"file"		"scripts/soundscapes_jb_passionpit.txt"
 
 	// List additional soundscape files here
 
