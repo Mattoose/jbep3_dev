@@ -1,0 +1,26 @@
+"LightMappedGeneric"
+{
+"$baseTexture" "jaanus/maptextures/wood_column01a"
+"$surfaceprop" "wood"
+	$bumpmap "jaanus/maptextures/wood_column01n"
+	
+	
+	//$phongexponent 14
+	$phong 1
+	$PhongExponentTexture "jaanus/maptextures/wood_column01x"
+	$phongboost "2"
+	$phongtint "[0.7 0.3 0.3]"
+	$phongfresnelranges	"[1 3 8]"
+
+	$rimlight               1
+	//$rimlightexponent       2
+	$rimlightboost          .5	
+	$rimmask 1
+	
+	
+$detail detail\wood_detail_01
+$detailscale 2.563
+$detailblendfactor .8
+$detailblendmode 0
+	"%keywords" "jaykinbacon"
+}
