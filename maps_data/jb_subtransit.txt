@@ -1,4 +1,4 @@
-"jb_subtransit_b1"
+"jb_subtransit"
 {
 	"KOTHAreas"
 	{
@@ -12,7 +12,17 @@
 				"max"		"-1433.0000 262.0000 -226.0000"
 			}
 		}
-		"jims weapon realism zone"
+		"jims office"
+		{
+			"bounding_min"		"-1082.0000 1286.0000 -99.0000"
+			"bounding_max"		"-1572.0000 637.0000 -226.0000"
+			"area_0"
+			{
+				"min"		"-1082.0000 1286.0000 -99.0000"
+				"max"		"-1572.0000 637.0000 -226.0000"
+			}
+		}
+		"weapon realism zone"
 		{
 			"bounding_min"		"226.0000 1163.0000 -343.0000"
 			"bounding_max"		"445.0000 887.0000 -483.0000"
