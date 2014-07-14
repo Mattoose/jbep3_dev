@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+"$baseTexture" "jaanus/maptextures/wall_ornate_01b"
+//"$bumpmap" "jaanus/maptex/wall_ornate_01_n"
+"$surfaceprop" "plaster"
+	"%keywords" "galactopticon"
+}

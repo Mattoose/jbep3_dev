@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "jaanus\doors\door_glass_glass"
+	"$translucent" 1
+}

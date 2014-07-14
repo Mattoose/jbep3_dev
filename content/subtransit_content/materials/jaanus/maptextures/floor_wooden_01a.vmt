@@ -1,0 +1,9 @@
+"LightMappedGeneric"
+{
+"$baseTexture" "jaanus/maptextures/floor_wood01a"
+"$surfaceprop" "wood"
+"$bumpmap" "jaanus/maptextures/floor_wood01n"
+"$envmap" "env_cubemap"
+"$normalmapalphaenvmapmask" 1
+	"%keywords" "jaykinbacon"
+}

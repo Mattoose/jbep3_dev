@@ -1,0 +1,9 @@
+"LightMappedGeneric"
+{
+"$baseTexture" "jaanus/maptextures/wall_purpledank01a"
+"$envmap" "env_cubemap"
+"$envmapmask" "jaanus/maptextures/wall_purpledank_env"
+"$envmapcontrast" "1.0"
+"$surfaceprop" "plaster"
+	"%keywords" "jaykinbacon"
+}
