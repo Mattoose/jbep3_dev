@@ -1,0 +1,32 @@
+//INDEX//
+//passionpit
+"passionpit"
+{
+	"playlooping"
+	{
+		"wave"	"ambient/atmosphere/corridor.wav"
+		"volume" "0.3"
+		"pitch" "95"
+	}
+	"playrandom"
+	{
+		"volume" ".5"
+		"pitch" "100"
+		"time" "20,40"
+		"rndwave"
+		{
+			"wave" "intercom/intercom01.wav"
+			"wave" "intercom/intercom02.wav"
+			"wave" "intercom/intercom03.wav"
+			"wave" "intercom/intercom04.wav"
+			"wave" "intercom/intercom05.wav"
+			"wave" "intercom/intercom06.wav"
+			"wave" "intercom/intercom07.wav"
+			"wave" "intercom/intercom08.wav"
+			"wave" "intercom/intercom09.wav"
+			"wave" "intercom/intercom10.wav"
+			"wave" "intercom/intercom11.wav"
+			"wave" "intercom/intercom12.wav"
+		}
+	}
+}
