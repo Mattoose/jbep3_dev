@@ -108,4 +108,205 @@
 			}
 		}
 	}
+	"Entities"
+	{
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-306.24 -110.87 512.03"
+			"angles"		"0.00 33.53 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"245.62 439.30 512.03"
+			"angles"		"0.00 -140.05 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-284.56 423.82 320.03"
+			"angles"		"0.00 -0.55 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"243.01 -93.55 352.03"
+			"angles"		"0.00 145.97 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-287.96 269.76 144.03"
+			"angles"		"0.00 -1.41 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-206.92 127.12 183.26"
+			"angles"		"0.00 88.32 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"220.42 391.10 144.03"
+			"angles"		"0.00 -141.56 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"190.46 -111.50 -63.97"
+			"angles"		"0.00 91.29 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-350.95 241.49 -63.97"
+			"angles"		"0.00 -179.64 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-367.76 -368.92 -237.56"
+			"angles"		"0.00 38.46 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"406.29 -382.91 -255.97"
+			"angles"		"0.00 130.53 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"342.06 414.67 -240.98"
+			"angles"		"0.00 -90.77 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-200.09 -1451.34 -15.97"
+			"angles"		"0.00 -93.67 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-685.80 -1642.40 -127.97"
+			"angles"		"0.00 94.40 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"1131.14 -1663.76 -243.97"
+			"angles"		"0.00 140.53 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"1114.51 -779.62 -263.97"
+			"angles"		"0.00 158.59 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"865.94 1072.51 -255.97"
+			"angles"		"0.00 -143.86 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-1808.84 1054.87 -246.41"
+			"angles"		"0.00 -0.84 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-1859.65 913.89 -232.49"
+			"angles"		"0.00 -69.44 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-1883.00 -520.16 -263.97"
+			"angles"		"0.00 81.26 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-2.32 319.62 -615.97"
+			"angles"		"0.00 140.01 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-380.14 1216.97 -636.97"
+			"angles"		"0.00 -87.86 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-760.14 629.47 -615.97"
+			"angles"		"0.00 3.02 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-384.58 -1139.08 -636.97"
+			"angles"		"0.00 92.88 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"957.32 -29.59 -602.36"
+			"angles"		"0.00 145.81 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-152.57 -1323.34 208.03"
+			"angles"		"0.00 88.13 0.00"
+			"possess_type"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-787.55 -1539.09 -127.97"
+			"angles"		"0.00 82.98 0.00"
+			"possess_type"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"735.61 918.76 754.45"
+			"angles"		"0.00 -127.23 0.00"
+			"possess_type"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-1537.37 775.47 483.81"
+			"angles"		"0.00 -39.19 0.00"
+			"possess_type"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-1764.91 -778.91 436.22"
+			"angles"		"0.00 33.41 0.00"
+			"possess_type"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"293.01 -158.36 544.03"
+			"angles"		"0.00 -47.90 0.00"
+			"possess_type"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"3566.83 -136.71 -228.75"
+			"angles"		"0.00 42.74 0.00"
+		}
+	}
 }
