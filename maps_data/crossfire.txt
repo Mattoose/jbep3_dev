@@ -369,7 +369,18 @@
 			"origin"		"-86.54 -285.39 -1486.97"
 			"angles"		"0.00 -89.42 0.00"
 		}
-	}
+		"create"
+		{
+			"classname"		"logic_relay"
+			"origin"		"-366.97 -955.81 -1695.97"
+			"angles"		"0.00 98.72 0.00"
+	
+"targetname" "strike_mm"
+"OnTrigger" "secret_door,Unlock,,30"
+"OnTrigger" "secret_door,Lock,,55"	}
+
+
+
 	"KOTHAreas"
 	{
 		"back left building"
