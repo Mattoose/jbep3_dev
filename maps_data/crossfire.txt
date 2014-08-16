@@ -378,7 +378,7 @@
 "targetname" "strike_mm"
 "OnTrigger" "secret_door,Unlock,,30"
 "OnTrigger" "secret_door,Lock,,55"	}
-
+}
 
 
 	"KOTHAreas"
