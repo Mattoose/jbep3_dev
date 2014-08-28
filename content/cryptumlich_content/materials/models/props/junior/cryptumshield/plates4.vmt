@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "lich/plates/plates4"
+	"$bumpmap" "lich/plates/plates4_normal"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "metal"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint"		"[.5 .5 .5]"
+}

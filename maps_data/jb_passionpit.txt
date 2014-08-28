@@ -133,4 +133,100 @@
 			}
 		}
 	}
+	"Entities"
+	{
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"152.67 -1803.73 0.03"
+			"angles"		"0.00 45.91 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"497.89 -1.31 -46.03"
+			"angles"		"0.00 -1.48 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-25.50 -2.86 456.03"
+			"angles"		"0.00 2.18 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"156.27 1789.78 0.03"
+			"angles"		"0.00 -47.28 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-1408.34 1797.22 544.03"
+			"angles"		"0.00 48.16 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-1424.09 -1781.34 544.03"
+			"angles"		"0.00 -49.46 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-1242.87 -1.02 320.00"
+			"angles"		"0.00 -2.27 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"502.09 5.87 1376.03"
+			"angles"		"0.00 178.18 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"775.82 370.90 1376.03"
+			"angles"		"0.00 89.24 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"762.67 -374.03 1376.03"
+			"angles"		"0.00 -91.43 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-149.93 -7.47 896.03"
+			"angles"		"0.00 -0.35 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"8212.41 -1464.26 -7756.97"
+			"angles"		"0.00 -1.15 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"99.45 1570.64 576.03"
+			"angles"		"0.00 -133.87 0.00"
+			"possess_type"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"101.15 -1571.08 576.03"
+			"angles"		"0.00 143.96 0.00"
+			"possess_type"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"414.84 4.70 1568.03"
+			"angles"		"0.00 178.42 0.00"
+			"possess_type"		"1"
+		}
+	}
 }

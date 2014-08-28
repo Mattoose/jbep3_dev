@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "lich/panels/panels4"
+	"$bumpmap" "lich/panels/panels4_normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "Metal"
+	"$envmaptint"		"[0.1 0.1 0.1]"
+}
+

@@ -1,0 +1,8 @@
+vertexlitgeneric
+{
+	"$basetexture" "models/props/junior/halo_teleport_arms"
+	"$surfaceprop" metal
+	//"$selfillum" 1
+
+	"$model" 1
+} 
