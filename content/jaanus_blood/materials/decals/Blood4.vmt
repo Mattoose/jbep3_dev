@@ -1,0 +1,11 @@
+"DecalModulate"
+{
+	"$translucent" 1
+	"$basetexture" "Decals/Blood4"
+	//"$bumpmap"	"Decals/Blood4_n"
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" 1
+	////"$envmapsaturation" [1.0 1.0 1.0]
+	"$decal" 1
+	"$decalscale" 0.08
+}
