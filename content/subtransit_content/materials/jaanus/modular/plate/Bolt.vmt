@@ -1,0 +1,10 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" 					"jaanus/modular/plate/bolt/diffuse"
+    "$envmap" 						"env_cubemap"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$bumpmap" 						"jaanus/modular/plate/bolt/normal"
+	"$model"						"1"
+	
+	//postal likes boys
+}

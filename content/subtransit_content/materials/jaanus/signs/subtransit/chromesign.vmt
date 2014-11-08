@@ -1,0 +1,11 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" 					"jaanus/signs/subtransit/diffuse"
+    "$envmap" 						"env_cubemap"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$bumpmap" 						"jaanus/signs/subtransit/normal"
+	"$phong" 						"1"
+	"$phongboost" 					"1"	
+	"$phongfresnelranges"			"[0.4 1.2 3.2]"
+	"$model"						"1"
+}

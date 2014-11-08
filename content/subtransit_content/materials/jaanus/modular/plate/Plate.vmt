@@ -1,0 +1,12 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" 			"jaanus/modular/plate/diffuse"
+    "$envmap" 				"env_cubemap"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$bumpmap" 				"jaanus/modular/plate/normal"
+	"$phong" 				"1"
+	"$phongboost" 			"0.8"	
+	"$phongfresnelranges"	"[0.4 1.2 3.2]"
+	"$phongexponenttexture"	"jaanus/modular/plate/spec"
+	"$model"				"1"
+}
