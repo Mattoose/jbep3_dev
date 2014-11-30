@@ -1,1 +1,1 @@
-"editor_shader"{	"$shadername"	"jb_pp_dubstep"	"$MUTABLE_01"	"1.0"}
+"Screenspace_Dubstep"{	"$basetexture"	"_rt_FullFrameFB"}

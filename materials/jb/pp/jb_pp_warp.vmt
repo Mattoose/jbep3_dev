@@ -1,1 +1,1 @@
-"editor_shader"{	"$shadername"	"jb_pp_warp"}
+"Screenspace_Friction"{	"$basetexture"	"_rt_FullFrameFB"}
