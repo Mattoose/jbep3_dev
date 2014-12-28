@@ -1,0 +1,74 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"20"	// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
+	"CycleTime"			"0.08"		// time between shoots
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#jb_weapon_mp5k"
+	"viewmodel"			"models/weapons/v_mp5k.mdl"
+	"playermodel"			"models/weapons/w_smg_mp5.mdl"
+	"PlayerAnimationExtension"	"mp5"
+	
+	"bucket"			"2"
+	"bucket_position"		"20"
+
+	// Ammo parameters
+	"primary_ammo"			"mp5k"
+	"secondary_ammo"		"None"
+	"clip_size"				"30" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip2_size"			"-1" 
+	"DefaultAmmoPrimary"	"90" 		// Default total ammo, not clips
+	"DefaultAmmoSecondary"	"0"
+
+	"weight"			"0"
+	"item_flags"			"0"
+	
+	Recoil
+	{
+		// Horizontal kickback. Positive = right, negative = left.
+		MinX	-2.0
+		MaxX	2.0
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	2.4
+		MaxY	2.9
+	}
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		//"reload"			"Default.Reload"
+		//"empty"			"Default.ClipEmpty_Rifle"
+		"single_shot"			"Weapon_MP5Navy.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair" 
+		{
+			"file"		"crosshairs/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"23"
+			"height"	"23"
+		}	
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_mp5"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_mp5"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}	
+	}
+}
