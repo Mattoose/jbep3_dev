@@ -12,7 +12,7 @@ WeaponData
 	"PlayerAnimationExtension"	"mp5"
 	
 	"bucket"			"2"
-	"bucket_position"		"20"
+	"bucket_position"		"0"
 
 	// Ammo parameters
 	"primary_ammo"			"mp5k"
