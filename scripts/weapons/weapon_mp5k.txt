@@ -10,6 +10,7 @@ WeaponData
 	"viewmodel"			"models/weapons/v_mp5k.mdl"
 	"playermodel"			"models/weapons/w_smg_mp5.mdl"
 	"PlayerAnimationExtension"	"mp5"
+	"fov"					"50"
 	
 	"bucket"			"2"
 	"bucket_position"		"0"
