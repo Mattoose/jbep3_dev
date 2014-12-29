@@ -59,5 +59,37 @@
 		"enabled"				"1"
 			
 		"font"					"IngameMenuTitle"
+		"allcaps"				"1"
 	}
+	
+	"GamemodeLabel"
+	{
+		"fieldName"				"GamemodeLabel"
+		"ControlName"			"Label"
+		
+		"xpos"					"20"
+		"ypos"					"56"
+		"wide"					"600"
+		"tall"					"24"
+		
+		"visible"				"1"
+		"enabled"				"1"
+			
+		"font"					"Ray20"
+		"allcaps"				"1"
+	}
+	
+	"HostnameLabel"
+	{
+		"fieldName"				"HostnameLabel"
+		"ControlName"			"Label"
+		
+		"xpos"					"20"
+		"ypos"					"440"
+		"wide"					"600"
+		"tall"					"20"
+		
+		"visible"				"1"
+		"enabled"				"1"
+	}	
 }
