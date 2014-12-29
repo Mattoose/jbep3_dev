@@ -51,7 +51,7 @@ WeaponData
 	{
 		//"reload"			"Default.Reload"
 		//"empty"			"Default.ClipEmpty_Rifle"
-		"single_shot"			"Weapon_MP5Navy.Single"
+		"single_shot"			"Weapon_M4A1.Silenced"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
