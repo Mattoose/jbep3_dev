@@ -34,6 +34,16 @@ WeaponData
 		// Vertical kickback. Positive = up, negative = down.
 		MinY	2.4
 		MaxY	2.9
+		
+		AlternateForce
+		{
+			// Horizontal kickback. Positive = right, negative = left.
+			MinX	-1.0
+			MaxX	1.0
+			// Vertical kickback. Positive = up, negative = down.
+			MinY	1.4
+			MaxY	1.9
+		}
 	}
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
