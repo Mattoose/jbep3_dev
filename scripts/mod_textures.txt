@@ -351,7 +351,7 @@
 				"height"	"42"
 		}
 		
-		"d_mp5"
+		"d_mp5k"
 		{
 				"file"	"HUD/d_jbicons"
 				"x"		"114"
