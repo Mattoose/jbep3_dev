@@ -92,4 +92,52 @@
 		"visible"				"1"
 		"enabled"				"1"
 	}	
+	
+	// MOTD stuff
+	"MotdTitle"
+	{
+		"fieldName"				"MotdTitle"
+		"ControlName"			"Label"
+		
+		"xpos"					"r320"
+		"ypos"					"128"
+		"wide"					"300"
+		"tall"					"24"
+		
+		"visible"				"0"
+		"enabled"				"1"
+			
+		"font"					"Ray20"
+		"allcaps"				"1"
+		"labelText"				"#JB_Loading_MOTD"
+	}
+	
+	"MotdTextPanel"
+	{
+		"fieldName"				"MotdTextPanel"
+		"ControlName"			"Label"
+		
+		"xpos"					"r320"
+		"ypos"					"150"
+		"wide"					"300"
+		"tall"					"300"
+		
+		"visible"				"0"
+		"enabled"				"1"
+		"textAlignment"			"north-west"
+	}	
+	
+	"MotdHtmlPanel"
+	{
+		"fieldName"				"MotdHtmlPanel"
+		"ControlName"			"HTML"
+		
+		"xpos"					"r320"
+		"ypos"					"150"
+		"wide"					"300"
+		"tall"					"300"
+		
+		"visible"				"0"
+		"enabled"				"1"
+	}		
 }
