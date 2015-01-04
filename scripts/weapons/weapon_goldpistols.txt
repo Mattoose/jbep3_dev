@@ -1,7 +1,7 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"Damage"			"43"	// damage per bullet
+	"Damage"			"46"	// damage per bullet
 	"Bullets"			"1"		// bullets per shoot
 	"CycleTime"			"0.1"		// time between shoots
 
@@ -31,8 +31,8 @@ WeaponData
 		MinX	-1.3
 		MaxX	1.3
 		// Vertical kickback. Positive = up, negative = down.
-		MinY	2.0
-		MaxY	3.5
+		MinY	3.0
+		MaxY	4.8
 	}
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
