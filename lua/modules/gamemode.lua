@@ -47,6 +47,7 @@ function get( sName )
 	return gamemodes[ sName ]
 end
 
+-- Checks if a gamemode by this name is registered
 function isRegistered( sName )
 	return gamemodes[ sName ] ~= nil
 end
