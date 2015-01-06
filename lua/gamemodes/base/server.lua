@@ -4,5 +4,9 @@ AddClientFile( "client.lua" )
 AddClientFile( "shared.lua" )
 
 function GM:SelectDefaultTeam()
-	return TEAM_PLAYERS
+	if math.random(1,2) == 1 then
+		return TEAM_RED
+	else
+		return TEAM_GREEN
+	end
 end
