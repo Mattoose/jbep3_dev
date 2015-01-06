@@ -1,5 +1,6 @@
 -- Gamemode module
 local _G = _G
+local table = table
 
 module("gamemode")
 
@@ -13,13 +14,19 @@ function register( tMode, sName, sBase )
 	end
 
 	-- Inherit from a base mode if it exists
-	local tBase = gamemodes[ sBase ]
-	if ( tBase ~= nil ) then
-		tMode = table.inherit( tMode, tBase )
+	if sBase ~= sName then
+		local tBase = gamemodes[ sBase ]
+		if ( tBase ~= nil ) then
+			tMode = table.inherit( tMode, tBase )
+		else
+			_G.print( "Error deriving gamemode, "..sBase.." not found.\n" )
+		end
 	end
+	
+	-- Add a self accessor
 
 	-- Dump us into the gamemodes table
-	_G.print( "Registered gamemode '".. sName .."'")
+	_G.print( "Registered gamemode '"..sName.."' (derived from "..sBase..")" )
 	gamemodes[ sName ] = tMode
 end
 
@@ -27,7 +34,6 @@ end
 function call( sName, ... )
 	-- Some sanity checking
 	if ( _G.GAMEMODE == nil) then
-		_G.print( "Error calling gamemode function, no gamemode loaded.\n" )
 		return
 	end
 
@@ -39,7 +45,8 @@ function call( sName, ... )
 	-- TODO: Pass through hook system
 
 	-- Call func
-	return _G.GAMEMODE[ sName ]( ... )
+	local funcToCall = _G.GAMEMODE[ sName ]
+	return funcToCall( _G.GAMEMODE, ... )
 end
 
 -- Gets gamemode from our local table, called by engine
