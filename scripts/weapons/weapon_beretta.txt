@@ -19,7 +19,7 @@ WeaponData
 	// Ammo parameters
 	"primary_ammo"			"beretta"
 	"secondary_ammo"		"None"
-	"clip_size"				"30" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip_size"				"15" 		// Max ammo inside a clip. -1 = Non-clip weapon
 	"clip2_size"			"-1" 
 	"DefaultAmmoPrimary"	"90" 		// Default total ammo, not clips
 	"DefaultAmmoSecondary"	"0"
