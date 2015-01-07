@@ -26,7 +26,7 @@ function register( tMode, sName, sBase )
 	-- Add a self accessor
 
 	-- Dump us into the gamemodes table
-	_G.print( "Registered gamemode '"..sName.."' (derived from "..sBase..")" )
+	_G.print( "Registered gamemode '"..sName.."' (derived from "..sBase..")\n" )
 	gamemodes[ sName ] = tMode
 end
 

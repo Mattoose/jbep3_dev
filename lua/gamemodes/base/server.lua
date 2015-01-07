@@ -20,3 +20,53 @@ end
 function GM:Think()
 end
 	
+function GM:PlayerSpawn( pl )
+end
+
+function GM:PlayerCanRespawn( pl )
+end
+
+function GM:PlayerDefaultItems( pl )
+	pl:GiveAllWeapons()
+end
+
+-- Misc 
+
+function GM:RespawnPlayers( bForceRespawn, iTeamFilter )
+	-- Iterate all players, respawning
+	for k, v in pairs( player.GetAll() ) do
+		-- Only respawn players on the given team (if we gave a team)
+		if iTeamFilter == nil or iTeamFilter == v:GetTeamNumber() then
+			-- Only respawn if they are not alive (or if we force)
+			if bForceRespawn or not v:IsAlive() then
+				v:ForceRespawn()
+			end
+		end
+	end
+end
+
+-- Returns table containing all the currently living players
+function GM:AlivePlayers()
+	local alive = {}
+
+	for k, v in pairs( player.GetAll() ) do
+		if v:IsAlive() and v:GetTeamNumber() == TEAM_PLAYERS then
+			table.insert( alive, v )
+		end
+	end
+
+	return alive
+end
+
+-- Returns total number of players on a non-spectator team
+function GM:CountActivePlayers()
+	local total = 0
+
+	for k, v in pairs( player.GetAll() ) do
+		if v:GetTeamNumber() > TEAM_SPECTATORS then
+			total = total + 1
+		end
+	end
+
+	return total
+end
