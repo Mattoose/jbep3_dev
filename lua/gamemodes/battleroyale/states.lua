@@ -80,7 +80,7 @@ states.Round = {}
 function states.Round:Enter( gm )
 	global.ChatPrintAll( "Fight!" )
     gm:RespawnPlayers( false ) -- Respawn dead players
-	temp.CreateRoundTimer( 20 )
+	temp.CreateRoundTimer( 60 )
 	
 	for k, v in pairs( gm:AlivePlayers() ) do
 		if v:GetTeamNumber() == TEAM_PLAYERS then
