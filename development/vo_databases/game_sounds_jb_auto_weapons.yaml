@@ -223,3 +223,11 @@ sounds:
     category: ricochet_discsounds
     wave_prefix: )
     vcd: false  
+
+  Weapon_GoldPistols.Single:
+    wave: weapons/goldpistols/gold-fire.wav
+    category: weapon
+    wave_prefix: 
+    vcd: false  
+
+    

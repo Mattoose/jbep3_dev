@@ -1085,3 +1085,12 @@
 	"soundlevel"	"SNDLVL_75db"
 	"wave"			"buttons/blip1.wav"
 }
+
+"Weapon_GoldPistols.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"			"98,105"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"			"weapons/goldpistols/gold-fire.wav"	
+}
