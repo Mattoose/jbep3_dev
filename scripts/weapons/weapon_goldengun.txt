@@ -8,7 +8,7 @@ WeaponData
 	"playermodel"				"models/weapons/w_goldengun.mdl"
 	"PlayerAnimationExtension"	"mp5"
 	
-	"bucket"				"6"
+	"bucket"				"2"
 	"bucket_position"		"10"
 
 	// Ammo parameters

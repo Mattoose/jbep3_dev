@@ -13,7 +13,7 @@ WeaponData
 	"fov"					"65"
 	
 	"bucket"			"6"
-	"bucket_position"	"10"
+	"bucket_position"	"11"
 
 	// Ammo parameters
 	"primary_ammo"			"hornet"
