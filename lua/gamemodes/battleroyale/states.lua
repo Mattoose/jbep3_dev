@@ -40,6 +40,11 @@ function GM:SetTransitionDelay( newTime )
 	transitionTime = CurTime() + newTime
 end
 
+local function StopMusicEndRound( gm ) 
+	gm:ChangeState( "PostRound" )
+	temp.BroadcastSound( 0, "AI_BaseNPC.SentenceStop" ) -- Stops sounds (replace me)
+end
+
 -- 
 -- Pregame state
 -- Server has < 2 active players
@@ -78,9 +83,12 @@ end
 --
 states.Round = {}
 function states.Round:Enter( gm )
-	global.ChatPrintAll( "Fight!" )
     gm:RespawnPlayers( false ) -- Respawn dead players
-	temp.CreateRoundTimer( 60 )
+	gm.ChosenKothArea = nil
+	temp.CreateRoundTimer( math.RemapValClamped( #gm:AlivePlayers(), 2, 10, 60, 110 ) )
+
+	-- Round Music
+	temp.BroadcastSound( 0, "JB.BRMusic_"..math.random( 2 ) )
 	
 	for k, v in pairs( gm:AlivePlayers() ) do
 		if v:GetTeamNumber() == TEAM_PLAYERS then
@@ -94,12 +102,151 @@ function states.Round:Think( gm )
 	local alivePlayers = gm:AlivePlayers()
 	local totalAlivePlayers = #alivePlayers
 
-	if totalAlivePlayers <= 1 or timeLeft <= 0 then
-		gm:FindWinner()
+	-- Check if we should enter KOTH mode
+	local iKothTimeBegin = 35
+	local bCanEnterKothMode = totalAlivePlayers == 2 or timeLeft <= iKothTimeBegin
+
+	if gm.ChosenKothArea == nil and bCanEnterKothMode then
+		-- Choose an area
+		local chosenArea = nil
+		local potentialAreas = temp.GetKothAreas()
+		if #potentialAreas > 0 then 
+			chosenArea = potentialAreas[ math.random( #potentialAreas ) ]
+		end
+
+		if chosenArea ~= nil then
+			gm.ChosenKothArea = chosenArea
+
+			-- If we're above 35 sec, bring us down to that
+			if timeLeft > iKothTimeBegin then
+				temp.CreateRoundTimer( iKothTimeBegin )
+			end
+
+			-- Broadcast alarm
+			temp.BroadcastSound( 0, "JB.BR_Alarm" );
+
+			-- Chat message
+			global.ChatPrintAll( "#JB_BR_GetToZone", ""..iKothTimeBegin, chosenArea:Name() )
+
+			-- Highlight area
+			chosenArea:CreateHighlight()
+		end
 	end
+
+	-- If we've hit timelimit and there's a koth zone, enter overtime
+	if timeLeft <= 0 and gm.ChosenKothArea ~= nil then
+		gm:ChangeState( "Overtime" ) 
+		return
+	end
+
+	-- If one player remains, round is over now
+	if totalAlivePlayers <= 1 or timeLeft <= 0 then
+		StopMusicEndRound( gm )
+
+		if totalAlivePlayers == 1 then -- alive player is the winner
+			local alivePlayer = alivePlayers[1]
+			global.ChatPrintAll( "#JB_BR_PlayerWon", alivePlayer:GetPlayerName() )
+			alivePlayer:IncrementScore( 1 )
+			temp.BroadcastSound( 0, "JB.Stomped" )
+		else -- Kill everyone
+			global.ChatPrintAll( "#JB_BR_NoWinner" )
+			temp.BroadcastSound( 0, "weapon_pistol.Fart_Kill" )
+
+			-- Kill players
+			for k,v in pairs( alivePlayers ) do
+				-- Todo, set suicide as bombcollar
+				v:CommitSuicide( false, true )
+			end
+		end
+
+		return
+	end
+	
 end
 
 function states.Round:Leave( gm )
+	temp.DestroyRoundTimer()
+end
+
+--
+-- Overtime 
+-- > 1 player alive inside safe zone, instant kill any leavers, kill all at time limit
+--
+local bAnnouncedOvertime = false
+states.Overtime = {}
+function states.Overtime:Enter( gm )
+	temp.CreateRoundTimer( 15 )
+	bAnnouncedOvertime = false
+end
+
+function states.Overtime:Think( gm )
+	local timeLeft = temp.GetRoundTimeLength()
+	local alivePlayers = gm:AlivePlayers()
+	local totalAlivePlayers = #alivePlayers
+
+	-- Enumerate players in/out of koth zones
+	local playersInKoth = {}
+	local playersNotInKoth = {}
+	if gm.ChosenKothArea ~= nil then
+		for k, v in pairs( alivePlayers ) do
+			if gm.ChosenKothArea:IsPlayerInBounds( v ) then
+				table.insert( playersInKoth, v )
+			else
+				table.insert( playersNotInKoth, v )
+			end
+		end
+	end
+
+	-- Kill anyone outside of the zone
+	for k, v in pairs( playersNotInKoth ) do
+		v:CommitSuicide( false, true )
+	end
+
+	-- Update alive player count & table
+	alivePlayers = gm:AlivePlayers()
+	totalAlivePlayers = #alivePlayers
+
+	-- If one single player stands, they are the winner
+	if totalAlivePlayers == 1 then
+		local alivePlayer = alivePlayers[1]
+		global.ChatPrintAll( "#JB_BR_InZoneSingle", alivePlayer:GetPlayerName() )
+		alivePlayer:IncrementScore( 1 )
+		StopMusicEndRound( gm )
+		temp.BroadcastSound( 0, "JB.Stomped" )
+		return
+	end
+
+	-- Nobody inside the zone = nobody wins
+	if totalAlivePlayers == 0 then -- alive player is the winner
+		global.ChatPrintAll( "#JB_BR_NoWinnerInZone" )
+		StopMusicEndRound( gm )
+		return
+	end
+
+	-- If the timelimit has reached, everyone dies.
+	if timeLeft <= 0 then
+		StopMusicEndRound( gm )
+
+		global.ChatPrintAll( "#JB_BR_InZoneMultipleDies" )
+
+		-- Kill players
+		for k,v in pairs( alivePlayers ) do
+			-- Todo, set suicide as bombcollar
+			v:CommitSuicide( false, true )
+		end
+		return
+	end
+
+	-- Don't announce overtime until here, stops us shouting overtime when 
+	-- it's an instant victory
+	if not bAnnouncedOvertime then
+		global.ChatPrintAll( "#JB_BR_Overtime" )
+		temp.BroadcastSound( 0, "JB.BR_Overtime" )
+	end
+	
+end
+
+function states.Overtime:Leave( gm )
 	temp.DestroyRoundTimer()
 end
 

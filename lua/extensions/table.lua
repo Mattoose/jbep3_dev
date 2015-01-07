@@ -30,10 +30,10 @@ function table.dump( tTable, iIndent )
 		format = string.rep( "  ", iIndent ) .. k .. ": "
 
 		if type( v ) == "table" then
-			print( format )
+			print( format .. "\n" )
 			table.dump( v, iIndent + 1 )
 		else
-			print( format .. tostring( v ) )
+			print( format .. tostring( v ) .. "\n" )
 		end
 	end
 end

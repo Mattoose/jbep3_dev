@@ -4,6 +4,7 @@ include( "states.lua" )
 AddClientFile( "client.lua" )
 AddClientFile( "shared.lua" )
 
+GM.ChosenKothArea = nil
 local itemPool = {
 	"weapon_beretta",
 	"weapon_pistol",
@@ -47,35 +48,6 @@ function GM:PlayerDefaultItems( pl )
 end
 
 -- Misc
-
--- Round timer has elapsed or there's 1 player left alive
-function GM:FindWinner()
-	self:ChangeState( "PostRound" ) -- Change into post-round
-	local alivePlayers = self:AlivePlayers()
-
-	-- One player alive, they are the winner
-	if #alivePlayers == 1 then
-		local alivePlayer = alivePlayers[1]
-		global.ChatPrintAll( "#JB_BR_PlayerWon", alivePlayer:GetPlayerName() )
-		alivePlayer:IncrementScore( 1 )
-		return
-	end
-
-	-- More than one person alive, everyone dies
-	-- TODO: Only happens if there's no zones
-	if #alivePlayers ~= 1 then 
-		global.ChatPrintAll( "#JB_BR_NoWinner" )
-
-		-- Kill players
-		for k,v in pairs( alivePlayers ) do
-			-- Todo, set suicide as bombcollar
-			v:CommitSuicide( false, true )
-		end
-
-		return
-	end
-
-end
 
 -- Distribute items to players
 function GM:DistributeItems( pl )
