@@ -39,6 +39,9 @@ mutator.ItemPool = {
 	"weapon_vintorez",
 }
 
+mutator.Cvars = {}
+mutator.Cvars.ForceWeapon = CreateConVar( "sv_br_forceweapon", "", FCVAR_NOTIFY )
+
 function mutator:GiveItems()
 
 	-- start off with a full list
@@ -52,28 +55,41 @@ function mutator:GiveItems()
 		-- filter out any spectators
 		if v:GetTeamNumber() == TEAM_PLAYERS then
 			
-			-- make sure we have items, we'll want to fill it up again if none are left
-			if( #pool <= 0 ) then
-				for k, v in ipairs( self.ItemPool ) do
-					pool[ k ] = v
+			if( self.Cvars.ForceWeapon:GetString() ~= "" ) then
+			
+				-- weapon is forced, just give that one
+				local fists = v:GiveNamedItem( "weapon_fists" )
+				local weapon = v:GiveNamedItem( self.Cvars.ForceWeapon:GetString() )	
+				
+				v:Weapon_Switch( weapon )
+				v:Weapon_SetLast( fists )				
+				
+			else
+			
+				-- make sure we have items, we'll want to fill it up again if none are left
+				if( #pool <= 0 ) then
+					for k, v in ipairs( self.ItemPool ) do
+						pool[ k ] = v
+					end
 				end
+			
+				-- pick a random item on the list
+				local idx = math.random( #pool )
+				local randItem = pool[ idx ]
+				
+				-- give it to the player
+				local fists = v:GiveNamedItem( "weapon_fists" )
+				local weapon = v:GiveNamedItem( randItem )	
+				
+				v:Weapon_Switch( weapon )
+				v:Weapon_SetLast( fists )
+				
+				Msg( "Giving "..tostring(v).." ".. tostring(weapon) .. "\n" )
+				
+				-- remove this from the list so players get "unique" weapons
+				table.remove( pool, idx )
+				
 			end
-		
-			-- pick a random item on the list
-			local idx = math.random( #pool )
-			local randItem = pool[ idx ]
-			
-			-- give it to the player
-			local fists = v:GiveNamedItem( "weapon_fists" )
-			local weapon = v:GiveNamedItem( randItem )	
-			
-			v:Weapon_Switch( weapon )
-			v:Weapon_SetLast( fists )
-			
-			Msg( "Giving "..tostring(v).." ".. tostring(weapon) .. "\n" )
-			
-			-- remove this from the list so players get "unique" weapons
-			table.remove( pool, idx )
 			
 		end
 	end

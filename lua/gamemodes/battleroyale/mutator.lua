@@ -1,6 +1,7 @@
 mutators = {}
 mutators.mutators = {}
 
+-- Register mutator by name
 function mutators:Register( name, tbl )
 	
 	if( self.mutators[ name ] ~= nil ) then
@@ -24,6 +25,27 @@ function mutators:Register( name, tbl )
 	
 end
 
+-- Get mutator table by name
 function mutators:Get( name )
 	return self.mutators[ name ]
+end
+
+-- Number of registered mutators
+function mutator:Count()
+	return #self.mutators
+end
+
+-- Returns a random mutator EXCEPT default
+function mutator:GetRandom()
+
+	local mutnames = {}
+	
+	for k, v in pairs( self.mutators ) do
+		if k ~= "default" then -- exclude default
+			table.insert( mutnames, k )
+		end
+	end
+	
+	return mutnames[ math.random( #mutnames ) ]
+
 end

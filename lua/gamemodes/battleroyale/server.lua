@@ -5,10 +5,12 @@ include( "mutator.lua" )
 AddClientFile( "client.lua" )
 AddClientFile( "shared.lua" )
 
+-- Include mutator scripts
 for k, v in pairs( filesystem.FilesInDirectory( "lua/gamemodes/battleroyale/mutators" ) ) do
 	include( "mutators/" .. v )
 end
 
+-- Table variables
 GM.ChosenKothArea = nil
 GM.ActiveMutator = nil
 
@@ -45,7 +47,12 @@ end
 function GM:SelectMutator()
 
 	-- replace me with logic to pick a non-default mutator at random times
-	self.ActiveMutator = mutators:Get( "default" )
+	self.ActiveMutator = nil
+	
+	-- None selected, go to default mutator
+	if( self.ActiveMutator == nil ) then
+		self.ActiveMutator = mutators:Get( "default" )
+	end
 	
 	-- send intro text
 	util.ChatPrintAll( self.ActiveMutator.Name )
