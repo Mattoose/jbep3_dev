@@ -42,7 +42,11 @@ mutator.ItemPool = {
 function mutator:GiveItems()
 
 	-- start off with a full list
-	local pool = self.ItemPool
+	local pool = {}
+	
+	for k, v in ipairs( self.ItemPool ) do
+		pool[ k ] = v
+	end
 
 	for k, v in pairs( player.GetAll() ) do
 		-- filter out any spectators
@@ -50,17 +54,23 @@ function mutator:GiveItems()
 			
 			-- make sure we have items, we'll want to fill it up again if none are left
 			if( #pool <= 0 ) then
-				pool = self.ItemPool
+				for k, v in ipairs( self.ItemPool ) do
+					pool[ k ] = v
+				end
 			end
 		
 			-- pick a random item on the list
 			local idx = math.random( #pool )
 			local randItem = pool[ idx ]
-			Msg( "Giving "..tostring(pl).." "..randItem.."\n" )
 			
 			-- give it to the player
-			v:GiveNamedItem( "weapon_fists" )
-			v:GiveNamedItem( randItem )	
+			local fists = v:GiveNamedItem( "weapon_fists" )
+			local weapon = v:GiveNamedItem( randItem )	
+			
+			v:Weapon_Switch( weapon )
+			v:Weapon_SetLast( fists )
+			
+			Msg( "Giving "..tostring(v).." ".. tostring(weapon) .. "\n" )
 			
 			-- remove this from the list so players get "unique" weapons
 			table.remove( pool, idx )
