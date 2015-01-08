@@ -127,7 +127,7 @@ function states.Round:Think( gm )
 			temp.BroadcastSound( 0, "JB.BR_Alarm" );
 
 			-- Chat message
-			global.ChatPrintAll( "#JB_BR_GetToZone", ""..iKothTimeBegin, chosenArea:Name() )
+			util.ChatPrintAll( "#JB_BR_GetToZone", ""..iKothTimeBegin, chosenArea:Name() )
 
 			-- Highlight area
 			chosenArea:CreateHighlight()
@@ -155,11 +155,11 @@ function states.Round:Think( gm )
 
 		if totalAlivePlayers == 1 then -- alive player is the winner
 			local alivePlayer = alivePlayers[1]
-			global.ChatPrintAll( "#JB_BR_PlayerWon", alivePlayer:GetPlayerName() )
+			util.ChatPrintAll( "#JB_BR_PlayerWon", alivePlayer:GetPlayerName() )
 			alivePlayer:IncrementScore( 1 )
 			temp.BroadcastSound( 0, "JB.Stomped" )
 		else -- Kill everyone
-			global.ChatPrintAll( "#JB_BR_NoWinner" )
+			util.ChatPrintAll( "#JB_BR_NoWinner" )
 			temp.BroadcastSound( 0, "weapon_pistol.Fart_Kill" )
 
 			-- Kill players
@@ -219,7 +219,7 @@ function states.Overtime:Think( gm )
 	-- If one single player stands, they are the winner
 	if totalAlivePlayers == 1 then
 		local alivePlayer = alivePlayers[1]
-		global.ChatPrintAll( "#JB_BR_InZoneSingle", alivePlayer:GetPlayerName() )
+		util.ChatPrintAll( "#JB_BR_InZoneSingle", alivePlayer:GetPlayerName() )
 		alivePlayer:IncrementScore( 1 )
 		StopMusicEndRound( gm )
 		temp.BroadcastSound( 0, "JB.Stomped" )
@@ -228,7 +228,7 @@ function states.Overtime:Think( gm )
 
 	-- Nobody inside the zone = nobody wins
 	if totalAlivePlayers == 0 then -- alive player is the winner
-		global.ChatPrintAll( "#JB_BR_NoWinnerInZone" )
+		util.ChatPrintAll( "#JB_BR_NoWinnerInZone" )
 		StopMusicEndRound( gm )
 		return
 	end
@@ -237,7 +237,7 @@ function states.Overtime:Think( gm )
 	if timeLeft <= 0 then
 		StopMusicEndRound( gm )
 
-		global.ChatPrintAll( "#JB_BR_InZoneMultipleDies" )
+		util.ChatPrintAll( "#JB_BR_InZoneMultipleDies" )
 
 		-- Kill players
 		for k,v in pairs( alivePlayers ) do
@@ -250,7 +250,7 @@ function states.Overtime:Think( gm )
 	-- Don't announce overtime until here, stops us shouting overtime when 
 	-- it's an instant victory
 	if not bAnnouncedOvertime then
-		global.ChatPrintAll( "#JB_BR_Overtime" )
+		util.ChatPrintAll( "#JB_BR_Overtime" )
 		temp.BroadcastSound( 0, "JB.BR_Overtime" )
 		bAnnouncedOvertime = true
 	end
