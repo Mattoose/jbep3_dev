@@ -1,5 +1,6 @@
 local mutator = {}
 
+mutator.IsBase = false
 mutator.Name = "#JB_BR_Title"
 mutator.Description = "#JB_BR_Description"
 
@@ -98,9 +99,16 @@ function mutator:GiveItems()
 				v:AddCondition( cond )
 			end
 			
+			-- Call function you can derive in other modes to add other stuff (like high HP)
+			self:OnPlayerEquipped( v )
+			
 		end
 	end
 	
+end
+
+function mutator:OnPlayerEquipped( pl )
+
 end
 
 function mutator:Think()

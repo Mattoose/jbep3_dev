@@ -18,7 +18,11 @@ function mutators:Register( name, tbl )
 			-- Copy stuff from base if not overridden
 			for k, v in pairs( tbl.BaseClass ) do
 				if( tbl[k] == nil ) then
-					tbl[k] = v
+					if k == "IsBase" then -- Change IsBase value to false
+						tbl[k] = false
+					else
+						tbl[k] = v
+					end
 				end
 			end
 		end
@@ -56,7 +60,7 @@ function mutators:GetRandom()
 	local mutnames = {}
 	
 	for k, v in pairs( self.mutators ) do
-		if k ~= "default" then -- exclude default
+		if k ~= "default" and v.IsBase ~= true then -- exclude default
 			table.insert( mutnames, k )
 		end
 	end
