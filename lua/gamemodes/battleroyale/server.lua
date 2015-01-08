@@ -49,6 +49,11 @@ function GM:SelectMutator()
 	-- replace me with logic to pick a non-default mutator at random times
 	self.ActiveMutator = nil
 	
+	-- We want to force a specific mutator
+	if( self.Cvars.ForceMutator:GetString() ~= "" ) then
+		self.ActiveMutator = mutators:Get( self.Cvars.ForceMutator:GetString() )
+	end
+	
 	-- None selected, go to default mutator
 	if( self.ActiveMutator == nil ) then
 		self.ActiveMutator = mutators:Get( "default" )

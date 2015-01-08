@@ -9,6 +9,21 @@ function mutators:Register( name, tbl )
 		return
 	end
 	
+	-- Inherit table values from base
+	if( tbl.Base ~= nil ) then
+		tbl.BaseClass = self:Get( tbl.Base )
+		
+		-- Valid base mutator
+		if( tbl.BaseClass ~= nil ) then
+			-- Copy stuff from base if not overridden
+			for k, v in pairs( tbl.BaseClass ) do
+				if( tbl[k] == nil ) then
+					tbl[k] = v
+				end
+			end
+		end
+	end
+	
 	-- give some default values if they don't exist
 	if( tbl.Name == nil ) then
 		tbl.Name = name
@@ -31,12 +46,12 @@ function mutators:Get( name )
 end
 
 -- Number of registered mutators
-function mutator:Count()
+function mutators:Count()
 	return #self.mutators
 end
 
 -- Returns a random mutator EXCEPT default
-function mutator:GetRandom()
+function mutators:GetRandom()
 
 	local mutnames = {}
 	
