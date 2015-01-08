@@ -81,6 +81,8 @@ end
 -- Round 
 -- Players currently battling until timer expires or 1 player left alive
 --
+local nextBeepTime = 0
+local iKothTimeBegin = 35
 states.Round = {}
 function states.Round:Enter( gm )
     gm:RespawnPlayers( false ) -- Respawn dead players
@@ -103,7 +105,6 @@ function states.Round:Think( gm )
 	local totalAlivePlayers = #alivePlayers
 
 	-- Check if we should enter KOTH mode
-	local iKothTimeBegin = 35
 	local bCanEnterKothMode = totalAlivePlayers == 2 or timeLeft <= iKothTimeBegin
 
 	if gm.ChosenKothArea == nil and bCanEnterKothMode then
@@ -130,6 +131,15 @@ function states.Round:Think( gm )
 
 			-- Highlight area
 			chosenArea:CreateHighlight()
+		end
+	end
+
+	-- Beep collars if we're getting to a zone
+	if gm.ChosenKothArea ~= nil and CurTime() > nextBeepTime then
+		nextBeepTime = CurTime() + math.RemapValClamped( timeLeft, iKothTimeBegin, 1, 3.5, 0.05 )
+
+		for k,v in pairs( alivePlayers ) do
+			v:EmitSound( "JB.Beep" )
 		end
 	end
 
@@ -256,7 +266,7 @@ end
 --
 states.PostRound = {}
 function states.PostRound:Enter( gm )
-    gm:SetTransitionDelay( 5 )
+    gm:SetTransitionDelay( 12 )
 end
 
 function states.PostRound:Think( gm )
