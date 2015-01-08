@@ -39,6 +39,8 @@ mutator.ItemPool = {
 	"weapon_vintorez",
 }
 
+mutator.PlayerConditions = {}
+
 mutator.Cvars = {}
 mutator.Cvars.ForceWeapon = CreateConVar( "sv_br_forceweapon", "", FCVAR_NOTIFY )
 
@@ -89,6 +91,11 @@ function mutator:GiveItems()
 				-- remove this from the list so players get "unique" weapons
 				table.remove( pool, idx )
 				
+			end
+			
+			-- Add player conditions that will be defined by derived mutators
+			for _, cond in ipairs( self.PlayerConditions ) do
+				v:AddCondition( cond )
 			end
 			
 		end
