@@ -1,45 +1,16 @@
 include( "shared.lua" )
 include( "states.lua" )
+include( "mutator.lua" )
 
 AddClientFile( "client.lua" )
 AddClientFile( "shared.lua" )
 
+for k, v in pairs( filesystem.FilesInDirectory( "lua/gamemodes/battleroyale/mutators" ) ) do
+	include( "mutators/" .. v )
+end
+
 GM.ChosenKothArea = nil
-local itemPool = {
-	"weapon_ax47",
-	"weapon_beretta",
-	"weapon_bofors",
-	"weapon_box",
-	"weapon_catmine",
-	"weapon_displacer",
-	"weapon_doublebarrel",
-	"weapon_drilldo",
-	"weapon_frictiongrenade",
-	"weapon_goldpistols",
-	"weapon_gravtripmine",
-	"weapon_grenade",
-	"weapon_handgun",
-	"weapon_hornetgun",
-	"weapon_knife",
-	"weapon_meloncrossbow",
-	"weapon_mosin",
-	"weapon_mp5k",
-	"weapon_p90",
-	"weapon_pistol",
-	"weapon_railgun",
-	"weapon_ricochet",
-	"weapon_rocketcrowbar",
-	"weapon_rpg",
-	"weapon_ruger",
-	"weapon_saa",
-	"weapon_satchel",
-	"weapon_shotgun",
-	"weapon_shotgun_scientist",
-	"weapon_shuriken",
-	"weapon_speakers",
-	"weapon_tmp",
-	"weapon_vintorez",
-}
+GM.ActiveMutator = nil
 
 function GM:Init()
 	self:ChangeState( "PreGame" )
@@ -70,16 +41,40 @@ function GM:OverridePickupLifetime()
 	return 600 -- Last for whole round
 end
 
--- Misc
+-- pick a mutator to use this round
+function GM:SelectMutator()
 
--- Distribute items to players
-function GM:DistributeItems( pl )
-	local randItem = itemPool[ math.random( #itemPool ) ]
-	Msg( "Giving "..tostring(pl).." "..randItem.."\n" )
-	pl:GiveNamedItem( "weapon_fists" )
-	pl:GiveNamedItem( randItem )
+	-- replace me with logic to pick a non-default mutator at random times
+	self.ActiveMutator = mutators:Get( "default" )
+	
+	-- send intro text
+	util.ChatPrintAll( self.ActiveMutator.Name )
+	util.ChatPrintAll( self.ActiveMutator.Description )
+
 end
 
+-- Player has won the round
+function GM:PlayerWon( pl, inzone )
+
+	-- Show the appropriate chat message
+	if( inzone ) then
+		util.ChatPrintAll( "#JB_BR_InZoneSingle", pl:GetPlayerName() )
+	else
+		util.ChatPrintAll( "#JB_BR_PlayerWon", pl:GetPlayerName() )
+	end
+	
+	-- Increment score
+	pl:IncrementScore( 1 )
+	temp.BroadcastSound( 0, "JB.Stomped" )
+	
+	-- Call through to mutator to see if they want to do anything
+	if( self.ActiveMutator and self.ActiveMutator.PlayerWon ~= nil ) then
+		self.ActiveMutator:PlayerWon( pl )
+	end
+			
+end
+
+-- Misc
 function GM:AlivePlayers()
 	local alive = {}
 

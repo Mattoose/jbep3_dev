@@ -67,6 +67,8 @@ end
 states.PreRound = {}
 function states.PreRound:Enter( gm )
     temp.CleanUpMap() -- Reset the map
+	
+	gm:SelectMutator()
     gm:RespawnPlayers( true ) -- Respawn everyone
     gm:SetTransitionDelay( 5 )
 end
@@ -92,14 +94,16 @@ function states.Round:Enter( gm )
 	-- Round Music
 	temp.BroadcastSound( 0, "JB.BRMusic_"..math.random( 2 ) )
 	
-	for k, v in pairs( gm:AlivePlayers() ) do
-		if v:GetTeamNumber() == TEAM_PLAYERS then
-			gm:DistributeItems( v )
-		end
-	end
+	gm.ActiveMutator:GiveItems()
 end
 
 function states.Round:Think( gm )
+
+	-- think in mutator
+	if( gm.ActiveMutator and gm.ActiveMutator.Think ~= nil ) then
+		gm.ActiveMutator:Think()
+	end
+	
 	local timeLeft = temp.GetRoundTimeLength()
 	local alivePlayers = gm:AlivePlayers()
 	local totalAlivePlayers = #alivePlayers
@@ -154,10 +158,7 @@ function states.Round:Think( gm )
 		StopMusicEndRound( gm )
 
 		if totalAlivePlayers == 1 then -- alive player is the winner
-			local alivePlayer = alivePlayers[1]
-			util.ChatPrintAll( "#JB_BR_PlayerWon", alivePlayer:GetPlayerName() )
-			alivePlayer:IncrementScore( 1 )
-			temp.BroadcastSound( 0, "JB.Stomped" )
+			gm:PlayerWon( alivePlayers[1], false )
 		else -- Kill everyone
 			util.ChatPrintAll( "#JB_BR_NoWinner" )
 			temp.BroadcastSound( 0, "weapon_pistol.Fart_Kill" )
@@ -190,6 +191,12 @@ function states.Overtime:Enter( gm )
 end
 
 function states.Overtime:Think( gm )
+
+	-- think in mutator
+	if( gm.ActiveMutator and gm.ActiveMutator.Think ~= nil ) then
+		gm.ActiveMutator:Think()
+	end
+	
 	local timeLeft = temp.GetRoundTimeLength()
 	local alivePlayers = gm:AlivePlayers()
 	local totalAlivePlayers = #alivePlayers
@@ -218,11 +225,8 @@ function states.Overtime:Think( gm )
 
 	-- If one single player stands, they are the winner
 	if totalAlivePlayers == 1 then
-		local alivePlayer = alivePlayers[1]
-		util.ChatPrintAll( "#JB_BR_InZoneSingle", alivePlayer:GetPlayerName() )
-		alivePlayer:IncrementScore( 1 )
+		gm:PlayerWon( alivePlayers[1], true )
 		StopMusicEndRound( gm )
-		temp.BroadcastSound( 0, "JB.Stomped" )
 		return
 	end
 
