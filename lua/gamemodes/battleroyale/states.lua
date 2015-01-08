@@ -252,6 +252,7 @@ function states.Overtime:Think( gm )
 	if not bAnnouncedOvertime then
 		global.ChatPrintAll( "#JB_BR_Overtime" )
 		temp.BroadcastSound( 0, "JB.BR_Overtime" )
+		bAnnouncedOvertime = true
 	end
 	
 end
