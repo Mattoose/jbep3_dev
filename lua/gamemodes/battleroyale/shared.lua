@@ -2,7 +2,6 @@ GM.Name = "Battle Royale"
 GM.Developer = "Team BBB"
 GM.BaseGamemode = "base"
 
-TEAM_SPECTATORS = 1 -- This should ALWAYS be 1
 TEAM_PLAYERS = 2
 
 -- ConVars
