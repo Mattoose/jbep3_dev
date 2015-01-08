@@ -30,6 +30,10 @@ function GM:PlayerDefaultItems( pl )
 	pl:GiveAllWeapons()
 end
 
+function GM:OverridePickupLifetime()
+	return -1
+end
+
 -- Misc 
 
 function GM:RespawnPlayers( bForceRespawn, iTeamFilter )

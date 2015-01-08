@@ -66,11 +66,29 @@ function GM:PlayerDefaultItems( pl )
 	if self:InState( "PreGame" ) then pl:GiveAllWeapons() end
 end
 
+function GM:OverridePickupLifetime()
+	return 600 -- Last for whole round
+end
+
 -- Misc
 
 -- Distribute items to players
 function GM:DistributeItems( pl )
 	local randItem = itemPool[ math.random( #itemPool ) ]
 	Msg( "Giving "..tostring(pl).." "..randItem.."\n" )
+	pl:GiveNamedItem( "weapon_fists" )
 	pl:GiveNamedItem( randItem )
+end
+
+function GM:AlivePlayers()
+	local alive = {}
+
+	for k, v in pairs( player.GetAll() ) do
+		-- Only count players on TEAM_PLAYERS and who aren't possessing as alive
+		if v:IsAlive() and v:GetTeamNumber() == TEAM_PLAYERS and not v:ValidPossess() then
+			table.insert( alive, v )
+		end
+	end
+
+	return alive
 end
