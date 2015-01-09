@@ -109,7 +109,11 @@ function states.Round:Enter( gm )
 	temp.CreateRoundTimer( math.RemapValClamped( #gm:AlivePlayers(), 2, 10, 60, 110 ) )
 
 	-- Round Music
-	temp.BroadcastSound( 0, "JB.BRMusic_"..math.random( 2 ) )
+	if ( gm.ActiveMutator ~= mutators:Get( "default" ) ) then
+		temp.BroadcastSound( 0, "JB.BRMusic_SpecialRoundType" )
+	else
+		temp.BroadcastSound( 0, "JB.BRMusic_"..math.random( 2 ) )
+	end
 	
 	gm.ActiveMutator:GiveItems()
 end
