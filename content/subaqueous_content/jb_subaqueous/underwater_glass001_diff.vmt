@@ -1,0 +1,67 @@
+"refract"
+{
+"$model" "1"
+"$bluramount" "1"
+"$surfaceprop" "glass"
+"$refractamount" "0.2"
+"$scale" "[1 1]"
+"%keywords" "colossal, jb, subaqueous, window"
+"$normalmap" "jb_subaqueous/underwater_glass001_nrml"
+"$REFRACTTINTTEXTURE" "jb_subaqueous/underwater_glass001_diff"
+"Proxies"
+   {
+      "TextureScroll"
+      {
+         "texturescrollvar" "$bumptransform"
+         "texturescrollrate" .1
+         "texturescrollangle" 45
+      }
+   }
+   "Refract_dx90"
+   {
+      "$refractamount" "0.100"
+   }
+   "Refract_DX80"
+   {
+   "$refractamount" ".025"
+   "$REFRACTTINTTEXTURE" "jb_subaqueous/underwater_glass001_diff"
+       "Proxies"
+           {
+      "TextureScroll"
+      {
+         "texturescrollvar" "$bumptransform"
+         "texturescrollrate" 0.2
+         "texturescrollangle" -90
+      }
+      }
+   }
+   "UnlitGeneric_dx8"
+   {
+        "$basetexture" "jb_subaqueous/underwater_glass001_diff"
+       "Proxies"
+           {
+            "Sine"
+               {
+                   "resultVar"    "$alpha"
+                   "sineperiod"   15
+                   "sinemin"      0.1
+                   "sinemax"      0.1
+              }
+      }
+   "UnlitGeneric_dx6"
+   {
+        "$basetexture" "jb_subaqueous/underwater_glass001_diff"
+       "Proxies"
+           {
+            "Sine"
+               {
+                   "resultVar"    "$alpha"
+                   "sineperiod"   15
+                   "sinemin"      0.1
+                   "sinemax"      0.1
+              }
+      }
+   }
+}
+}
+// Diffuse + VMT provided by the BulletCrops project.

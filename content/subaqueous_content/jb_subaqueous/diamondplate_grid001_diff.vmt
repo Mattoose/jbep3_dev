@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jb_subaqueous/diamondplate_grid001_diff"
+	"$bumpmap" "jb_subaqueous/diamondplate_grid001_nrml"
+	"$surfaceprop" "metal"
+	"%keywords" "colossal, jb, subaqueous, caden, concrete"
+}

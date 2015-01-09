@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jb_subaqueous/concretewall_medium"
+	"$bumpmap" "jb_subaqueous/concretewall_nrml"
+	"$surfaceprop" "concrete"
+	"%keywords" "colossal, jb, subaqueous, caden, concrete"
+}
