@@ -183,6 +183,10 @@ function mutator:OnPlayerEquipped( pl )
 
 end
 
+function mutator:ScaleHitboxDamage( pl, hitbox, info )
+	return false
+end
+
 function mutator:Think()
 
 end

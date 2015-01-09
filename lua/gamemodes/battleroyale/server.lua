@@ -46,6 +46,17 @@ function GM:OverridePickupLifetime()
 	return 600 -- Last for whole round
 end
 
+function GM:ScaleHitboxDamage( pl, hitbox, info )
+	
+	-- check if the mutator wants to make any damage changes
+	if( self:InState( "Round" ) and self.ActiveMutator ~= nil and self.ActiveMutator.ScaleHitboxDamage ~= nil ) then
+		return self.ActiveMutator:ScaleHitboxDamage( pl, hitbox, info )
+	end
+
+	return false
+	
+end
+
 -- pick a mutator to use this round
 function GM:SelectMutator()
 
