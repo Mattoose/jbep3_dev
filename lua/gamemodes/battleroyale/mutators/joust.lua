@@ -1,6 +1,6 @@
 local mutator = {}
 
-mutator.Base = "default_bullets"
+mutator.Base = "default"
 mutator.Name = "#JB_BR_RoundTypeJousting_Title"
 mutator.Description = "#JB_BR_RoundTypeJousting_Desc"
 
@@ -18,5 +18,5 @@ function mutator:ScaleHitboxDamage( pl, hitbox, info )
 	
 end
 
-mutators:Register( "duckhunt", mutator )
+mutators:Register( "joust", mutator )
 

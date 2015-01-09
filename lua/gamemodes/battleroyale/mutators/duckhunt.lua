@@ -1,6 +1,6 @@
 local mutator = {}
 
-mutator.Base = "default_bullets"
+mutator.Base = "default"
 mutator.Name = "#JB_BR_RoundTypeDuckHunt_Title"
 mutator.Description = "#JB_BR_RoundTypeDuckHunt_Desc"
 
