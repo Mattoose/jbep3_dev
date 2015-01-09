@@ -116,6 +116,10 @@ function states.Round:Enter( gm )
 	end
 	
 	gm.ActiveMutator:GiveItems()
+
+	if( gm.ActiveMutator and gm.ActiveMutator.RoundStart ~= nil ) then
+		gm.ActiveMutator:RoundStart()
+	end
 end
 
 function states.Round:Think( gm )
@@ -292,6 +296,10 @@ end
 --
 states.PostRound = {}
 function states.PostRound:Enter( gm )
+	if( gm.ActiveMutator and gm.ActiveMutator.RoundEnd ~= nil ) then
+		gm.ActiveMutator:RoundEnd()
+	end
+
     gm:SetTransitionDelay( 12 )
 end
 

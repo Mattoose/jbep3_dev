@@ -199,6 +199,14 @@ function mutator:PlayerWon( winningPlayer )
 
 end
 
+function mutator:RoundStart()
+
+end
+
+function mutator:RoundEnd()
+
+end
+
 mutators:Register( "default", mutator )
 
 -- This mutator is only intended as a base and contains only weapons that fire bullets (useful for big head, high HP)

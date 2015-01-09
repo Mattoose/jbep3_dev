@@ -34,6 +34,19 @@ function GM:OverridePickupLifetime()
 	return -1
 end
 
+function GM:AllowDamage( plVictim, damage )
+end
+
+function GM:GetDamageAdjustments( plVictim, damage )
+end
+
+function GM:PlayerDamageTaken( plVictim, damage, health )
+end
+
+function GM:PlayerKilled( plVictim, damage )
+end
+
+
 -- Misc 
 
 function GM:RespawnPlayers( bForceRespawn, iTeamFilter )
