@@ -53,7 +53,7 @@ function GM:SelectMutator()
 	self.ActiveMutator = nil
 
 	-- The chance for a mutator round goes up the more normal rounds we have in a row
-	if ( math.random() <= math.Bias( math.min( 0.22 * self.roundsSinceLastMutator, 1 ), 0.35 ) ) then
+	if ( math.random() <= math.Bias( math.min( 0.1 * self.roundsSinceLastMutator, 1 ), 0.35 ) ) then
 		self.roundsSinceLastMutator = 0
 		self.ActiveMutator = mutators:GetRandom()
 	end
