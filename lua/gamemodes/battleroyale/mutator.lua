@@ -142,28 +142,32 @@ function mutator:GiveItems()
 			else
 			
 				-- make sure we have items, we'll want to fill it up again if none are left
-				if( #pool <= 0 ) then
+				if( #self.ItemPool > 0 and #pool <= 0 ) then
 					for k, v in ipairs( self.ItemPool ) do
 						pool[ k ] = v
 					end
 				end
 			
-				-- pick a random item on the list
-				local idx = math.random( #pool )
-				local randItem = pool[ idx ]
+				-- Some mutators (eg jousting) may not give any weapons
+				if( #pool > 0 ) then
 				
-				-- give it to the player
-				local fists = v:GiveNamedItem( "weapon_fists" )
-				local weapon = v:GiveNamedItem( randItem )	
-				
-				Msg( "Giving "..tostring(v).." ".. tostring(weapon) .. "\n" )
-				
-				v:Weapon_Switch( weapon )
-				v:Weapon_SetLast( fists )
-				
-				-- remove this from the list so players get "unique" weapons
-				table.remove( pool, idx )
-				
+					-- pick a random item on the list
+					local idx = math.random( #pool )
+					local randItem = pool[ idx ]
+					
+					-- give it to the player
+					local fists = v:GiveNamedItem( "weapon_fists" )
+					local weapon = v:GiveNamedItem( randItem )	
+					
+					Msg( "Giving "..tostring(v).." ".. tostring(weapon) .. "\n" )
+					
+					v:Weapon_Switch( weapon )
+					v:Weapon_SetLast( fists )
+					
+					-- remove this from the list so players get "unique" weapons
+					table.remove( pool, idx )
+					
+				end
 			end
 			
 			-- Add player conditions that will be defined by derived mutators
