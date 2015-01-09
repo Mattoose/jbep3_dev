@@ -64,6 +64,7 @@ end
 -- Preround state
 -- >= 2 active players, waiting a short time before entering main round
 --
+local unfreezeTime = -1
 states.PreRound = {}
 function states.PreRound:Enter( gm )
     temp.CleanUpMap() -- Reset the map
@@ -71,12 +72,28 @@ function states.PreRound:Enter( gm )
 	gm:SelectMutator()
     gm:RespawnPlayers( true ) -- Respawn everyone
     gm:SetTransitionDelay( 5 )
+    temp.CreateRoundTimer( 5 )
+
+    -- Freeze everyone briefly
+    unfreezeTime = CurTime() + 1.5
+    gm:FreezePlayers( true )
 end
 
 function states.PreRound:Think( gm )
 	-- If there's < 2 players, return to pregame.
 	if gm:CountActivePlayers() < 2 then gm:ChangeState( "PreGame" ) end
 	if gm:CanTransition() then gm:ChangeState( "Round" ) end
+
+	-- Check for unfreeze
+	if unfreezeTime < CurTime() and unfreezeTime > 0 then
+    	gm:FreezePlayers( false )
+    	unfreezeTime = -1
+	end
+end
+
+function states.PreRound:Leave( gm )
+   	-- Ensure players are unfrozen
+	gm:FreezePlayers( false )
 end
 
 --
@@ -140,7 +157,7 @@ function states.Round:Think( gm )
 
 	-- Beep collars if we're getting to a zone
 	if gm.ChosenKothArea ~= nil and CurTime() > nextBeepTime then
-		nextBeepTime = CurTime() + math.RemapValClamped( timeLeft, iKothTimeBegin, 1, 3.5, 0.05 )
+		nextBeepTime = CurTime() + math.RemapValClamped( timeLeft, iKothTimeBegin, 1, 3.5, 0.13 )
 
 		for k,v in pairs( alivePlayers ) do
 			v:EmitSound( "JB.Beep" )

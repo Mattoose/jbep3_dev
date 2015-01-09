@@ -61,7 +61,7 @@ function mutators:GetRandom()
 	
 	for k, v in pairs( self.mutators ) do
 		if k ~= "default" and v.IsBase ~= true then -- exclude default
-			table.insert( mutnames, k )
+			table.insert( mutnames, v )
 		end
 	end
 	
@@ -156,10 +156,10 @@ function mutator:GiveItems()
 				local fists = v:GiveNamedItem( "weapon_fists" )
 				local weapon = v:GiveNamedItem( randItem )	
 				
+				Msg( "Giving "..tostring(v).." ".. tostring(weapon) .. "\n" )
+				
 				v:Weapon_Switch( weapon )
 				v:Weapon_SetLast( fists )
-				
-				Msg( "Giving "..tostring(v).." ".. tostring(weapon) .. "\n" )
 				
 				-- remove this from the list so players get "unique" weapons
 				table.remove( pool, idx )

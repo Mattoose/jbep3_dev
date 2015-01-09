@@ -13,9 +13,12 @@ end
 -- Table variables
 GM.ChosenKothArea = nil
 GM.ActiveMutator = nil
+GM.StartTime = 0
+GM.roundsSinceLastMutator = 0
 
 function GM:Init()
 	self:ChangeState( "PreGame" )
+	self.StartTime = CurTime()
 end
 
 function GM:SelectDefaultTeam()
@@ -46,8 +49,15 @@ end
 -- pick a mutator to use this round
 function GM:SelectMutator()
 
-	-- replace me with logic to pick a non-default mutator at random times
+	-- Reset
 	self.ActiveMutator = nil
+
+	-- The chance for a mutator round goes up the more normal rounds we have in a row
+	print( "Mutator chance: "..math.Bias( math.min( 0.22 * self.roundsSinceLastMutator, 1 ), 0.35 ).."\n" )
+	if ( math.random() <= math.Bias( math.min( 0.22 * self.roundsSinceLastMutator, 1 ), 0.35 ) ) then
+		self.roundsSinceLastMutator = 0
+		self.ActiveMutator = mutators:GetRandom()
+	end
 	
 	-- We want to force a specific mutator
 	if( self.Cvars.ForceMutator:GetString() ~= "" ) then
@@ -57,11 +67,17 @@ function GM:SelectMutator()
 	-- None selected, go to default mutator
 	if( self.ActiveMutator == nil ) then
 		self.ActiveMutator = mutators:Get( "default" )
+		self.roundsSinceLastMutator = self.roundsSinceLastMutator + 1
 	end
 	
 	-- send intro text
 	util.ChatPrintAll( self.ActiveMutator.Name )
 	util.ChatPrintAll( self.ActiveMutator.Description )
+
+	-- Display intro
+	if ( self.ActiveMutator ~= mutators:Get( "default" ) ) then
+		temp.ShowRoundIntro( self.ActiveMutator.Name, self.ActiveMutator.Description )
+	end
 
 end
 
@@ -98,4 +114,14 @@ function GM:AlivePlayers()
 	end
 
 	return alive
+end
+
+function GM:FreezePlayers( bFreeze )
+    for k, v in pairs( self:AlivePlayers() ) do
+    	if bFreeze then
+    		v:AddCondition( JB_CONDITION_FROZEN )
+		else
+    		v:RemoveCondition( JB_CONDITION_FROZEN )
+		end
+    end
 end

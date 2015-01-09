@@ -37,3 +37,12 @@ function table.dump( tTable, iIndent )
 		end
 	end
 end
+
+-- Contains
+function table.containsValue( tTable, value )
+	for k, v in pairs( tTable ) do
+		if ( v == value ) then return true end
+	end
+
+	return false
+end

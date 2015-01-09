@@ -21,3 +21,12 @@ function math.RemapValClamped( val, A, B, C, D )
 
 	return C + (D - C) * cVal;
 end
+
+local lastAmt = -1
+local lastExponent = -1
+function math.Bias( x, biasAmt )
+	if( lastAmt ~= biasAmt ) then
+		lastExponent = math.log( biasAmt ) * -1.4427;
+	end
+	return math.pow( x, lastExponent );
+end
