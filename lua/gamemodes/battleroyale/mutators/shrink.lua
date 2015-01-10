@@ -27,7 +27,7 @@ function mutator:PlayerKilled( pl, info )
 
 	local attacker = info:GetAttacker()
 	if attacker:IsPlayer() then
-		
+
 		local plIndex = attacker:EntIndex()
 		if playerKills[ plIndex ] == nil then
 			playerKills[ plIndex ] = 1
@@ -35,7 +35,7 @@ function mutator:PlayerKilled( pl, info )
 			playerKills[ plIndex ] = playerKills[ plIndex ] + 1
 		end
 
-		attacker:SetScale( math.RemapValClamped( playerKills[ plIndex ], 0, ( playersAtStart - 1 ) * 0.75, 1, 0.25 ) )
+		attacker:SetScale( math.RemapValClamped( playerKills[ plIndex ], 0, ( playersAtStart - 1 ) * 0.5, 1, 0.25 ) )
 	end
 	
 end
