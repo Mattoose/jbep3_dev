@@ -8,7 +8,7 @@ mutator.ItemPool = { "weapon_pistol" }
 
 mutators:Register( "farts", mutator )
 
-function mutator:OnPlayerEquipped( pl, weap )
+function mutator:OnWeaponEquipped( pl, weap )
 	if( weap ) then
 		weap:AddCondition( JB_WEAPON_CONDITION_NO_PRIMARY )
 	end
