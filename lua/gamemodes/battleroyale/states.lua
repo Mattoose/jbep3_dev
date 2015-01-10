@@ -45,6 +45,22 @@ local function StopMusicEndRound( gm )
 	game.BroadcastSound( 0, "AI_BaseNPC.SentenceStop" ) -- Stops sounds (replace me)
 end
 
+local function TimeLimitPassed( gm )
+
+	local timeLimit = FindConVar( "mp_timelimit" ):GetFloat() * 60
+
+	if( timeLimit <= 0 ) then
+		return false
+	end
+	
+	if( CurTime() - gm.StartTime >= timeLimit ) then
+		return true
+	end
+
+	return false
+
+end
+
 -- 
 -- Pregame state
 -- Server has < 2 active players
@@ -71,18 +87,18 @@ function states.WaitingForPlayers:Enter( gm )
 end
 
 function states.WaitingForPlayers:Think( gm )
-	if gm:CanTransition() then gm:ChangeState( "PreRound" ) end
 
 	-- Players left while waiting
 	if gm:CountActivePlayers() < 2 then
 		gm:ChangeState( "PreGame" )
 	end
 
-	-- If developer mode is on, skip...
-	if FindConVar( "developer" ):GetInt() >= 1 then
-		print( "Skipping waiting for players, developer mode enabled." )
+	-- Time passed or developer is switched on
+	if gm:CanTransition() or FindConVar( "developer" ):GetInt() >= 1 then
+		gm.StartTime = CurTime()
 		gm:ChangeState( "PreRound" )
 	end
+
 end
 
 --
@@ -92,16 +108,23 @@ end
 local unfreezeTime = -1
 states.PreRound = {}
 function states.PreRound:Enter( gm )
-    game.CleanUpMap() -- Reset the map
-	
-	gm:SelectMutator()
-    gm:RespawnPlayers( true ) -- Respawn everyone
-    gm:SetTransitionDelay( 5 )
-    game.CreateRoundTimer( 5 )
 
-    -- Freeze everyone briefly
-    unfreezeTime = CurTime() + 1.5
-    gm:FreezePlayers( true )
+	-- Check to see if the time limit has passed before starting the round
+	if( TimeLimitPassed( gm ) ) then
+		gm:ChangeState( "PostGame" )
+	else
+	    game.CleanUpMap() -- Reset the map
+		
+		gm:SelectMutator()
+	    gm:RespawnPlayers( true ) -- Respawn everyone
+	    gm:SetTransitionDelay( 5 )
+	    game.CreateRoundTimer( 5 )
+
+	    -- Freeze everyone briefly
+	    unfreezeTime = CurTime() + 1.5
+	    gm:FreezePlayers( true )
+	end
+
 end
 
 function states.PreRound:Think( gm )
@@ -347,3 +370,7 @@ end
 -- before changing to nextmap
 --
 states.PostGame = {}
+
+function states.PostGame:Enter( gm )
+	game.GoToIntermission()
+end
