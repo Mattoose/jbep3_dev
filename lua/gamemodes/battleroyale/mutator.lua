@@ -162,9 +162,9 @@ function mutator:GiveItems()
 					
 					Msg( "Giving "..tostring(v).." ".. tostring(weapon) .. "\n" )
 					
-					v:Weapon_Switch( weapon )
-					v:Weapon_SetLast( fists )
-					
+					if weapon ~= nil then v:Weapon_Switch( weapon ) end
+					if fists ~= nil then v:Weapon_SetLast( weapon ) end
+										
 					-- remove this from the list so players get "unique" weapons
 					table.remove( pool, idx )
 					

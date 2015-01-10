@@ -30,3 +30,7 @@ function math.Bias( x, biasAmt )
 	end
 	return math.pow( x, lastExponent );
 end
+
+function math.randomfloat( min, max )
+	return min + ( math.random() * ( max - min ) ) 
+end

@@ -1,8 +1,8 @@
 local mutator = {}
 
 mutator.Base = "default"
-mutator.Name = "InstaGhosts"
-mutator.Description = "Invisible players, fartsteps and instagib weapons"
+mutator.Name = "#JB_BR_RoundTypeInstaGhosts_Title"
+mutator.Description = "#JB_BR_RoundTypeInstaGhosts_Desc"
 
 mutator.PlayerConditions = { JB_CONDITION_INVISIBLE, JB_CONDITION_AUTOSTAND }
 

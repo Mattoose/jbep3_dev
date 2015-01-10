@@ -27,7 +27,7 @@ function table.dump( tTable, iIndent )
 	if iIndent > 10 then return end
 
 	for k, v in pairs( tTable ) do
-		format = string.rep( "  ", iIndent ) .. k .. ": "
+		format = string.rep( "  ", iIndent ) .. tostring( k ) .. ": "
 
 		if type( v ) == "table" then
 			print( format .. "\n" )

@@ -10,11 +10,14 @@ for k, v in pairs( filesystem.FilesInDirectory( "lua/gamemodes/battleroyale/muta
 	include( "mutators/" .. v )
 end
 
--- Table variables
+-- Variables
 GM.ChosenKothArea = nil
 GM.ActiveMutator = nil
 GM.StartTime = 0
 GM.roundsSinceLastMutator = 0
+
+local pending1v1 = {}
+local next1v1Time = 0
 
 function GM:Init()
 	self:ChangeState( "PreGame" )
@@ -29,6 +32,13 @@ function GM:Think()
 	-- Pass a think to our current state
 	if self.currentState ~= nil and self.currentState.Think ~= nil then
 		self.currentState:Think( self )
+	end
+
+	-- 1v1 speechlines
+	if next1v1Time < CurTime() and #pending1v1 > 0 then
+		next1v1Time = CurTime() + 3
+		pending1v1[1]:SpeakConcept( JB_CONCEPT_BR_1V1 )
+		table.remove( pending1v1, 1 )
 	end
 end
 
@@ -75,6 +85,27 @@ function GM:PlayerDamageTaken( pl, info, health )
 		self.ActiveMutator:PlayerDamageTaken( pl, info, health )
 	end
 	
+end
+
+function GM:PlayerKilled( pl, info )
+
+	-- see if mutator wants to do with the event of a player dying
+	if( self:InState( "Round" ) and not pl:ValidPossess() and self.ActiveMutator ~= nil and self.ActiveMutator.PlayerKilled ~= nil ) then
+		self.ActiveMutator:PlayerKilled( pl, info )
+	end
+
+	-- Shout about kills
+	local attacker = info:GetAttacker()
+	local alivePlayers = self:AlivePlayers()
+	local totalAlivePlayers = #alivePlayers
+	if totalAlivePlayers > 2 and attacker:IsPlayer() then
+		attacker:SpeakConceptDelayed( JB_CONCEPT_BR_KILL, 0.75 )
+	elseif totalAlivePlayers == 2 then
+		next1v1Time = CurTime() + 1
+		for k, v in pairs( alivePlayers ) do
+			table.insert( pending1v1, v )
+		end
+	end
 end
 
 -- pick a mutator to use this round
@@ -129,6 +160,9 @@ function GM:PlayerWon( pl, inzone )
 	if( self.ActiveMutator and self.ActiveMutator.PlayerWon ~= nil ) then
 		self.ActiveMutator:PlayerWon( pl )
 	end
+
+	-- Make them chatter
+	pl:SpeakConceptDelayed( JB_CONCEPT_BR_WINNER, math.randomfloat( 1, 2 ) );
 			
 end
 
