@@ -35,7 +35,7 @@ function mutator:PlayerKilled( pl, info )
 			playerKills[ plIndex ] = playerKills[ plIndex ] + 1
 		end
 
-		attacker:SetScale( math.RemapValClamped( playerKills[ plIndex ], 0, ( playersAtStart - 1 ) * 0.5, 1, 0.25 ) )
+		attacker:SetScale( math.RemapValClamped( playerKills[ plIndex ], 0, ( playersAtStart - 1 ) * 0.4, 1, 0.25 ) )
 	end
 	
 end
