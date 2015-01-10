@@ -4,7 +4,7 @@ mutator.Base = "default_bullets"
 mutator.Name = "#JB_BR_RoundTypeVampirism_Title"
 mutator.Description = "#JB_BR_RoundTypeVampirism_Desc"
 
-mutator.PlayerConditions = { JB_CONDITION_INFINITE_AMMO }
+mutator.PlayerConditions = { JB_CONDITION_INFINITE_AMMO, JB_CONDITION_NO_HEALTH_RATIONS }
 
 function mutator:PlayerDamageTaken( pl, info, health )
 
