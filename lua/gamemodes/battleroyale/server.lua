@@ -17,7 +17,7 @@ GM.StartTime = 0
 GM.roundsSinceLastMutator = 0
 
 function GM:Init()
-	self:ChangeState( "PreGame" )
+	self:ChangeState( "WaitingForPlayers" )
 	self.StartTime = CurTime()
 end
 
@@ -34,12 +34,12 @@ end
 
 -- Only respawn in PreGame or PreRound
 function GM:PlayerCanRespawn( pl )	
-	return self:InState( "PreGame" ) or self:InState( "PreRound" )
+	return self:InState( "PreGame" ) or self:InState( "PreRound" ) or self:InState( "WaitingForPlayers" )
 end
 
 -- Only give players items if they're in the pregame
 function GM:PlayerDefaultItems( pl )
-	if self:InState( "PreGame" ) then pl:GiveAllWeapons() end
+	if self:InState( "PreGame" ) or self:InState( "WaitingForPlayers" ) then pl:GiveAllWeapons() end
 end
 
 function GM:OverridePickupLifetime()
