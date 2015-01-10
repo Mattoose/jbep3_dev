@@ -9,6 +9,8 @@ mutator.PlayerModels = { "models/player/bms_scientist.mdl" }
 
 mutators:Register( "science", mutator )
 
+local nextScientistSpawn = 0
+
 function mutator:RoundStart()
 	nextScientistSpawn = CurTime() + 30
 end
