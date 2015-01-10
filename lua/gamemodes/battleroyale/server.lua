@@ -14,6 +14,7 @@ end
 GM.ChosenKothArea = nil
 GM.ActiveMutator = nil
 GM.StartTime = 0
+GM.TotalRoundLength = 0
 GM.roundsSinceLastMutator = 0
 
 local pending1v1 = {}

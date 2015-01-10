@@ -125,7 +125,9 @@ states.Round = {}
 function states.Round:Enter( gm )
     gm:RespawnPlayers( false ) -- Respawn dead players
 	gm.ChosenKothArea = nil
-	temp.CreateRoundTimer( math.RemapValClamped( #gm:AlivePlayers(), 2, 10, 60, 110 ) )
+	
+	gm.TotalRoundLength = math.RemapValClamped( #gm:AlivePlayers(), 2, 10, 60, 110 )
+	temp.CreateRoundTimer( gm.TotalRoundLength )
 
 	-- Round Music
 	if ( gm.ActiveMutator ~= mutators:Get( "default" ) ) then
