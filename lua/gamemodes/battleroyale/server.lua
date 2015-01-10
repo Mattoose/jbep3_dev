@@ -53,6 +53,15 @@ function GM:PlayerDefaultItems( pl )
 	if self:InState( "PreGame" ) then pl:GiveAllWeapons() end
 end
 
+-- We might want to change weapons that we pick up's properties
+function GM:PlayerWeaponEquipped( pl, weap )
+
+	if( self.ActiveMutator and self.ActiveMutator.OnWeaponEquipped ) then
+		return self.ActiveMutator:OnWeaponEquipped( pl, weap )
+	end
+	
+end
+
 -- Some mutators may force a certain set of player models
 function GM:ForcePlayerModel( pl )
 

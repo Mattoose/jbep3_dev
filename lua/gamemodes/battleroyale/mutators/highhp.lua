@@ -6,7 +6,7 @@ mutator.Description = "#JB_BR_RoundTypeHP_Desc"
 
 mutator.PlayerConditions = { JB_CONDITION_INFINITE_AMMO }
 
-function mutator:OnPlayerEquipped( pl )
+function mutator:OnWeaponAssigned( pl, weap )
 	pl:SetHealth( 500 )
 end
 

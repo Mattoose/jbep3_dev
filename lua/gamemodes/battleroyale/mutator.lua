@@ -131,11 +131,13 @@ function mutator:GiveItems()
 		-- filter out any spectators
 		if v:GetTeamNumber() == TEAM_PLAYERS then
 			
+			local weapon = nil
+			
 			if( self.Cvars.ForceWeapon:GetString() ~= "" ) then
 			
 				-- weapon is forced, just give that one
 				local fists = v:GiveNamedItem( "weapon_fists" )
-				local weapon = v:GiveNamedItem( self.Cvars.ForceWeapon:GetString() )	
+				weapon = v:GiveNamedItem( self.Cvars.ForceWeapon:GetString() )	
 				
 				v:Weapon_Switch( weapon )
 				v:Weapon_SetLast( fists )				
@@ -158,7 +160,7 @@ function mutator:GiveItems()
 					
 					-- give it to the player
 					local fists = v:GiveNamedItem( "weapon_fists" )
-					local weapon = v:GiveNamedItem( randItem )	
+					weapon = v:GiveNamedItem( randItem )	
 					
 					Msg( "Giving "..tostring(v).." ".. tostring(weapon) .. "\n" )
 					
@@ -177,14 +179,20 @@ function mutator:GiveItems()
 			end
 			
 			-- Call function you can derive in other modes to add other stuff (like high HP)
-			self:OnPlayerEquipped( v )
+			self:OnWeaponAssigned( v, weapon )
 			
 		end
 	end
 	
 end
 
-function mutator:OnPlayerEquipped( pl )
+-- Called at the start when weapon is given
+function mutator:OnWeaponAssigned( pl, weap )
+
+end
+
+-- Called when when we are given a weapon at any moment (eg start of round, from a pickup)
+function mutator:OnPlayerEquipped( pl, weap )
 
 end
 
