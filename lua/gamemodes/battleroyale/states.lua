@@ -127,6 +127,11 @@ function states.Round:Enter( gm )
 	gm.ChosenKothArea = nil
 	
 	gm.TotalRoundLength = math.RemapValClamped( #gm:AlivePlayers(), 2, 10, gm.Cvars.RoundTimeMin:GetFloat(), gm.Cvars.RoundTimeMax:GetFloat() )
+	
+	-- Mutators might want to have longer rounds, just add that
+	if( gm.ActiveMutator.ExtraTime ~= nil ) then
+		gm.TotalRoundLength = gm.TotalRoundLength + gm.ActiveMutator.ExtraTime
+	
 	temp.CreateRoundTimer( gm.TotalRoundLength )
 
 	-- Round Music
