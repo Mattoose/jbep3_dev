@@ -46,25 +46,6 @@ local function StopMusicEndRound( gm )
 end
 
 -- 
--- Waiting for players 
--- Just loaded, wait a little bit before playing
---
-states.WaitingForPlayers = {}
-function states.WaitingForPlayers:Enter( gm )
-    gm:SetTransitionDelay( 45 )
-end
-
-function states.WaitingForPlayers:Think( gm )
-	if gm:CanTransition() then gm:ChangeState( "PreGame" ) end
-
-	-- If developer mode is on, skip...
-	if FindConVar( "developer" ):GetInt() >= 1 then
-		print( "Skipping waiting for players, developer mode enabled." )
-		gm:ChangeState( "PreGame" )
-	end
-end
-
--- 
 -- Pregame state
 -- Server has < 2 active players
 --
@@ -75,6 +56,31 @@ end
 
 function states.PreGame:Think( gm )
 	if gm:CountActivePlayers() >= 2 then
+		gm:ChangeState( "PreRound" )
+	end
+end
+
+-- 
+-- Waiting for players 
+-- Waiting for additional players to join once we have the right amount
+--
+states.WaitingForPlayers = {}
+function states.WaitingForPlayers:Enter( gm )
+    gm:SetTransitionDelay( 30 )
+    temp.CreateRoundTimer( 30 )
+end
+
+function states.WaitingForPlayers:Think( gm )
+	if gm:CanTransition() then gm:ChangeState( "PreRound" ) end
+
+	-- Players left while waiting
+	if gm:CountActivePlayers() < 2 then
+		gm:ChangeState( "PreGame" )
+	end
+
+	-- If developer mode is on, skip...
+	if FindConVar( "developer" ):GetInt() >= 1 then
+		print( "Skipping waiting for players, developer mode enabled." )
 		gm:ChangeState( "PreRound" )
 	end
 end
