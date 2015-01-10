@@ -30,6 +30,10 @@ function GM:PlayerDefaultItems( pl )
 	pl:GiveAllWeapons()
 end
 
+function GM:PlayerWeaponEquipped( pl, weap )
+
+end
+
 function GM:ForcePlayerModel( pl )
 	return nil
 end
