@@ -56,7 +56,7 @@ end
 
 function states.PreGame:Think( gm )
 	if gm:CountActivePlayers() >= 2 then
-		gm:ChangeState( "PreRound" )
+		gm:ChangeState( "WaitingForPlayers" )
 	end
 end
 
