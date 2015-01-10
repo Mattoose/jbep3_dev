@@ -23,6 +23,7 @@ end
 
 function mutator:RoundEnd()
 	FindConVar( "jb_sv_fartsteps" ):Revert()
+	FindConVar( "jb_sv_ig_firerate" ):Revert()
 end
 
 function mutator:Think()
