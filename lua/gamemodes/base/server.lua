@@ -30,6 +30,10 @@ function GM:PlayerDefaultItems( pl )
 	pl:GiveAllWeapons()
 end
 
+function GM:ForcePlayerModel( pl )
+	return nil
+end
+
 function GM:OverridePickupLifetime()
 	return -1
 end

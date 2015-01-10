@@ -112,6 +112,7 @@ mutator.ItemPool = {
 	"weapon_vintorez",
 }
 
+mutator.PlayerModels = {}
 mutator.PlayerConditions = {}
 
 mutator.Cvars = {}
@@ -196,14 +197,6 @@ function mutator:Think()
 end
 
 function mutator:PlayerWon( winningPlayer )
-
-end
-
-function mutator:RoundStart()
-
-end
-
-function mutator:RoundEnd()
 
 end
 

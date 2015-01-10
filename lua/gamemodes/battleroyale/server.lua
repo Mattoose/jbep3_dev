@@ -17,7 +17,7 @@ GM.StartTime = 0
 GM.roundsSinceLastMutator = 0
 
 function GM:Init()
-	self:ChangeState( "WaitingForPlayers" )
+	self:ChangeState( "PreGame" )
 	self.StartTime = CurTime()
 end
 
@@ -34,12 +34,23 @@ end
 
 -- Only respawn in PreGame or PreRound
 function GM:PlayerCanRespawn( pl )	
-	return self:InState( "PreGame" ) or self:InState( "PreRound" ) or self:InState( "WaitingForPlayers" )
+	return self:InState( "PreGame" ) or self:InState( "PreRound" )
 end
 
 -- Only give players items if they're in the pregame
 function GM:PlayerDefaultItems( pl )
-	if self:InState( "PreGame" ) or self:InState( "WaitingForPlayers" ) then pl:GiveAllWeapons() end
+	if self:InState( "PreGame" ) then pl:GiveAllWeapons() end
+end
+
+-- Some mutators may force a certain set of player models
+function GM:ForcePlayerModel( pl )
+
+	if( self.ActiveMutator and self.ActiveMutator.PlayerModels and #self.ActiveMutator.PlayerModels > 0 ) then
+		return self.ActiveMutator.PlayerModels[ #self.ActiveMutator.PlayerModels ]
+	end
+	
+	return nil
+	
 end
 
 function GM:OverridePickupLifetime()
@@ -73,7 +84,7 @@ function GM:SelectMutator()
 	self.ActiveMutator = nil
 
 	-- The chance for a mutator round goes up the more normal rounds we have in a row
-	if ( math.random() <= math.Bias( math.min( 0.15 * self.roundsSinceLastMutator, 1 ), 0.25 ) ) then
+	if ( math.random() <= math.Bias( math.min( 0.1 * self.roundsSinceLastMutator, 1 ), 0.35 ) ) then
 		self.roundsSinceLastMutator = 0
 		self.ActiveMutator = mutators:GetRandom()
 	end
