@@ -30,7 +30,18 @@ function mutator:Think()
 	-- Increase over time
 	if CurTime() > nextUpdateTime then
 		nextUpdateTime = CurTime() + 5
-		FindConVar( "jb_sv_ig_firerate" ):SetValue( math.RemapValClamped( CurTime() - startTime, 0, 80, 1.0, 0.01 ) )
+
+		local alivePlayers = 0
+		for k, v in pairs( player.GetAll() ) do
+			if v:IsAlive() and v:GetTeamNumber() == TEAM_PLAYERS and not v:ValidPossess() then
+				alivePlayers = alivePlayers + 1
+			end
+		end
+
+		local timeBased = math.RemapValClamped( CurTime() - startTime, 0, 80, 1.0, 0.07 )
+		local playerBased = math.RemapValClamped( alivePlayers, 12, 2, 2.0, 0.07 )
+
+		FindConVar( "jb_sv_ig_firerate" ):SetValue( math.min( playerBased, timeBased ) )
 	end
 end
 
