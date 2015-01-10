@@ -6,6 +6,10 @@ mutator.Description = "#JB_BR_RoundTypeSpeed_Desc"
 
 mutator.PlayerModels = { "models/player/hevsonic.mdl" }
 
+mutator.Cvars = {}
+mutator.Cvars.MinSpeed = CreateConVar( "sv_br_speed_minspeed", "1", FCVAR_NOTIFY )
+mutator.Cvars.MaxSpeed = CreateConVar( "sv_br_speed_maxspeed", "3", FCVAR_NOTIFY )
+
 mutators:Register( "speed", mutator )
 
 local nextSpeedUpdate = 0
@@ -18,7 +22,7 @@ function mutator:Think()
 
 	if( CurTime() >= nextSpeedUpdate ) then
 	
-		local speedScale = math.RemapValClamped( temp.GetRoundTimeLength(), GAMEMODE.TotalRoundLength, 0, 1, 3 )
+		local speedScale = math.RemapValClamped( temp.GetRoundTimeLength(), GAMEMODE.TotalRoundLength, 0, self.Cvars.MinSpeed:GetFloat(), self.Cvars.MaxSpeed:GetFloat() )
 		
 		for _, v in ipairs( player.GetAll() ) do
 		

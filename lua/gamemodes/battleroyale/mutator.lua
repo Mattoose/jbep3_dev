@@ -115,8 +115,6 @@ mutator.ItemPool = {
 mutator.PlayerModels = {}
 mutator.PlayerConditions = {}
 
-mutator.Cvars = {}
-
 function mutator:GiveItems()
 
 	-- start off with a full list

@@ -126,7 +126,7 @@ function states.Round:Enter( gm )
     gm:RespawnPlayers( false ) -- Respawn dead players
 	gm.ChosenKothArea = nil
 	
-	gm.TotalRoundLength = math.RemapValClamped( #gm:AlivePlayers(), 2, 10, 60, 110 )
+	gm.TotalRoundLength = math.RemapValClamped( #gm:AlivePlayers(), 2, 10, gm.Cvars.RoundTimeMin:GetFloat(), gm.Cvars.RoundTimeMax:GetFloat() )
 	temp.CreateRoundTimer( gm.TotalRoundLength )
 
 	-- Round Music

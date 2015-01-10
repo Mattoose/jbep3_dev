@@ -6,9 +6,13 @@ mutator.Description = "#JB_BR_RoundTypeGolden_Desc"
 
 mutator.ItemPool = {}
 
+mutator.Cvars = {}
+mutator.Cvars.SpeedMod = CreateConVar( "sv_br_golden_speedmod", "1.2", FCVAR_NOTIFY )
+
 mutators:Register( "golden", mutator )
 
 function mutator:OnWeaponAssigned( pl, weap )
+
 	local fists = pl:Weapon_OwnsThisType( "weapon_fists" )
 	
 	if not fists then
@@ -19,6 +23,9 @@ function mutator:OnWeaponAssigned( pl, weap )
 		fists:AddCondition( JB_WEAPON_CONDITION_GOLDEN )
 		pl:Weapon_Switch( fists )
 	end
+
+	pl:SetSpeedMod( self.Cvars.SpeedMod )
+
 end
 
 function mutator:ScaleHitboxDamage( pl, hitbox, info )
