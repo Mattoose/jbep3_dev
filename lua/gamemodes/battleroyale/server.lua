@@ -124,15 +124,20 @@ function GM:SelectMutator()
 	-- Reset
 	self.ActiveMutator = nil
 
-	-- The chance for a mutator round goes up the more normal rounds we have in a row
-	if ( math.random() <= math.Bias( math.min( 0.1 * self.roundsSinceLastMutator, 1 ), 0.35 ) ) then
-		self.roundsSinceLastMutator = 0
-		self.ActiveMutator = mutators:GetRandom()
-	end
-	
-	-- We want to force a specific mutator
-	if( self.Cvars.ForceMutator:GetString() ~= "" ) then
-		self.ActiveMutator = mutators:Get( self.Cvars.ForceMutator:GetString() )
+	-- If we're forcing weapon, we want to just use the default mutator
+	if( self.Cvars.ForceWeapon:GetString() == "" ) then
+
+		-- The chance for a mutator round goes up the more normal rounds we have in a row
+		if ( math.random() <= math.Bias( math.min( 0.1 * self.roundsSinceLastMutator, 1 ), 0.35 ) ) then
+			self.roundsSinceLastMutator = 0
+			self.ActiveMutator = mutators:GetRandom()
+		end
+		
+		-- We want to force a specific mutator
+		if( self.Cvars.ForceMutator:GetString() ~= "" ) then
+			self.ActiveMutator = mutators:Get( self.Cvars.ForceMutator:GetString() )
+		end
+
 	end
 	
 	-- None selected, go to default mutator

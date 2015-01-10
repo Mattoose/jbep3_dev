@@ -116,7 +116,6 @@ mutator.PlayerModels = {}
 mutator.PlayerConditions = {}
 
 mutator.Cvars = {}
-mutator.Cvars.ForceWeapon = CreateConVar( "sv_br_forceweapon", "", FCVAR_NOTIFY )
 
 function mutator:GiveItems()
 
@@ -133,11 +132,11 @@ function mutator:GiveItems()
 			
 			local weapon = nil
 			
-			if( self.Cvars.ForceWeapon:GetString() ~= "" ) then
+			if( GAMEMODE.Cvars.ForceWeapon:GetString() ~= "" ) then
 			
 				-- weapon is forced, just give that one
 				local fists = v:GiveNamedItem( "weapon_fists" )
-				weapon = v:GiveNamedItem( self.Cvars.ForceWeapon:GetString() )	
+				weapon = v:GiveNamedItem( GAMEMODE.Cvars.ForceWeapon:GetString() )	
 				
 				v:Weapon_Switch( weapon )
 				v:Weapon_SetLast( fists )				
