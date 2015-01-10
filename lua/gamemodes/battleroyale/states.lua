@@ -42,7 +42,7 @@ end
 
 local function StopMusicEndRound( gm ) 
 	gm:ChangeState( "PostRound" )
-	temp.BroadcastSound( 0, "AI_BaseNPC.SentenceStop" ) -- Stops sounds (replace me)
+	game.BroadcastSound( 0, "AI_BaseNPC.SentenceStop" ) -- Stops sounds (replace me)
 end
 
 -- 
@@ -51,7 +51,7 @@ end
 --
 states.PreGame = {}
 function states.PreGame:Enter( gm )
-	temp.DestroyRoundTimer()
+	game.DestroyRoundTimer()
 end
 
 function states.PreGame:Think( gm )
@@ -67,7 +67,7 @@ end
 states.WaitingForPlayers = {}
 function states.WaitingForPlayers:Enter( gm )
     gm:SetTransitionDelay( 30 )
-    temp.CreateRoundTimer( 30 )
+    game.CreateRoundTimer( 30 )
 end
 
 function states.WaitingForPlayers:Think( gm )
@@ -92,12 +92,12 @@ end
 local unfreezeTime = -1
 states.PreRound = {}
 function states.PreRound:Enter( gm )
-    temp.CleanUpMap() -- Reset the map
+    game.CleanUpMap() -- Reset the map
 	
 	gm:SelectMutator()
     gm:RespawnPlayers( true ) -- Respawn everyone
     gm:SetTransitionDelay( 5 )
-    temp.CreateRoundTimer( 5 )
+    game.CreateRoundTimer( 5 )
 
     -- Freeze everyone briefly
     unfreezeTime = CurTime() + 1.5
@@ -139,13 +139,13 @@ function states.Round:Enter( gm )
 		gm.TotalRoundLength = gm.TotalRoundLength + gm.ActiveMutator.ExtraTime
 	end
 	
-	temp.CreateRoundTimer( gm.TotalRoundLength )
+	game.CreateRoundTimer( gm.TotalRoundLength )
 
 	-- Round Music
 	if ( gm.ActiveMutator ~= mutators:Get( "default" ) ) then
-		temp.BroadcastSound( 0, "JB.BRMusic_SpecialRoundType" )
+		game.BroadcastSound( 0, "JB.BRMusic_SpecialRoundType" )
 	else
-		temp.BroadcastSound( 0, "JB.BRMusic_"..math.random( 2 ) )
+		game.BroadcastSound( 0, "JB.BRMusic_"..math.random( 2 ) )
 	end
 	
 	gm.ActiveMutator:GiveItems()
@@ -162,7 +162,7 @@ function states.Round:Think( gm )
 		gm.ActiveMutator:Think()
 	end
 	
-	local timeLeft = temp.GetRoundTimeLength()
+	local timeLeft = game.GetRoundTimeLength()
 	local alivePlayers = gm:AlivePlayers()
 	local totalAlivePlayers = #alivePlayers
 
@@ -172,7 +172,7 @@ function states.Round:Think( gm )
 	if gm.ChosenKothArea == nil and bCanEnterKothMode then
 		-- Choose an area
 		local chosenArea = nil
-		local potentialAreas = temp.GetKothAreas()
+		local potentialAreas = game.GetKothAreas()
 		if #potentialAreas > 0 then 
 			chosenArea = potentialAreas[ math.random( #potentialAreas ) ]
 		end
@@ -182,11 +182,11 @@ function states.Round:Think( gm )
 
 			-- If we're above 35 sec, bring us down to that
 			if timeLeft > iKothTimeBegin then
-				temp.CreateRoundTimer( iKothTimeBegin )
+				game.CreateRoundTimer( iKothTimeBegin )
 			end
 
 			-- Broadcast alarm
-			temp.BroadcastSound( 0, "JB.BR_Alarm" );
+			game.BroadcastSound( 0, "JB.BR_Alarm" );
 
 			-- Chat message
 			util.ChatPrintAll( "#JB_BR_GetToZone", ""..iKothTimeBegin, chosenArea:Name() )
@@ -219,7 +219,7 @@ function states.Round:Think( gm )
 			gm:PlayerWon( alivePlayers[1], false )
 		else -- Kill everyone
 			util.ChatPrintAll( "#JB_BR_NoWinner" )
-			temp.BroadcastSound( 0, "weapon_pistol.Fart_Kill" )
+			game.BroadcastSound( 0, "weapon_pistol.Fart_Kill" )
 
 			-- Kill players
 			for k,v in pairs( alivePlayers ) do
@@ -234,7 +234,7 @@ function states.Round:Think( gm )
 end
 
 function states.Round:Leave( gm )
-	temp.DestroyRoundTimer()
+	game.DestroyRoundTimer()
 end
 
 --
@@ -244,7 +244,7 @@ end
 local bAnnouncedOvertime = false
 states.Overtime = {}
 function states.Overtime:Enter( gm )
-	temp.CreateRoundTimer( 15 )
+	game.CreateRoundTimer( 15 )
 	bAnnouncedOvertime = false
 end
 
@@ -255,7 +255,7 @@ function states.Overtime:Think( gm )
 		gm.ActiveMutator:Think()
 	end
 	
-	local timeLeft = temp.GetRoundTimeLength()
+	local timeLeft = game.GetRoundTimeLength()
 	local alivePlayers = gm:AlivePlayers()
 	local totalAlivePlayers = #alivePlayers
 
@@ -313,14 +313,14 @@ function states.Overtime:Think( gm )
 	-- it's an instant victory
 	if not bAnnouncedOvertime then
 		util.ChatPrintAll( "#JB_BR_Overtime" )
-		temp.BroadcastSound( 0, "JB.BR_Overtime" )
+		game.BroadcastSound( 0, "JB.BR_Overtime" )
 		bAnnouncedOvertime = true
 	end
 	
 end
 
 function states.Overtime:Leave( gm )
-	temp.DestroyRoundTimer()
+	game.DestroyRoundTimer()
 end
 
 -- 

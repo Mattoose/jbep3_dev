@@ -152,7 +152,7 @@ function GM:SelectMutator()
 
 	-- Display intro
 	if ( self.ActiveMutator ~= mutators:Get( "default" ) ) then
-		temp.ShowRoundIntro( self.ActiveMutator.Name, self.ActiveMutator.Description )
+		game.ShowRoundIntro( self.ActiveMutator.Name, self.ActiveMutator.Description )
 	end
 
 end
@@ -169,7 +169,7 @@ function GM:PlayerWon( pl, inzone )
 	
 	-- Increment score
 	pl:IncrementScore( 1 )
-	temp.BroadcastSound( 0, "JB.Stomped" )
+	game.BroadcastSound( 0, "JB.Stomped" )
 	
 	-- Call through to mutator to see if they want to do anything
 	if( self.ActiveMutator and self.ActiveMutator.PlayerWon ~= nil ) then

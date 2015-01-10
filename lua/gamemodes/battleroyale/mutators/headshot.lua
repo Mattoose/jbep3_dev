@@ -31,7 +31,7 @@ function mutator:Think()
 
 	if( CurTime() >= nextHeadUpdate ) then
 	
-		local headScale = math.RemapValClamped( temp.GetRoundTimeLength(), GAMEMODE.TotalRoundLength, 0, 0.01, 4 )
+		local headScale = math.RemapValClamped( game.GetRoundTimeLength(), GAMEMODE.TotalRoundLength, 0, 0.01, 4 )
 		
 		for _, v in ipairs( player.GetAll() ) do
 		

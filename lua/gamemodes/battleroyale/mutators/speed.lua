@@ -22,7 +22,7 @@ function mutator:Think()
 
 	if( CurTime() >= nextSpeedUpdate ) then
 	
-		local speedScale = math.RemapValClamped( temp.GetRoundTimeLength(), GAMEMODE.TotalRoundLength, 0, self.Cvars.MinSpeed:GetFloat(), self.Cvars.MaxSpeed:GetFloat() )
+		local speedScale = math.RemapValClamped( game.GetRoundTimeLength(), GAMEMODE.TotalRoundLength, 0, self.Cvars.MinSpeed:GetFloat(), self.Cvars.MaxSpeed:GetFloat() )
 		
 		for _, v in ipairs( player.GetAll() ) do
 		
