@@ -29,7 +29,7 @@ WeaponData
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"single_shot"		"weapon_pistol.Fart"
+		"single_shot"		"Weapon_Possess_Birdshit.Poop"
 		"melee_hit"			"Weapon_Kick.HitBody"
 		"melee_hit_world"	"Weapon_Kick.HitWorld"
 	}

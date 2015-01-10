@@ -1094,3 +1094,13 @@
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"wave"			"weapons/goldpistols/gold-fire.wav"	
 }
+
+"Weapon_Possess_Birdshit.Poop"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.3"
+	"soundlevel"	"SNDLVL_65dB"
+	"pitch"			"150,170"
+
+	"wave"			"weapons/fart/fart.wav"
+}
