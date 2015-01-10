@@ -163,7 +163,7 @@ function GM:PlayerWon( pl, inzone )
 	end
 
 	-- Make them chatter
-	pl:SpeakConceptDelayed( JB_CONCEPT_BR_WINNER, math.randomfloat( 1, 2 ) );
+	pl:SpeakConceptDelayed( JB_CONCEPT_BR_WINNER, math.random( 1, 2 ) );
 			
 end
 
