@@ -137,6 +137,7 @@ function states.Round:Enter( gm )
 	-- Mutators might want to have longer rounds, just add that
 	if( gm.ActiveMutator.ExtraTime ~= nil ) then
 		gm.TotalRoundLength = gm.TotalRoundLength + gm.ActiveMutator.ExtraTime
+	end
 	
 	temp.CreateRoundTimer( gm.TotalRoundLength )
 

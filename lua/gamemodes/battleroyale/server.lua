@@ -45,12 +45,12 @@ end
 
 -- Only respawn in PreGame or PreRound
 function GM:PlayerCanRespawn( pl )	
-	return self:InState( "PreGame" ) or self:InState( "PreRound" )
+	return self:InState( "PreGame" ) or self:InState( "WaitingForPlayers") or self:InState( "PreRound" )
 end
 
 -- Only give players items if they're in the pregame
 function GM:PlayerDefaultItems( pl )
-	if self:InState( "PreGame" ) then pl:GiveAllWeapons() end
+	if self:InState( "PreGame" ) or self:InState( "WaitingForPlayers") then pl:GiveAllWeapons() end
 end
 
 -- We might want to change weapons that we pick up's properties
