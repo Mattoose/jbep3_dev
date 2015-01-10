@@ -34,18 +34,26 @@ function GM:OverridePickupLifetime()
 	return -1
 end
 
-function GM:AllowDamage( plVictim, damage )
+-- Return true here to stop the default hitbox scaling
+function GM:ScaleHitboxDamage( pl, hitbox, info )
+	return false
 end
 
-function GM:GetDamageAdjustments( plVictim, damage )
+function GM:PlayerDamageTaken( pl, info, health )
+
 end
 
-function GM:PlayerDamageTaken( plVictim, damage, health )
+function GM:GetDamageAdjustments( pl, info )
+
 end
 
-function GM:PlayerKilled( plVictim, damage )
+function GM:PlayerKilled( pl, info )
+	
 end
 
+function GM:AllowDamage( pl, info )
+	return true
+end
 
 -- Misc 
 

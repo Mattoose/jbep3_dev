@@ -57,6 +57,15 @@ function GM:ScaleHitboxDamage( pl, hitbox, info )
 	
 end
 
+function GM:PlayerDamageTaken( pl, info, health )
+
+	-- see if mutator wants to do with the event of a player being damaged
+	if( self:InState( "Round" ) and not pl:ValidPossess() and self.ActiveMutator ~= nil and self.ActiveMutator.PlayerDamageTaken ~= nil ) then
+		self.ActiveMutator:PlayerDamageTaken( pl, info, health )
+	end
+	
+end
+
 -- pick a mutator to use this round
 function GM:SelectMutator()
 
