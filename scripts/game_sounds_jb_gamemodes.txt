@@ -29,7 +29,7 @@
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"			"misc/BATTLE1.mp3"
+	"wave"			"#misc/BATTLE1.mp3"
 }
 
 "JB.BRMusic_2"
@@ -38,7 +38,7 @@
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"			"misc/BATTLE2.mp3"
+	"wave"			"#misc/BATTLE2.mp3"
 }
 
 "JB.BRMusic_SpecialRoundType"
@@ -47,7 +47,7 @@
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"			"misc/br_theme_1.mp3"
+	"wave"			"#misc/br_theme_1.mp3"
 }
 
 "JB.BRMusic_SpecialRoundType_HighPitch"
@@ -56,7 +56,7 @@
 	"volume"		"VOL_NORM"
 	"pitch"			130
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"			"misc/br_theme_1.mp3"
+	"wave"			"#misc/br_theme_1.mp3"
 }
 
 "JB.BRMusic_Bodies" // Battleroyale music special
@@ -67,7 +67,7 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"			"misc/bodies.mp3"
+	"wave"			"#misc/bodies.mp3"
 }
 
 "JB.SVMMusic"
@@ -76,5 +76,5 @@
 	"volume"		"VOL_NORM"
 	"pitch"			100
 	"soundlevel"	"SNDLVL_NONE"
-	"wave"			"misc/svm.mp3"
+	"wave"			"#misc/svm.mp3"
 }
