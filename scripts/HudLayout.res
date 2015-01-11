@@ -465,6 +465,12 @@
 		"AmmoBarY"				"17"
 		"AmmoBarHeight"			"3"
 		"AmmoBarPadding"		"1.5"
+		
+		"PickupWidth"			"85"
+		"PickupHeight"		"30"
+		"PickupOffsetX"		"5"
+		"PickupOffsetY"		"80"
+		"PickupPadding"		"2"
 	}
 
 	HudCrosshair
