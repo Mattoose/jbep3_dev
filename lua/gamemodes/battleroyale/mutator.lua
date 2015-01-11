@@ -220,7 +220,6 @@ bmutator.IsBase = true
 bmutator.ItemPool = {
 	"weapon_ax47",
 	"weapon_beretta",
-	"weapon_doublebarrel",
 	"weapon_goldpistols",
 	"weapon_mosin",
 	"weapon_mp5k",
