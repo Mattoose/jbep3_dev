@@ -24,7 +24,7 @@ function mutator:OnPlayerCondition( pl, added, removed )
 	
 	-- Send people flying when they get handgunned
 	if ( bit32.band( added, JB_CONDITION_HELDUP ) ~= 0 ) then
-		pl:SetGroundEntity( nil ) 1
+		pl:SetGroundEntity( nil )
 		pl:SetGravity( -1000 ) -- Todo, make this delayed with sounds indicating liftoff
 		pl:SetAbsVelocity( Vector( 0, 0, 10000 ) )
 	end
