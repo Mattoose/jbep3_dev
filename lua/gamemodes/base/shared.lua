@@ -1,4 +1,5 @@
 GM.Name = "Base Gamemode"
+GM.Description = ""
 GM.Developer = "Team BBB"
 
 TEAM_SPECTATORS = 1
