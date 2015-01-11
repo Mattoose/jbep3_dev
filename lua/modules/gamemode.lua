@@ -38,7 +38,7 @@ function call( sName, ... )
 	end
 
 	if _G.GAMEMODE[ sName ] == nil then
-		_G.print( "Error calling gamemode function "..sName..", not found.\n" )
+		_G.print( "Gamemode function "..sName..", not found! Please add me to the base gamemode!\n" )
 		return
 	end
 

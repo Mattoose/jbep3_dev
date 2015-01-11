@@ -63,6 +63,9 @@ function GM:AllowDamage( pl, info )
 	return true
 end
 
+function GM:OnPlayerCondition( pl, added, removed )
+end
+
 -- Misc 
 
 function GM:RespawnPlayers( bForceRespawn, iTeamFilter )

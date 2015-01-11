@@ -118,6 +118,13 @@ function GM:PlayerKilled( pl, info )
 	end
 end
 
+function GM:OnPlayerCondition( pl, added, removed )
+	-- Pass through to any mutators
+	if( self:InState( "Round" ) and not pl:ValidPossess() and self.ActiveMutator ~= nil and self.ActiveMutator.OnPlayerCondition ~= nil ) then
+		self.ActiveMutator:OnPlayerCondition( pl, added, removed )
+	end
+end
+
 -- pick a mutator to use this round
 function GM:SelectMutator()
 
