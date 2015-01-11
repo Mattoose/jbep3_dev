@@ -113,6 +113,7 @@ function states.PreRound:Enter( gm )
 	if( TimeLimitPassed( gm ) ) then
 		gm:ChangeState( "PostGame" )
 	else
+		game.SetAlltalk( true )
 	    game.CleanUpMap() -- Reset the map
 		
 		gm:SelectMutator()
@@ -163,6 +164,7 @@ function states.Round:Enter( gm )
 	end
 	
 	game.CreateRoundTimer( gm.TotalRoundLength )
+	game.SetAlltalk( false )
 
 	-- Round Music
 	if ( gm.ActiveMutator ~= mutators:Get( "default" ) ) then
@@ -356,6 +358,8 @@ end
 --
 states.PostRound = {}
 function states.PostRound:Enter( gm )
+	game.SetAlltalk( true )
+
 	if( gm.ActiveMutator and gm.ActiveMutator.RoundEnd ~= nil ) then
 		gm.ActiveMutator:RoundEnd()
 	end
@@ -380,5 +384,6 @@ end
 states.PostGame = {}
 
 function states.PostGame:Enter( gm )
+	game.SetAlltalk( true )
 	game.GoToIntermission()
 end
