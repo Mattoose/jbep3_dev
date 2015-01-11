@@ -1,4 +1,4 @@
-//Auto-generated on 2014-12-29 23:31:41.357069
+//Auto-generated on 2015-01-11 05:31:17.456907
 "players"
 {
     "76561197960273489"
@@ -1196,6 +1196,15 @@
         }
     }
 
+    "76561197991068829"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
     "76561197991283951"
     {
         "flags"
@@ -1233,6 +1242,15 @@
     }
 
     "76561197991998310"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
+    "76561197992024267"
     {
         "flags"
         {
@@ -1350,6 +1368,7 @@
 
     "76561197993915912"
     {
+        "title_override" "AKA Roll_Program"
         "flags"
         {
             donator 1
@@ -1523,6 +1542,14 @@
         {
             donator 1
             donator_extra 1
+        }
+    }
+
+    "76561197996424717"
+    {
+        "flags"
+        {
+            donator 1
         }
     }
 
@@ -2274,6 +2301,15 @@
         }
     }
 
+    "76561198009663220"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
     "76561198010000392"
     {
         "flags"
@@ -2655,6 +2691,15 @@
         }
     }
 
+    "76561198021109934"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
     "76561198022309561"
     {
         "flags"
@@ -2851,6 +2896,15 @@
         }
     }
 
+    "76561198029613444"
+    {
+        "flags"
+        {
+            donator 1
+            donator_extra 1
+        }
+    }
+
     "76561198029981623"
     {
         "flags"
@@ -2954,6 +3008,7 @@
         "flags"
         {
             donator 1
+            donator_extra 1
         }
     }
 
