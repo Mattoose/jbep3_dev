@@ -7,7 +7,9 @@ AddClientFile( "shared.lua" )
 
 -- Include mutator scripts
 for k, v in pairs( filesystem.FilesInDirectory( "lua/gamemodes/battleroyale/mutators" ) ) do
-	include( "mutators/" .. v )
+	if v ~= ".svn" then -- Ugh...
+		include( "mutators/" .. v )
+	end
 end
 
 -- Variables
