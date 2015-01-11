@@ -216,6 +216,10 @@ function states.Round:Think( gm )
 
 			-- Highlight area
 			chosenArea:CreateHighlight()
+
+			for _, v in ipairs( player.GetAlive() ) do
+				v:SetPathfindTarget( chosenArea:GetNavArea(), chosenArea:GetMiddle() )
+			end
 		end
 	end
 
@@ -354,6 +358,10 @@ states.PostRound = {}
 function states.PostRound:Enter( gm )
 	if( gm.ActiveMutator and gm.ActiveMutator.RoundEnd ~= nil ) then
 		gm.ActiveMutator:RoundEnd()
+	end
+
+	for _, v in ipairs( player.GetAll() ) do
+		v:ClearPathfindTarget()
 	end
 
     gm:SetTransitionDelay( 12 )
