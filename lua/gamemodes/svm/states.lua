@@ -115,16 +115,49 @@ function states.PreRound:Enter( gm )
 	end
 
     game.CleanUpMap() -- Reset the map
+
+    -- Switch snakes back to monkey team
+    for _, v in ipairs( player.GetTeam( TEAM_SNAKE ) ) do
+    	v:ChangeTeam( TEAM_MONKEY, false, true )
+    end
 	
+	-- Pick snakes
+	local requiredSnakes = math.min( gm:CountActivePlayers() - 1, gm.Cvars.SnakesPerTurn:GetInt() )
+	local pickedSnakes = 0
+	local monkeyPlayers = player.GetTeam( TEAM_MONKEY )
+
+	while( pickedSnakes < requiredSnakes ) do
+
+		-- all players have played as snake if this is true
+		if( #monkeyPlayers < 0 ) then
+			monkeyPlayers = player.GetTeam( TEAM_MONKEY )
+			gm.PlayedAsSnake = {}
+		end
+
+		-- find a random player on the list
+		local randIdx = math.random( #monkeyPlayers )
+		local randomPlayer = monkeyPlayers[ randIdx ]
+
+		-- check if they've not played as snake yet
+		if( not gm.PlayedAsSnake[ randomPlayer:EntIndex() ] ) then
+			randomPlayer:ChangeTeam( TEAM_SNAKE, false, true ) -- switch them to be a snake
+			pickedSnakes = pickedSnakes + 1
+
+			gm.PlayedAsSnake[ randomPlayer:EntIndex() ] = true
+		end
+
+		-- remove them from the list so we don't try and pick them again this round
+		table.remove( monkeyPlayers, randIdx )
+
+	end
+
+	-- Spawn players
 	gm:RespawnPlayers( true ) -- Respawn everyone
     gm:SetTransitionDelay( 5 )
     game.CreateRoundTimer( 5 )
 
-    -- Pick snakes
-
-
     -- Freeze everyone briefly
-    --gm:FreezePlayers( true )
+    gm:FreezePlayers( true )
 
 end
 
@@ -136,7 +169,7 @@ end
 
 function states.PreRound:Leave( gm )
    	-- Ensure players are unfrozen
-	--gm:FreezePlayers( false )
+	gm:FreezePlayers( false )
 end
 
 --
@@ -147,12 +180,14 @@ states.Round = {}
 local nextBananaTimes = {}
 function states.Round:Enter( gm )
 
-	game.CreateRoundTimer( 30 )
+	game.CreateRoundTimer( gm.Cvars.RoundTime:GetFloat() )
 
 	gm:RespawnPlayers( false )
-	--gm:UnfreezePlayers()
+	gm:FreezePlayers( false )
 
 	nextBananaTimes = {}
+
+	game.BroadcastSound( 0, "JB.SVMMusic" )
 
 end
 
@@ -180,7 +215,7 @@ function states.Round:Think( gm )
 	-- For each alive player, see if we want to emit a banane from a Snake
 	for _, v in ipairs( player.GetAlive( TEAM_SNAKE ) ) do
 
-		if( not nextBananaTimes[ v:EntIndex() ] or nextBananaTimes[ v:EntIndex() ] >= CurTime() ) then
+		if( not nextBananaTimes[ v:EntIndex() ] or CurTime() >= nextBananaTimes[ v:EntIndex() ]) then
 
 			local force = v:GetAimVector()
 			
@@ -191,7 +226,7 @@ function states.Round:Think( gm )
 			force.z = 150
 
 			util.TempEnt_Gib( "models/props/cs_italy/bananna.mdl", v:WorldSpaceCenter(), force, util.RandomAngularImpulse( -360, 360 ), 15 )
-			nextBananaTimes[ v:EntIndex() ] = math.RemapValClamped( v:GetAbsVelocity():Length(), 0, 300, 2.0, 0.3 ) * math.random( 0.8, 1.2 )
+			nextBananaTimes[ v:EntIndex() ] = CurTime() + ( math.RemapValClamped( v:GetAbsVelocity():Length(), 0, 300, 2.0, 0.3 ) * math.random( 0.8, 1.2 ) )
 
 		end
 

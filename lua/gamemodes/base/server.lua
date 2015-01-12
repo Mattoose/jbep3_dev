@@ -30,9 +30,19 @@ end
 function GM:IsSpawnPointValid( point, pl )
 	return true
 end
+
+-- Called when a player spawns for the first time
+function GM:PlayerInitialSpawn( pl )
+
+end
 	
 -- A player has spawned
 function GM:PlayerSpawn( pl )
+end
+
+-- Called when a player leaves
+function GM:ClientDisconnected( pl )
+
 end
 
 -- Can a player respawn? Return true to allow, false to stay dead and go to spectator
@@ -77,6 +87,11 @@ end
 -- Player has died
 function GM:PlayerKilled( pl, info )
 	
+end
+
+-- Can we drop our weapons?
+function GM:CanPlayerDropWeapons( pl, death )
+	return true
 end
 
 -- Return false to disallow damage
@@ -126,4 +141,15 @@ function GM:CountActivePlayers()
 	end
 
 	return total
+end
+
+-- Utility function to freeze players
+function GM:FreezePlayers( bFreeze )
+    for _, v in ipairs( player.GetAlive() ) do
+    	if bFreeze then
+    		v:AddCondition( JB_CONDITION_FROZEN )
+		else
+    		v:RemoveCondition( JB_CONDITION_FROZEN )
+		end
+    end
 end

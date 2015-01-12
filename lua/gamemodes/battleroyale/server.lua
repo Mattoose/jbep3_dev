@@ -203,13 +203,3 @@ function GM:AlivePlayers()
 
 	return alive
 end
-
-function GM:FreezePlayers( bFreeze )
-    for k, v in pairs( self:AlivePlayers() ) do
-    	if bFreeze then
-    		v:AddCondition( JB_CONDITION_FROZEN )
-		else
-    		v:RemoveCondition( JB_CONDITION_FROZEN )
-		end
-    end
-end

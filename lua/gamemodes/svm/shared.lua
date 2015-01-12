@@ -19,6 +19,12 @@ GM.Cvars.MaxMonkeySpeed = CreateConVar( "sv_svm_monkey_speed_max", "0.9", SVM_CV
 GM.Cvars.MonkeyScale = CreateConVar( "sv_svm_monkey_scale", "0.65", SVM_CVAR_FLAGS )
 GM.Cvars.MonkeyHealth = CreateConVar( "sv_svm_monkey_health", "40", SVM_CVAR_FLAGS )
 
+-- Snake cvars
+GM.Cvars.SnakesPerTurn = CreateConVar( "sv_svm_snakes_per_turn", "2", SVM_CVAR_FLAGS )
+
+-- Round cvars
+GM.Cvars.RoundTime = CreateConVar( "sv_svm_round_time", "90", SVM_CVAR_FLAGS )
+
 -- Set up teams in here
 function GM:InitTeams()
 	team.Register( TEAM_SNAKE, "#JB_Team_Snake", Color( 185, 220, 255 ), { "jb_spawn_svt_snake" } )

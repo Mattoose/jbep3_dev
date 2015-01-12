@@ -4,6 +4,8 @@ include( "states.lua" )
 AddClientFile( "client.lua" )
 AddClientFile( "shared.lua" )
 
+GM.PlayedAsSnake = {}
+
 function GM:Init()
 	self:ChangeState( "PreGame" )
 end
@@ -23,6 +25,15 @@ function GM:Think()
 	-- Pass a think to our current state
 	if self.currentState ~= nil and self.currentState.Think ~= nil then
 		self.currentState:Think( self )
+	end
+
+end
+
+function GM:PlayerInitialSpawn( pl )
+
+	-- clear the state that remembers if they've played as snake or not
+	if( self.PlayedAsSnake[ pl:EntIndex() ] ) then
+		table.remove( self.PlayedAsSnake, pl:EntIndex() )
 	end
 
 end
@@ -80,11 +91,12 @@ function GM:PlayerDefaultItems( pl )
 	end
 
 	pl:AddCondition( JB_CONDITION_NODIVE )
+	pl:AddCondition( JB_CONDITION_NO_HEALTH_RATIONS )
 
 end
 
-function GM:PlayerWeaponEquipped( pl, weap )
-
+function GM:CanPlayerDropWeapons( pl, death )
+	return false
 end
 
 function GM:ForcePlayerModel( pl )
