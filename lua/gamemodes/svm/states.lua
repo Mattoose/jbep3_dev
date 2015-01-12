@@ -129,7 +129,7 @@ function states.PreRound:Enter( gm )
 	while( pickedSnakes < requiredSnakes ) do
 
 		-- all players have played as snake if this is true
-		if( #monkeyPlayers < 0 ) then
+		if( #monkeyPlayers <= 0 ) then
 			monkeyPlayers = player.GetTeam( TEAM_MONKEY )
 			gm.PlayedAsSnake = {}
 		end
