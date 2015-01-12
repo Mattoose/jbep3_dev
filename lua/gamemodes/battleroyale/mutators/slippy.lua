@@ -12,5 +12,9 @@ function mutator:RoundEnd()
 	FindConVar( "sv_friction" ):Revert()
 end
 
+function mutator:OnWeaponAssigned( pl, weap )
+	pl:SetSpeedMod( 2.5 )
+end
+
 mutators:Register( "slippy", mutator )
 
