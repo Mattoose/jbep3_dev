@@ -17,57 +17,78 @@ function GM:GetGameDescription()
 	return GAMEMODE.Name
 end
 
+-- Called each server tick
 function GM:Think()
 end
+
+-- Called when we want to precache any additional assets for this mode
+function GM:Precache()
+
+end
+
+-- Called when querying if this spawn point is valid
+function GM:IsSpawnPointValid( pl, point )
+	return true
+end
 	
+-- A player has spawned
 function GM:PlayerSpawn( pl )
 end
 
+-- Can a player respawn? Return true to allow, false to stay dead and go to spectator
 function GM:PlayerCanRespawn( pl )
 end
 
+-- Called when a player on a valid team spawns
 function GM:PlayerDefaultItems( pl )
 	pl:GiveAllWeapons()
 end
 
+-- A player has been given a weapon
 function GM:PlayerWeaponEquipped( pl, weap )
 
 end
 
+-- Return a model path here in order to force a model for a player
 function GM:ForcePlayerModel( pl )
 	return nil
 end
 
+-- Return the number of seconds weapon pickups should stay around for
 function GM:OverridePickupLifetime()
 	return -1
 end
 
--- Return true here to stop the default hitbox scaling
+-- Return true here to stop the default hitbox scaling, use info:Scale/SetDamage to change damage dealt
 function GM:ScaleHitboxDamage( pl, hitbox, info )
 	return false
 end
 
+-- A player has taken damage
 function GM:PlayerDamageTaken( pl, info, health )
 
 end
 
+-- A player has taken damage, this is called for damage that doesn't deal hitbox damage
 function GM:GetDamageAdjustments( pl, info )
 
 end
 
+-- Player has died
 function GM:PlayerKilled( pl, info )
 	
 end
 
+-- Return false to disallow damage
 function GM:AllowDamage( pl, info )
 	return true
 end
 
+-- Conditions for a player have been modified
 function GM:OnPlayerCondition( pl, added, removed )
 end
 
--- Misc 
-
+-- Utility function to respawn players
 function GM:RespawnPlayers( bForceRespawn, iTeamFilter )
 	-- Iterate all players, respawning
 	for k, v in pairs( player.GetAll() ) do
