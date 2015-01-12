@@ -147,9 +147,9 @@ end
 function GM:FreezePlayers( bFreeze )
     for _, v in ipairs( player.GetAlive() ) do
     	if bFreeze then
-    		v:AddCondition( JB_CONDITION_FROZEN )
+    		v:AddCondition( JB_CONDITION_LOCKED )
 		else
-    		v:RemoveCondition( JB_CONDITION_FROZEN )
+    		v:RemoveCondition( JB_CONDITION_LOCKED )
 		end
     end
 end
