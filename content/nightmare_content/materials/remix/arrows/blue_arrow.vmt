@@ -1,0 +1,19 @@
+"UnlitGeneric"
+{
+	"$basetexture" "remix/arrows/blue_arrow"
+	"$decal" "1"
+	"$decalscale" "0.125"
+	//"$selfillum" "1"
+	"$translucent" 1
+Proxies
+{
+Sine
+{
+resultVar $alpha
+sinemin 0.70
+sinemax 2.00
+sineperiod 3.00
+}
+}
+}
+

@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "remix/gradients/gradient_yellow"
+	"$translucent" "1"
+Proxies
+{
+Sine
+{
+resultVar $alpha
+sinemin 0.10
+sinemax 0.50
+sineperiod 5.00
+}
+}
+}
