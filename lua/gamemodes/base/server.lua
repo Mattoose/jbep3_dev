@@ -27,7 +27,7 @@ function GM:Precache()
 end
 
 -- Called when querying if this spawn point is valid
-function GM:IsSpawnPointValid( pl, point )
+function GM:IsSpawnPointValid( point, pl )
 	return true
 end
 	
