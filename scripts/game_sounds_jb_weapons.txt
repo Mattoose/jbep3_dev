@@ -1104,3 +1104,74 @@
 
 	"wave"			"weapons/fart/fart.wav"
 }
+
+"Weapon_GoldPistols.Swing" 
+{
+	"channel" "CHAN_AUTO"
+	"volume" "1.0"
+	"pitch" "93,107"
+
+	rndwave
+	{
+		"wave"		"weapons/goldpistols/swing1.wav"
+		"wave"		"weapons/goldpistols/swing2.wav"
+	}
+}
+
+"Weapon_GoldPistols.SwingQuiet" 
+{
+	"channel" "CHAN_AUTO"
+	"volume" "0.4"
+	"pitch" "93,107"
+
+	rndwave
+	{
+		"wave"		"weapons/goldpistols/swing1.wav"
+		"wave"		"weapons/goldpistols/swing2.wav"
+	}
+}
+
+"Weapon_GoldPistols.SlideRelease" 
+{
+	"channel" "CHAN_AUTO"
+	"volume" "1.0"
+	"pitch" "93,107"
+
+	"wave" ")weapons/goldpistols/sliderelease.wav"
+}
+
+"Weapon_GoldPistols.ClipOut" 
+{
+	"channel" "CHAN_AUTO"
+	"volume" "1.0"
+	"pitch" "93,107"
+
+	"wave" ")weapons/goldpistols/clipout.wav"
+}
+
+"Weapon_GoldPistols.ClipIn1" 
+{
+	"channel" "CHAN_AUTO"
+	"volume" "1.0"
+	"pitch" "100"
+
+	"wave" ")weapons/goldpistols/clipin.wav"
+}
+
+"Weapon_GoldPistols.ClipIn2" 
+{
+	"channel" "CHAN_AUTO"
+	"volume" "1.0"
+	"pitch" "100"
+
+	"wave" ")weapons/goldpistols/clipin2.wav"
+}
+
+"Weapon_GoldPistols.SlideBack" 
+{
+	"channel" "CHAN_AUTO"
+	"volume" "1.0"
+	"pitch" "93,107"
+
+	"wave" ")weapons/goldpistols/slideback.wav"
+}

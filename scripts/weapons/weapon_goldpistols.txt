@@ -9,7 +9,7 @@ WeaponData
 	"printname"			"#jb_weapon_goldpistols"
 	"viewmodel"				"models/weapons/v_goldpistols.mdl"
 	"playermodel"			"models/weapons/w_glock.mdl"
-	"fov"					"50"
+	"fov"					"55"
 	
 	"bucket"			"6"
 	"bucket_position"	"10"
