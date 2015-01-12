@@ -2,7 +2,7 @@ local mutator = {}
 
 mutator.Base = "default"
 mutator.Name = "Slippy"
-mutator.Description = "Zero friction"
+mutator.Description = "Zero friction, double speed"
 
 function mutator:RoundStart()
 	FindConVar( "sv_friction" ):SetValue( 0 )
