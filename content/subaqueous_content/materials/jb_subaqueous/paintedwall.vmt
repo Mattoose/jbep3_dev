@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jb_subaqueous/paintedwall_diff"
+	"$bumpmap" "jb_subaqueous/paintedwall_nrml"
+	"$surfaceprop" "plaster"
+	"%keywords" "colossal, jb, subaqueous, caden, concrete"
+}
