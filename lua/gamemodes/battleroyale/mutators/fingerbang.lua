@@ -27,7 +27,7 @@ function mutator:OnPlayerCondition( pl, added, removed )
 		pl:SetGroundEntity( nil )
 		pl:SetGravity( -1000 ) -- Todo, make this delayed with sounds indicating liftoff
 
-		pl:SetAbsVelocity( Vector( 0, 0, 10000 ) )
+		pl:SetAbsVelocity( Vector( 0, 0, 9000 ) )
 		pl:SetBaseVelocity( Vector( 0, 0, 0 ) )
 	end
 
