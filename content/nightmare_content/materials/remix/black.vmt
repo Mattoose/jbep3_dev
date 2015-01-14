@@ -1,25 +1,17 @@
-"LightmappedGeneric"
+"UnlitGeneric"
 {
 	"$basetexture" "remix/black"
+	"$phong" "1"
+	"$phongexponent" "40"
+	"$phongboost" "3"
+	"$phongfresnelranges" "[.05 .5 5]"
 	"$halflambert" "1"
 	"$envmap" "env_cubemap"
-	"$envmaptint" "[0.001 0.001 0.001]"
-	"$selfillum" "1"
+	"$envmaptint" "[0.2 0.2 0.2]"
+	"$surfaceprop" "vr"
+
 	"$detail" "detail\detail_noise1"
 	"$detailscale" "32"
-	"$detailblendfactor" ".001"
-	"$detailblendmode" "1"
-Proxies
-{
-Sine
-{
-resultVar $selfIllumTint
-sinemin 0.00
-sinemax 2.20
-sineperiod 3.00
+	"$detailblendfactor" ".3"
+	"$detailblendmode" "0"
 }
-}
-}
-
-
-
