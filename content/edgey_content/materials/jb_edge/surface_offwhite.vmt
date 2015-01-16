@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jb_edge/surface_offwhite"
+	"$bumpmap" "jb_edge/surface_nrml"
+	"$surfaceprop" "concrete"
+	"%keywords" "colossal, jb, edge, vansulli"
+}
